@@ -1,6 +1,6 @@
-import config from '../../config';
+import config from 'config';
 
-export function generateKey(key) {
+function generateKey(key) {
   return `${config.name}_${key}`; // prefix_key
 }
 
@@ -27,3 +27,10 @@ export function remove(key) {
     localStorage.removeItem(generateKey(key));
   }
 }
+
+export default {
+  clear,
+  get,
+  set,
+  remove,
+};
