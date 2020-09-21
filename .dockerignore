@@ -1,0 +1,9 @@
+.git
+.idea
+node_modules
+build
+dist
+.tags
+.tags.temp
+.tags.lock
+.vscode

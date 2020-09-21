@@ -1,0 +1,15 @@
+# Run: docker-compose up --build -d
+version: '3.8'
+services:
+  frontend:
+    build:
+      context: .
+      target: 'develop'
+    stdin_open: true
+    tty: true
+    ports:
+      - '3000:3000'
+    volumes:
+      - '.:/app'
+      - /app/node_modules/ # Ignore node_modules
+    command: /bin/sh -c "yarn start"
