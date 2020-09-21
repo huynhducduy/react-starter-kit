@@ -20,6 +20,14 @@ Debugging tests: `yarn test:debug`
 
 Reinstall entire project: `yarn refresh`
 
+Lint code: `yarn lint:code`
+
+Lint style : `yarn lint:style`
+
+Fix code: `yarn fix:code`
+
+Fix style: `yarn fix:style`
+
 ## Production
 
 Build image: `sudo docker build -t react-starter-kit .`
