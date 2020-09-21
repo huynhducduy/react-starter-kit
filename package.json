@@ -26,6 +26,7 @@
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "test": "react-scripts test",
     "test:debug": "react-scripts --inspect-brk test --runInBand --no-cache",
+    "refresh": "rm -rf node_modules && rm -rf yarn.lock && yarn cache clean && yarn",
     "eject": "react-scripts eject"
   }
 }

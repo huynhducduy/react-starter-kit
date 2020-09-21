@@ -18,6 +18,8 @@ Running test: `yarn test`
 
 Debugging tests: `yarn test:debug`
 
+Reinstall entire project: `yarn refresh`
+
 ## Production
 
 Build image: `sudo docker build -t react-starter-kit .`
