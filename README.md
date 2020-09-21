@@ -26,6 +26,8 @@ Kill and remove: `(sudo docker kill react-starter-kit || true) && (sudo docker r
 
 Without docker: `yarn build`, output is located at `/build`
 
+Analyze output: `yarn analyze`
+
 ## Todo
 
 - Typescript
