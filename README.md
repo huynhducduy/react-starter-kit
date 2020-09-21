@@ -16,6 +16,8 @@ Configure in `docker-compose.yml` file, default running on port `3000`
 
 Running test: `yarn test`
 
+Debugging tests: `yarn test:debug`
+
 ## Production
 
 Build image: `sudo docker build -t react-starter-kit .`
