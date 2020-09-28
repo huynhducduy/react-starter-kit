@@ -5,9 +5,9 @@ import ConditionalRouter from './conditionalRouter';
 export default function ({ component, ...rest }) {
   const config = {
     component,
-    condition: isAuthenticated(),
+    condition: isAuthenticated,
     redirectTo: 'login',
-    reason: 'You dont have permission to access to this route',
+    reason: 'You must login before continuing.',
     ...rest,
   };
 

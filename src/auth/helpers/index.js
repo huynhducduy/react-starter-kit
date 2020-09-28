@@ -2,7 +2,6 @@ import clearAuth from './clearAuth';
 import getAccessToken from './getAccessToken';
 import getAccessTokenExpiresAt from './getAccessTokenExpiresAt';
 import getRefreshToken from './getRefreshToken';
-import havePermissionTo from './havePermissionTo';
 import isAuthenticated from './isAuthenticated';
 import setAccessToken from './setAccessToken';
 import setAccessTokenExpiresAt from './setAccessTokenExpiresAt';
@@ -16,7 +15,6 @@ export {
   getAccessToken,
   getAccessTokenExpiresAt,
   getRefreshToken,
-  havePermissionTo,
   isAuthenticated,
   setAccessToken,
   setAccessTokenExpiresAt,
@@ -31,7 +29,6 @@ export default {
   getAccessToken,
   getAccessTokenExpiresAt,
   getRefreshToken,
-  havePermissionTo,
   isAuthenticated,
   setAccessToken,
   setAccessTokenExpiresAt,

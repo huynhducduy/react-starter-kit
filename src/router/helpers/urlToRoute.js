@@ -1,5 +1,5 @@
 import pathToRegexp from 'path-to-regexp';
-import routes from '../../routes';
+import { routes } from '../';
 
 export default function (url) {
   for (const route of routes) {

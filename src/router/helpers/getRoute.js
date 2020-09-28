@@ -1,4 +1,4 @@
-import routes from '../';
+import { routes } from '../';
 
 export default function (name) {
   for (const route of routes) {

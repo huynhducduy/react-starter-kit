@@ -1,14 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
+
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import ErrorBoundary from 'utils/ErrorBoundary';
+import buildComponentTree from 'utils/buildComponentTree';
+
+const Providers = buildComponentTree([
+  // [SomeProvider, { initialState: '' }],
+  [HelmetProvider],
+  [BrowserRouter],
+  [ErrorBoundary],
+]);
+
 function render(Component) {
   return ReactDOM.render(
     <React.StrictMode>
-      {/* Providers */}
-      <App />
+      <Providers>
+        <Component />
+      </Providers>
     </React.StrictMode>,
     document.getElementById('root')
   );

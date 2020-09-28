@@ -14,7 +14,7 @@ export default function ({
     <Route
       {...rest}
       render={props =>
-        condition === true ? (
+        condition(props) === true ? (
           <Component {...props} />
         ) : (
           <Redirect
