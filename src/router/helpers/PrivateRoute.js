@@ -1,15 +1,14 @@
 import React from 'react';
 import isAuthenticated from 'auth/helpers/isAuthenticated';
-import ConditionalRouter from './conditionalRouter';
+import ConditionalRoute from './ConditionalRoute';
 
-export default function ({ component, ...rest }) {
+export default function PrivateRoute({ ...rest }) {
   const config = {
-    component,
+    ...rest,
     condition: isAuthenticated,
     redirectTo: 'login',
     reason: 'You must login before continuing.',
-    ...rest,
   };
 
-  return <ConditionalRouter {...config} />;
+  return <ConditionalRoute {...config} />;
 }

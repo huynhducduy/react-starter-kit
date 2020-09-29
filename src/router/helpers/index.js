@@ -1,29 +1,35 @@
-import conditionalRouter from './conditionalRouter';
+import ConditionalRoute from './ConditionalRoute';
 
-import privateRouter from './privateRouter';
-import redirectRouter from './redirectRouter';
+import PrivateRoute from './PrivateRoute';
+import GuestRoute from './GestRoute';
+import RedirectRoute from './RedirectRoute';
+import Route from './Route';
 
+import getPath from './getPath';
 import getRoute from './getRoute';
-import pathToRoute from './pathToRoute';
-import routeToUrl from './routeToUrl';
-import urlToRoute from './urlToRoute';
+import getUrl from './getUrl';
+import getRouteFromUrl from './getRouteFromUrl';
 
 export {
-  conditionalRouter,
-  privateRouter,
-  redirectRouter,
+  ConditionalRoute,
+  PrivateRoute,
+  GuestRoute,
+  RedirectRoute,
+  Route,
   getRoute,
-  pathToRoute,
-  routeToUrl,
-  urlToRoute,
+  getPath,
+  getRouteFromUrl,
+  getUrl,
 };
 
 export default {
-  conditionalRouter,
-  privateRouter,
-  redirectRouter,
+  ConditionalRoute,
+  PrivateRoute,
+  GuestRoute,
+  RedirectRoute,
+  Route,
   getRoute,
-  pathToRoute,
-  routeToUrl,
-  urlToRoute,
+  getPath,
+  getRouteFromUrl,
+  getUrl,
 };

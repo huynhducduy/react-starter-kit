@@ -1,9 +1,5 @@
-import { routes } from '../';
+import { inverseRoutes } from '..';
 
-export default function (name) {
-  for (const route of routes) {
-    if (name === route.name) {
-      return route;
-    }
-  }
+export default function getRoute(path) {
+  return inverseRoutes.get(path);
 }
