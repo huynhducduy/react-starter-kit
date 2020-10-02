@@ -1,7 +1,7 @@
 import ConditionalRoute from './ConditionalRoute';
 
 import PrivateRoute from './PrivateRoute';
-import GuestRoute from './GestRoute';
+import GuestRoute from './GuestRoute';
 import RedirectRoute from './RedirectRoute';
 import Route from './Route';
 

@@ -2,6 +2,8 @@ import React, { Suspense } from 'react';
 import { Switch } from 'react-router-dom';
 import { lazy } from 'react';
 
+import { BrowserRouter } from 'react-router-dom';
+
 import ConditionalRoute from './helpers/ConditionalRoute';
 import PrivateRoute from './helpers/PrivateRoute';
 import GuestRoute from './helpers/GuestRoute';
@@ -27,7 +29,7 @@ routes.forEach((value, key) => {
 
 // End prepare route dictionary ------------------------------------------------
 
-function RouterTree() {
+function Router() {
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <Switch>
@@ -59,4 +61,9 @@ function RouterTree() {
   );
 }
 
-export default RouterTree;
+export default {
+  Router,
+  Provider: BrowserRouter,
+};
+
+export { Router, BrowserRouter as Provider };
