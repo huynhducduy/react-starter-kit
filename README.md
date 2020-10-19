@@ -1,3 +1,6 @@
+![Dependencies](https://david-dm.org/huynhducduy/react-starter-kit.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Duy's React Starter Kit
 
 This project was based on [Create React App](https://github.com/facebook/create-react-app). [(3.4.3 (2020-08-12))](https://github.com/facebook/create-react-app/blob/master/CHANGELOG.md)
