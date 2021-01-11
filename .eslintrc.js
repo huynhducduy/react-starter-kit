@@ -1,21 +1,20 @@
 module.exports = {
   extends: [
     'react-app',
+    'plugin:prettier/recommended', // always the last
     'plugin:json/recommended',
-    'plugin:prettier/recommended',
     'prettier/react',
     'prettier/standard',
     'prettier/babel',
-    // "prettier/@typescript-eslint"
+    'prettier/@typescript-eslint',
   ],
-  parser: 'babel-eslint',
-  // parser: "@typescript-eslint/parser",
-  // overrides: [
-  //   {
-  //     files: ["*.mjs", "*.json"],
-  //     parser: "babel-eslint",
-  //   },
-  // ],
+  parser: '@typescript-eslint/parser',
+  overrides: [
+    {
+      files: ['*.mjs', '*.json'],
+      parser: 'babel-eslint',
+    },
+  ],
   rules: {},
   settings: {
     react: {
@@ -38,8 +37,7 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
-    // project: './tsconfig.json',
-    project: './jsconfig.json',
+    project: './tsconfig.json',
   },
   globals: {},
 };
