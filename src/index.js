@@ -8,7 +8,6 @@ import { HelmetProvider } from 'react-helmet-async';
 
 import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
 
 import { Provider as RouterProvider } from 'router';
 import { Provider as StoreProvider } from 'store';
