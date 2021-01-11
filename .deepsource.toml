@@ -1,0 +1,35 @@
+version = 1
+
+test_patterns = [
+    "src/**/*.{js,jsx,mjs,ts,tsx,json}",
+    "src/**/*.{scss,sass,css}"
+]
+
+exclude_patterns = [
+    "node_modules",
+    "public"
+]
+
+[[analyzers]]
+name = "docker"
+enabled = true
+
+[[analyzers]]
+name = "test-coverage"
+enabled = true
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  environment = [
+    "browser",
+    "jest",
+    "nodejs"
+  ]
+  ecma_version = 2020
+  plugins = ["react"]
+  module_system = "es-modules"
+  # style_guide = "airbnb"
+  # dialect = "typescript"
