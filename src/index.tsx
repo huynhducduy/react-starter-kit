@@ -15,6 +15,8 @@ import { Provider as StoreProvider } from 'store';
 import ErrorBoundary from 'utils/ErrorBoundary';
 import buildComponentTree from 'utils/buildComponentTree';
 
+const message: string = 2;
+
 const Providers = buildComponentTree([
   // [SomeProvider, { initialState: '' }],
   [StoreProvider],
@@ -23,7 +25,7 @@ const Providers = buildComponentTree([
   [ErrorBoundary],
 ]);
 
-function render(Component) {
+function render(Component: JSX.Element) {
   return ReactDOM.render(
     <React.StrictMode>
       <Providers>
