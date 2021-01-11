@@ -1,9 +1,10 @@
 {
-  "*.{js,jsx,ts,tsx}": [
+  "*.{js,jsx,mjs,ts,tsx,json}": [
     "eslint --fix",
+    "tsc --noemit",
     "git add"
   ],
-  "*.{scss}": [
+  "*.{scss,sass,css}": [
     "prettier --write",
     "git add"
   ]
