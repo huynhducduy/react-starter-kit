@@ -26,6 +26,6 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "esModuleInterop": true
   },
-  "include": ["src/**/*", ".eslintrc.js"],
+  "include": ["src/**/*", ".eslintrc.js", "babel.config.js"],
   "exclude": ["node_modules", "build"]
 }

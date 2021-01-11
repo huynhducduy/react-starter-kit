@@ -41,7 +41,7 @@ render(App);
 // Enable hot-module-replacement https://medium.com/@brianhan/hot-reloading-cra-without-eject-b54af352c642
 if (module.hot) {
   module.hot.accept('./App', () => {
-    const NextApp = require('./App').default;
+    const NextApp = require('./App').default; // eslint-disable-line
     render(NextApp);
   });
 }

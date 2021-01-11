@@ -1,5 +1,5 @@
 module.exports = {
-  parser: '@typescript-eslint/parser',
+  parser: '@babel/eslint-parser',
   overrides: [
     {
       files: ['*.mjs', '*.json'],
@@ -8,7 +8,6 @@ module.exports = {
   ],
   plugins: ['@typescript-eslint'],
   extends: [
-    'react-app',
     'plugin:json/recommended',
     'plugin:@typescript-eslint/recommended',
     'prettier/react',
