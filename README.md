@@ -5,6 +5,40 @@
 
 This project was based on [Create React App](https://github.com/facebook/create-react-app). [(4.0.1 (2020-11-23))](https://github.com/facebook/create-react-app/blob/master/CHANGELOG.md)
 
+# Features
+
+Includes all features of CRA, with some opinionated tweaks but provide flexible configurations.
+
+- Webpack 4 with `dynamic import()`, `react-refresh`, modern JSX and build optimizations.
+- Tailwind 2
+- TypeScript 4
+- React 17 with `react-router-dom`, `recoil` as state management
+- PostCSS with `autoprefixer`, `SASS` syntax, `CSS Module` supported and many optimizations. (dropped `node-sass` due to performance issues)
+- Babel in `Stage 1` with tree-shaking support for `ramda`, `date-fns`
+- ESlint configured to work well with Prettier, Typescript in multiple environment: IDE (VSCode), compile (start & build)
+- Jest + Enzyme for testing
+- Lintstaged & Husky for automatically lint & formatting
+- VSCode specific settings, extensions & debug launch config
+- Docker, docker-compose for development and deployment
+
+# Libraries
+
+- recoil
+- react-router-dom
+- axios
+- ramda
+- date-fns
+
+# Usage
+
+## Installation
+
+```sh
+git clone https://github.com/altafino/react-webpack-5-tailwind-2.git my-app
+cd my-app
+yarn
+```
+
 ## Configure
 
 `cp .env.example .env && vi .env`
@@ -21,15 +55,11 @@ Running test: `yarn test`
 
 Debugging tests: `yarn test:debug`
 
+Lint code & style: `yarn lint`
+
+Fix code & style: `yarn fix`
+
 Reinstall entire project: `yarn refresh`
-
-Lint code: `yarn lint:code`
-
-Lint style : `yarn lint:style`
-
-Fix code: `yarn fix:code`
-
-Fix style: `yarn fix:style`
 
 ## Production
 
@@ -45,10 +75,10 @@ Analyze output: `yarn analyze`
 
 ## Todo
 
-- Typescript
-- Redux + Class component
-- Unstated + Functional component + Hooks
-- Xstate?
+- Stylelint
+- Upgrade to Webpack 5 (with `terser-webpack-plugin` 5)
 - GraphQL - Relay/Apollo
-- Eject/Config Webpack - Server-Side rendering
-- Config PWA - workbox/firebase
+- Server-Side rendering
+- PWA - workbox/firebase
+- PurgeCSS in css module
+- Storybook?
