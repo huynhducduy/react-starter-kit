@@ -592,7 +592,7 @@
         "affectsGlobalScope": false
       },
       "./src/router/index.js": {
-        "version": "41fd133279e1401d3d9466365ba14bdf53b1f93fd9bfdc7c8dc3bac409542943",
+        "version": "291d11a7677b27bc9294d8ddc41ffb05435bc866511e65cbb084cc6c61a67aee",
         "signature": "7fbded9aa15d4d651c65bbc402aabe8be80f3a303361ced79c6682706befe886",
         "affectsGlobalScope": false
       },
@@ -1016,9 +1016,9 @@
         "signature": "7e6a4e4a1c7962c77935197a429633b677af77a8512197ae2c28315435c964a2",
         "affectsGlobalScope": true
       },
-      "./src/setuptests.js": {
-        "version": "ecc1cdfd3a905d036be777f603c031dbeb2bf496d1914eedc7565d523c3f7eac",
-        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+      "./src/setuptests.ts": {
+        "version": "0d57133d0da3abb4fdb895f907cd2545b3c1f2cd97eb04ee0a0efc267a75863e",
+        "signature": "31a9fbeaacd6299774392316fe7ae9d7e493cc691620702299845636c539d447",
         "affectsGlobalScope": false
       },
       "./src/auth/login.js": {
@@ -1166,7 +1166,7 @@
         "affectsGlobalScope": true
       },
       "./babel.config.js": {
-        "version": "5983cdb3716e9dc5b8d9a4eacbe8bdb6325bc2a81b84a95917da597fa45704b3",
+        "version": "9b6a0337a43b68a8e408e568634f6fbbb6030b1bae07739363145dcf475507d9",
         "signature": "bca22f507a8f8601f9d6b3965291a5ecea3eaaffebcfb3869268450aec07a6a0",
         "affectsGlobalScope": true
       },
@@ -2808,7 +2808,7 @@
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
-      "./src/setuptests.js": [
+      "./src/setuptests.ts": [
         "./node_modules/@types/enzyme-adapter-react-16/index.d.ts",
         "./node_modules/@types/enzyme/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
@@ -4187,7 +4187,7 @@
       "./src/router/index.js",
       "./src/service-worker.js",
       "./src/serviceworkerregistration.js",
-      "./src/setuptests.js",
+      "./src/setuptests.ts",
       "./src/store/atoms/auth.js",
       "./src/store/atoms/global.js",
       "./src/store/index.js",
