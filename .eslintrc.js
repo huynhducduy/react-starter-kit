@@ -1,22 +1,27 @@
+var extendsConfig = [
+  'plugin:json/recommended',
+  'prettier/react',
+  'prettier/standard',
+  'prettier/babel',
+  'plugin:prettier/recommended', // always the last
+];
+
 module.exports = {
+  root: true,
   parser: '@babel/eslint-parser',
   overrides: [
     {
-      files: ['*.mjs', '*.json'],
-      parser: 'babel-eslint',
+      files: ['*.ts', '*.tsx'],
+      parser: '@babel/eslint-parser',
+      extends: ['prettier/@typescript-eslint', ...extendsConfig],
     },
   ],
-  plugins: ['@typescript-eslint'],
-  extends: [
-    'plugin:json/recommended',
-    'plugin:@typescript-eslint/recommended',
-    'prettier/react',
-    'prettier/standard',
-    'prettier/babel',
-    'prettier/@typescript-eslint',
-    'plugin:prettier/recommended', // always the last
-  ],
-  rules: {},
+  plugins: ['react', 'import', 'jsx-a11y', 'react-hooks', '@typescript-eslint'],
+  extends: extendsConfig,
+  rules: {
+    'react/jsx-uses-vars': 'warn',
+    'react/jsx-uses-react': 'warn',
+  },
   settings: {
     react: {
       version: 'detect',
@@ -27,6 +32,7 @@ module.exports = {
     es2017: true,
     es2020: true,
     browser: true,
+    commonjs: true,
     node: true,
     worker: true,
     serviceworker: true,

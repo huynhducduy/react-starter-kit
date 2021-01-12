@@ -26,8 +26,7 @@ const ModuleNotFoundPlugin = require('react-dev-utils/ModuleNotFoundPlugin');
 const ForkTsCheckerWebpackPlugin = require('react-dev-utils/ForkTsCheckerWebpackPlugin');
 const typescriptFormatter = require('react-dev-utils/typescriptFormatter');
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
-
-const postcssNormalize = require('postcss-normalize');
+const getBabelBaseConfig = require('../babel.config.js');
 
 const appPackageJson = require(paths.appPackageJson);
 
@@ -49,37 +48,22 @@ const imageInlineSizeLimit = parseInt(
   process.env.IMAGE_INLINE_SIZE_LIMIT || '10000'
 );
 
-// Check if TypeScript is setup
-const useTypeScript = fs.existsSync(paths.appTsConfig);
-
 // Get the path to the uncompiled service worker (if it exists).
 const swSrc = paths.swSrc;
 
-// style files regexes
-const cssRegex = /\.css$/;
-const cssModuleRegex = /\.module\.css$/;
-const sassRegex = /\.(scss|sass)$/;
-const sassModuleRegex = /\.module\.(scss|sass)$/;
-
-const hasJsxRuntime = (() => {
-  if (process.env.DISABLE_NEW_JSX_TRANSFORM === 'true') {
-    return false;
-  }
-
-  try {
-    require.resolve('react/jsx-runtime');
-    return true;
-  } catch (e) {
-    return false;
-  }
-})();
+// styles files regex
+const cssRegex = /\.(css|scss)$/;
+const cssModuleRegex = /\.module\.(css|scss)$/;
 
 // This is the production and development configuration.
 // It is focused on developer experience, fast rebuilds, and a minimal bundle.
 module.exports = function (webpackEnv) {
   const isEnvDevelopment = webpackEnv === 'development';
   const isEnvProduction = webpackEnv === 'production';
-  const isEnvTest = process.env.BABEL_ENV === 'test' || process.env.NODE_ENV === 'test';
+  const isEnvTest =
+    webpackEnv === 'test' ||
+    process.env.NODE_ENV === 'test' ||
+    process.env.BABEL_ENV === 'test';
 
   // Variable used for enabling profiling in Production
   // passed into alias object. Uses a flag if passed into the build command
@@ -92,7 +76,70 @@ module.exports = function (webpackEnv) {
   // Get environment variables to inject into our app.
   const env = getClientEnvironment(paths.publicUrlOrPath.slice(0, -1));
 
-  const shouldUseReactRefresh = env.raw.FAST_REFRESH;
+  // const shouldUseReactRefresh = env.raw.FAST_REFRESH;
+  const shouldUseReactRefresh = true;
+
+  const getBabelConfig = (outside = false) => {
+    const babelConfig = getBabelBaseConfig(
+      {
+        env: key => {
+          switch (key) {
+            case 'development':
+              return isEnvDevelopment;
+            case 'production':
+              return isEnvProduction;
+            case 'test':
+              return isEnvTest;
+            default:
+              return false;
+          }
+        },
+      },
+      outside
+    );
+
+    babelConfig.plugins = [
+      ...babelConfig.plugins,
+      ...[
+        [
+          require.resolve('babel-plugin-named-asset-import'),
+          {
+            loaderMap: {
+              svg: {
+                ReactComponent: '@svgr/webpack?-svgo,+titleProp,+ref![path]',
+              },
+            },
+          },
+        ],
+        isEnvDevelopment &&
+          shouldUseReactRefresh &&
+          require.resolve('react-refresh/babel'),
+      ].filter(Boolean),
+    ];
+
+    babelConfig.babelrc = false;
+    babelConfig.configFile = false;
+    // See #6846 for context on why cacheCompression is disabled
+    babelConfig.cacheCompression = false;
+    // This is a feature of `babel-loader` for webpack (not Babel itself).
+    // It enables caching results in ./node_modules/.cache/babel-loader/
+    // directory for faster rebuilds.
+    babelConfig.cacheDirectory = true;
+
+    if (!outside) {
+      babelConfig.compact = isEnvProduction;
+    } else {
+      babelConfig.sourceType = 'unambiguous';
+      babelConfig.compact = false;
+      // Babel sourcemaps are needed for debugging into node_modules
+      // code.  Without the options below, debuggers like VSCode
+      // show incorrect code and set breakpoints on the wrong lines.
+      babelConfig.sourceMaps = shouldUseSourceMap;
+      babelConfig.inputSourceMap = shouldUseSourceMap;
+    }
+
+    return babelConfig;
+  };
 
   // common function to get style loaders
   const getStyleLoaders = (cssOptions, preProcessor) => {
@@ -118,20 +165,19 @@ module.exports = function (webpackEnv) {
         options: {
           // Necessary for external CSS imports to work
           // https://github.com/facebook/create-react-app/issues/2677
-          ident: 'postcss',
-          plugins: () => [
-            require('postcss-flexbugs-fixes'),
-            require('postcss-preset-env')({
-              autoprefixer: {
-                flexbox: 'no-2009',
-              },
-              stage: 3,
-            }),
-            // Adds PostCSS Normalize as the reset css with default options,
-            // so that it honors browserslist config in package.json
-            // which in turn let's users customize the target behavior as per their needs.
-            postcssNormalize(),
-          ],
+          postcssOptions: {
+            plugins: [
+              require('precss'),
+              require('postcss-import'),
+              require('tailwindcss'),
+              require('postcss-preset-env')({
+                stage: 1,
+              }),
+              require('autoprefixer'),
+              require('postcss-normalize'),
+              require('cssnano'),
+            ],
+          },
           sourceMap: isEnvProduction ? shouldUseSourceMap : isEnvDevelopment,
         },
       },
@@ -319,9 +365,7 @@ module.exports = function (webpackEnv) {
       // https://github.com/facebook/create-react-app/issues/290
       // `web` extension prefixes have been added for better support
       // for React Native Web.
-      extensions: paths.moduleFileExtensions
-        .map(ext => `.${ext}`)
-        .filter(ext => useTypeScript || !ext.includes('ts')),
+      extensions: paths.moduleFileExtensions.map(ext => `.${ext}`),
       alias: {
         // Support React Native Web
         // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
@@ -393,155 +437,7 @@ module.exports = function (webpackEnv) {
               test: /\.(js|mjs|jsx|ts|tsx)$/,
               include: paths.appSrc,
               loader: require.resolve('babel-loader'),
-              options: {
-                // Babel assumes ES Modules, which isn't safe until CommonJS
-                // dies. This changes the behavior to assume CommonJS unless
-                // an `import` or `export` is present in the file.
-                // https://github.com/webpack/webpack/issues/4039#issuecomment-419284940
-                sourceType: 'unambiguous',
-                overrides: [
-                  {
-                    test: /\.tsx?$/,
-                    plugins: [
-                      [
-                        require.resolve('@babel/plugin-proposal-decorators'),
-                        { legacy: true },
-                      ],
-                    ],
-                  },
-                ],
-                presets: [
-                  isEnvTest && [
-                    // ES features necessary for user's Node version
-                    require.resolve('@babel/preset-env'),
-                    {
-                      targets: {
-                        node: 'current',
-                      },
-                      // Exclude transforms that make all code slower
-                      exclude: ['transform-typeof-symbol'],
-                    },
-                  ],
-                  (isEnvProduction || isEnvDevelopment) && [
-                    // Latest stable ECMAScript features
-                    require.resolve('@babel/preset-env'),
-                    {
-                      // Allow importing core-js in entrypoint and use browserlist to select polyfills
-                      useBuiltIns: 'entry',
-                      // Set the corejs version we are using to avoid warnings in console
-                      // This will need to change once we upgrade to corejs@3
-                      corejs: 3,
-                      // Exclude transforms that make all code slower
-                      exclude: ['transform-typeof-symbol'],
-                    },
-                  ],
-                  [
-                    require.resolve('@babel/preset-react'),
-                    {
-                      // Adds component stack to warning messages
-                      // Adds __self attribute to JSX which React will use for some warnings
-                      // development: isEnvDevelopment || isEnvTest,
-                      runtime: 'automatic',
-                    },
-                  ],
-                  [
-                    require.resolve('@babel/preset-typescript'),
-                    {
-                      // TODO: to be added
-                    },
-                  ],
-                ].filter(Boolean),
-                plugins: [
-                  // Turn on legacy decorators for TypeScript files
-                  [
-                    require.resolve('@babel/plugin-proposal-decorators'),
-                    false,
-                  ],
-                  // class { handleClick = () => { } }
-                  // Enable loose mode to use assignment instead of defineProperty
-                  // See discussion in https://github.com/facebook/create-react-app/issues/4263
-                  [
-                    require.resolve('@babel/plugin-proposal-class-properties'),
-                    {
-                      loose: true,
-                    },
-                  ],
-                  // Adds Numeric Separators
-                  require.resolve('@babel/plugin-proposal-numeric-separator'),
-                  // Polyfills the runtime needed for async/await, generators, and friends
-                  // https://babeljs.io/docs/en/babel-plugin-transform-runtime
-                  [
-                    require('@babel/plugin-transform-runtime').default,
-                    {
-                      corejs: false,
-                      helpers: true,
-                      // By default, babel assumes babel/runtime version 7.0.0-beta.0,
-                      // explicitly resolving to match the provided helper functions.
-                      // https://github.com/babel/babel/issues/10261
-                      version: require('@babel/runtime/package.json').version,
-                      regenerator: true,
-                      // https://babeljs.io/docs/en/babel-plugin-transform-runtime#useesmodules
-                      // We should turn this on once the lowest version of Node LTS
-                      // supports ES Modules.
-                      useESModules: isEnvDevelopment || isEnvProduction,
-                      // Undocumented option that lets us encapsulate our runtime, ensuring
-                      // the correct version is used
-                      // https://github.com/babel/babel/blob/090c364a90fe73d36a30707fc612ce037bdbbb24/packages/babel-plugin-transform-runtime/src/index.js#L35-L42
-                      absoluteRuntime: path.dirname(
-                        require.resolve('@babel/runtime/package.json')
-                      ),
-                    },
-                  ],
-                  isEnvProduction && [
-                    // Remove PropTypes from production build
-                    require.resolve('babel-plugin-transform-react-remove-prop-types'),
-                    {
-                      removeImport: true,
-                    },
-                  ],
-                  [
-                    require.resolve('babel-plugin-named-asset-import'),
-                    {
-                      loaderMap: {
-                        svg: {
-                          ReactComponent:
-                            '@svgr/webpack?-svgo,+titleProp,+ref![path]',
-                        },
-                      },
-                    },
-                  ],
-                  isEnvDevelopment &&
-                    shouldUseReactRefresh &&
-                    require.resolve('react-refresh/babel'),
-                  // Optional
-                  require.resolve('@babel/plugin-transform-react-display-name'),
-                  // Stage 1: from https://www.npmjs.com/package/@babel/preset-stage-1
-                  require.resolve('@babel/plugin-proposal-export-default-from'),
-                  require.resolve('@babel/plugin-proposal-logical-assignment-operators'),
-                  [require.resolve('@babel/plugin-proposal-optional-chaining'), { loose: false }],
-                  [require.resolve('@babel/plugin-proposal-pipeline-operator'), { proposal: 'minimal' }],
-                  [require.resolve('@babel/plugin-proposal-nullish-coalescing-operator'), { loose: true }],
-                  require.resolve('@babel/plugin-proposal-do-expressions'),
-                  // Stage 2
-                  require.resolve('@babel/plugin-proposal-function-sent'),
-                  require.resolve('@babel/plugin-proposal-export-namespace-from'),
-                  require.resolve('@babel/plugin-proposal-throw-expressions'),
-                  // Stage 3
-                  require.resolve('@babel/plugin-syntax-dynamic-import'),
-                  require.resolve('@babel/plugin-syntax-import-meta'),
-                  require.resolve('@babel/plugin-proposal-json-strings'),
-                  // Libraries
-                  require.resolve('babel-plugin-ramda'),
-                  require.resolve('babel-plugin-date-fns-next'),
-                ].filter(Boolean),
-                // This is a feature of `babel-loader` for webpack (not Babel itself).
-                // It enables caching results in ./node_modules/.cache/babel-loader/
-                // directory for faster rebuilds.
-                cacheDirectory: true,
-                // See #6846 for context on why cacheCompression is disabled
-                cacheCompression: false,
-                compact: isEnvProduction,
-              },
+              options: getBabelConfig(false),
             },
             // Process any JS outside of the app with Babel.
             // Unlike the application JS, we only compile the standard ES features.
@@ -549,26 +445,7 @@ module.exports = function (webpackEnv) {
               test: /\.(js|mjs)$/,
               exclude: /@babel(?:\/|\\{1,2})runtime/,
               loader: require.resolve('babel-loader'),
-              options: {
-                babelrc: false,
-                configFile: false,
-                compact: false,
-                presets: [
-                  [
-                    require.resolve('babel-preset-react-app/dependencies'),
-                    { helpers: true },
-                  ],
-                ],
-                cacheDirectory: true,
-                // See #6846 for context on why cacheCompression is disabled
-                cacheCompression: false,
-
-                // Babel sourcemaps are needed for debugging into node_modules
-                // code.  Without the options below, debuggers like VSCode
-                // show incorrect code and set breakpoints on the wrong lines.
-                sourceMaps: shouldUseSourceMap,
-                inputSourceMap: shouldUseSourceMap,
-              },
+              options: getBabelConfig(true),
             },
             // "postcss" loader applies autoprefixer to our CSS.
             // "css" loader resolves paths in CSS and adds assets as dependencies.
@@ -605,44 +482,6 @@ module.exports = function (webpackEnv) {
                   getLocalIdent: getCSSModuleLocalIdent,
                 },
               }),
-            },
-            // Opt-in support for SASS (using .scss or .sass extensions).
-            // By default we support SASS Modules with the
-            // extensions .module.scss or .module.sass
-            {
-              test: sassRegex,
-              exclude: sassModuleRegex,
-              use: getStyleLoaders(
-                {
-                  importLoaders: 3,
-                  sourceMap: isEnvProduction
-                    ? shouldUseSourceMap
-                    : isEnvDevelopment,
-                },
-                'sass-loader'
-              ),
-              // Don't consider CSS imports dead code even if the
-              // containing package claims to have no side effects.
-              // Remove this when webpack adds a warning or an error for this.
-              // See https://github.com/webpack/webpack/issues/6571
-              sideEffects: true,
-            },
-            // Adds support for CSS Modules, but using SASS
-            // using the extension .module.scss or .module.sass
-            {
-              test: sassModuleRegex,
-              use: getStyleLoaders(
-                {
-                  importLoaders: 3,
-                  sourceMap: isEnvProduction
-                    ? shouldUseSourceMap
-                    : isEnvDevelopment,
-                  modules: {
-                    getLocalIdent: getCSSModuleLocalIdent,
-                  },
-                },
-                'sass-loader'
-              ),
             },
             // "file" loader makes sure those assets get served by WebpackDevServer.
             // When you `import` an asset, you get its (virtual) filename.
@@ -792,36 +631,35 @@ module.exports = function (webpackEnv) {
           maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
         }),
       // TypeScript type checking
-      useTypeScript &&
-        new ForkTsCheckerWebpackPlugin({
-          typescript: resolve.sync('typescript', {
-            basedir: paths.appNodeModules,
-          }),
-          async: isEnvDevelopment,
-          checkSyntacticErrors: true,
-          resolveModuleNameModule: process.versions.pnp
-            ? `${__dirname}/pnpTs.js`
-            : undefined,
-          resolveTypeReferenceDirectiveModule: process.versions.pnp
-            ? `${__dirname}/pnpTs.js`
-            : undefined,
-          tsconfig: paths.appTsConfig,
-          reportFiles: [
-            // This one is specifically to match during CI tests,
-            // as micromatch doesn't match
-            // '../cra-template-typescript/template/src/App.tsx'
-            // otherwise.
-            '../**/src/**/*.{ts,tsx}',
-            '**/src/**/*.{ts,tsx}',
-            '!**/src/**/__tests__/**',
-            '!**/src/**/?(*.)(spec|test).*',
-            '!**/src/setupProxy.*',
-            '!**/src/setupTests.*',
-          ],
-          silent: true,
-          // The formatter is invoked directly in WebpackDevServerUtils during development
-          formatter: isEnvProduction ? typescriptFormatter : undefined,
+      new ForkTsCheckerWebpackPlugin({
+        typescript: resolve.sync('typescript', {
+          basedir: paths.appNodeModules,
         }),
+        async: isEnvDevelopment,
+        checkSyntacticErrors: true,
+        resolveModuleNameModule: process.versions.pnp
+          ? `${__dirname}/pnpTs.js`
+          : undefined,
+        resolveTypeReferenceDirectiveModule: process.versions.pnp
+          ? `${__dirname}/pnpTs.js`
+          : undefined,
+        tsconfig: paths.appTsConfig,
+        reportFiles: [
+          // This one is specifically to match during CI tests,
+          // as micromatch doesn't match
+          // '../cra-template-typescript/template/src/App.tsx'
+          // otherwise.
+          '../**/src/**/*.{ts,tsx}',
+          '**/src/**/*.{ts,tsx}',
+          '!**/src/**/__tests__/**',
+          '!**/src/**/?(*.)(spec|test).*',
+          '!**/src/setupProxy.*',
+          '!**/src/setupTests.*',
+        ],
+        silent: true,
+        // The formatter is invoked directly in WebpackDevServerUtils during development
+        formatter: isEnvProduction ? typescriptFormatter : undefined,
+      }),
       new ESLintPlugin({
         // Plugin options
         extensions: ['js', 'mjs', 'jsx', 'ts', 'tsx'],
@@ -832,14 +670,6 @@ module.exports = function (webpackEnv) {
         // ESLint class options
         cwd: paths.appPath,
         resolvePluginsRelativeTo: __dirname,
-        baseConfig: {
-          extends: [require.resolve('eslint-config-react-app/base')],
-          rules: {
-            ...(!hasJsxRuntime && {
-              'react/react-in-jsx-scope': 'error',
-            }),
-          },
-        },
       }),
     ].filter(Boolean),
     // Some libraries import Node modules but don't use them in the browser.

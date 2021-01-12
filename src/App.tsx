@@ -1,8 +1,7 @@
-import React from 'react';
-
+import { ReactElement } from 'react';
 import { Router } from 'router';
 
-function App() {
+function App(): ReactElement {
   return <Router />;
 }
 

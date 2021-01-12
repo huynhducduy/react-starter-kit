@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 import { HelmetProvider } from 'react-helmet-async';
 
-import './index.css';
+import './index.scss';
 import App from './App';
 
 import { Provider as RouterProvider } from 'router';
@@ -14,8 +14,6 @@ import { Provider as StoreProvider } from 'store';
 
 import ErrorBoundary from 'utils/ErrorBoundary';
 import buildComponentTree from 'utils/buildComponentTree';
-
-const message: string = 2;
 
 const Providers = buildComponentTree([
   // [SomeProvider, { initialState: '' }],
@@ -25,7 +23,7 @@ const Providers = buildComponentTree([
   [ErrorBoundary],
 ]);
 
-function render(Component: JSX.Element) {
+function render(Component: React.ComponentType) {
   return ReactDOM.render(
     <React.StrictMode>
       <Providers>
@@ -54,4 +52,4 @@ serviceWorkerRegistration.unregister();
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+reportWebVitals(console.log);
