@@ -1,5 +1,3 @@
-import React from 'react';
-
 const buildComponentTree = providers => {
   if (providers.length === 1) {
     return providers[0][0];

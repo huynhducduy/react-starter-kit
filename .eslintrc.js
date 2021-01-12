@@ -1,79 +1,34 @@
 var restrictedGlobals = require('confusing-browser-globals');
 
 var extendsConfig = [
-  'plugin:react/recommended',
-  // 'plugin:json/recommended',
-  'prettier/react',
+  'plugin:json/recommended',
+  'plugin:prettier/recommended', // Always the last: https://github.com/prettier/eslint-plugin-prettier#recommended-configuration
+  'prettier/prettier',
   'prettier/standard',
   'prettier/babel',
-  'plugin:prettier/recommended', // always the last
+  'prettier/react',
+  // 'prettier/vue',
 ];
 
 module.exports = {
   root: true,
   parser: '@babel/eslint-parser',
-  overrides: [
-    {
-      files: ['*.ts', '*.tsx'],
-      extends: ['prettier/@typescript-eslint', ...extendsConfig],
-      rules: {
-        // TypeScript's `noFallthroughCasesInSwitch` option is more robust (#6906)
-        'default-case': 'off',
-        // 'tsc' already handles this (https://github.com/typescript-eslint/typescript-eslint/issues/291)
-        'no-dupe-class-members': 'off',
-        // 'tsc' already handles this (https://github.com/typescript-eslint/typescript-eslint/issues/477)
-        'no-undef': 'off',
-
-        // Add TypeScript specific rules (and turn off ESLint equivalents)
-        '@typescript-eslint/consistent-type-assertions': 'warn',
-        'no-array-constructor': 'off',
-        '@typescript-eslint/no-array-constructor': 'warn',
-        'no-redeclare': 'off',
-        '@typescript-eslint/no-redeclare': 'warn',
-        'no-use-before-define': 'off',
-        '@typescript-eslint/no-use-before-define': [
-          'warn',
-          {
-            functions: false,
-            classes: false,
-            variables: false,
-            typedefs: false,
-          },
-        ],
-        'no-unused-expressions': 'off',
-        '@typescript-eslint/no-unused-expressions': [
-          'error',
-          {
-            allowShortCircuit: true,
-            allowTernary: true,
-            allowTaggedTemplates: true,
-          },
-        ],
-        'no-unused-vars': 'off',
-        '@typescript-eslint/no-unused-vars': [
-          'warn',
-          {
-            args: 'none',
-            ignoreRestSiblings: true,
-          },
-        ],
-        'no-useless-constructor': 'off',
-        '@typescript-eslint/no-useless-constructor': 'warn',
-      },
-    },
-  ],
   plugins: [
-    'react',
     'import',
-    'jsx-a11y',
-    'react-hooks',
-    '@typescript-eslint',
+    'jest',
     'json',
+    'jsx-a11y',
+    // 'prettier', // We don't need this since we extends 'plugin:prettier/recommended'
+    'react',
+    'react-hooks',
+    'testing-library',
+    '@typescript-eslint',
   ],
   extends: extendsConfig,
   rules: {
+    'json/*': ['error', { allowComments: true }],
     'react/jsx-uses-vars': 'warn',
-    'react/jsx-uses-react': 'warn',
+    'react/jsx-uses-react': 'off',
     // http://eslint.org/docs/rules/
     'array-callback-return': 'warn',
     'default-case': ['warn', { commentPattern: '^no default$' }],
@@ -262,6 +217,61 @@ module.exports = {
     // https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks
     'react-hooks/rules-of-hooks': 'error',
   },
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      extends: [
+        'plugin:@typescript-eslint/recommended',
+        'plugin:@typescript-eslint/recommended-requiring-type-checking',
+        ...extendsConfig,
+        'prettier/@typescript-eslint',
+      ],
+      rules: {
+        // TypeScript's `noFallthroughCasesInSwitch` option is more robust (#6906)
+        'default-case': 'off',
+        // 'tsc' already handles this (https://github.com/typescript-eslint/typescript-eslint/issues/291)
+        'no-dupe-class-members': 'off',
+        // 'tsc' already handles this (https://github.com/typescript-eslint/typescript-eslint/issues/477)
+        'no-undef': 'off',
+
+        // Add TypeScript specific rules (and turn off ESLint equivalents)
+        '@typescript-eslint/consistent-type-assertions': 'warn',
+        'no-array-constructor': 'off',
+        '@typescript-eslint/no-array-constructor': 'warn',
+        'no-redeclare': 'off',
+        '@typescript-eslint/no-redeclare': 'warn',
+        'no-use-before-define': 'off',
+        '@typescript-eslint/no-use-before-define': [
+          'warn',
+          {
+            functions: false,
+            classes: false,
+            variables: false,
+            typedefs: false,
+          },
+        ],
+        'no-unused-expressions': 'off',
+        '@typescript-eslint/no-unused-expressions': [
+          'error',
+          {
+            allowShortCircuit: true,
+            allowTernary: true,
+            allowTaggedTemplates: true,
+          },
+        ],
+        'no-unused-vars': 'off',
+        '@typescript-eslint/no-unused-vars': [
+          'warn',
+          {
+            args: 'none',
+            ignoreRestSiblings: true,
+          },
+        ],
+        'no-useless-constructor': 'off',
+        '@typescript-eslint/no-useless-constructor': 'warn',
+      },
+    },
+  ],
   settings: {
     react: {
       version: 'detect',
@@ -285,6 +295,7 @@ module.exports = {
       jsx: true,
     },
     project: 'tsconfig.json',
+    tsconfigRootDir: __dirname,
   },
   globals: {},
 };

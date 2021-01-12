@@ -21,7 +21,7 @@ const Providers = buildComponentTree([
   [HelmetProvider],
   [RouterProvider],
   [ErrorBoundary],
-]);
+]) as React.ComponentType;
 
 function render(Component: React.ComponentType) {
   return ReactDOM.render(

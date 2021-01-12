@@ -23,7 +23,7 @@
     "noUnusedParameters": true,
     "noEmit": true,
     "incremental": true,
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": ["dom", "dom.iterable", "es5", "es6", "es2015", "es2016", "es2017", "es2018", "es2019", "es2020", "esnext"],
     "esModuleInterop": true
   },
   "include": ["src/**/*"],

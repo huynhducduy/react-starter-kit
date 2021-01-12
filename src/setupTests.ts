@@ -4,23 +4,23 @@ import 'jest-enzyme';
 
 configure({ adapter: new Adapter() });
 
-var localStorageMock = (function () {
-  var store = new Map();
+const localStorageMock = (function () {
+  const store = new Map();
   return {
-    getItem: function (key: any) {
-      return store.get(key);
+    getItem: function (key: string) {
+      return String(store.get(key));
     },
-    setItem: function (key: any, value: any) {
-      store.set(key, value.toString());
+    setItem: function (key: string, value: string) {
+      store.set(key, String(value));
     },
     clear: function () {
       store.clear();
     },
-    removeItem: function (key: any) {
+    removeItem: function (key: string) {
       store.delete(key);
     },
     length: store.size,
-    key: (index: any): any => Array.from(store.keys())[index],
+    key: (index: number): string => Array.from(store.keys())[index] as string,
   };
 })();
 

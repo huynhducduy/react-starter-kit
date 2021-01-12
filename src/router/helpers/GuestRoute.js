@@ -1,4 +1,3 @@
-import React from 'react';
 import isAuthenticated from 'auth/helpers/isAuthenticated';
 import ConditionalRoute from './ConditionalRoute';
 

@@ -491,6 +491,51 @@
         "signature": "c9f092fa413eb709080f1494dcbb4a18757e84eb5d2b8bb0cc84f73d84a70dd7",
         "affectsGlobalScope": false
       },
+      "./node_modules/@types/history/domutils.d.ts": {
+        "version": "271cde49dfd9b398ccc91bb3aaa43854cf76f4d14e10fed91cbac649aa6cbc63",
+        "signature": "271cde49dfd9b398ccc91bb3aaa43854cf76f4d14e10fed91cbac649aa6cbc63",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/history/createbrowserhistory.d.ts": {
+        "version": "c6f2572e21f626260d2e4a65e4e1e42b9b273b6f43b5c3bc115c2926417d3eca",
+        "signature": "c6f2572e21f626260d2e4a65e4e1e42b9b273b6f43b5c3bc115c2926417d3eca",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/createhashhistory.d.ts": {
+        "version": "374ab77e05e0bf5a52acad6d65121d4bd31068108f23d70186dba5fcd7d6a1a3",
+        "signature": "374ab77e05e0bf5a52acad6d65121d4bd31068108f23d70186dba5fcd7d6a1a3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/creatememoryhistory.d.ts": {
+        "version": "a4ecd4bb653aa71093375845fba6250ca0f3c633d0e933fc9bf4b301834eab27",
+        "signature": "a4ecd4bb653aa71093375845fba6250ca0f3c633d0e933fc9bf4b301834eab27",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/locationutils.d.ts": {
+        "version": "25d91fb9ed77a828cc6c7a863236fb712dafcd52f816eec481bd0c1f589f4404",
+        "signature": "25d91fb9ed77a828cc6c7a863236fb712dafcd52f816eec481bd0c1f589f4404",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/pathutils.d.ts": {
+        "version": "4cd14cea22eed1bfb0dc76183e56989f897ac5b14c0e2a819e5162eafdcfe243",
+        "signature": "4cd14cea22eed1bfb0dc76183e56989f897ac5b14c0e2a819e5162eafdcfe243",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/index.d.ts": {
+        "version": "cc53cba64efb30576f2a36f1d7107e4453e84cbd0f371d49cd1dfd208e11233b",
+        "signature": "cc53cba64efb30576f2a36f1d7107e4453e84cbd0f371d49cd1dfd208e11233b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/react-router/index.d.ts": {
+        "version": "c4fdfe0f9327fc110adebcd633e647f65ae9cb2625a4df288aa64f7dfe576b79",
+        "signature": "c4fdfe0f9327fc110adebcd633e647f65ae9cb2625a4df288aa64f7dfe576b79",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/react-router-dom/index.d.ts": {
+        "version": "b89701b714364b5bcb0b58e83725aa02a4f41df8357000b4e8fe60566bf805ac",
+        "signature": "b89701b714364b5bcb0b58e83725aa02a4f41df8357000b4e8fe60566bf805ac",
+        "affectsGlobalScope": false
+      },
       "./src/utils/is.js": {
         "version": "826e4bfead7ec90a8b4346451f7d6ba25d574f12affc56ca6488a3661b1b34d0",
         "signature": "e08eae00daebda8b2bd9a0ccef80c0b67e06e77170f5d707181016ff2c11c113",
@@ -512,7 +557,7 @@
         "affectsGlobalScope": false
       },
       "./src/router/helpers/conditionalroute.js": {
-        "version": "87251e88efb3a0e3667b332acffcef8ce34de75eece5450ee9329f5e85c26962",
+        "version": "ba8ace8b440bc3fb9235670e53bf75240b1acb287fdf4ab8b0432cb042a14128",
         "signature": "efc8eb0d2b75bd81d66d6373be1f6ccf7d70a2ac1b472540ce331bc41d0b3baa",
         "affectsGlobalScope": false
       },
@@ -552,12 +597,12 @@
         "affectsGlobalScope": false
       },
       "./src/router/helpers/privateroute.js": {
-        "version": "4cc4f6b4fffa45c88c25c74ad0bf4847ae85595d3a67f43d8620318e39ab0ca4",
+        "version": "16d2c2b62ff9a42de72fc3622d33b883cfe183493633171c5540328fa2ee4de1",
         "signature": "eebfc709caaf22bcb89a4803ec6f028e95ae4e54c96486bdbe0f5558ef7c3a1c",
         "affectsGlobalScope": false
       },
       "./src/router/helpers/guestroute.js": {
-        "version": "e6791e46b9a9a3c4687fd7a072970c1143dcd48a25bb99b5d181c0fe8345e1e8",
+        "version": "b0e6400f19fa04ae41c0b97d4c8686f89a81693c66a58e6ff91e4bef369ac441",
         "signature": "37b0f447e3be908e2828c77079df0cad59a9ea2d81d12b997684904cfc259b9e",
         "affectsGlobalScope": false
       },
@@ -567,7 +612,7 @@
         "affectsGlobalScope": false
       },
       "./src/router/helpers/route.js": {
-        "version": "2ea20c3d8e66697f4af85ccb24d35146508458c76689adfb6cc094ac334aa1ac",
+        "version": "599f2e43fe0e52e499783e6c38f958918d34b1becd2907d27aac7e5dd0274c1e",
         "signature": "fc32ad11280036475f30e84cf672bfb6aa4462ac94a924aae3962868f7549205",
         "affectsGlobalScope": false
       },
@@ -577,8 +622,8 @@
         "affectsGlobalScope": false
       },
       "./src/views/home/index.tsx": {
-        "version": "a3e9881ff9be2f7a07dcce360b34c5349dd7280bcfdf5358aff11e332e7729ac",
-        "signature": "0517757b3576b6bd1051899b84596cb073404fc29f4f9d71d6218996061f026d",
+        "version": "0d79e1f99d58a18c60bd0fd7c569629a6ad86e0fa2274082733a563168976d44",
+        "signature": "a5382ad02d5d7752bc59d79741d3282c8a6d4b9d577f2792e1800e66c676ca7d",
         "affectsGlobalScope": false
       },
       "./src/views/login.tsx": {
@@ -587,8 +632,8 @@
         "affectsGlobalScope": false
       },
       "./src/router/index.js": {
-        "version": "291d11a7677b27bc9294d8ddc41ffb05435bc866511e65cbb084cc6c61a67aee",
-        "signature": "7fbded9aa15d4d651c65bbc402aabe8be80f3a303361ced79c6682706befe886",
+        "version": "acacf894e75a63b8386a8a9248923020c9f87870f6d3e8d39deed0e5aa740d34",
+        "signature": "010090bfa7e803d6f2575714116ac28c9eb81d448db8f7c794cf6b806dfd1486",
         "affectsGlobalScope": false
       },
       "./src/app.tsx": {
@@ -597,7 +642,7 @@
         "affectsGlobalScope": false
       },
       "./src/app.test.tsx": {
-        "version": "afd0b3d818b1123573d37cb5441ab13f7832e13df1fc28b6aa0ef1d035865f5d",
+        "version": "335dccc9e0c94f1846cec25217e093312d4898a5d22ea1e93eca5bf907755a38",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -672,18 +717,18 @@
         "affectsGlobalScope": false
       },
       "./src/utils/buildcomponenttree.js": {
-        "version": "bf8edceefc0dcc63bd5f123669faeb6e08bcb46a20ccc4cf990e728fd15cf65b",
+        "version": "7797516078d6ac100a7f39298a584530093313b2d2b38120ffdedb5bf7aac454",
         "signature": "991250f7934c31954c39e9fb5d1d8294bec90b7943e4c789e558312ac2b47273",
         "affectsGlobalScope": false
       },
       "./src/index.tsx": {
-        "version": "b7a9b6206a4ec2064edb5c2b354135966902a28e724c613451075611438623d7",
+        "version": "259ec9c6f0869bda5633cf73d28f1b6a2ca3f0eabb5f756e02010d46bace3ada",
         "signature": "1d718b0153bdcd004326fa3ecd0bb1fd90857c3a585991c660faea15fb327776",
         "affectsGlobalScope": false
       },
       "./src/react-app-env.d.ts": {
-        "version": "918388323cca56847ec73a17833fe5bdce357579f47c2a7fa09048be921e098b",
-        "signature": "918388323cca56847ec73a17833fe5bdce357579f47c2a7fa09048be921e098b",
+        "version": "1c248ab9ff1139816f7c420119d301a2c428900ebf9858164c838ccbf75b4119",
+        "signature": "1c248ab9ff1139816f7c420119d301a2c428900ebf9858164c838ccbf75b4119",
         "affectsGlobalScope": true
       },
       "./node_modules/workbox-core/_version.d.ts": {
@@ -1012,7 +1057,7 @@
         "affectsGlobalScope": true
       },
       "./src/setuptests.ts": {
-        "version": "a63900f79c498b610326a3ee4ec07c658a7fa4226bd914188ec949e8a88d8b74",
+        "version": "2579034a66380210a614cc2637e0faf917f7dc06b17c9a220b16e6f0fffbe104",
         "signature": "31a9fbeaacd6299774392316fe7ae9d7e493cc691620702299845636c539d447",
         "affectsGlobalScope": false
       },
@@ -1458,6 +1503,14 @@
       "lib": [
         "lib.dom.d.ts",
         "lib.dom.iterable.d.ts",
+        "lib.es5.d.ts",
+        "lib.es2015.d.ts",
+        "lib.es2015.d.ts",
+        "lib.es2016.d.ts",
+        "lib.es2017.d.ts",
+        "lib.es2018.d.ts",
+        "lib.es2019.d.ts",
+        "lib.es2020.d.ts",
         "lib.esnext.d.ts"
       ],
       "esModuleInterop": true,
@@ -1532,6 +1585,40 @@
       "./node_modules/@types/graceful-fs/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/history/createbrowserhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/history/createhashhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/history/creatememoryhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/history/domutils.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/history/index.d.ts": [
+        "./node_modules/@types/history/createbrowserhistory.d.ts",
+        "./node_modules/@types/history/createhashhistory.d.ts",
+        "./node_modules/@types/history/creatememoryhistory.d.ts",
+        "./node_modules/@types/history/locationutils.d.ts",
+        "./node_modules/@types/history/pathutils.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/history/locationutils.d.ts": [
+        "./node_modules/@types/history/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/history/pathutils.d.ts": [
+        "./node_modules/@types/history/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@types/html-minifier-terser/index.d.ts": [
@@ -1826,6 +1913,17 @@
         "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@types/react-dom/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/react-router-dom/index.d.ts": [
+        "./node_modules/@types/history/index.d.ts",
+        "./node_modules/@types/react-router/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/react-router/index.d.ts": [
+        "./node_modules/@types/history/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
@@ -2464,6 +2562,7 @@
       ],
       "./src/app.test.tsx": [
         "./node_modules/@types/enzyme/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
         "./src/app.tsx"
@@ -2632,7 +2731,7 @@
         "./src/auth/index.js"
       ],
       "./src/router/helpers/conditionalroute.js": [
-        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
         "./src/router/helpers/geturl.js",
@@ -2666,7 +2765,6 @@
         "./src/router/helpers/getpath.js"
       ],
       "./src/router/helpers/guestroute.js": [
-        "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
         "./src/auth/helpers/isauthenticated.js",
@@ -2686,7 +2784,6 @@
         "./src/router/helpers/route.js"
       ],
       "./src/router/helpers/privateroute.js": [
-        "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
         "./src/auth/helpers/isauthenticated.js",
@@ -2699,12 +2796,12 @@
         "./src/router/helpers/conditionalroute.js"
       ],
       "./src/router/helpers/route.js": [
-        "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
         "./src/router/helpers/conditionalroute.js"
       ],
       "./src/router/index.js": [
+        "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
@@ -2752,7 +2849,6 @@
         "./node_modules/recoil/index.d.ts"
       ],
       "./src/utils/buildcomponenttree.js": [
-        "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
@@ -2785,6 +2881,7 @@
         "./node_modules/date-fns/typings.d.ts"
       ],
       "./src/views/home/index.tsx": [
+        "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
         "./src/react-app-env.d.ts"
@@ -2863,6 +2960,40 @@
       "./node_modules/@types/graceful-fs/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/history/createbrowserhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/history/createhashhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/history/creatememoryhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/history/domutils.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/history/index.d.ts": [
+        "./node_modules/@types/history/createbrowserhistory.d.ts",
+        "./node_modules/@types/history/createhashhistory.d.ts",
+        "./node_modules/@types/history/creatememoryhistory.d.ts",
+        "./node_modules/@types/history/locationutils.d.ts",
+        "./node_modules/@types/history/pathutils.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/history/locationutils.d.ts": [
+        "./node_modules/@types/history/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/history/pathutils.d.ts": [
+        "./node_modules/@types/history/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@types/html-minifier-terser/index.d.ts": [
@@ -3157,6 +3288,17 @@
         "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@types/react-dom/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/react-router-dom/index.d.ts": [
+        "./node_modules/@types/history/index.d.ts",
+        "./node_modules/@types/react-router/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/react-router/index.d.ts": [
+        "./node_modules/@types/history/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
@@ -3807,6 +3949,9 @@
       ],
       "./src/store/atoms/auth.js": [
         "./node_modules/recoil/index.d.ts"
+      ],
+      "./src/views/home/index.tsx": [
+        "./node_modules/@types/react/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -3826,6 +3971,13 @@
       "./node_modules/@types/estree/index.d.ts",
       "./node_modules/@types/glob/index.d.ts",
       "./node_modules/@types/graceful-fs/index.d.ts",
+      "./node_modules/@types/history/createbrowserhistory.d.ts",
+      "./node_modules/@types/history/createhashhistory.d.ts",
+      "./node_modules/@types/history/creatememoryhistory.d.ts",
+      "./node_modules/@types/history/domutils.d.ts",
+      "./node_modules/@types/history/index.d.ts",
+      "./node_modules/@types/history/locationutils.d.ts",
+      "./node_modules/@types/history/pathutils.d.ts",
       "./node_modules/@types/html-minifier-terser/index.d.ts",
       "./node_modules/@types/istanbul-lib-coverage/index.d.ts",
       "./node_modules/@types/istanbul-lib-report/index.d.ts",
@@ -3887,6 +4039,8 @@
       "./node_modules/@types/prop-types/index.d.ts",
       "./node_modules/@types/q/index.d.ts",
       "./node_modules/@types/react-dom/index.d.ts",
+      "./node_modules/@types/react-router-dom/index.d.ts",
+      "./node_modules/@types/react-router/index.d.ts",
       "./node_modules/@types/react/global.d.ts",
       "./node_modules/@types/react/index.d.ts",
       "./node_modules/@types/react/jsx-runtime.d.ts",
@@ -4041,28 +4195,7 @@
       "./node_modules/workbox-strategies/networkfirst.d.ts",
       "./node_modules/workbox-strategies/networkonly.d.ts",
       "./node_modules/workbox-strategies/stalewhilerevalidate.d.ts",
-      [
-        "./src/app.test.tsx",
-        [
-          {
-            "file": "./src/app.test.tsx",
-            "start": 131,
-            "length": 7,
-            "code": 2322,
-            "category": 1,
-            "messageText": "Type 'number' is not assignable to type 'string'."
-          },
-          {
-            "file": "./src/app.test.tsx",
-            "start": 131,
-            "length": 7,
-            "messageText": "'message' is declared but its value is never read.",
-            "category": 1,
-            "code": 6133,
-            "reportsUnnecessary": true
-          }
-        ]
-      ],
+      "./src/app.test.tsx",
       "./src/app.tsx",
       "./src/auth/constants.js",
       "./src/auth/helpers/clearauth.js",
@@ -4245,6 +4378,34 @@
       ],
       [
         "./node_modules/@types/graceful-fs/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/history/createbrowserhistory.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/history/createhashhistory.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/history/creatememoryhistory.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/history/domutils.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/history/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/history/locationutils.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/history/pathutils.d.ts",
         1
       ],
       [
@@ -4489,6 +4650,14 @@
       ],
       [
         "./node_modules/@types/react-dom/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/react-router-dom/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/react-router/index.d.ts",
         1
       ],
       [
