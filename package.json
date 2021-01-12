@@ -41,6 +41,7 @@
     "@types/react-router-dom": "^5.1.7",
     "@types/webpack-env": "^1.16.0",
     "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
     "autoprefixer": "^10.2.1",
     "axios": "^0.21.1",
     "babel-jest": "^26.6.3",
@@ -139,7 +140,5 @@
     "fix:style": "prettier --write 'src/**/*.{scss,sass,css}'",
     "fix": "run-p fix:*"
   },
-  "dependencies": {
-    "@typescript-eslint/parser": "^4.13.0"
-  }
+  "dependencies": {}
 }
