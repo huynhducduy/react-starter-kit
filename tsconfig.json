@@ -1,7 +1,7 @@
 {
   // More options: https://www.typescriptlang.org/docs/handbook/compiler-options.html
   "compilerOptions": {
-    "target": "es6",
+    "target": "esnext",
     "module": "esnext",
     "jsx": "react-jsx",
     "baseUrl": "src",
@@ -26,6 +26,6 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "esModuleInterop": true
   },
-  "include": ["src/**/*", ".eslintrc.js", "babel.config.js"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "build"]
 }

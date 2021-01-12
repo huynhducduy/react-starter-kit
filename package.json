@@ -52,6 +52,7 @@
     "bfj": "^7.0.2",
     "camelcase": "^6.2.0",
     "case-sensitive-paths-webpack-plugin": "^2.3.0",
+    "confusing-browser-globals": "^1.0.10",
     "css-loader": "4.3.0",
     "cssnano": "^4.1.10",
     "date-fns": "^2.16.1",
