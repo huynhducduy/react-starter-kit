@@ -15,11 +15,11 @@ Includes all features of CRA, with some opinionated tweaks but provide flexible 
 - React 17 with `react-router-dom`, `recoil` as state management
 - PostCSS with `autoprefixer`, `SASS` syntax, `CSS Module` supported and many optimizations. (dropped `node-sass` due to performance issues)
 - Babel in `Stage 1` with tree-shaking support for `ramda`, `date-fns`
-- ESlint configured to work well with Prettier, Typescript in multiple environment: IDE (VSCode), compile (start & build)
+- ESlint configured to work well with Prettier, Typescript, EditorConfig in multiple environment: IDE (VSCode), compile (start & build)
 - Jest + Enzyme for testing
 - Lintstaged & Husky for automatically lint & formatting
 - VSCode specific settings, extensions & debug launch config
-- Docker, docker-compose for development and deployment
+- Docker, docker-compose with `nginx` config for development and deployment
 
 # Libraries
 
@@ -28,6 +28,8 @@ Includes all features of CRA, with some opinionated tweaks but provide flexible 
 - axios
 - ramda
 - date-fns
+- react-helmet-async
+- classnames
 
 # Usage
 
@@ -38,6 +40,8 @@ git clone https://github.com/altafino/react-webpack-5-tailwind-2.git my-app
 cd my-app
 yarn
 ```
+
+or [Create a new repository from react-starter-kit](https://github.com/huynhducduy/react-starter-kit/generate')
 
 ## Configure
 

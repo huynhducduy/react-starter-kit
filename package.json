@@ -140,5 +140,7 @@
     "fix:style": "prettier --write 'src/**/*.{scss,sass,css}'",
     "fix": "run-p fix:*"
   },
-  "dependencies": {}
+  "dependencies": {
+    "classnames": "^2.2.6"
+  }
 }
