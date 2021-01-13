@@ -537,8 +537,8 @@
         "affectsGlobalScope": false
       },
       "./src/utils/is.js": {
-        "version": "826e4bfead7ec90a8b4346451f7d6ba25d574f12affc56ca6488a3661b1b34d0",
-        "signature": "e08eae00daebda8b2bd9a0ccef80c0b67e06e77170f5d707181016ff2c11c113",
+        "version": "6e96d91c92645995ab44d71ac7451f7c4719b9b159ba8b13c96cd4371bc1e3cc",
+        "signature": "7bcc8528fd43a78157d47427935c535abef0fe7b8253fa43069ce5a2da2d3bed",
         "affectsGlobalScope": false
       },
       "./node_modules/path-to-regexp/dist/index.d.ts": {
@@ -556,8 +556,8 @@
         "signature": "726e758a280ad54392eb1f863b7e9f62187eaedb976727cd119bae37b723c11b",
         "affectsGlobalScope": false
       },
-      "./src/router/helpers/conditionalroute.js": {
-        "version": "ba8ace8b440bc3fb9235670e53bf75240b1acb287fdf4ab8b0432cb042a14128",
+      "./src/router/routes/conditionalroute.js": {
+        "version": "b0e3a75d16f138780fde3514af367966d0613970cb53d5b819d4300f02c38533",
         "signature": "efc8eb0d2b75bd81d66d6373be1f6ccf7d70a2ac1b472540ce331bc41d0b3baa",
         "affectsGlobalScope": false
       },
@@ -567,13 +567,13 @@
         "affectsGlobalScope": false
       },
       "./src/utils/localstorage.js": {
-        "version": "eb46f6b63269fc03da27dac097c4a3066d9704a5e63dbc16d846a46640f0350e",
-        "signature": "b31cd8214577bbddb467eda4a82767e98c8368cc3c6fcad4fd565e6b41785208",
+        "version": "4bfa1456b12d145faa0922ff0f85e12821416ded4e880cd234e0aba7260ff5a5",
+        "signature": "9c682871b0bb19143750de53c2b6d9509665270fc58971a4ca73ff1befd0d561",
         "affectsGlobalScope": false
       },
       "./src/auth/constants.js": {
-        "version": "47ec1d543f8574c8700e1a4e31b316c8c6e7ca202b9a674c6cd547818c8acbbe",
-        "signature": "13420b277a6fd28dcbabda92a6747757cbdd04fbea5613f2338d15f30806b42a",
+        "version": "ace4d339f3b1ce908db21426a98a02d87b772c310588b80a7a1a3eba72ffd132",
+        "signature": "1e72c34cf540feaca595bc60845e81e45ebf8bd5952bfea98aee1a006324402c",
         "affectsGlobalScope": false
       },
       "./node_modules/date-fns/typings.d.ts": {
@@ -582,38 +582,43 @@
         "affectsGlobalScope": true
       },
       "./src/auth/helpers/getaccesstokenexpiresat.js": {
-        "version": "680f07ed7d58a58e356d87db4668a6225e59e2331c00fb3ce9c5705f3260ce6b",
-        "signature": "6c40adfac68e7edcb0a75755b5bb97d393ec77c2751d9ee1d012004e2df9c31e",
+        "version": "20e9e5ba0d0a65a41a6bfff943a060e6ffb048f7dab866e28c00a8b200964a23",
+        "signature": "c2b4d10eb9ac84bf850677c4983f44f1f24da05fe4a45fb2aacf5e5dde1fcdca",
         "affectsGlobalScope": false
       },
       "./src/auth/helpers/tokenisexpired.js": {
-        "version": "47fa03ccf4c1a7694cb05c046e27ef98914c92c5c1ffceaae3d8950e3b1cfdd4",
-        "signature": "5361dd1f8864437b6642fc9405f8e33e742b311f659e7f3ce1c9d0d946a5ebb1",
+        "version": "12a2afa0be660e394a6314a87301ecec5fe3096fe13db8d4ee8d6193fc2ccbfd",
+        "signature": "b5ac4da9f50e5de90643ea1d05cbd63c24b6da39d57d51ee5e0b9a26ecc85e03",
         "affectsGlobalScope": false
       },
       "./src/auth/helpers/isauthenticated.js": {
-        "version": "47770e74c1e44c361e3a970e0fa7089e96ef21a466b5865975dc6c1e3a9ad450",
-        "signature": "5361dd1f8864437b6642fc9405f8e33e742b311f659e7f3ce1c9d0d946a5ebb1",
+        "version": "3edb942264df0ca8357f7208699b6ef993973f15df147be3a1085252bbf39482",
+        "signature": "29087745ffd0d472755f8670b768a82d55cfe44a883f30275d190bf5e37a4a03",
         "affectsGlobalScope": false
       },
-      "./src/router/helpers/privateroute.js": {
+      "./src/router/routes/privateroute.js": {
         "version": "16d2c2b62ff9a42de72fc3622d33b883cfe183493633171c5540328fa2ee4de1",
         "signature": "eebfc709caaf22bcb89a4803ec6f028e95ae4e54c96486bdbe0f5558ef7c3a1c",
         "affectsGlobalScope": false
       },
-      "./src/router/helpers/guestroute.js": {
+      "./src/router/routes/guestroute.js": {
         "version": "b0e6400f19fa04ae41c0b97d4c8686f89a81693c66a58e6ff91e4bef369ac441",
         "signature": "37b0f447e3be908e2828c77079df0cad59a9ea2d81d12b997684904cfc259b9e",
         "affectsGlobalScope": false
       },
-      "./src/router/helpers/redirectroute.js": {
-        "version": "dce698814b1322ad125491a594ff3458727e613791b7ce7c2ef467d384042f5f",
+      "./src/router/routes/redirectroute.js": {
+        "version": "62f0a7e049462ea127b184a723aeb9364d3dccfe719dd159e338eb898603bdf2",
         "signature": "ca4dc5da3b91bd6ca953738dad2f24117980603223f4432c86b4b6787358e8b4",
         "affectsGlobalScope": false
       },
-      "./src/router/helpers/route.js": {
+      "./src/router/routes/normalroute.js": {
         "version": "599f2e43fe0e52e499783e6c38f958918d34b1becd2907d27aac7e5dd0274c1e",
         "signature": "fc32ad11280036475f30e84cf672bfb6aa4462ac94a924aae3962868f7549205",
+        "affectsGlobalScope": false
+      },
+      "./src/router/routes/index.js": {
+        "version": "8f9b75b0cf640d39b84f28a57cda9f6d5b94b1b3912925156df7618d2075e9ff",
+        "signature": "659564b54ad63155585fdff24f2971cf8f9ab290fed412e259bdcaec59270d8a",
         "affectsGlobalScope": false
       },
       "./src/router/helpers/getpaths.js": {
@@ -622,27 +627,27 @@
         "affectsGlobalScope": false
       },
       "./src/views/home/index.tsx": {
-        "version": "0d79e1f99d58a18c60bd0fd7c569629a6ad86e0fa2274082733a563168976d44",
-        "signature": "a5382ad02d5d7752bc59d79741d3282c8a6d4b9d577f2792e1800e66c676ca7d",
+        "version": "1fa561b608e680c4431451f84ae94d858ccd2c1e921b4b656beb6d290fcb3a34",
+        "signature": "7e848b5d310adb40f89d047f3330935721152c7065fe1bd4c5792c2f3cc21ac3",
         "affectsGlobalScope": false
       },
       "./src/views/login.tsx": {
-        "version": "a7a33ad272d401fb45c115b841a187e150031270df7db0c0edc1f15de03c0a1f",
+        "version": "f7ce26255092048b1cc953eefbfef1b5002ee63a44c8c81e94b36dec04cb2610",
         "signature": "d48563eff411135c44e1b353a0dbcd6d6135b55cbd01843f5ab40db9d928d829",
         "affectsGlobalScope": false
       },
       "./src/router/index.js": {
-        "version": "acacf894e75a63b8386a8a9248923020c9f87870f6d3e8d39deed0e5aa740d34",
-        "signature": "010090bfa7e803d6f2575714116ac28c9eb81d448db8f7c794cf6b806dfd1486",
+        "version": "e7898943697a66421756f3c16ee42a2960d443194886d938e0418d4005936384",
+        "signature": "d62840a374ee7c0f8e41e7e690ae218d1bee47420165efd18eb07e413b7beb69",
         "affectsGlobalScope": false
       },
       "./src/app.tsx": {
-        "version": "2f9aea7074295c96ba9874e04b75dfbf8d787245426520ab2dd69f34084a3a0a",
-        "signature": "4accac46dc80799084b0ba27bf679b03768898a1ce399f255f64efbdce38776a",
+        "version": "06ad63ef31263cf1dd6ecde0d81971885c3f477474a81617ae866e2df090eee6",
+        "signature": "7e848b5d310adb40f89d047f3330935721152c7065fe1bd4c5792c2f3cc21ac3",
         "affectsGlobalScope": false
       },
       "./src/app.test.tsx": {
-        "version": "335dccc9e0c94f1846cec25217e093312d4898a5d22ea1e93eca5bf907755a38",
+        "version": "529a760140315adad9933934c87f8e57bb178b8e8f145484b8495b6bdc9a99ff",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -722,7 +727,7 @@
         "affectsGlobalScope": false
       },
       "./src/index.tsx": {
-        "version": "259ec9c6f0869bda5633cf73d28f1b6a2ca3f0eabb5f756e02010d46bace3ada",
+        "version": "fe1b3332a787d83502a9cb87cb2bc832d706571b524cb7922cacc29b302ac123",
         "signature": "1d718b0153bdcd004326fa3ecd0bb1fd90857c3a585991c660faea15fb327776",
         "affectsGlobalScope": false
       },
@@ -741,14 +746,14 @@
         "signature": "bd684b9e2362461ef5ed601542efd2f625bcecf961115a9484278f757e6d2036",
         "affectsGlobalScope": false
       },
-      "./node_modules/workbox-core/_private/workboxerror.d.ts": {
-        "version": "f1c2a1ce3b67ce6a401ccec27d731f1c134e71c78585cb72a124eb5e1a43a345",
-        "signature": "f1c2a1ce3b67ce6a401ccec27d731f1c134e71c78585cb72a124eb5e1a43a345",
+      "./node_modules/workbox-core/types.d.ts": {
+        "version": "392d1dd2ffa74b85f794f29f556f495dbdc8aeaf4155a49bb2b3e8649cf5c505",
+        "signature": "392d1dd2ffa74b85f794f29f556f495dbdc8aeaf4155a49bb2b3e8649cf5c505",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-core/_private/assert.d.ts": {
-        "version": "c4223e70650aab009e6ee9e5eb310ff4114f0b3a4e3169e8800731b43f0b8079",
-        "signature": "c4223e70650aab009e6ee9e5eb310ff4114f0b3a4e3169e8800731b43f0b8079",
+        "version": "7ffa4949e3f1c78d4ead60f6bc766de53622c7fb4711eb02fda6e5e735bcfcfd",
+        "signature": "7ffa4949e3f1c78d4ead60f6bc766de53622c7fb4711eb02fda6e5e735bcfcfd",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-core/_private/cachenames.d.ts": {
@@ -756,14 +761,9 @@
         "signature": "d2cecc057aba8f3ab68764a206ee738179e20cbe7c9c63aa2ad7a76a9b5a4814",
         "affectsGlobalScope": false
       },
-      "./node_modules/workbox-core/types.d.ts": {
-        "version": "73d4b9eedb4b74e4a8cd7e3397786bdedc51acffd40e97703d3a69e3a6740728",
-        "signature": "73d4b9eedb4b74e4a8cd7e3397786bdedc51acffd40e97703d3a69e3a6740728",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/workbox-core/_private/cachewrapper.d.ts": {
-        "version": "048272b1678d9ec36838ef0b88189cb1e9e054e513ecce36ddf1290701f15693",
-        "signature": "048272b1678d9ec36838ef0b88189cb1e9e054e513ecce36ddf1290701f15693",
+      "./node_modules/workbox-core/_private/cachematchignoreparams.d.ts": {
+        "version": "9848c9644b2c1209f90ca5bf13f81d268365178241ba40bee6cf334643a8d5a0",
+        "signature": "9848c9644b2c1209f90ca5bf13f81d268365178241ba40bee6cf334643a8d5a0",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-core/_private/canconstructreadablestream.d.ts": {
@@ -801,11 +801,6 @@
         "signature": "dd989f4a0ba6c1a9287ebc680ad1619a7aa52892c18bfb2b8699a09b38b49bb2",
         "affectsGlobalScope": false
       },
-      "./node_modules/workbox-core/_private/fetchwrapper.d.ts": {
-        "version": "d383213d29ae4e4bd14d10cf393ce8b207684cb299b769ae7be13fee00de74d8",
-        "signature": "d383213d29ae4e4bd14d10cf393ce8b207684cb299b769ae7be13fee00de74d8",
-        "affectsGlobalScope": false
-      },
       "./node_modules/workbox-core/_private/getfriendlyurl.d.ts": {
         "version": "9fd40388bab591ded1f8c05b64fbfe3e342c6cd70d594d5238f42dd2186980ff",
         "signature": "9fd40388bab591ded1f8c05b64fbfe3e342c6cd70d594d5238f42dd2186980ff",
@@ -826,9 +821,19 @@
         "signature": "f69dd422840e809218633c76acb5eed2a6aa81914299f9b8d74101148526e27e",
         "affectsGlobalScope": false
       },
+      "./node_modules/workbox-core/_private/waituntil.d.ts": {
+        "version": "70d9e4746e3ba572a12da28136b854e5503119e96c2524d99575d4b7c7379e70",
+        "signature": "70d9e4746e3ba572a12da28136b854e5503119e96c2524d99575d4b7c7379e70",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/workbox-core/_private/workboxerror.d.ts": {
+        "version": "380f78720c69c56934632afb5bee83ee72eee7426863a7297f7a21325dc2f9b3",
+        "signature": "380f78720c69c56934632afb5bee83ee72eee7426863a7297f7a21325dc2f9b3",
+        "affectsGlobalScope": false
+      },
       "./node_modules/workbox-core/_private.d.ts": {
-        "version": "cbb23bf37428870e1796ce72c412c4421b9e46dbf96b9eb1102f5db59089162e",
-        "signature": "cbb23bf37428870e1796ce72c412c4421b9e46dbf96b9eb1102f5db59089162e",
+        "version": "153572871534b40240df605d75c32543814fc7a52d99690905544cb27efb38ce",
+        "signature": "153572871534b40240df605d75c32543814fc7a52d99690905544cb27efb38ce",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-core/cachenames.d.ts": {
@@ -837,8 +842,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-core/copyresponse.d.ts": {
-        "version": "e99c3df15e63842ba9db38005372577e3827df8bf804f62fa783c54b14b2cf9c",
-        "signature": "e99c3df15e63842ba9db38005372577e3827df8bf804f62fa783c54b14b2cf9c",
+        "version": "30b420ba020947ca628f613203554fe49313eb88e81443c123dfb1d13661a14e",
+        "signature": "30b420ba020947ca628f613203554fe49313eb88e81443c123dfb1d13661a14e",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-core/clientsclaim.d.ts": {
@@ -852,8 +857,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-core/skipwaiting.d.ts": {
-        "version": "4bca8f62c007ba995e566a0267e642da05886d9fce588dcee9c26c27eb307f83",
-        "signature": "4bca8f62c007ba995e566a0267e642da05886d9fce588dcee9c26c27eb307f83",
+        "version": "28c86ad866b29b9e4ba8772ff184d1ec7dc0979404076c4a975fa12decbe52f6",
+        "signature": "28c86ad866b29b9e4ba8772ff184d1ec7dc0979404076c4a975fa12decbe52f6",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-core/index.d.ts": {
@@ -867,13 +872,13 @@
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-expiration/cacheexpiration.d.ts": {
-        "version": "6c17db6df0f88e86c0e06a17b9b379b01ae5e2776f63d8c0935ad30ee1b8db9f",
-        "signature": "6c17db6df0f88e86c0e06a17b9b379b01ae5e2776f63d8c0935ad30ee1b8db9f",
+        "version": "45db4c7f5feadaee35e327f16f374159809480cc84eb8dd2c57a51d828634448",
+        "signature": "45db4c7f5feadaee35e327f16f374159809480cc84eb8dd2c57a51d828634448",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-expiration/expirationplugin.d.ts": {
-        "version": "7c821e8d75eb526d7099270951750700eddc0b018677dd72a9147604f8e9ed75",
-        "signature": "7c821e8d75eb526d7099270951750700eddc0b018677dd72a9147604f8e9ed75",
+        "version": "9e69b7691a926d761fc760cc0412a31a6a9fe7effec0a0cb5352399281ab1e8e",
+        "signature": "9e69b7691a926d761fc760cc0412a31a6a9fe7effec0a0cb5352399281ab1e8e",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-expiration/index.d.ts": {
@@ -887,33 +892,23 @@
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-precaching/addplugins.d.ts": {
-        "version": "621cc6bb16d60070fb872576cbc0e83a3c504ee7c3738a56c0a5b9e4b61f837e",
-        "signature": "621cc6bb16d60070fb872576cbc0e83a3c504ee7c3738a56c0a5b9e4b61f837e",
+        "version": "aa6d62cdaea46133a9610ff24583d0172f33c16252d30d1ca847b9bf8a826d7c",
+        "signature": "aa6d62cdaea46133a9610ff24583d0172f33c16252d30d1ca847b9bf8a826d7c",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-precaching/_types.d.ts": {
-        "version": "4eee22b41c086241b92a5b10c65673ff4d287355327f7f224f2270644b015bf4",
-        "signature": "4eee22b41c086241b92a5b10c65673ff4d287355327f7f224f2270644b015bf4",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/workbox-precaching/utils/addfetchlistener.d.ts": {
-        "version": "c3472774bb0cd6afbc5d256e6219405fe3b3610c05dec8e179655a429504ac65",
-        "signature": "c3472774bb0cd6afbc5d256e6219405fe3b3610c05dec8e179655a429504ac65",
+        "version": "3a581d6637cd5aa8b8f41f372d2bccebbd60312932492ed0bb17756d2ffefba2",
+        "signature": "3a581d6637cd5aa8b8f41f372d2bccebbd60312932492ed0bb17756d2ffefba2",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-precaching/addroute.d.ts": {
-        "version": "b3dc8e06cf0b744a56b77db0139ef3f0c16a9d01b7f02e939aeb909cf4a5385c",
-        "signature": "b3dc8e06cf0b744a56b77db0139ef3f0c16a9d01b7f02e939aeb909cf4a5385c",
+        "version": "ff00c3faf915e086a899a943511f942ff081272db4079de23604f7509d521eb8",
+        "signature": "ff00c3faf915e086a899a943511f942ff081272db4079de23604f7509d521eb8",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-precaching/cleanupoutdatedcaches.d.ts": {
         "version": "47cfc8b947d74e6afeec3482b08a4d49914c13ba386047b7fcb619689abb1d2d",
         "signature": "47cfc8b947d74e6afeec3482b08a4d49914c13ba386047b7fcb619689abb1d2d",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/workbox-precaching/createhandler.d.ts": {
-        "version": "14c50a9091d52bd0bede5e4e950fc4bcf8c1cc3cb83bec42a12dba162d3ee793",
-        "signature": "14c50a9091d52bd0bede5e4e950fc4bcf8c1cc3cb83bec42a12dba162d3ee793",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-precaching/createhandlerboundtourl.d.ts": {
@@ -932,24 +927,34 @@
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-precaching/precache.d.ts": {
-        "version": "14038a9e257d7dcaacc30f50a6d7aec3025ec728273ed102efa088d5da8aada0",
-        "signature": "14038a9e257d7dcaacc30f50a6d7aec3025ec728273ed102efa088d5da8aada0",
-        "affectsGlobalScope": true
+        "version": "4100c807e29b508df1721ad9ac76c842457e27026470f46123e6e3a658a77240",
+        "signature": "4100c807e29b508df1721ad9ac76c842457e27026470f46123e6e3a658a77240",
+        "affectsGlobalScope": false
       },
       "./node_modules/workbox-precaching/precacheandroute.d.ts": {
-        "version": "93fb95e140efa371d0f5ae9038cfc5953d15289b350d1c8368d707b15fa8f283",
-        "signature": "93fb95e140efa371d0f5ae9038cfc5953d15289b350d1c8368d707b15fa8f283",
-        "affectsGlobalScope": true
+        "version": "0df671c07c98b0579bac693969b8b8dd7ba2294cbfa88da32d18fcaf73d73928",
+        "signature": "0df671c07c98b0579bac693969b8b8dd7ba2294cbfa88da32d18fcaf73d73928",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/workbox-strategies/_version.d.ts": {
+        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/workbox-strategies/strategyhandler.d.ts": {
+        "version": "91d8accdc054c6581271febe95be7b9b6437a94cf52f223a324289550c91694f",
+        "signature": "91d8accdc054c6581271febe95be7b9b6437a94cf52f223a324289550c91694f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/workbox-strategies/strategy.d.ts": {
+        "version": "f8bcc6629965fddd8d4af989716e3c832a3c5c7d8deaf9d865977a0ba4617ef0",
+        "signature": "f8bcc6629965fddd8d4af989716e3c832a3c5c7d8deaf9d865977a0ba4617ef0",
+        "affectsGlobalScope": false
       },
       "./node_modules/workbox-precaching/precachecontroller.d.ts": {
-        "version": "c6be09887334c93b53e5c22d8ffba9f33200fcfcaa27295447333d61587b54ce",
-        "signature": "c6be09887334c93b53e5c22d8ffba9f33200fcfcaa27295447333d61587b54ce",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/workbox-precaching/index.d.ts": {
-        "version": "06d0004a571bc2a07a22f8a46b73805d2fb8c86b99f6e9d533016dcca83fdac3",
-        "signature": "06d0004a571bc2a07a22f8a46b73805d2fb8c86b99f6e9d533016dcca83fdac3",
-        "affectsGlobalScope": false
+        "version": "b116dc5221945cdb36ecf12404c9da418286d371f6f78d5cde8ce042fce8f171",
+        "signature": "b116dc5221945cdb36ecf12404c9da418286d371f6f78d5cde8ce042fce8f171",
+        "affectsGlobalScope": true
       },
       "./node_modules/workbox-routing/_version.d.ts": {
         "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -961,44 +966,59 @@
         "signature": "e9fd11aee79915d91bfe1a8e47e7707bd54a4211d4f428254b7d0320afdefc8c",
         "affectsGlobalScope": false
       },
-      "./node_modules/workbox-routing/_types.d.ts": {
-        "version": "b45e88809f7e3866afc5a1787ed7d19919659dde25c981682f12a54f7ad02521",
-        "signature": "b45e88809f7e3866afc5a1787ed7d19919659dde25c981682f12a54f7ad02521",
+      "./node_modules/workbox-routing/route.d.ts": {
+        "version": "b3f3e11ac1717278283de077dc752afdccd92e4a5ea9eff1c799dbad86682e41",
+        "signature": "b3f3e11ac1717278283de077dc752afdccd92e4a5ea9eff1c799dbad86682e41",
         "affectsGlobalScope": false
       },
-      "./node_modules/workbox-routing/route.d.ts": {
-        "version": "4caba47bc6bedd9b73b077f2b90e158554dc0eaec82a59808f828982eb1285f0",
-        "signature": "4caba47bc6bedd9b73b077f2b90e158554dc0eaec82a59808f828982eb1285f0",
+      "./node_modules/workbox-precaching/precacheroute.d.ts": {
+        "version": "92494a0b74c2340cc8b327cc3cb2e9ffc40168139296323354752644c0e6f8ce",
+        "signature": "92494a0b74c2340cc8b327cc3cb2e9ffc40168139296323354752644c0e6f8ce",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/workbox-precaching/precachestrategy.d.ts": {
+        "version": "732f6e1ee20204d09205c09737dbd60cfe00d8a9b2fd4955d15553281b1e1544",
+        "signature": "732f6e1ee20204d09205c09737dbd60cfe00d8a9b2fd4955d15553281b1e1544",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/workbox-precaching/precachefallbackplugin.d.ts": {
+        "version": "bdeda149def71aab54fa1602cae4e6aab3861fe37d78ccdf3b32e37f98c94ab6",
+        "signature": "bdeda149def71aab54fa1602cae4e6aab3861fe37d78ccdf3b32e37f98c94ab6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/workbox-precaching/index.d.ts": {
+        "version": "2a5a717ec3c1d6a81135d6e9a7ec4d43d35f1d6941e1a47f789e86c3231b0aff",
+        "signature": "2a5a717ec3c1d6a81135d6e9a7ec4d43d35f1d6941e1a47f789e86c3231b0aff",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-routing/navigationroute.d.ts": {
-        "version": "ebfa82b8207011bc18de5fbda549b67e738cb9d96da5abc487e9755d09bda21b",
-        "signature": "ebfa82b8207011bc18de5fbda549b67e738cb9d96da5abc487e9755d09bda21b",
+        "version": "33c7bc3bc705968dcb5fb0ca5ee9c2f081c435bc64ee060b2d0f19b40e8883c5",
+        "signature": "33c7bc3bc705968dcb5fb0ca5ee9c2f081c435bc64ee060b2d0f19b40e8883c5",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-routing/regexproute.d.ts": {
-        "version": "a65e48e50e8631ec4f5d90a674857dd27ceb736ce03dacebdc45dc3371dd7155",
-        "signature": "a65e48e50e8631ec4f5d90a674857dd27ceb736ce03dacebdc45dc3371dd7155",
+        "version": "829bba7e3e868ddb82ba15f01d051287ed3fb1543d5081760af96ffd258a7434",
+        "signature": "829bba7e3e868ddb82ba15f01d051287ed3fb1543d5081760af96ffd258a7434",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-routing/registerroute.d.ts": {
-        "version": "4a5b176ff50e7360d83eb1b87ebd3a4be8febd482bf8636bda3162aba606fc73",
-        "signature": "4a5b176ff50e7360d83eb1b87ebd3a4be8febd482bf8636bda3162aba606fc73",
+        "version": "5b1ca68464f61ea6a20bb7a140cd6728700f2b4fa433f006fa5041bb207979c7",
+        "signature": "5b1ca68464f61ea6a20bb7a140cd6728700f2b4fa433f006fa5041bb207979c7",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-routing/router.d.ts": {
-        "version": "43c9842f2ec3948df87b6e5ca04a9a1247a1d3eb569440c1556f0f0b888b38fc",
-        "signature": "43c9842f2ec3948df87b6e5ca04a9a1247a1d3eb569440c1556f0f0b888b38fc",
+        "version": "591312ecc6ae713bfad85c146610714d13a19eacb3dbdf7fbbfff0ff2c82ae62",
+        "signature": "591312ecc6ae713bfad85c146610714d13a19eacb3dbdf7fbbfff0ff2c82ae62",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-routing/setcatchhandler.d.ts": {
-        "version": "0054982b1afd7d67883d10191b4c84ce924a4f751fe982296db4df1746cc543f",
-        "signature": "0054982b1afd7d67883d10191b4c84ce924a4f751fe982296db4df1746cc543f",
+        "version": "e34fb603cf7ea768bc2def1801e4fd0825ca55a0596ede66b23cb64894ed102e",
+        "signature": "e34fb603cf7ea768bc2def1801e4fd0825ca55a0596ede66b23cb64894ed102e",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-routing/setdefaulthandler.d.ts": {
-        "version": "0718a70cc9bd6933e63eb20af7dd8af27290c64fb8f852af0a95bfa19aacc980",
-        "signature": "0718a70cc9bd6933e63eb20af7dd8af27290c64fb8f852af0a95bfa19aacc980",
+        "version": "80b0a693a7ac978b1a52227874d1be6a5656657a29951a76c7c90465d6355b29",
+        "signature": "80b0a693a7ac978b1a52227874d1be6a5656657a29951a76c7c90465d6355b29",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-routing/index.d.ts": {
@@ -1006,39 +1026,34 @@
         "signature": "3f380dc17ea067de0aaaed063c3712e1790f6c02a6687a651b1e2aad18250e54",
         "affectsGlobalScope": false
       },
-      "./node_modules/workbox-strategies/_version.d.ts": {
-        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "affectsGlobalScope": false
-      },
       "./node_modules/workbox-strategies/cachefirst.d.ts": {
-        "version": "72ae604340f85114c09ccd7eb6ee30a026bd72425cc6bd86082abaa123347270",
-        "signature": "72ae604340f85114c09ccd7eb6ee30a026bd72425cc6bd86082abaa123347270",
+        "version": "0cf8e58f2c697db891134a7ec5bd3c854a124ac08b5ea8f6c7dc994cbc3364a1",
+        "signature": "0cf8e58f2c697db891134a7ec5bd3c854a124ac08b5ea8f6c7dc994cbc3364a1",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-strategies/cacheonly.d.ts": {
-        "version": "92b25931085d7ad5445fc1e1cbf5821cb362fbe3ecacf916a9907ca3255e5880",
-        "signature": "92b25931085d7ad5445fc1e1cbf5821cb362fbe3ecacf916a9907ca3255e5880",
+        "version": "d8483f5bfb7d6b588b82d51ef40dcd7093857ef864b7bff18e2f1962232e285a",
+        "signature": "d8483f5bfb7d6b588b82d51ef40dcd7093857ef864b7bff18e2f1962232e285a",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-strategies/networkfirst.d.ts": {
-        "version": "7a4414ab4af30d33d7c82a3a6ad32a537740776f6dd26cf695e8bf0737172348",
-        "signature": "7a4414ab4af30d33d7c82a3a6ad32a537740776f6dd26cf695e8bf0737172348",
+        "version": "475b2dc390f2ce80b8cca84174bbda750fe4cf3bdccdcabcd019d5dff5fdff30",
+        "signature": "475b2dc390f2ce80b8cca84174bbda750fe4cf3bdccdcabcd019d5dff5fdff30",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-strategies/networkonly.d.ts": {
-        "version": "b5cd9302f7311cffb987e5c5b6b2876e5c0f17a55acb7e5e636511c04c8edf81",
-        "signature": "b5cd9302f7311cffb987e5c5b6b2876e5c0f17a55acb7e5e636511c04c8edf81",
+        "version": "e732f0602a7bfe4899af3e2601efa6f2b00d237d3f854e88757b5f78dc54f053",
+        "signature": "e732f0602a7bfe4899af3e2601efa6f2b00d237d3f854e88757b5f78dc54f053",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-strategies/stalewhilerevalidate.d.ts": {
-        "version": "1e02e7d8f88677ade1489f13b66e3b6bd7f7e517b944d53d77cc35a782f7682e",
-        "signature": "1e02e7d8f88677ade1489f13b66e3b6bd7f7e517b944d53d77cc35a782f7682e",
+        "version": "8035182aed1c01c753eaeec3f5eba53fe0456682cbc2430536e1671ef6c7ca69",
+        "signature": "8035182aed1c01c753eaeec3f5eba53fe0456682cbc2430536e1671ef6c7ca69",
         "affectsGlobalScope": false
       },
       "./node_modules/workbox-strategies/index.d.ts": {
-        "version": "496a402d1014b10bb2e7eca741ea611e890147fd0740d44d2f0dda54afe1d6d1",
-        "signature": "496a402d1014b10bb2e7eca741ea611e890147fd0740d44d2f0dda54afe1d6d1",
+        "version": "371b9baf47532f8d0738c6f67f886c449d7468a8b5673f6df3b508030a61b4ce",
+        "signature": "371b9baf47532f8d0738c6f67f886c449d7468a8b5673f6df3b508030a61b4ce",
         "affectsGlobalScope": false
       },
       "./src/service-worker.js": {
@@ -1082,62 +1097,57 @@
         "affectsGlobalScope": false
       },
       "./src/auth/index.js": {
-        "version": "66f8c1777e3b7d46a25f1c06c5a62f2fed65ce96e6805acb5117c84a9f469f78",
-        "signature": "630988fa196761138479b8aa08c8b0efd6d51bf69909b2c613cb3adc5a029793",
+        "version": "45ec842e70a77e30670e466af66c5d5c6898ec48351906f3cd8a2bc6b109184e",
+        "signature": "f3d72a83f72577d2563669c766aa9d33e4594de7137fbf1e79fe328ecea97cbe",
         "affectsGlobalScope": false
       },
       "./src/auth/helpers/setaccesstoken.js": {
-        "version": "d0a48ed3e199ec0e0d456c92c30afa8159e0214c38a507669c073e790a9b573b",
-        "signature": "5c8b1c01e551c11d79fa761678a264d772f9bbc8e1c1b332776725f84890c124",
+        "version": "de8ea048189407d82b6b931fc7de15ab9f598ae8faccd5d4878ad84ce3d3d1c3",
+        "signature": "7fe2acbbe9edc3cff6ecc368bb988ff25e92ec0e86ef60f29f3e2b787fd0823d",
         "affectsGlobalScope": false
       },
       "./src/auth/helpers/setrefreshtoken.js": {
-        "version": "e6884eb2b48371c63a81e25c7b2be52a1e7cfe442a59afe9a16013a86670c0d7",
-        "signature": "5c8b1c01e551c11d79fa761678a264d772f9bbc8e1c1b332776725f84890c124",
+        "version": "051478d4c99d626b446bdf13f8b098fbd37dc8ed6c690061ecb18b81aabac948",
+        "signature": "8c28ba04f0fca44b20b9848a6a043db38c9a5730f5944ff04b4c0edc080c90aa",
         "affectsGlobalScope": false
       },
       "./src/auth/helpers/setaccesstokenexpiresat.js": {
-        "version": "004a68ae2034a7c7db13ce3ec689becd6ba5bfc1fe70dc8745a7506d6d30f844",
-        "signature": "ab4ecd1f01573fcb4e3bab1046b4adea458d39b6c68e05d7c6ac9d6b11ebe4f6",
+        "version": "9b741e8a5f3f15d5fd94b402984f90a5dec2e9cdcb546ad29f05af8e03ba54b2",
+        "signature": "1b0356e869d022b0358386efc1fa2cf250cc891a9d61aa957c909c465c501a04",
         "affectsGlobalScope": false
       },
       "./src/auth/helpers/clearauth.js": {
-        "version": "723a92a15133305e6e46adac8d8fbd5c88bb95f0b1b36aa22cea1e87984b537b",
-        "signature": "1bdfaf1b6406e1b827be5487a79a1e10b86f2ff62a3cf05e7d03ee246f667ba6",
+        "version": "4f06a5c0a42ff87da43790ab1f42cbee8716bd9a898c4f4d4399d548f3afa081",
+        "signature": "ef6e7894f9956cbe31874ed0f78069565450c6ea59d6f416b4e43ee185236a4a",
         "affectsGlobalScope": false
       },
       "./src/auth/helpers/getaccesstoken.js": {
-        "version": "5a0c44f2c37e91b12443a7ff7776664a5b38e81871cd5e8bb3e10e2a34c774b5",
-        "signature": "fae944ab11561f5f170bcf2cdb889957610f671f74665fa5178af209ca4ecacd",
+        "version": "8d8c35082236c0f35dc9bb0351ab4dc4e278d8370f4423d09165a828e8039b90",
+        "signature": "b18acde803fa59921bad68e876a54cc1ac932a6c3ca5c19648fd5b9cb4bd4760",
         "affectsGlobalScope": false
       },
       "./src/auth/helpers/getrefreshtoken.js": {
-        "version": "d5568706c3d81811fd2a4ec54d0089036d2e99be82de78b1fe219ea240b87d23",
-        "signature": "fae944ab11561f5f170bcf2cdb889957610f671f74665fa5178af209ca4ecacd",
-        "affectsGlobalScope": false
-      },
-      "./src/auth/helpers/getrole.js": {
-        "version": "b22e509eed06d676c30c9b8712df82649e22577eb72eeb53ffbe82e33b356773",
-        "signature": "d8a9cdc91aeb574b6a3582003a524563cd982541bfefc48d03f6b11443938efd",
+        "version": "0fdbe16754fe4e064ad599701b3755b7c3279adec091e3370d9011b5c0881442",
+        "signature": "a00476dac39a441d11c3ba49cf6913253eaf1e429835e6428b99e057028cbc3d",
         "affectsGlobalScope": false
       },
       "./src/auth/helpers/tokenexpiresin.js": {
-        "version": "35a77a0008caae3c00c9d71248912571b0b220f174144ba8068223dbf97c831a",
-        "signature": "6c40adfac68e7edcb0a75755b5bb97d393ec77c2751d9ee1d012004e2df9c31e",
+        "version": "2e39896180818f3fc6d2315da6454df64d91f49e264664badd34426c670c57e2",
+        "signature": "bf8a94cbec5ef8ffb71ba28581b8c7ead554e946174c283eab68b1a36093f1ec",
         "affectsGlobalScope": false
       },
       "./src/auth/helpers/tokenisalmostexpired.js": {
-        "version": "229351605ea1ac406ed67b3631eb21ef30fa4683f4a3e0cd1b3f6541760ca378",
-        "signature": "5361dd1f8864437b6642fc9405f8e33e742b311f659e7f3ce1c9d0d946a5ebb1",
+        "version": "63bfd3849a99ab9a98897473922464060803bee89052b58f7dd26bb5af6b8636",
+        "signature": "f3fcc665bcba6fe9b984888fe03cbb331920582f299e2cd24b17582c8c556c6a",
         "affectsGlobalScope": false
       },
       "./src/auth/helpers/index.js": {
-        "version": "2bbe11e66cd83941cb215cbf63339a5965d139fc1fe9476c57c67b303517830b",
-        "signature": "a419a976d8b7184c00252dd22551f78b7ced72cc1475485a55616d4447b5b159",
+        "version": "ea70f19cbe854843d097a2898b316209a8bc71b3c263fcf39eacce1ba07419f4",
+        "signature": "74b726cee6d1a4fc326e0784ede70cb886ada387f62ac2b8b211f70bb304eae3",
         "affectsGlobalScope": false
       },
       "./src/auth/helpers/index.test.js": {
-        "version": "872197f7f35d8d8ff49c2442cacbe31bc9eaa80f7406e0a627e0e4a761b9e109",
+        "version": "0c5d11bbfd2750d71ec1688f640a285b5df418a32f210d0706731cd68c6e6357",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -1157,7 +1167,7 @@
         "affectsGlobalScope": false
       },
       "./src/router/helpers/getroute.js": {
-        "version": "13f68fdcd702c0521de6b0095502c86938205f7a65904edfdb0b36bb3596acd5",
+        "version": "39b00a1ec0795480371d62e7a8be7d5773c863db021bd66be98b0f3505110163",
         "signature": "01ac4c80aac9f610088f9a5a7bbb4fa30b3a97ad510e8f2f5b7ea2da924c27f7",
         "affectsGlobalScope": false
       },
@@ -1167,8 +1177,8 @@
         "affectsGlobalScope": false
       },
       "./src/router/helpers/index.js": {
-        "version": "594736865e19c09a83eae4f23bb39cb7dff78622c08a5a9d7e89e69c8387e894",
-        "signature": "9cbfcf2bf02e010f486222d227d5574399460aa1eb5032adbc254eddb99a0a90",
+        "version": "cdca877d85f50804b70143f18a27dc8c5420f6ede53e8b92d28a1208e8a57f2d",
+        "signature": "b80b77cebb87170f4ab615a22a982c12575d825a9d77a2a704e58290bedc2bd6",
         "affectsGlobalScope": false
       },
       "./src/store/atoms/auth.js": {
@@ -1182,13 +1192,13 @@
         "affectsGlobalScope": false
       },
       "./src/utils/defercomponentrender.js": {
-        "version": "5b9611e2551cecbca1afffcb40b8c5152f3af196d58ccc00890069161a546fec",
+        "version": "8cdb1b17b0f172084adfd7d27e8057e3acaedfe2557d3ca902f892b93c154995",
         "signature": "d24b0dc1d309377d0c8172060361acaeb4037331e5b23354fe1954d128f73d46",
         "affectsGlobalScope": false
       },
       "./src/utils/md5.js": {
-        "version": "e9e070cd039d328c5a6664aa2a6b05e5042981a4f08abb179cfb338f72faaf67",
-        "signature": "fefff943d89c1104a0eaf744dca45c31ad19d3d5efc61e103a21f0024928fdbc",
+        "version": "4cfe2498bb7b2bc00e6fe2ac9bfab754496d7dd9dbd4f222dddba500cf7f4083",
+        "signature": "342d5eb637ff15e441bc814105d11a41ad644f47f762ff85b85e6565385a7ae6",
         "affectsGlobalScope": false
       },
       "./src/utils/randomstring.js": {
@@ -1357,8 +1367,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@types/resolve/index.d.ts": {
-        "version": "2880728492d6a6baa55411d14cc42fa55714a24b1d1d27ff9a8a610abd47c761",
-        "signature": "2880728492d6a6baa55411d14cc42fa55714a24b1d1d27ff9a8a610abd47c761",
+        "version": "8a19491eba2108d5c333c249699f40aff05ad312c04a17504573b27d91f0aede",
+        "signature": "8a19491eba2108d5c333c249699f40aff05ad312c04a17504573b27d91f0aede",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/source-list-map/index.d.ts": {
@@ -2293,8 +2303,8 @@
       "./node_modules/workbox-core/_private.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
         "./node_modules/workbox-core/_private/assert.d.ts",
+        "./node_modules/workbox-core/_private/cachematchignoreparams.d.ts",
         "./node_modules/workbox-core/_private/cachenames.d.ts",
-        "./node_modules/workbox-core/_private/cachewrapper.d.ts",
         "./node_modules/workbox-core/_private/canconstructreadablestream.d.ts",
         "./node_modules/workbox-core/_private/canconstructresponsefrombodystream.d.ts",
         "./node_modules/workbox-core/_private/dbwrapper.d.ts",
@@ -2302,23 +2312,22 @@
         "./node_modules/workbox-core/_private/deletedatabase.d.ts",
         "./node_modules/workbox-core/_private/dontwaitfor.d.ts",
         "./node_modules/workbox-core/_private/executequotaerrorcallbacks.d.ts",
-        "./node_modules/workbox-core/_private/fetchwrapper.d.ts",
         "./node_modules/workbox-core/_private/getfriendlyurl.d.ts",
         "./node_modules/workbox-core/_private/logger.d.ts",
         "./node_modules/workbox-core/_private/resultingclientexists.d.ts",
         "./node_modules/workbox-core/_private/timeout.d.ts",
+        "./node_modules/workbox-core/_private/waituntil.d.ts",
         "./node_modules/workbox-core/_private/workboxerror.d.ts"
       ],
       "./node_modules/workbox-core/_private/assert.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-core/_private/workboxerror.d.ts"
+        "./node_modules/workbox-core/types.d.ts"
+      ],
+      "./node_modules/workbox-core/_private/cachematchignoreparams.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/workbox-core/_private/cachenames.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
-      ],
-      "./node_modules/workbox-core/_private/cachewrapper.d.ts": [
-        "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-core/types.d.ts"
       ],
       "./node_modules/workbox-core/_private/canconstructreadablestream.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
@@ -2341,10 +2350,6 @@
       "./node_modules/workbox-core/_private/executequotaerrorcallbacks.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
-      "./node_modules/workbox-core/_private/fetchwrapper.d.ts": [
-        "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-core/types.d.ts"
-      ],
       "./node_modules/workbox-core/_private/getfriendlyurl.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
@@ -2357,8 +2362,12 @@
       "./node_modules/workbox-core/_private/timeout.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
-      "./node_modules/workbox-core/_private/workboxerror.d.ts": [
+      "./node_modules/workbox-core/_private/waituntil.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/workbox-core/_private/workboxerror.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/workbox-core/types.d.ts"
       ],
       "./node_modules/workbox-core/_version.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
@@ -2423,14 +2432,10 @@
       ],
       "./node_modules/workbox-precaching/addroute.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-precaching/utils/addfetchlistener.d.ts"
+        "./node_modules/workbox-precaching/_types.d.ts"
       ],
       "./node_modules/workbox-precaching/cleanupoutdatedcaches.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
-      ],
-      "./node_modules/workbox-precaching/createhandler.d.ts": [
-        "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-core/types.d.ts"
       ],
       "./node_modules/workbox-precaching/createhandlerboundtourl.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
@@ -2444,13 +2449,15 @@
         "./node_modules/workbox-precaching/addplugins.d.ts",
         "./node_modules/workbox-precaching/addroute.d.ts",
         "./node_modules/workbox-precaching/cleanupoutdatedcaches.d.ts",
-        "./node_modules/workbox-precaching/createhandler.d.ts",
         "./node_modules/workbox-precaching/createhandlerboundtourl.d.ts",
         "./node_modules/workbox-precaching/getcachekeyforurl.d.ts",
         "./node_modules/workbox-precaching/matchprecache.d.ts",
         "./node_modules/workbox-precaching/precache.d.ts",
         "./node_modules/workbox-precaching/precacheandroute.d.ts",
-        "./node_modules/workbox-precaching/precachecontroller.d.ts"
+        "./node_modules/workbox-precaching/precachecontroller.d.ts",
+        "./node_modules/workbox-precaching/precachefallbackplugin.d.ts",
+        "./node_modules/workbox-precaching/precacheroute.d.ts",
+        "./node_modules/workbox-precaching/precachestrategy.d.ts"
       ],
       "./node_modules/workbox-precaching/matchprecache.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
@@ -2461,21 +2468,29 @@
       ],
       "./node_modules/workbox-precaching/precacheandroute.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-precaching/_types.d.ts",
-        "./node_modules/workbox-precaching/utils/addfetchlistener.d.ts"
+        "./node_modules/workbox-precaching/_types.d.ts"
       ],
       "./node_modules/workbox-precaching/precachecontroller.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
         "./node_modules/workbox-core/types.d.ts",
-        "./node_modules/workbox-precaching/_types.d.ts"
+        "./node_modules/workbox-precaching/_types.d.ts",
+        "./node_modules/workbox-strategies/strategy.d.ts"
       ],
-      "./node_modules/workbox-precaching/utils/addfetchlistener.d.ts": [
+      "./node_modules/workbox-precaching/precachefallbackplugin.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-precaching/_types.d.ts"
+        "./node_modules/workbox-core/types.d.ts",
+        "./node_modules/workbox-precaching/precachecontroller.d.ts"
       ],
-      "./node_modules/workbox-routing/_types.d.ts": [
+      "./node_modules/workbox-precaching/precacheroute.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-core/types.d.ts"
+        "./node_modules/workbox-precaching/_types.d.ts",
+        "./node_modules/workbox-precaching/precachecontroller.d.ts",
+        "./node_modules/workbox-routing/route.d.ts"
+      ],
+      "./node_modules/workbox-precaching/precachestrategy.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/workbox-strategies/strategy.d.ts",
+        "./node_modules/workbox-strategies/strategyhandler.d.ts"
       ],
       "./node_modules/workbox-routing/_version.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
@@ -2492,39 +2507,39 @@
       ],
       "./node_modules/workbox-routing/navigationroute.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-routing/_types.d.ts",
+        "./node_modules/workbox-core/types.d.ts",
         "./node_modules/workbox-routing/route.d.ts"
       ],
       "./node_modules/workbox-routing/regexproute.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-routing/_types.d.ts",
+        "./node_modules/workbox-core/types.d.ts",
         "./node_modules/workbox-routing/route.d.ts",
         "./node_modules/workbox-routing/utils/constants.d.ts"
       ],
       "./node_modules/workbox-routing/registerroute.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-routing/_types.d.ts",
+        "./node_modules/workbox-core/types.d.ts",
         "./node_modules/workbox-routing/route.d.ts",
         "./node_modules/workbox-routing/utils/constants.d.ts"
       ],
       "./node_modules/workbox-routing/route.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-routing/_types.d.ts",
+        "./node_modules/workbox-core/types.d.ts",
         "./node_modules/workbox-routing/utils/constants.d.ts"
       ],
       "./node_modules/workbox-routing/router.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-routing/_types.d.ts",
+        "./node_modules/workbox-core/types.d.ts",
         "./node_modules/workbox-routing/route.d.ts",
         "./node_modules/workbox-routing/utils/constants.d.ts"
       ],
       "./node_modules/workbox-routing/setcatchhandler.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-routing/_types.d.ts"
+        "./node_modules/workbox-core/types.d.ts"
       ],
       "./node_modules/workbox-routing/setdefaulthandler.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-routing/_types.d.ts"
+        "./node_modules/workbox-core/types.d.ts"
       ],
       "./node_modules/workbox-routing/utils/constants.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
@@ -2534,11 +2549,13 @@
       ],
       "./node_modules/workbox-strategies/cachefirst.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-core/types.d.ts"
+        "./node_modules/workbox-strategies/strategy.d.ts",
+        "./node_modules/workbox-strategies/strategyhandler.d.ts"
       ],
       "./node_modules/workbox-strategies/cacheonly.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-core/types.d.ts"
+        "./node_modules/workbox-strategies/strategy.d.ts",
+        "./node_modules/workbox-strategies/strategyhandler.d.ts"
       ],
       "./node_modules/workbox-strategies/index.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
@@ -2546,29 +2563,42 @@
         "./node_modules/workbox-strategies/cacheonly.d.ts",
         "./node_modules/workbox-strategies/networkfirst.d.ts",
         "./node_modules/workbox-strategies/networkonly.d.ts",
-        "./node_modules/workbox-strategies/stalewhilerevalidate.d.ts"
+        "./node_modules/workbox-strategies/stalewhilerevalidate.d.ts",
+        "./node_modules/workbox-strategies/strategy.d.ts",
+        "./node_modules/workbox-strategies/strategyhandler.d.ts"
       ],
       "./node_modules/workbox-strategies/networkfirst.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-core/types.d.ts"
+        "./node_modules/workbox-strategies/strategy.d.ts",
+        "./node_modules/workbox-strategies/strategyhandler.d.ts"
       ],
       "./node_modules/workbox-strategies/networkonly.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-core/types.d.ts"
+        "./node_modules/workbox-strategies/strategy.d.ts",
+        "./node_modules/workbox-strategies/strategyhandler.d.ts"
       ],
       "./node_modules/workbox-strategies/stalewhilerevalidate.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-core/types.d.ts"
+        "./node_modules/workbox-strategies/strategy.d.ts",
+        "./node_modules/workbox-strategies/strategyhandler.d.ts"
+      ],
+      "./node_modules/workbox-strategies/strategy.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/workbox-core/types.d.ts",
+        "./node_modules/workbox-strategies/strategyhandler.d.ts"
+      ],
+      "./node_modules/workbox-strategies/strategyhandler.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/workbox-core/types.d.ts",
+        "./node_modules/workbox-strategies/strategy.d.ts"
       ],
       "./src/app.test.tsx": [
         "./node_modules/@types/enzyme/index.d.ts",
-        "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
         "./src/app.tsx"
       ],
       "./src/app.tsx": [
-        "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
         "./src/router/index.js"
@@ -2601,10 +2631,6 @@
         "./node_modules/date-fns/typings.d.ts",
         "./src/auth/constants.js",
         "./src/utils/localstorage.js"
-      ],
-      "./src/auth/helpers/getrole.js": [
-        "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./node_modules/date-fns/typings.d.ts"
       ],
       "./src/auth/helpers/index.js": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
@@ -2730,13 +2756,6 @@
         "./src/auth/helpers/index.js",
         "./src/auth/index.js"
       ],
-      "./src/router/helpers/conditionalroute.js": [
-        "./node_modules/@types/react-router-dom/index.d.ts",
-        "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./node_modules/date-fns/typings.d.ts",
-        "./src/router/helpers/geturl.js",
-        "./src/utils/is.js"
-      ],
       "./src/router/helpers/getpath.js": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
@@ -2764,56 +2783,62 @@
         "./node_modules/path-to-regexp/dist/index.d.ts",
         "./src/router/helpers/getpath.js"
       ],
-      "./src/router/helpers/guestroute.js": [
-        "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./node_modules/date-fns/typings.d.ts",
-        "./src/auth/helpers/isauthenticated.js",
-        "./src/router/helpers/conditionalroute.js"
-      ],
       "./src/router/helpers/index.js": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/router/helpers/conditionalroute.js",
         "./src/router/helpers/getpath.js",
         "./src/router/helpers/getroute.js",
         "./src/router/helpers/getroutefromurl.js",
-        "./src/router/helpers/geturl.js",
-        "./src/router/helpers/guestroute.js",
-        "./src/router/helpers/privateroute.js",
-        "./src/router/helpers/redirectroute.js",
-        "./src/router/helpers/route.js"
-      ],
-      "./src/router/helpers/privateroute.js": [
-        "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./node_modules/date-fns/typings.d.ts",
-        "./src/auth/helpers/isauthenticated.js",
-        "./src/router/helpers/conditionalroute.js"
-      ],
-      "./src/router/helpers/redirectroute.js": [
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./node_modules/date-fns/typings.d.ts",
-        "./src/router/helpers/conditionalroute.js"
-      ],
-      "./src/router/helpers/route.js": [
-        "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./node_modules/date-fns/typings.d.ts",
-        "./src/router/helpers/conditionalroute.js"
+        "./src/router/helpers/geturl.js"
       ],
       "./src/router/index.js": [
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/router/helpers/conditionalroute.js",
         "./src/router/helpers/getpath.js",
         "./src/router/helpers/getpaths.js",
-        "./src/router/helpers/guestroute.js",
-        "./src/router/helpers/privateroute.js",
-        "./src/router/helpers/redirectroute.js",
-        "./src/router/helpers/route.js",
+        "./src/router/routes/index.js",
         "./src/views/home/index.tsx",
         "./src/views/login.tsx"
+      ],
+      "./src/router/routes/conditionalroute.js": [
+        "./node_modules/@types/react-router-dom/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./src/router/helpers/geturl.js",
+        "./src/utils/is.js"
+      ],
+      "./src/router/routes/guestroute.js": [
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./src/auth/helpers/isauthenticated.js",
+        "./src/router/routes/conditionalroute.js"
+      ],
+      "./src/router/routes/index.js": [
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./src/router/routes/conditionalroute.js",
+        "./src/router/routes/guestroute.js",
+        "./src/router/routes/normalroute.js",
+        "./src/router/routes/privateroute.js",
+        "./src/router/routes/redirectroute.js"
+      ],
+      "./src/router/routes/normalroute.js": [
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./src/router/routes/conditionalroute.js"
+      ],
+      "./src/router/routes/privateroute.js": [
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./src/auth/helpers/isauthenticated.js",
+        "./src/router/routes/conditionalroute.js"
+      ],
+      "./src/router/routes/redirectroute.js": [
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./src/router/routes/conditionalroute.js"
       ],
       "./src/service-worker.js": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
@@ -2881,7 +2906,6 @@
         "./node_modules/date-fns/typings.d.ts"
       ],
       "./src/views/home/index.tsx": [
-        "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
         "./src/react-app-env.d.ts"
@@ -3668,8 +3692,8 @@
       "./node_modules/workbox-core/_private.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
         "./node_modules/workbox-core/_private/assert.d.ts",
+        "./node_modules/workbox-core/_private/cachematchignoreparams.d.ts",
         "./node_modules/workbox-core/_private/cachenames.d.ts",
-        "./node_modules/workbox-core/_private/cachewrapper.d.ts",
         "./node_modules/workbox-core/_private/canconstructreadablestream.d.ts",
         "./node_modules/workbox-core/_private/canconstructresponsefrombodystream.d.ts",
         "./node_modules/workbox-core/_private/dbwrapper.d.ts",
@@ -3677,23 +3701,22 @@
         "./node_modules/workbox-core/_private/deletedatabase.d.ts",
         "./node_modules/workbox-core/_private/dontwaitfor.d.ts",
         "./node_modules/workbox-core/_private/executequotaerrorcallbacks.d.ts",
-        "./node_modules/workbox-core/_private/fetchwrapper.d.ts",
         "./node_modules/workbox-core/_private/getfriendlyurl.d.ts",
         "./node_modules/workbox-core/_private/logger.d.ts",
         "./node_modules/workbox-core/_private/resultingclientexists.d.ts",
         "./node_modules/workbox-core/_private/timeout.d.ts",
+        "./node_modules/workbox-core/_private/waituntil.d.ts",
         "./node_modules/workbox-core/_private/workboxerror.d.ts"
       ],
       "./node_modules/workbox-core/_private/assert.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-core/_private/workboxerror.d.ts"
+        "./node_modules/workbox-core/types.d.ts"
+      ],
+      "./node_modules/workbox-core/_private/cachematchignoreparams.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/workbox-core/_private/cachenames.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
-      ],
-      "./node_modules/workbox-core/_private/cachewrapper.d.ts": [
-        "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-core/types.d.ts"
       ],
       "./node_modules/workbox-core/_private/canconstructreadablestream.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
@@ -3716,10 +3739,6 @@
       "./node_modules/workbox-core/_private/executequotaerrorcallbacks.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
-      "./node_modules/workbox-core/_private/fetchwrapper.d.ts": [
-        "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-core/types.d.ts"
-      ],
       "./node_modules/workbox-core/_private/getfriendlyurl.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
@@ -3732,8 +3751,12 @@
       "./node_modules/workbox-core/_private/timeout.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
-      "./node_modules/workbox-core/_private/workboxerror.d.ts": [
+      "./node_modules/workbox-core/_private/waituntil.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/workbox-core/_private/workboxerror.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/workbox-core/types.d.ts"
       ],
       "./node_modules/workbox-core/_version.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
@@ -3798,14 +3821,10 @@
       ],
       "./node_modules/workbox-precaching/addroute.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-precaching/utils/addfetchlistener.d.ts"
+        "./node_modules/workbox-precaching/_types.d.ts"
       ],
       "./node_modules/workbox-precaching/cleanupoutdatedcaches.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
-      ],
-      "./node_modules/workbox-precaching/createhandler.d.ts": [
-        "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-core/types.d.ts"
       ],
       "./node_modules/workbox-precaching/createhandlerboundtourl.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
@@ -3819,13 +3838,15 @@
         "./node_modules/workbox-precaching/addplugins.d.ts",
         "./node_modules/workbox-precaching/addroute.d.ts",
         "./node_modules/workbox-precaching/cleanupoutdatedcaches.d.ts",
-        "./node_modules/workbox-precaching/createhandler.d.ts",
         "./node_modules/workbox-precaching/createhandlerboundtourl.d.ts",
         "./node_modules/workbox-precaching/getcachekeyforurl.d.ts",
         "./node_modules/workbox-precaching/matchprecache.d.ts",
         "./node_modules/workbox-precaching/precache.d.ts",
         "./node_modules/workbox-precaching/precacheandroute.d.ts",
-        "./node_modules/workbox-precaching/precachecontroller.d.ts"
+        "./node_modules/workbox-precaching/precachecontroller.d.ts",
+        "./node_modules/workbox-precaching/precachefallbackplugin.d.ts",
+        "./node_modules/workbox-precaching/precacheroute.d.ts",
+        "./node_modules/workbox-precaching/precachestrategy.d.ts"
       ],
       "./node_modules/workbox-precaching/matchprecache.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
@@ -3836,21 +3857,29 @@
       ],
       "./node_modules/workbox-precaching/precacheandroute.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-precaching/_types.d.ts",
-        "./node_modules/workbox-precaching/utils/addfetchlistener.d.ts"
+        "./node_modules/workbox-precaching/_types.d.ts"
       ],
       "./node_modules/workbox-precaching/precachecontroller.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
         "./node_modules/workbox-core/types.d.ts",
-        "./node_modules/workbox-precaching/_types.d.ts"
+        "./node_modules/workbox-precaching/_types.d.ts",
+        "./node_modules/workbox-strategies/strategy.d.ts"
       ],
-      "./node_modules/workbox-precaching/utils/addfetchlistener.d.ts": [
+      "./node_modules/workbox-precaching/precachefallbackplugin.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-precaching/_types.d.ts"
+        "./node_modules/workbox-core/types.d.ts",
+        "./node_modules/workbox-precaching/precachecontroller.d.ts"
       ],
-      "./node_modules/workbox-routing/_types.d.ts": [
+      "./node_modules/workbox-precaching/precacheroute.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-core/types.d.ts"
+        "./node_modules/workbox-precaching/_types.d.ts",
+        "./node_modules/workbox-precaching/precachecontroller.d.ts",
+        "./node_modules/workbox-routing/route.d.ts"
+      ],
+      "./node_modules/workbox-precaching/precachestrategy.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/workbox-strategies/strategy.d.ts",
+        "./node_modules/workbox-strategies/strategyhandler.d.ts"
       ],
       "./node_modules/workbox-routing/_version.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
@@ -3867,39 +3896,39 @@
       ],
       "./node_modules/workbox-routing/navigationroute.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-routing/_types.d.ts",
+        "./node_modules/workbox-core/types.d.ts",
         "./node_modules/workbox-routing/route.d.ts"
       ],
       "./node_modules/workbox-routing/regexproute.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-routing/_types.d.ts",
+        "./node_modules/workbox-core/types.d.ts",
         "./node_modules/workbox-routing/route.d.ts",
         "./node_modules/workbox-routing/utils/constants.d.ts"
       ],
       "./node_modules/workbox-routing/registerroute.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-routing/_types.d.ts",
+        "./node_modules/workbox-core/types.d.ts",
         "./node_modules/workbox-routing/route.d.ts",
         "./node_modules/workbox-routing/utils/constants.d.ts"
       ],
       "./node_modules/workbox-routing/route.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-routing/_types.d.ts",
+        "./node_modules/workbox-core/types.d.ts",
         "./node_modules/workbox-routing/utils/constants.d.ts"
       ],
       "./node_modules/workbox-routing/router.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-routing/_types.d.ts",
+        "./node_modules/workbox-core/types.d.ts",
         "./node_modules/workbox-routing/route.d.ts",
         "./node_modules/workbox-routing/utils/constants.d.ts"
       ],
       "./node_modules/workbox-routing/setcatchhandler.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-routing/_types.d.ts"
+        "./node_modules/workbox-core/types.d.ts"
       ],
       "./node_modules/workbox-routing/setdefaulthandler.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-routing/_types.d.ts"
+        "./node_modules/workbox-core/types.d.ts"
       ],
       "./node_modules/workbox-routing/utils/constants.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
@@ -3909,11 +3938,13 @@
       ],
       "./node_modules/workbox-strategies/cachefirst.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-core/types.d.ts"
+        "./node_modules/workbox-strategies/strategy.d.ts",
+        "./node_modules/workbox-strategies/strategyhandler.d.ts"
       ],
       "./node_modules/workbox-strategies/cacheonly.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-core/types.d.ts"
+        "./node_modules/workbox-strategies/strategy.d.ts",
+        "./node_modules/workbox-strategies/strategyhandler.d.ts"
       ],
       "./node_modules/workbox-strategies/index.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
@@ -3921,22 +3952,34 @@
         "./node_modules/workbox-strategies/cacheonly.d.ts",
         "./node_modules/workbox-strategies/networkfirst.d.ts",
         "./node_modules/workbox-strategies/networkonly.d.ts",
-        "./node_modules/workbox-strategies/stalewhilerevalidate.d.ts"
+        "./node_modules/workbox-strategies/stalewhilerevalidate.d.ts",
+        "./node_modules/workbox-strategies/strategy.d.ts",
+        "./node_modules/workbox-strategies/strategyhandler.d.ts"
       ],
       "./node_modules/workbox-strategies/networkfirst.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-core/types.d.ts"
+        "./node_modules/workbox-strategies/strategy.d.ts",
+        "./node_modules/workbox-strategies/strategyhandler.d.ts"
       ],
       "./node_modules/workbox-strategies/networkonly.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-core/types.d.ts"
+        "./node_modules/workbox-strategies/strategy.d.ts",
+        "./node_modules/workbox-strategies/strategyhandler.d.ts"
       ],
       "./node_modules/workbox-strategies/stalewhilerevalidate.d.ts": [
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/workbox-core/types.d.ts"
+        "./node_modules/workbox-strategies/strategy.d.ts",
+        "./node_modules/workbox-strategies/strategyhandler.d.ts"
       ],
-      "./src/app.tsx": [
-        "./node_modules/@types/react/index.d.ts"
+      "./node_modules/workbox-strategies/strategy.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/workbox-core/types.d.ts",
+        "./node_modules/workbox-strategies/strategyhandler.d.ts"
+      ],
+      "./node_modules/workbox-strategies/strategyhandler.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/workbox-core/types.d.ts",
+        "./node_modules/workbox-strategies/strategy.d.ts"
       ],
       "./src/react-app-env.d.ts": [
         "./node_modules/@types/node/index.d.ts",
@@ -3949,9 +3992,6 @@
       ],
       "./src/store/atoms/auth.js": [
         "./node_modules/recoil/index.d.ts"
-      ],
-      "./src/views/home/index.tsx": [
-        "./node_modules/@types/react/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -4135,8 +4175,8 @@
       "./node_modules/web-vitals/dist/modules/types.d.ts",
       "./node_modules/workbox-core/_private.d.ts",
       "./node_modules/workbox-core/_private/assert.d.ts",
+      "./node_modules/workbox-core/_private/cachematchignoreparams.d.ts",
       "./node_modules/workbox-core/_private/cachenames.d.ts",
-      "./node_modules/workbox-core/_private/cachewrapper.d.ts",
       "./node_modules/workbox-core/_private/canconstructreadablestream.d.ts",
       "./node_modules/workbox-core/_private/canconstructresponsefrombodystream.d.ts",
       "./node_modules/workbox-core/_private/dbwrapper.d.ts",
@@ -4144,11 +4184,11 @@
       "./node_modules/workbox-core/_private/deletedatabase.d.ts",
       "./node_modules/workbox-core/_private/dontwaitfor.d.ts",
       "./node_modules/workbox-core/_private/executequotaerrorcallbacks.d.ts",
-      "./node_modules/workbox-core/_private/fetchwrapper.d.ts",
       "./node_modules/workbox-core/_private/getfriendlyurl.d.ts",
       "./node_modules/workbox-core/_private/logger.d.ts",
       "./node_modules/workbox-core/_private/resultingclientexists.d.ts",
       "./node_modules/workbox-core/_private/timeout.d.ts",
+      "./node_modules/workbox-core/_private/waituntil.d.ts",
       "./node_modules/workbox-core/_private/workboxerror.d.ts",
       "./node_modules/workbox-core/_version.d.ts",
       "./node_modules/workbox-core/cachenames.d.ts",
@@ -4168,7 +4208,6 @@
       "./node_modules/workbox-precaching/addplugins.d.ts",
       "./node_modules/workbox-precaching/addroute.d.ts",
       "./node_modules/workbox-precaching/cleanupoutdatedcaches.d.ts",
-      "./node_modules/workbox-precaching/createhandler.d.ts",
       "./node_modules/workbox-precaching/createhandlerboundtourl.d.ts",
       "./node_modules/workbox-precaching/getcachekeyforurl.d.ts",
       "./node_modules/workbox-precaching/index.d.ts",
@@ -4176,8 +4215,9 @@
       "./node_modules/workbox-precaching/precache.d.ts",
       "./node_modules/workbox-precaching/precacheandroute.d.ts",
       "./node_modules/workbox-precaching/precachecontroller.d.ts",
-      "./node_modules/workbox-precaching/utils/addfetchlistener.d.ts",
-      "./node_modules/workbox-routing/_types.d.ts",
+      "./node_modules/workbox-precaching/precachefallbackplugin.d.ts",
+      "./node_modules/workbox-precaching/precacheroute.d.ts",
+      "./node_modules/workbox-precaching/precachestrategy.d.ts",
       "./node_modules/workbox-routing/_version.d.ts",
       "./node_modules/workbox-routing/index.d.ts",
       "./node_modules/workbox-routing/navigationroute.d.ts",
@@ -4195,6 +4235,8 @@
       "./node_modules/workbox-strategies/networkfirst.d.ts",
       "./node_modules/workbox-strategies/networkonly.d.ts",
       "./node_modules/workbox-strategies/stalewhilerevalidate.d.ts",
+      "./node_modules/workbox-strategies/strategy.d.ts",
+      "./node_modules/workbox-strategies/strategyhandler.d.ts",
       "./src/app.test.tsx",
       "./src/app.tsx",
       "./src/auth/constants.js",
@@ -4202,7 +4244,6 @@
       "./src/auth/helpers/getaccesstoken.js",
       "./src/auth/helpers/getaccesstokenexpiresat.js",
       "./src/auth/helpers/getrefreshtoken.js",
-      "./src/auth/helpers/getrole.js",
       "./src/auth/helpers/index.js",
       "./src/auth/helpers/index.test.js",
       "./src/auth/helpers/isauthenticated.js",
@@ -4223,18 +4264,19 @@
       "./src/reportwebvitals.js",
       "./src/request/constant.js",
       "./src/request/index.js",
-      "./src/router/helpers/conditionalroute.js",
       "./src/router/helpers/getpath.js",
       "./src/router/helpers/getpaths.js",
       "./src/router/helpers/getroute.js",
       "./src/router/helpers/getroutefromurl.js",
       "./src/router/helpers/geturl.js",
-      "./src/router/helpers/guestroute.js",
       "./src/router/helpers/index.js",
-      "./src/router/helpers/privateroute.js",
-      "./src/router/helpers/redirectroute.js",
-      "./src/router/helpers/route.js",
       "./src/router/index.js",
+      "./src/router/routes/conditionalroute.js",
+      "./src/router/routes/guestroute.js",
+      "./src/router/routes/index.js",
+      "./src/router/routes/normalroute.js",
+      "./src/router/routes/privateroute.js",
+      "./src/router/routes/redirectroute.js",
       "./src/service-worker.js",
       "./src/serviceworkerregistration.js",
       "./src/setuptests.ts",
@@ -4893,6 +4935,10 @@
         1
       ],
       [
+        "./node_modules/workbox-core/_private/cachematchignoreparams.d.ts",
+        1
+      ],
+      [
         "./node_modules/workbox-core/_private/cachenames.d.ts",
         1
       ],
@@ -4946,6 +4992,10 @@
       ],
       [
         "./node_modules/workbox-core/_private/timeout.d.ts",
+        1
+      ],
+      [
+        "./node_modules/workbox-core/_private/waituntil.d.ts",
         1
       ],
       [
@@ -5057,6 +5107,18 @@
         1
       ],
       [
+        "./node_modules/workbox-precaching/precachefallbackplugin.d.ts",
+        1
+      ],
+      [
+        "./node_modules/workbox-precaching/precacheroute.d.ts",
+        1
+      ],
+      [
+        "./node_modules/workbox-precaching/precachestrategy.d.ts",
+        1
+      ],
+      [
         "./node_modules/workbox-precaching/utils/addfetchlistener.d.ts",
         1
       ],
@@ -5130,6 +5192,14 @@
       ],
       [
         "./node_modules/workbox-strategies/stalewhilerevalidate.d.ts",
+        1
+      ],
+      [
+        "./node_modules/workbox-strategies/strategy.d.ts",
+        1
+      ],
+      [
+        "./node_modules/workbox-strategies/strategyhandler.d.ts",
         1
       ],
       [
@@ -5294,6 +5364,30 @@
       ],
       [
         "./src/router/index.js",
+        1
+      ],
+      [
+        "./src/router/routes/conditionalroute.js",
+        1
+      ],
+      [
+        "./src/router/routes/guestroute.js",
+        1
+      ],
+      [
+        "./src/router/routes/index.js",
+        1
+      ],
+      [
+        "./src/router/routes/normalroute.js",
+        1
+      ],
+      [
+        "./src/router/routes/privateroute.js",
+        1
+      ],
+      [
+        "./src/router/routes/redirectroute.js",
         1
       ],
       [

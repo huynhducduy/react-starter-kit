@@ -1,7 +1,6 @@
-import { ReactElement } from 'react';
 import { Router } from 'router';
 
-function App(): ReactElement {
+function App(): JSX.Element {
   return <Router />;
 }
 

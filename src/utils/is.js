@@ -29,7 +29,7 @@ function isDOMTypeElement(element) {
   return isElement(element) && typeof element.type === 'string';
 }
 
-export default {
+const is = {
   classComponent: isClassComponent,
   functionComponent: isFunctionComponent,
   reactComponent: isReactComponent,
@@ -37,6 +37,8 @@ export default {
   reactElement: isReactElement,
   domTypeElement: isDOMTypeElement,
 };
+
+export default is;
 
 export {
   isClassComponent,

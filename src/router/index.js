@@ -4,7 +4,7 @@ import { lazy } from 'react';
 
 import { BrowserRouter } from 'react-router-dom';
 
-import Route from 'router/routes';
+import * as Route from 'router/routes';
 
 import getPath from './helpers/getPath';
 import getPaths from './helpers/getPaths';
@@ -54,10 +54,5 @@ function Router() {
     </Suspense>
   );
 }
-
-export default {
-  Router,
-  Provider: BrowserRouter,
-};
 
 export { Router, BrowserRouter as Provider };

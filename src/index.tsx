@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; //  thank to the magic of --allowSyntheticDefaultImports
 import ReactDOM from 'react-dom';
 
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
@@ -52,4 +52,4 @@ serviceWorkerRegistration.unregister();
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals(console.log);
+reportWebVitals();

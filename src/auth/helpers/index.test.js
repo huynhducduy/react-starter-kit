@@ -1,4 +1,4 @@
-import helpers from '.';
+import * as helpers from '.';
 
 it('set and get access token', () => {
   const some_string = 'some_string';

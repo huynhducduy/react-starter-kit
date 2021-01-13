@@ -28,9 +28,10 @@ export function remove(key) {
   }
 }
 
-export default {
+const LocalStorage = {
   clear,
   get,
   set,
   remove,
 };
+export default LocalStorage;

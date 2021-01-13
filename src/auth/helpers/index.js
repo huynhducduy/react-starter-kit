@@ -23,17 +23,3 @@ export {
   tokenIsExpired,
   tokenIsAlmostExpired,
 };
-
-export default {
-  clearAuth,
-  getAccessToken,
-  getAccessTokenExpiresAt,
-  getRefreshToken,
-  isAuthenticated,
-  setAccessToken,
-  setAccessTokenExpiresAt,
-  setRefreshToken,
-  tokenExpiresIn,
-  tokenIsExpired,
-  tokenIsAlmostExpired,
-};

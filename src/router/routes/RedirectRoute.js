@@ -1,4 +1,3 @@
-import React from 'react';
 import ConditionalRoute from './ConditionalRoute';
 
 export default function RedirectRoute({

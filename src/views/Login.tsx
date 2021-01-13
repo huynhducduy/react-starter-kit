@@ -1,4 +1,4 @@
-const Login = () => {
+const Login = (): JSX.Element => {
   return <h1>Hello</h1>;
 };
 

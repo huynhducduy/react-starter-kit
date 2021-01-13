@@ -1,8 +1,7 @@
 import logo from 'assets/logo.svg';
-import { ReactElement } from 'react';
 import styles from './style.module.scss';
 
-function App(): ReactElement {
+function App(): JSX.Element {
   return (
     <div className={styles['App']}>
       <header className={styles['App-header']}>

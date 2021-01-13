@@ -432,7 +432,7 @@ module.exports = function (webpackEnv) {
               loader: require.resolve('babel-loader'),
               options: getBabelConfig(true),
             },
-            // "postcss" loader applies autoprefixer to our CSS.
+            // "postcss" loader provide scss syntax, optimization, applies autoprefixer to our CSS.
             // "css" loader resolves paths in CSS and adds assets as dependencies.
             // "style" loader turns CSS into JS modules that inject <style> tags.
             // In production, we use MiniCSSExtractPlugin to extract that CSS
