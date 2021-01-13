@@ -7,8 +7,8 @@ import React from 'react';
  */
 export default function deferComponentRender(WrappedComponent) {
   class DeferredRenderWrapper extends React.Component {
-    constructor(props, context) {
-      super(props, context);
+    constructor(props) {
+      super(props);
       this.state = { shouldRender: false };
     }
 
