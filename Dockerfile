@@ -33,5 +33,5 @@ CMD ["nginx", "-g", "daemon off;"]
 EXPOSE 80
 
 # sudo docker build -t react-starter-kit .
-# sudo docker run -dit -p 3000:80 --name react-starter-kit react-starter-kit:latest
+# sudo docker run --init -dit -p 3000:80 --name react-starter-kit react-starter-kit:latest
 # (sudo docker kill react-starter-kit || true) && sudo docker rm react-starter-kit
