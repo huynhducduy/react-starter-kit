@@ -1,7 +1,7 @@
 import { Route, Redirect } from 'react-router-dom';
 import is from 'utils/is';
 
-import getUrl from './getUrl';
+import getUrl from '../helpers/getUrl';
 
 export default function ConditionalRoute({
   condition, // boolean function(props) or boolean
