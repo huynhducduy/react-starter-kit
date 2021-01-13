@@ -1,4 +1,4 @@
-var restrictedGlobals = require('confusing-browser-globals');
+var restrictedGlobals = require('confusing-browser-globals')
 
 var extendsConfig = [
   'plugin:json/recommended',
@@ -8,7 +8,7 @@ var extendsConfig = [
   'prettier/babel',
   'prettier/react',
   // 'prettier/vue',
-];
+]
 
 module.exports = {
   root: true,
@@ -303,4 +303,4 @@ module.exports = {
     tsconfigRootDir: __dirname,
   },
   globals: {},
-};
+}

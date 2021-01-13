@@ -1,4 +1,4 @@
-module.exports = api => {
+module.exports = (api) => {
   return {
     plugins: [
       require('precss'),
@@ -10,5 +10,5 @@ module.exports = api => {
       require('postcss-normalize'),
       require('cssnano'),
     ],
-  };
-};
+  }
+}

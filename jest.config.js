@@ -44,5 +44,5 @@ module.exports = async () => {
       'jest-watch-typeahead/testname',
     ],
     resetMocks: true,
-  };
-};
+  }
+}
