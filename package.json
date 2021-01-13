@@ -126,11 +126,11 @@
     "workbox-webpack-plugin": "^6.0.2"
   },
   "scripts": {
-    "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
+    "start": "NODE_ENV=development node scripts/start.js",
+    "build": "NODE_ENV=production node scripts/build.js",
     "analyze": "source-map-explorer 'build/static/js/*.js'",
-    "test": "node scripts/test.js",
-    "test:debug": "node --inspect-brk scripts/test.js --runInBand --no-cache",
+    "test": "NODE_ENV=test node scripts/test.js",
+    "test:debug": "NODE_ENV=test node --inspect-brk scripts/test.js --runInBand --no-cache",
     "refresh": "rm -rf node_modules && rm -rf yarn.lock && yarn cache clean && yarn",
     "check-types": "tsc",
     "lint:code": "eslint 'src/**/*.{js,jsx,mjs,ts,tsx,json}' && yarn check-types",

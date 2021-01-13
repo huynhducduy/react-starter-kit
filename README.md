@@ -84,5 +84,4 @@ Analyze output: `yarn analyze`
 - GraphQL - Relay/Apollo
 - Server-Side rendering
 - PWA - workbox/firebase
-- PurgeCSS in css module
 - Storybook?
