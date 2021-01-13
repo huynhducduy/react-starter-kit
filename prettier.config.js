@@ -9,4 +9,5 @@ module.exports = {
   singleQuote: true,
   jsxBracketSameLine: false,
   jsxSingleQuote: false,
-};
+  semi: false,
+}

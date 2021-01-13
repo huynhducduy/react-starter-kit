@@ -1,9 +1,9 @@
 const buildComponentTree = providers => {
   if (providers.length === 1) {
-    return providers[0][0];
+    return providers[0][0]
   }
-  const [A, paramsA] = providers.shift();
-  const [B, paramsB] = providers.shift();
+  const [A, paramsA] = providers.shift()
+  const [B, paramsB] = providers.shift()
 
   return buildComponentTree([
     [
@@ -14,7 +14,7 @@ const buildComponentTree = providers => {
       ),
     ],
     ...providers,
-  ]);
-};
+  ])
+}
 
-export default buildComponentTree;
+export default buildComponentTree

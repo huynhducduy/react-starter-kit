@@ -1,4 +1,4 @@
-import ConditionalRoute from './ConditionalRoute';
+import ConditionalRoute from './ConditionalRoute'
 
 export default function RedirectRoute({
   to,
@@ -10,6 +10,6 @@ export default function RedirectRoute({
     condition: false,
     redirectTo: to,
     reason: reason,
-  };
-  return <ConditionalRoute {...config} />;
+  }
+  return <ConditionalRoute {...config} />
 }

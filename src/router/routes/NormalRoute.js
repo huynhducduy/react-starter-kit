@@ -1,10 +1,10 @@
-import ConditionalRoute from './ConditionalRoute';
+import ConditionalRoute from './ConditionalRoute'
 
-export default function Route(props) {
+export default function NormalRoute(props) {
   const config = {
     ...props,
     condition: true,
-  };
+  }
 
-  return <ConditionalRoute {...config} />;
+  return <ConditionalRoute {...config} />
 }

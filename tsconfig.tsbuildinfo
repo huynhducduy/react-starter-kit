@@ -567,8 +567,8 @@
         "affectsGlobalScope": false
       },
       "./src/utils/localstorage.js": {
-        "version": "4bfa1456b12d145faa0922ff0f85e12821416ded4e880cd234e0aba7260ff5a5",
-        "signature": "9c682871b0bb19143750de53c2b6d9509665270fc58971a4ca73ff1befd0d561",
+        "version": "d0ffc9c1f088228e5883bd058cccdafda1e09de428fd545a6db958a4ab616ed7",
+        "signature": "c8b8526beacf423b83d9b7bbb9aa4b58d458425a1be8e1352b3afe1d8ef2431d",
         "affectsGlobalScope": false
       },
       "./src/auth/constants.js": {
