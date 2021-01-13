@@ -1,3 +1,3 @@
-import { RecoilRoot } from 'recoil';
+import { RecoilRoot } from 'recoil'
 
-export { RecoilRoot as Provider };
+export { RecoilRoot as Provider }

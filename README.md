@@ -69,7 +69,7 @@ Reinstall entire project: `yarn refresh`
 
 Build image: `sudo docker build -t react-starter-kit .`
 
-Run container: `sudo docker run -dit -p 3000:80 --name react-starter-kit react-starter-kit:latest`
+Run container: `sudo docker run --init -dit -p 3000:80 --name react-starter-kit react-starter-kit:latest`
 
 Kill and remove: `(sudo docker kill react-starter-kit || true) && (sudo docker rm react-starter-kit || true)`
 
@@ -84,5 +84,4 @@ Analyze output: `yarn analyze`
 - GraphQL - Relay/Apollo
 - Server-Side rendering
 - PWA - workbox/firebase
-- PurgeCSS in css module
 - Storybook?

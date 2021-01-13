@@ -1,4 +1,4 @@
-var restrictedGlobals = require('confusing-browser-globals');
+var restrictedGlobals = require('confusing-browser-globals')
 
 var extendsConfig = [
   'plugin:json/recommended',
@@ -8,7 +8,7 @@ var extendsConfig = [
   'prettier/babel',
   'prettier/react',
   // 'prettier/vue',
-];
+]
 
 module.exports = {
   root: true,
@@ -136,7 +136,12 @@ module.exports = {
     ],
     'no-with': 'warn',
     'no-whitespace-before-property': 'warn',
-    'react-hooks/exhaustive-deps': 'warn',
+    'react-hooks/exhaustive-deps': [
+      'warn',
+      {
+        additionalHooks: 'useRecoilCallback',
+      },
+    ],
     'require-yield': 'warn',
     'rest-spread-spacing': ['warn', 'never'],
     strict: ['warn', 'never'],
@@ -298,4 +303,4 @@ module.exports = {
     tsconfigRootDir: __dirname,
   },
   globals: {},
-};
+}

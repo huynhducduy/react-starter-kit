@@ -1,5 +1,5 @@
-import isAuthenticated from 'auth/helpers/isAuthenticated';
-import ConditionalRoute from './ConditionalRoute';
+import isAuthenticated from 'auth/helpers/isAuthenticated'
+import ConditionalRoute from './ConditionalRoute'
 
 export default function PrivateRoute({ ...rest }) {
   const config = {
@@ -7,7 +7,7 @@ export default function PrivateRoute({ ...rest }) {
     condition: isAuthenticated,
     redirectTo: 'login',
     reason: 'You must login before continuing.',
-  };
+  }
 
-  return <ConditionalRoute {...config} />;
+  return <ConditionalRoute {...config} />
 }

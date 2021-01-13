@@ -5,6 +5,7 @@ services:
     build:
       context: .
       target: 'develop'
+    init: true
     stdin_open: true
     tty: true
     ports:

@@ -1,21 +1,21 @@
-import axios from 'axios';
-import * as authHelpers from '../auth/helpers';
-import * as auth from '../auth';
+import axios from 'axios'
+import * as authHelpers from '../auth/helpers'
+import * as auth from '../auth'
 
 const config = {
   timeout: 0,
-};
+}
 
 function defaultHeaders() {
-  const headers = {};
+  const headers = {}
 
-  headers['Content-Type'] = 'application/json';
+  headers['Content-Type'] = 'application/json'
 
-  const access_token = authHelpers.getAccessToken();
+  const access_token = authHelpers.getAccessToken()
   if (access_token !== null && !authHelpers.tokenIsExpired)
-    headers.Authorization = `Bearer ${access_token}`;
+    headers.Authorization = `Bearer ${access_token}`
 
-  return headers;
+  return headers
 }
 
 export async function request({
@@ -28,17 +28,17 @@ export async function request({
   custom,
 }) {
   if (authHelpers.tokenIsAlmostExpired() || !authHelpers.getAccessToken()) {
-    if (!authHelpers.getRefreshToken()) authHelpers.clearAuth();
+    if (!authHelpers.getRefreshToken()) authHelpers.clearAuth()
     // refresh token right before request
     else
       await auth
         .refresh()
-        .then(res => {
-          authHelpers.setAuth();
+        .then((res) => {
+          authHelpers.setAuth()
         })
         .catch(() => {
-          authHelpers.clearAuth();
-        });
+          authHelpers.clearAuth()
+        })
   }
 
   return axios({
@@ -49,7 +49,7 @@ export async function request({
     params,
     config,
     ...custom,
-  });
+  })
 }
 
 export function Get({ to, data = {}, params = {}, headers = {} }) {
@@ -59,7 +59,7 @@ export function Get({ to, data = {}, params = {}, headers = {} }) {
     data,
     params,
     headers,
-  });
+  })
 }
 
 export function Post({ to, data = {}, params = {}, headers = {} }) {
@@ -69,7 +69,7 @@ export function Post({ to, data = {}, params = {}, headers = {} }) {
     data,
     params,
     headers,
-  });
+  })
 }
 
 export function Put({ to, data = {}, params = {}, headers = {} }) {
@@ -79,7 +79,7 @@ export function Put({ to, data = {}, params = {}, headers = {} }) {
     data,
     params,
     headers,
-  });
+  })
 }
 
 export function Patch({ to, data = {}, params = {}, headers = {} }) {
@@ -89,7 +89,7 @@ export function Patch({ to, data = {}, params = {}, headers = {} }) {
     data,
     params,
     headers,
-  });
+  })
 }
 
 export function Options({ to, data = {}, params = {}, headers = {} }) {
@@ -99,7 +99,7 @@ export function Options({ to, data = {}, params = {}, headers = {} }) {
     data,
     params,
     headers,
-  });
+  })
 }
 
 export function Head({ to, data = {}, params = {}, headers = {} }) {
@@ -109,7 +109,7 @@ export function Head({ to, data = {}, params = {}, headers = {} }) {
     data,
     params,
     headers,
-  });
+  })
 }
 
 export function Delete({ to, data = {}, params = {}, headers = {} }) {
@@ -119,5 +119,5 @@ export function Delete({ to, data = {}, params = {}, headers = {} }) {
     data,
     params,
     headers,
-  });
+  })
 }
