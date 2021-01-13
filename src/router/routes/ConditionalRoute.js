@@ -54,7 +54,7 @@ export default function ConditionalRoute({
   return (
     <Route
       {...rest}
-      render={props =>
+      render={(props) =>
         (typeof condition === 'function' && condition(props) === true) ||
         condition === true ? (
           <Component {...props} />

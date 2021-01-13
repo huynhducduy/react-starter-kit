@@ -4,7 +4,7 @@ module.exports = {
   endOfLine: 'lf',
   printWidth: 80,
   useTabs: false,
-  arrowParens: 'avoid',
+  arrowParens: 'always',
   bracketSpacing: true,
   singleQuote: true,
   jsxBracketSameLine: false,

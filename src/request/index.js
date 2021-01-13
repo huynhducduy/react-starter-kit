@@ -33,7 +33,7 @@ export async function request({
     else
       await auth
         .refresh()
-        .then(res => {
+        .then((res) => {
           authHelpers.setAuth()
         })
         .catch(() => {

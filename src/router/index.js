@@ -41,7 +41,7 @@ function Router() {
           component={lazy(() =>
             import('views/Login' /* webpackChunkName: "login" */)
           )}
-          condition={props => {
+          condition={(props) => {
             return true
           }}
           reason={"Don't have permission"}
