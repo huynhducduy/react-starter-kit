@@ -1,5 +1,5 @@
-import tokenExpiresIn from './tokenExpiresIn';
+import tokenExpiresIn from './tokenExpiresIn'
 
-export default function () {
-  return tokenExpiresIn() <= 1;
+export default function tokenIsAlmostExpired() {
+  return tokenExpiresIn() <= 1
 }

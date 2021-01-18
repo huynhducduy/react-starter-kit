@@ -1,6 +1,12 @@
 module.exports = {
-  // purge: ['./src/**/*.html', './src/**/*.js'],
-  purge: [],
+  purge: [
+    './src/**/*.css',
+    './src/**/*.scss',
+    './src/**/*.js',
+    './src/**/*.jsx',
+    './src/**/*.ts',
+    './src/**/*.tsx',
+  ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
@@ -9,4 +15,4 @@ module.exports = {
     extend: {},
   },
   plugins: [require('@tailwindcss/typography')],
-};
+}

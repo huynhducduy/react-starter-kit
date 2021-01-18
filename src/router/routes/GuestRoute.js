@@ -1,5 +1,5 @@
-import isAuthenticated from 'auth/helpers/isAuthenticated';
-import ConditionalRoute from './ConditionalRoute';
+import isAuthenticated from 'auth/helpers/isAuthenticated'
+import ConditionalRoute from './ConditionalRoute'
 
 export default function GuestRoute({ ...rest }) {
   const config = {
@@ -7,7 +7,7 @@ export default function GuestRoute({ ...rest }) {
     condition: () => !isAuthenticated(),
     redirectTo: 'home',
     reason: '',
-  };
+  }
 
-  return <ConditionalRoute {...config} />;
+  return <ConditionalRoute {...config} />
 }

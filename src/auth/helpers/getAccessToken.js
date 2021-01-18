@@ -1,6 +1,6 @@
-import LocalStorage from 'utils/localStorage';
-import constants from '../constants';
+import LocalStorage from 'utils/localStorage'
+import { LOCAL_STORAGE_KEY } from '../constants'
 
-export default function () {
-  return LocalStorage.get(constants.LOCAL_STORAGE_KEY.ACCESS_TOKEN);
+export default function getAccessToken() {
+  return LocalStorage.get(LOCAL_STORAGE_KEY.ACCESS_TOKEN)
 }

@@ -1,9 +1,9 @@
-var path = require('path');
+var path = require('path')
 
 module.exports = (api, isOutside = false) => {
-  var isEnvProduction = api.env('production');
-  var isEnvDevelopment = api.env('development');
-  var isEnvTest = api.env('test');
+  var isEnvProduction = api.env('production')
+  var isEnvDevelopment = api.env('development')
+  var isEnvTest = api.env('test')
 
   return {
     overrides: [
@@ -139,5 +139,5 @@ module.exports = (api, isOutside = false) => {
       !isOutside && require.resolve('babel-plugin-ramda'),
       !isOutside && require.resolve('babel-plugin-date-fns-next'),
     ].filter(Boolean),
-  };
-};
+  }
+}

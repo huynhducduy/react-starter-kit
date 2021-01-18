@@ -1,14 +1,14 @@
 FROM node:lts AS develop
 # Just in case
-RUN apt-get update && \
-  apt-get install -y \
-  libgtk2.0-0 \
-  libnotify-dev \
-  libgconf-2-4 \
-  libnss3 \
-  libxss1 \
-  libasound2 \
-  xvfb
+# RUN apt-get update && \
+#   apt-get install -y \
+#   libgtk2.0-0 \
+#   libnotify-dev \
+#   libgconf-2-4 \
+#   libnss3 \
+#   libxss1 \
+#   libasound2 \
+#   xvfb
 # Create working directory
 WORKDIR /app
 # Copy dependencies
@@ -33,5 +33,5 @@ CMD ["nginx", "-g", "daemon off;"]
 EXPOSE 80
 
 # sudo docker build -t react-starter-kit .
-# sudo docker run -dit -p 3000:80 --name react-starter-kit react-starter-kit:latest
+# sudo docker run --init -dit -p 3000:80 --name react-starter-kit react-starter-kit:latest
 # (sudo docker kill react-starter-kit || true) && sudo docker rm react-starter-kit

@@ -1,7 +1,7 @@
-import { Route, Redirect } from 'react-router-dom';
-import is from 'utils/is';
+import { Route, Redirect } from 'react-router-dom'
+import is from 'utils/is'
 
-import getUrl from './getUrl';
+import getUrl from '../helpers/getUrl'
 
 export default function ConditionalRoute({
   condition, // boolean function(props) or boolean
@@ -14,47 +14,47 @@ export default function ConditionalRoute({
   if (condition === undefined) {
     throw new Error(
       'Route must have a condition (boolean function(props) or boolean).'
-    );
+    )
   } else if (typeof condition === 'function') {
     if (redirectTo === undefined) {
       throw new Error(
         'Route with a function condition prop must have a redirectTo (string function(props) or string), too.'
-      );
+      )
     }
   } else {
-    condition = Boolean(condition);
+    condition = Boolean(condition)
   }
 
   if (condition === undefined) {
     throw new Error(
       'Route must have a condition (boolean function(props) or boolean).'
-    );
+    )
   } else if (typeof condition === 'function') {
     if (redirectTo === undefined) {
       throw new Error(
         'Route with a function condition prop must have a redirectTo (string function(props) or string), too.'
-      );
+      )
     }
   } else {
-    condition = Boolean(condition);
+    condition = Boolean(condition)
   }
 
   if (redirectTo !== undefined && typeof redirectTo !== 'function') {
-    redirectTo = String(redirectTo);
+    redirectTo = String(redirectTo)
   }
 
   if (reason !== undefined && typeof reason !== 'function') {
-    reason = String(reason);
+    reason = String(reason)
   }
 
   if (!is.reactElement(<Component />)) {
-    throw new Error('Route must have a valid component.');
+    throw new Error('Route must have a valid component.')
   }
 
   return (
     <Route
       {...rest}
-      render={props =>
+      render={(props) =>
         (typeof condition === 'function' && condition(props) === true) ||
         condition === true ? (
           <Component {...props} />
@@ -78,5 +78,5 @@ export default function ConditionalRoute({
         )
       }
     />
-  );
+  )
 }

@@ -8,7 +8,7 @@ export const HTTP_CODE = {
   METHOD_NOT_ALLOWED: 405,
   INTERNAL_SERVER_ERROR: 500,
   BAD_GATEWAY: 502,
-};
+}
 
 export const METHOD = {
   GET: 'GET',
@@ -18,4 +18,4 @@ export const METHOD = {
   DELETE: 'DELETE',
   OPTIONS: 'OPTIONS',
   HEAD: 'HEAD',
-};
+}

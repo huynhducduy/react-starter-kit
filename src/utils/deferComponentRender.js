@@ -1,5 +1,5 @@
-import hoistStatics from 'hoist-non-react-statics';
-import React from 'react';
+import hoistStatics from 'hoist-non-react-statics'
+import React from 'react'
 
 /**
  * Allows two animation frames to complete to allow other components to update
@@ -7,25 +7,25 @@ import React from 'react';
  */
 export default function deferComponentRender(WrappedComponent) {
   class DeferredRenderWrapper extends React.Component {
-    constructor(props, context) {
-      super(props, context);
-      this.state = { shouldRender: false };
+    constructor(props) {
+      super(props)
+      this.state = { shouldRender: false }
     }
 
     componentDidMount() {
       window.requestAnimationFrame(() => {
         window.requestAnimationFrame(() =>
           this.setState({ shouldRender: true })
-        );
-      });
+        )
+      })
     }
 
     render() {
-      const { shouldRender } = this.state;
+      const { shouldRender } = this.state
 
-      return shouldRender ? <WrappedComponent {...this.props} /> : null;
+      return shouldRender ? <WrappedComponent {...this.props} /> : null
     }
   }
 
-  return hoistStatics(DeferredRenderWrapper, WrappedComponent);
+  return hoistStatics(DeferredRenderWrapper, WrappedComponent)
 }
