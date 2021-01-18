@@ -1,7 +1,11 @@
-![Dependencies](https://david-dm.org/huynhducduy/react-starter-kit.svg)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 # Duy's React Starter Kit
+
+[![DeepSource](https://deepsource.io/gh/huynhducduy/react-starter-kit.svg/?label=resolved+issues)](https://deepsource.io/gh/huynhducduy/react-starter-kit/?ref=repository-badge)
+![LGTM Grade](https://img.shields.io/lgtm/grade/javascript/github/huynhducduy/react-starter-kit?logo=lgtm)
+![Codecov](https://img.shields.io/codecov/c/github/huynhducduy/react-starter-kit?logo=codecov&token=VLMIXK11LQ)
+![Package.json version](https://img.shields.io/github/package-json/v/huynhducduy/react-starter-kit)
+![GitHub](https://img.shields.io/github/license/huynhducduy/react-starter-kit)
+![Dependencies](https://david-dm.org/huynhducduy/react-starter-kit.svg)
 
 This project was based on [Create React App](https://github.com/facebook/create-react-app). [(4.0.1 (2020-11-23))](https://github.com/facebook/create-react-app/blob/master/CHANGELOG.md)
 
