@@ -1,7 +1,14 @@
 import logo from 'assets/logo.svg'
-import styles from './style.module.scss'
+import { useCallback, useState } from 'react'
+import styles from './style.module.css'
 
-function App(): JSX.Element {
+function App() {
+  const [text, setText] = useState<string | undefined>('sample text')
+
+  const onTextChange = useCallback((e: { target: { value: string } }) => {
+    setText(e.target.value)
+  }, [])
+
   return (
     <div className={styles['App']}>
       <header className={styles['App-header']}>
@@ -9,6 +16,12 @@ function App(): JSX.Element {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+        <input
+          type="text"
+          className={styles['App-input']}
+          value={text}
+          onChange={onTextChange}
+        />
         <a
           className={styles['App-link']}
           href="https://reactjs.org"

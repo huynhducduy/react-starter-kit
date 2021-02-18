@@ -138,6 +138,7 @@ module.exports = (api, isOutside = false) => {
       // Libraries
       !isOutside && require.resolve('babel-plugin-ramda'),
       !isOutside && require.resolve('babel-plugin-date-fns-next'),
+      require.resolve('babel-plugin-transform-import-meta'), // resolve import.meta in jest
     ].filter(Boolean),
   }
 }

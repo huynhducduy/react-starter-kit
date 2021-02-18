@@ -83,9 +83,5 @@ Analyze output: `yarn analyze`
 
 ## Todo
 
-- Stylelint
-- Upgrade to Webpack 5 (with `terser-webpack-plugin` 5)
-- GraphQL - Relay/Apollo
-- Server-Side rendering
-- PWA - workbox/firebase
-- Storybook?
+- Production build
+- Test

@@ -1,4 +1,5 @@
-import React from 'react' //  thank to the magic of --allowSyntheticDefaultImports
+// import React from 'react' //  thank to the magic of --allowSyntheticDefaultImports
+import { StrictMode } from 'react'
 import ReactDOM from 'react-dom'
 
 import * as serviceWorkerRegistration from './serviceWorkerRegistration'
@@ -6,7 +7,7 @@ import reportWebVitals from './reportWebVitals'
 
 import { HelmetProvider } from 'react-helmet-async'
 
-import './index.scss'
+import './index.css'
 import App from './App'
 
 import { Provider as RouterProvider } from 'router'
@@ -25,24 +26,23 @@ const Providers = buildComponentTree([
 
 function render(Component: React.ComponentType) {
   return ReactDOM.render(
-    <React.StrictMode>
+    <StrictMode>
       <Providers>
         <Component />
       </Providers>
-    </React.StrictMode>,
+    </StrictMode>,
     document.getElementById('root')
   )
 }
 
 render(App)
 
-// Enable hot-module-replacement https://medium.com/@brianhan/hot-reloading-cra-without-eject-b54af352c642
-if (module.hot) {
-  module.hot.accept('./App', () => {
-    const NextApp = require('./App').default; // eslint-disable-line
-    render(NextApp)
-  })
-}
+// Enable hot-module-replacement
+// if (import.meta.hot) {
+//   import.meta.hot?.accept('./App', (nextApp) => {
+//     render(nextApp)
+//   })
+// }
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

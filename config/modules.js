@@ -129,6 +129,7 @@ function getModules() {
     webpackAliases: getWebpackAliases(options),
     jestAliases: getJestAliases(options),
     hasTsConfig,
+    '/@/': path.resolve(__dirname, './src'),
   }
 }
 

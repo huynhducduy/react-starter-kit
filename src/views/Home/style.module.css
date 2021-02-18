@@ -32,5 +32,9 @@
     .App-link {
       color: #61dafb;
     }
+
+    .App-input {
+      color: #000;
+    }
   }
 }

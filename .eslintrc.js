@@ -12,7 +12,6 @@ var extendsConfig = [
 
 module.exports = {
   root: true,
-  parser: '@babel/eslint-parser',
   plugins: [
     'import',
     'jest',
@@ -28,7 +27,8 @@ module.exports = {
   rules: {
     'json/*': ['error', { allowComments: true }],
     'react/jsx-uses-vars': 'warn',
-    'react/jsx-uses-react': 'off',
+    'react/jsx-uses-react': 'off', // For old jsx transform
+    'react/react-in-jsx-scope': 'off', // For old jsx transform
     // http://eslint.org/docs/rules/
     'array-callback-return': 'warn',
     'default-case': ['warn', { commentPattern: '^no default$' }],
@@ -225,6 +225,11 @@ module.exports = {
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
+      parser: '@typescript-eslint/parser',
+      parserOptions: {
+        tsconfigRootDir: __dirname,
+        project: ['./tsconfig.json'],
+      },
       extends: [
         'plugin:@typescript-eslint/recommended',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
@@ -276,10 +281,19 @@ module.exports = {
         '@typescript-eslint/no-useless-constructor': 'warn',
       },
     },
+    {
+      files: ['*.tsx'],
+      rules: {
+        '@typescript-eslint/explicit-module-boundary-types': 'off',
+      },
+    },
   ],
   settings: {
     react: {
       version: 'detect',
+    },
+    jest: {
+      version: 24,
     },
   },
   env: {
@@ -292,6 +306,7 @@ module.exports = {
     worker: true,
     serviceworker: true,
     jest: true,
+    'jest/globals': true,
   },
   parserOptions: {
     ecmaVersion: 2020,
