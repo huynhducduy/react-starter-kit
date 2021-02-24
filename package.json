@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "license": "SEE LICENSE IN LICENSE",
   "private": false,
+  "sideEffects": false,
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/eslint-parser": "^7.12.1",
@@ -52,6 +53,7 @@
     "babel-plugin-named-asset-import": "^0.3.7",
     "babel-plugin-ramda": "^2.0.0",
     "babel-plugin-transform-import-meta": "^1.0.1",
+    "babel-plugin-transform-react-constant-elements": "^6.23.0",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "bfj": "^7.0.2",
     "camelcase": "^6.2.0",

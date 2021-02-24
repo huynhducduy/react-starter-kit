@@ -53,7 +53,7 @@ module.exports = (api, isOutside = false) => {
       !isOutside && [
         require.resolve('@babel/preset-typescript'),
         {
-          // TODO: to be added
+          // TODO: to be added https://babeljs.io/docs/en/babel-preset-typescript
         },
       ],
     ].filter(Boolean),
@@ -72,8 +72,6 @@ module.exports = (api, isOutside = false) => {
           loose: true,
         },
       ],
-      // Adds Numeric Separators
-      !isOutside && require.resolve('@babel/plugin-proposal-numeric-separator'),
       // Polyfills the runtime needed for async/await, generators, and friends
       // https://babeljs.io/docs/en/babel-plugin-transform-runtime
       [
@@ -98,6 +96,7 @@ module.exports = (api, isOutside = false) => {
           ),
         },
       ],
+      // Optimization
       !isOutside &&
         isEnvProduction && [
           // Remove PropTypes from production build
@@ -107,11 +106,13 @@ module.exports = (api, isOutside = false) => {
           },
         ],
       !isOutside &&
-        require.resolve('@babel/plugin-transform-react-display-name'),
+        isEnvProduction && [
+          // Transform constant elements for production build
+          require.resolve('babel-plugin-transform-react-constant-elements'),
+        ],
       // Stage 1: https://github.com/tc39/proposals/blob/master/stage-1-proposals.md
       !isOutside &&
         require.resolve('@babel/plugin-proposal-export-default-from'),
-      // https://github.com/tc39/proposal-pipeline-operator
       !isOutside && [
         require.resolve('@babel/plugin-proposal-pipeline-operator'),
         { proposal: 'minimal' },

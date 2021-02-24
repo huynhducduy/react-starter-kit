@@ -47,6 +47,7 @@ devDependencies:
   babel-plugin-named-asset-import: 0.3.7_@babel+core@7.12.10
   babel-plugin-ramda: 2.0.0
   babel-plugin-transform-import-meta: 1.0.1_@babel+core@7.12.10
+  babel-plugin-transform-react-constant-elements: 6.23.0
   babel-plugin-transform-react-remove-prop-types: 0.4.24
   bfj: 7.0.2
   camelcase: 6.2.0
@@ -3375,6 +3376,12 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-8B5nqOFdo7HuAmgSWf+09fHZrx7GskayK8Vensz46pFNKIQIQF2FRLgIsTK3fy40+cjfHM32NqpDBhiL41aHUA==
+  /babel-plugin-transform-react-constant-elements/6.23.0:
+    dependencies:
+      babel-runtime: 6.26.0
+    dev: true
+    resolution:
+      integrity: sha1-LxGb9NLN1F65uqrldAU8YE9hR90=
   /babel-plugin-transform-react-remove-prop-types/0.4.24:
     dev: true
     resolution:
@@ -3411,6 +3418,13 @@ packages:
       '@babel/core': ^7.0.0
     resolution:
       integrity: sha512-YvdtlVm9t3k777c5NPQIv6cxFFFapys25HiUmuSgHwIZhfifweR5c5Sf5nwE3MAbfu327CYSvps8Yx6ANLyleQ==
+  /babel-runtime/6.26.0:
+    dependencies:
+      core-js: 2.6.12
+      regenerator-runtime: 0.11.1
+    dev: true
+    resolution:
+      integrity: sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
   /balanced-match/1.0.0:
     dev: true
     resolution:
@@ -4308,6 +4322,12 @@ packages:
     requiresBuild: true
     resolution:
       integrity: sha512-V5qQZVAr9K0xu7jXg1M7qTEwuxUgqr7dUOezGaNa7i+Xn9oXAU/d1fzqD9ObuwpVQOaorO5s70ckyi1woP9lVA==
+  /core-js/2.6.12:
+    deprecated: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+    dev: true
+    requiresBuild: true
+    resolution:
+      integrity: sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
   /core-js/3.8.3:
     dev: true
     requiresBuild: true
@@ -11387,6 +11407,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-zrceR/XhGYU/d/opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa+PixpPrR289+I0A==
+  /regenerator-runtime/0.11.1:
+    dev: true
+    resolution:
+      integrity: sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==
   /regenerator-runtime/0.13.7:
     dev: true
     resolution:
@@ -14105,6 +14129,7 @@ specifiers:
   babel-plugin-named-asset-import: ^0.3.7
   babel-plugin-ramda: ^2.0.0
   babel-plugin-transform-import-meta: ^1.0.1
+  babel-plugin-transform-react-constant-elements: ^6.23.0
   babel-plugin-transform-react-remove-prop-types: ^0.4.24
   bfj: ^7.0.2
   camelcase: ^6.2.0
