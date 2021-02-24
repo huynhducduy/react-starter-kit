@@ -108,33 +108,18 @@ module.exports = (api, isOutside = false) => {
         ],
       !isOutside &&
         require.resolve('@babel/plugin-transform-react-display-name'),
-      // Stage 1: from https://www.npmjs.com/package/@babel/preset-stage-1
+      // Stage 1: https://github.com/tc39/proposals/blob/master/stage-1-proposals.md
       !isOutside &&
         require.resolve('@babel/plugin-proposal-export-default-from'),
-      !isOutside &&
-        require.resolve('@babel/plugin-proposal-logical-assignment-operators'),
-      !isOutside && [
-        require.resolve('@babel/plugin-proposal-optional-chaining'),
-        { loose: false },
-      ],
+      // https://github.com/tc39/proposal-pipeline-operator
       !isOutside && [
         require.resolve('@babel/plugin-proposal-pipeline-operator'),
         { proposal: 'minimal' },
       ],
-      !isOutside && [
-        require.resolve('@babel/plugin-proposal-nullish-coalescing-operator'),
-        { loose: true },
-      ],
       !isOutside && require.resolve('@babel/plugin-proposal-do-expressions'),
-      // Stage 2
+      // Stage 2 https://github.com/tc39/proposals#stage-2
       !isOutside && require.resolve('@babel/plugin-proposal-function-sent'),
-      !isOutside &&
-        require.resolve('@babel/plugin-proposal-export-namespace-from'),
       !isOutside && require.resolve('@babel/plugin-proposal-throw-expressions'),
-      // Stage 3
-      !isOutside && require.resolve('@babel/plugin-syntax-dynamic-import'),
-      !isOutside && require.resolve('@babel/plugin-syntax-import-meta'),
-      !isOutside && require.resolve('@babel/plugin-proposal-json-strings'),
       // Libraries
       !isOutside && require.resolve('babel-plugin-ramda'),
       !isOutside && require.resolve('babel-plugin-date-fns-next'),
