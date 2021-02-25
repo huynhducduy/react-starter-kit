@@ -3,11 +3,7 @@ var restrictedGlobals = require('confusing-browser-globals')
 var extendsConfig = [
   'plugin:json/recommended',
   'plugin:prettier/recommended', // Always the last: https://github.com/prettier/eslint-plugin-prettier#recommended-configuration
-  'prettier/prettier',
-  'prettier/standard',
-  'prettier/babel',
-  'prettier/react',
-  // 'prettier/vue',
+  'prettier/prettier', // Fix some errors: https://github.com/prettier/eslint-plugin-prettier#arrow-body-style-and-prefer-arrow-callback-issue
 ]
 
 module.exports = {
@@ -234,7 +230,6 @@ module.exports = {
         'plugin:@typescript-eslint/recommended',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
         ...extendsConfig,
-        'prettier/@typescript-eslint',
       ],
       rules: {
         // TypeScript's `noFallthroughCasesInSwitch` option is more robust (#6906)

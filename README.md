@@ -34,14 +34,15 @@ Includes all features of CRA, with some opinionated tweaks but provide flexible 
 - date-fns
 - react-helmet-async
 - classnames
+- immer
 
 # Usage
 
 ## Installation
 
 ```sh
-git clone https://github.com/altafino/react-webpack-5-tailwind-2.git my-app
-cd my-app
+git clone https://github.com/huynhducduy/react-starter-kit react-app
+cd react-app
 yarn
 ```
 
@@ -85,3 +86,12 @@ Analyze output: `yarn analyze`
 
 - Production build
 - Test
+- Stylelint
+- GraphQL - Relay/Apollo
+- Server-Side rendering
+- PWA - workbox/firebase
+- Storybook?
+
+## Issues
+
+- `@typescript-eslint/typescript-estree` is not yet compatible with Typescript `^4.2.0`, can cause some bugs

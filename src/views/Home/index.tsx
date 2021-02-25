@@ -9,6 +9,7 @@ function App() {
     setText(e.target.value)
   }, [])
 
+function App() {
   return (
     <div className={styles['App']}>
       <header className={styles['App-header']}>

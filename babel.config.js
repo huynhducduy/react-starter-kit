@@ -121,6 +121,10 @@ module.exports = (api, isOutside = false) => {
       // Stage 2 https://github.com/tc39/proposals#stage-2
       !isOutside && require.resolve('@babel/plugin-proposal-function-sent'),
       !isOutside && require.resolve('@babel/plugin-proposal-throw-expressions'),
+      // Stable but not implemented in babel's core-js 3 (for some reason)
+      !isOutside && require.resolve('@babel/plugin-transform-new-target'),
+      !isOutside && require.resolve('@babel/plugin-proposal-logical-assignment-operators'),
+      !isOutside && require.resolve('@babel/plugin-proposal-json-strings'),
       // Libraries
       !isOutside && require.resolve('babel-plugin-ramda'),
       !isOutside && require.resolve('babel-plugin-date-fns-next'),
