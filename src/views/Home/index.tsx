@@ -1,7 +1,7 @@
 import logo from 'assets/logo.svg'
 import styles from './style.module.scss'
 
-function App(): JSX.Element {
+function App() {
   return (
     <div className={styles['App']}>
       <header className={styles['App-header']}>

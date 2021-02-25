@@ -34,6 +34,7 @@ Includes all features of CRA, with some opinionated tweaks but provide flexible 
 - date-fns
 - react-helmet-async
 - classnames
+- immer
 
 # Usage
 
@@ -84,8 +85,12 @@ Analyze output: `yarn analyze`
 ## Todo
 
 - Stylelint
-- Upgrade to Webpack 5 (with `terser-webpack-plugin` 5)
+- Upgrade to Webpack 5 (with `terser-webpack-plugin` 5, `html-webpack-plugin` 5, `postcss-loader` 5)
 - GraphQL - Relay/Apollo
 - Server-Side rendering
 - PWA - workbox/firebase
 - Storybook?
+
+## Issues
+
+- `@typescript-eslint/typescript-estree` is not yet compatible with Typescript `^4.2.0`, can cause some bugs

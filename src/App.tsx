@@ -1,6 +1,6 @@
 import { Router } from 'router'
 
-function App(): JSX.Element {
+function App() {
   return <Router />
 }
 
