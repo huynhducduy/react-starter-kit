@@ -41,8 +41,8 @@ Includes all features of CRA, with some opinionated tweaks but provide flexible 
 ## Installation
 
 ```sh
-git clone https://github.com/altafino/react-webpack-5-tailwind-2.git my-app
-cd my-app
+git clone https://github.com/huynhducduy/react-starter-kit react-app
+cd react-app
 yarn
 ```
 
