@@ -1,7 +1,6 @@
 module.exports = (api) => {
   return {
     plugins: [
-      require('precss'),
       require('tailwindcss'),
       require('postcss-preset-env')({
         stage: 1,

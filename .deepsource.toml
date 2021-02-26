@@ -2,7 +2,7 @@ version = 1
 
 test_patterns = [
     "src/**/*.{js,jsx,mjs,ts,tsx,json}",
-    "src/**/*.{scss,sass,css}"
+    "src/**/*.{scss,sass,css,pcss}"
 ]
 
 exclude_patterns = [

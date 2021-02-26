@@ -19,7 +19,7 @@ Includes all features of CRA, with some opinionated tweaks but provide flexible 
 - Tailwind 2
 - TypeScript 4
 - React 17 with `react-router-dom`, `recoil` as state management
-- PostCSS with `autoprefixer`, `SASS` syntax, `CSS Module` supported and many optimizations. (dropped `node-sass` due to performance issues)
+- SASS (`dart-sass` recommended), PostCSS with `autoprefixer`, `CSS Module` supported and optimizations.
 - Babel in `Stage 1` with tree-shaking support for `ramda`, `date-fns`
 - ESlint configured to work well with Prettier, Typescript, EditorConfig in multiple environment: IDE (VSCode), compile (start & build)
 - Jest + Enzyme for testing
@@ -87,7 +87,7 @@ Analyze output: `yarn analyze`
 ## Todo
 
 - Stylelint
-- Upgrade to Webpack 5 (with `terser-webpack-plugin` 5, `html-webpack-plugin` 5, `postcss-loader` 5)
+- Upgrade to Webpack 5 (with `terser-webpack-plugin` 5, `html-webpack-plugin` 5, `postcss-loader` 5, `sass-loader` 11)
 - GraphQL - Relay/Apollo
 - Server-Side rendering
 - PWA - workbox/firebase

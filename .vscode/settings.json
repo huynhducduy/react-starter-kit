@@ -59,6 +59,5 @@
 	"scss.validate": false,
 	"files.associations": {
 		".*rc": "json",
-		"*.scss": "postcss"
 	},
 }
