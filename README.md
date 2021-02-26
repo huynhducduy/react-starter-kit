@@ -13,13 +13,12 @@ This project was based on [Create React App](https://github.com/facebook/create-
 
 Includes all features of CRA, with some opinionated tweaks but provide flexible configurations.
 
-- Webpack 4 with `dynamic import()`, `react-refresh`, modern JSX and build optimizations.
+- Vite 2
 - Tailwind 2
 - TypeScript 4
 - React 17 with `react-router-dom`, `recoil` as state management
 - PostCSS with `autoprefixer`, `SASS` syntax, `CSS Module` supported and many optimizations. (dropped `node-sass` due to performance issues)
-- Babel in `Stage 1` with tree-shaking support for `ramda`, `date-fns`
-- ESlint configured to work well with Prettier, Typescript, EditorConfig in multiple environment: IDE (VSCode), compile (start & build)
+- ESlint configured to work well with Prettier, Typescript, EditorConfig
 - Jest + Enzyme for testing
 - Lintstaged & Husky for automatically lint & formatting
 - VSCode specific settings, extensions & debug launch config
