@@ -1,14 +1,19 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+// Uncomment this to use tailwind class-style instead of @apply-style
+// @tailwind components;
+// @tailwind utilities;
+
+@import './elements/_.scss';
+@import './generics/_.scss';
+@import './settings/_.scss';
+@import './utilities/_.scss';
 
 body {
-  margin: 0;
+  @apply m-0 antialiased;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;

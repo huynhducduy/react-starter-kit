@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals'
 
 import { HelmetProvider } from 'react-helmet-async'
 
-import './index.scss'
+import './styles/index.scss'
 import App from './App'
 
 import { Provider as RouterProvider } from 'router'
