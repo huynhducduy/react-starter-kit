@@ -57,8 +57,8 @@ const swSrc = paths.swSrc
 const cssRegex = /\.(css|pcss)$/
 const cssModuleRegex = /\.module\.(css|pcss)$/
 
-const sassRegex = /\.(scss|sass)$/;
-const sassModuleRegex = /\.module\.(scss|sass)$/;
+const sassRegex = /\.(scss|sass)$/
+const sassModuleRegex = /\.module\.(scss|sass)$/
 
 // This is the production and development configuration.
 // It is focused on developer experience, fast rebuilds, and a minimal bundle.
@@ -182,12 +182,12 @@ module.exports = function (webpackEnv) {
         {
           loader: require.resolve('sass-loader'),
           options: {
-            implementation: require("sass"),
+            implementation: require('sass'),
             sourceMap: isEnvProduction ? shouldUseSourceMap : isEnvDevelopment,
             sassOptions: {
-              fiber: require("fibers"),
-              outputStyle: "compressed",
-            }
+              fiber: require('fibers'),
+              outputStyle: 'compressed',
+            },
           },
         }
       )

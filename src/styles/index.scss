@@ -1,13 +1,13 @@
+@use './elements';
+@use './generics';
+@use './settings';
+@use './utilities';
+
 @tailwind base;
 
 // Uncomment this to use tailwind class-style instead of @apply-style
 // @tailwind components;
 // @tailwind utilities;
-
-@import './elements/_.scss';
-@import './generics/_.scss';
-@import './settings/_.scss';
-@import './utilities/_.scss';
 
 body {
   @apply m-0 antialiased;

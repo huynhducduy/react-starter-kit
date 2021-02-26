@@ -1,3 +1,5 @@
-// .u-hidden {
-//   display: none !important;
-// }
+@layer utilities {
+  .my-hidden {
+    display: none;
+  }
+}
