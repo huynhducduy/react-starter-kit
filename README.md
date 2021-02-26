@@ -9,6 +9,8 @@
 
 This project was based on [Create React App](https://github.com/facebook/create-react-app). [(4.0.1 (2020-11-23))](https://github.com/facebook/create-react-app/blob/master/CHANGELOG.md)
 
+Vite-version / Unbundled Development available at [vite branch](https://github.com/huynhducduy/react-starter-kit/tree/vite)
+
 # Features
 
 Includes all features of CRA, with some opinionated tweaks but provide flexible configurations.
