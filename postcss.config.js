@@ -7,7 +7,7 @@ module.exports = (api) => {
         stage: 1,
       }),
       require('autoprefixer'),
-      require('postcss-normalize'),
+      // require('postcss-normalize'), // Tailwind already come with modern-normalize
       require('cssnano'),
     ],
   }
