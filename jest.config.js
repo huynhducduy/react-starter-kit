@@ -13,7 +13,9 @@ module.exports = async () => {
     testRunner:
       '/Users/huynhducduy/workspace/react-starter-kit/node_modules/jest-circus/runner.js',
     transform: {
-      '^.+\\.(js|jsx|mjs|cjs|ts|tsx)$': '<rootDir>/node_modules/babel-jest',
+      '^.+\\.(js|jsx|mjs|cjs|ts|tsx)$': [
+        '<rootDir>/config/jest/viteTransform.js',
+      ],
       '^.+\\.css$': '<rootDir>/config/jest/cssTransform.js',
       '^(?!.*\\.(js|jsx|mjs|cjs|ts|tsx|css|json)$)':
         '<rootDir>/config/jest/fileTransform.js',

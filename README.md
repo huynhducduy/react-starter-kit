@@ -85,7 +85,7 @@ Analyze output: `yarn analyze`
 ## Todo
 
 - Production build
-- Test
+- Test (Jest https://github.com/facebook/jest/issues/4842)
 - Stylelint
 - GraphQL - Relay/Apollo
 - Server-Side rendering
