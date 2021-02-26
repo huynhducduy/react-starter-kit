@@ -1,6 +1,7 @@
 module.exports = (api) => {
   return {
     plugins: [
+      require('postcss-flexbugs-fixes'),
       require('tailwindcss'),
       require('postcss-preset-env')({
         stage: 1,
