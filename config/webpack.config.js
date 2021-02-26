@@ -147,7 +147,7 @@ module.exports = function (webpackEnv) {
   }
 
   // common function to get style loaders
-  const getStyleLoaders = (cssOptions, preProcessor) => {
+  const getStyleLoaders = (cssOptions, sass = false) => {
     const loaders = [
       isEnvDevelopment && require.resolve('style-loader'),
       isEnvProduction && {
@@ -170,7 +170,7 @@ module.exports = function (webpackEnv) {
       },
     ].filter(Boolean)
 
-    if (preProcessor) {
+    if (sass) {
       loaders.push(
         {
           loader: require.resolve('resolve-url-loader'),
@@ -180,9 +180,14 @@ module.exports = function (webpackEnv) {
           },
         },
         {
-          loader: require.resolve(preProcessor),
+          loader: require.resolve('sass-loader'),
           options: {
-            sourceMap: true,
+            implementation: require("sass"),
+            sourceMap: isEnvProduction ? shouldUseSourceMap : isEnvDevelopment,
+            sassOptions: {
+              fiber: require("fibers"),
+              outputStyle: "compressed",
+            }
           },
         }
       )
@@ -485,7 +490,7 @@ module.exports = function (webpackEnv) {
                     ? shouldUseSourceMap
                     : isEnvDevelopment,
                 },
-                'sass-loader'
+                true
               ),
               // Don't consider CSS imports dead code even if the
               // containing package claims to have no side effects.
@@ -507,7 +512,7 @@ module.exports = function (webpackEnv) {
                     getLocalIdent: getCSSModuleLocalIdent,
                   },
                 },
-                'sass-loader'
+                true
               ),
             },
             // "file" loader makes sure those assets get served by WebpackDevServer.
