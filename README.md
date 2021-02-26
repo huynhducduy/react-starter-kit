@@ -9,6 +9,8 @@
 
 This project was based on [Create React App](https://github.com/facebook/create-react-app). [(4.0.1 (2020-11-23))](https://github.com/facebook/create-react-app/blob/master/CHANGELOG.md)
 
+Vite-version / Unbundled Development available at [vite branch](https://github.com/huynhducduy/react-starter-kit/tree/vite)
+
 # Features
 
 Includes all features of CRA, with some opinionated tweaks but provide flexible configurations.
@@ -17,7 +19,7 @@ Includes all features of CRA, with some opinionated tweaks but provide flexible 
 - Tailwind 2
 - TypeScript 4
 - React 17 with `react-router-dom`, `recoil` as state management
-- PostCSS with `autoprefixer`, `SASS` syntax, `CSS Module` supported and many optimizations. (dropped `node-sass` due to performance issues)
+- SASS (with `dart-sass`), PostCSS with `autoprefixer`, `CSS Module` supported and optimizations.
 - ESlint configured to work well with Prettier, Typescript, EditorConfig
 - Jest + Enzyme for testing
 - Lintstaged & Husky for automatically lint & formatting

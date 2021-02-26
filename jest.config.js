@@ -22,12 +22,12 @@ module.exports = async () => {
     },
     transformIgnorePatterns: [
       '[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs|cjs|ts|tsx)$',
-      '^.+\\.module\\.(css|sass|scss)$',
+      '^.+\\.module\\.(css|sass|scss|pcss)$',
     ],
     modulePaths: ['/Users/huynhducduy/workspace/react-starter-kit/src'],
     moduleNameMapper: {
       '^react-native$': 'react-native-web',
-      '^.+\\.module\\.(css|sass|scss)$': 'identity-obj-proxy',
+      '^.+\\.module\\.(css|sass|scss|pcss)$': 'identity-obj-proxy',
     },
     moduleFileExtensions: [
       'web.js',
