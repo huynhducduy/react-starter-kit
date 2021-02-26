@@ -54,8 +54,8 @@ const imageInlineSizeLimit = parseInt(
 const swSrc = paths.swSrc
 
 // styles files regex
-const cssRegex = /\.(css|scss)$/
-const cssModuleRegex = /\.module\.(css|scss)$/
+const cssRegex = /\.(css|scss|pcss)$/
+const cssModuleRegex = /\.module\.(css|scss|pcss)$/
 
 // This is the production and development configuration.
 // It is focused on developer experience, fast rebuilds, and a minimal bundle.
