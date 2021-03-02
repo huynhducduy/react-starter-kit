@@ -46,8 +46,9 @@ module.exports = (api, isOutside = false) => {
         {
           // Adds component stack to warning messages
           // Adds __self attribute to JSX which React will use for some warnings
-          // development: isEnvDevelopment || isEnvTest,
+          development: isEnvDevelopment || isEnvTest,
           runtime: 'automatic',
+          importSource: '@welldone-software/why-did-you-render',
         },
       ],
       !isOutside && [
@@ -123,7 +124,8 @@ module.exports = (api, isOutside = false) => {
       !isOutside && require.resolve('@babel/plugin-proposal-throw-expressions'),
       // Stable but not implemented in babel's core-js 3 (for some reason)
       !isOutside && require.resolve('@babel/plugin-transform-new-target'),
-      !isOutside && require.resolve('@babel/plugin-proposal-logical-assignment-operators'),
+      !isOutside &&
+        require.resolve('@babel/plugin-proposal-logical-assignment-operators'),
       !isOutside && require.resolve('@babel/plugin-proposal-json-strings'),
       // Libraries
       !isOutside && require.resolve('babel-plugin-ramda'),

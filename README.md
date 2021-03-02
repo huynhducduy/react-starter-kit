@@ -37,6 +37,7 @@ Includes all features of CRA, with some opinionated tweaks but provide flexible 
 - react-helmet-async
 - classnames
 - immer
+- why-did-you-render (for development)
 
 # Usage
 
