@@ -13,6 +13,7 @@ import App from './App'
 
 import { Provider as RouterProvider } from 'router'
 import { Provider as StoreProvider } from 'store'
+import { Provider as ToastProvider } from 'utils/toast'
 
 import ErrorBoundary from 'utils/ErrorBoundary'
 import buildComponentTree from 'utils/buildComponentTree'
@@ -22,6 +23,7 @@ const Providers = buildComponentTree([
   [StoreProvider],
   [HelmetProvider],
   [RouterProvider],
+  [ToastProvider],
   [ErrorBoundary],
 ]) as React.ComponentType
 

@@ -1,6 +1,9 @@
-import logo from 'assets/logo.svg'
 import { useCallback, useState, memo } from 'react'
 import styles from './style.module.scss'
+
+import logo from 'assets/logo.svg'
+
+import toast from 'utils/toast'
 
 const BigListPureComponent = memo(
   (props: { someProp: React.CSSProperties }) => {
@@ -13,6 +16,10 @@ function App() {
 
   const handleInput = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
     setValue(e.target.value)
+  }, [])
+
+  const handleToast = useCallback(() => {
+    toast.success('This is a success toast')
   }, [])
 
   return (
@@ -35,6 +42,7 @@ function App() {
         >
           Learn React
         </a>
+        <button onClick={handleToast}>Toast</button>
         <BigListPureComponent someProp={{}} />
       </header>
     </div>

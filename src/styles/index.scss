@@ -3,6 +3,8 @@
 @use './settings';
 @use './utilities';
 
+@import 'react-toastify/dist/ReactToastify.css';
+
 @tailwind base;
 
 // Uncomment this to use tailwind class-style instead of @apply-style
