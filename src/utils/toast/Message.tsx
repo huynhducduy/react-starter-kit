@@ -3,10 +3,10 @@ export interface ToastMessageProps {
   variant: 'success' | 'info' | 'error' | 'warn'
 }
 
-const ToastMessage: React.FunctionComponent<ToastMessageProps> = ({
+const ToastMessage = ({
   message = '',
   variant = 'info',
-}) => {
+}: ToastMessageProps) => {
   let icon
 
   switch (variant) {

@@ -1,7 +1,6 @@
-import { ReactNode } from 'react'
 import { ToastContainer as ToastifyContainer } from 'react-toastify'
 
-const Provider = ({ children }: { children: ReactNode }): ReactNode => (
+const Provider = ({ children }: { children: React.ReactNode }) => (
   <>
     {children}
     <ToastifyContainer

@@ -1,25 +1,24 @@
-import { ReactNode, useState, useCallback } from 'react'
+import { useState, useCallback } from 'react'
 import { useRecoilValue, useSetRecoilState } from 'recoil'
 import { confirmAtom } from './'
 
 export interface ConfirmComponentProps {
-  isShow: boolean
+  show: boolean
   title: string
   body: React.ReactNode
   onConfirm: () => void
-  onHide: () => void
+  onCancel: () => void
   isProcessing: boolean
 }
 
-interface ConfirmProviderProps {
-  ConfirmComponent: React.ComponentType<ConfirmComponentProps>
-  children: ReactNode
+interface ConfirmProvider {
+  (props: {
+    ConfirmComponent: React.ComponentType<ConfirmComponentProps>
+    children: React.ReactNode
+  }): React.ReactNode
 }
 
-const Provider = ({
-  ConfirmComponent,
-  children,
-}: ConfirmProviderProps): ReactNode => {
+const Provider: ConfirmProvider = ({ ConfirmComponent, children }) => {
   const confirmData = useRecoilValue(confirmAtom)
   const setConfirmData = useSetRecoilState(confirmAtom)
   const [isProcessing, setIsProcessing] = useState(false)
@@ -35,8 +34,8 @@ const Provider = ({
     })
   }, [confirmData, setConfirmData])
 
-  const onHide = useCallback(() => {
-    Promise.resolve(confirmData.onHide()).finally(() => {
+  const onCancel = useCallback(() => {
+    Promise.resolve(confirmData.onCancel()).finally(() => {
       setConfirmData((data) => ({
         ...data,
         show: false,
@@ -48,11 +47,11 @@ const Provider = ({
     <>
       {children}
       <ConfirmComponent
-        isShow={confirmData.show}
+        show={confirmData.show}
         title={confirmData.title}
         body={confirmData.body}
         onConfirm={onConfirm}
-        onHide={onHide}
+        onCancel={onCancel}
         isProcessing={isProcessing}
       />
     </>

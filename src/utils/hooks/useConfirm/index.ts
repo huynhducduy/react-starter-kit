@@ -2,40 +2,45 @@ import { useCallback } from 'react'
 
 import { atom, useSetRecoilState } from 'recoil'
 
-export const confirmAtom = atom({
+interface ConfirmDataType {
+  title: string
+  body: React.ReactNode
+  onConfirm: () => void
+  onCancel: () => void
+}
+
+export const confirmAtom = atom<ConfirmDataType & { show: boolean }>({
   key: 'confirm',
   default: {
     title: 'Confirmation',
-    body: null as React.ReactNode,
+    body: null,
     show: false,
     // eslint-disable-next-line @typescript-eslint/no-empty-function
-    onConfirm: (): void => {},
+    onConfirm: () => {},
     // eslint-disable-next-line @typescript-eslint/no-empty-function
-    onHide: (): void => {},
+    onCancel: () => {},
   },
 })
 
-function useConfirm(): ({
-  title,
-  body,
-  onConfirm,
-  onCancel,
-}: {
-  title: string
-  body: React.ReactNode
-  onConfirm?: () => void
-  onCancel?: () => void
-}) => void {
+interface ConfirmType {
+  (props: ConfirmDataType): void
+}
+
+interface UseConfirmType {
+  (): ConfirmType
+}
+
+const useConfirm: UseConfirmType = () => {
   const setConfirmData = useSetRecoilState(confirmAtom)
 
-  function confirm({
+  const confirm: ConfirmType = ({
     title = '',
-    body = null as React.ReactNode,
+    body = null,
     // eslint-disable-next-line @typescript-eslint/no-empty-function
     onConfirm = function () {},
     // eslint-disable-next-line @typescript-eslint/no-empty-function
     onCancel = function () {},
-  }) {
+  }) => {
     new Promise((res, rej) => {
       setConfirmData({
         show: true,
@@ -45,7 +50,7 @@ function useConfirm(): ({
           res(undefined)
           return onConfirm()
         },
-        onHide: () => {
+        onCancel: () => {
           rej()
           return onCancel()
         },

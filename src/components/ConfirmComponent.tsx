@@ -3,12 +3,11 @@ import { ConfirmComponentProps } from 'utils/hooks/useConfirm'
 const ConfirmComponent = ({
   title = 'Confirm on removal',
   body,
-  isShow,
-  onHide,
+  show,
+  onCancel,
   onConfirm,
   isProcessing = false,
 }: ConfirmComponentProps) => {
-  console.log('render')
   return (
     <div
       style={{
@@ -19,7 +18,7 @@ const ConfirmComponent = ({
         height: '100vh',
         alignItems: 'center',
         justifyContent: 'center',
-        display: !isShow ? 'none' : 'flex',
+        display: !show ? 'none' : 'flex',
         backgroundColor: '#fff',
       }}
     >
@@ -27,7 +26,7 @@ const ConfirmComponent = ({
         <div>{title}</div>
         <div>{body}</div>
         <div>
-          <button onClick={onHide}>No</button>
+          <button onClick={onCancel}>No</button>
           <button onClick={onConfirm}>Yes</button>
           {isProcessing && 'Processing...'}
         </div>
