@@ -38,6 +38,7 @@ Includes all features of CRA, with some opinionated tweaks but provide flexible 
 - classnames
 - immer
 - why-did-you-render (for development)
+- react-toastify (with toast util)
 
 # Usage
 

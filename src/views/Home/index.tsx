@@ -32,6 +32,7 @@ function App() {
         new Promise((resolve) => setTimeout(resolve, 5000)).then(() => {
           alert('confirmed')
         }),
+      onCancel: () => alert('canceled'),
     })
   }, [confirm])
 

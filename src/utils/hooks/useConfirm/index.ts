@@ -50,7 +50,8 @@ function useConfirm(): ({
           return onCancel()
         },
       })
-    }).catch((err) => Promise.reject(err))
+      // eslint-disable-next-line @typescript-eslint/no-empty-function
+    }).catch(() => {})
   }
 
   return useCallback(confirm, [setConfirmData])
