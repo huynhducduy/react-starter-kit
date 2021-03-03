@@ -14,6 +14,8 @@ import App from './App'
 import { Provider as RouterProvider } from 'router'
 import { Provider as StoreProvider } from 'store'
 import { Provider as ToastProvider } from 'utils/toast'
+import { Provider as ConfirmProvider } from 'utils/hooks/useConfirm'
+import ConfirmComponent from 'components/ConfirmComponent'
 
 import ErrorBoundary from 'utils/ErrorBoundary'
 import buildComponentTree from 'utils/buildComponentTree'
@@ -24,6 +26,7 @@ const Providers = buildComponentTree([
   [HelmetProvider],
   [RouterProvider],
   [ToastProvider],
+  [ConfirmProvider, { ConfirmComponent }],
   [ErrorBoundary],
 ]) as React.ComponentType
 

@@ -4,6 +4,7 @@ import styles from './style.module.scss'
 import logo from 'assets/logo.svg'
 
 import toast from 'utils/toast'
+import useConfirm from 'utils/hooks/useConfirm'
 
 const BigListPureComponent = memo(
   (props: { someProp: React.CSSProperties }) => {
@@ -12,6 +13,7 @@ const BigListPureComponent = memo(
 )
 
 function App() {
+  const confirm = useConfirm()
   const [value, setValue] = useState<string>('')
 
   const handleInput = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
@@ -21,6 +23,17 @@ function App() {
   const handleToast = useCallback(() => {
     toast.success('This is a success toast')
   }, [])
+
+  const handleConfirm = useCallback(() => {
+    confirm({
+      title: 'Confirmation',
+      body: <>Do you wanna do it?</>,
+      onConfirm: () =>
+        new Promise((resolve) => setTimeout(resolve, 5000)).then(() => {
+          alert('confirmed')
+        }),
+    })
+  }, [confirm])
 
   return (
     <div className={styles['App']}>
@@ -43,6 +56,7 @@ function App() {
           Learn React
         </a>
         <button onClick={handleToast}>Toast</button>
+        <button onClick={handleConfirm}>Confirm</button>
         <BigListPureComponent someProp={{}} />
       </header>
     </div>
