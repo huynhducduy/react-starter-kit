@@ -1,7 +1,7 @@
-import { memo } from 'react'
+import { ReactNode } from 'react'
 import { ToastContainer as ToastifyContainer } from 'react-toastify'
 
-const Provider = memo(({ children }) => (
+const Provider = ({ children }: { children: ReactNode }): ReactNode => (
   <>
     {children}
     <ToastifyContainer
@@ -16,6 +16,6 @@ const Provider = memo(({ children }) => (
       pauseOnHover
     />
   </>
-))
+)
 
 export default Provider
