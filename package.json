@@ -29,8 +29,10 @@
     "@testing-library/user-event": "^12.7.3",
     "@types/enzyme": "^3.10.8",
     "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/hoist-non-react-statics": "^3.3.1",
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.31",
+    "@types/ramda": "^0.27.38",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
     "@types/react-router-dom": "^5.1.7",
@@ -73,6 +75,7 @@
     "eslint-webpack-plugin": "^2.5.2",
     "fibers": "^5.0.0",
     "file-loader": "^6.2.0",
+    "framer-motion": "^3.10.0",
     "fs-extra": "^9.1.0",
     "hoist-non-react-statics": "^3.3.2",
     "html-webpack-plugin": "^4.5.2",
@@ -100,6 +103,7 @@
     "ramda": "^0.27.1",
     "react": "^17.0.1",
     "react-app-polyfill": "^2.0.0",
+    "react-content-loader": "^6.0.2",
     "react-dev-utils": "^11.0.3",
     "react-dom": "^17.0.1",
     "react-helmet-async": "^1.0.7",
@@ -142,6 +146,5 @@
     "fix:style": "prettier --write 'src/**/*.{scss,sass,css,pcss}'",
     "fix": "run-p fix:*",
     "postinstall": "husky install"
-  },
-  "dependencies": {}
+  }
 }

@@ -28,9 +28,9 @@ const Providers = buildComponentTree([
   [ToastProvider],
   [ConfirmProvider, { ConfirmComponent }],
   [ErrorBoundary],
-]) as React.ComponentType
+])
 
-function render(Component: React.ComponentType) {
+function render(Component: React.ElementType) {
   return ReactDOM.render(
     <React.StrictMode>
       <Providers>

@@ -9,6 +9,14 @@ interface ConfirmDataType {
   onCancel: () => void
 }
 
+interface ConfirmType {
+  (props: ConfirmDataType): void
+}
+
+interface UseConfirmType {
+  (): ConfirmType
+}
+
 export const confirmAtom = atom<ConfirmDataType & { show: boolean }>({
   key: 'confirm',
   default: {
@@ -21,14 +29,6 @@ export const confirmAtom = atom<ConfirmDataType & { show: boolean }>({
     onCancel: () => {},
   },
 })
-
-interface ConfirmType {
-  (props: ConfirmDataType): void
-}
-
-interface UseConfirmType {
-  (): ConfirmType
-}
 
 const useConfirm: UseConfirmType = () => {
   const setConfirmData = useSetRecoilState(confirmAtom)

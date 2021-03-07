@@ -14,8 +14,8 @@ export interface ConfirmComponentProps {
 interface ConfirmProvider {
   (props: {
     ConfirmComponent: React.ComponentType<ConfirmComponentProps>
-    children: React.ReactNode
-  }): React.ReactNode
+    children: JSX.Element
+  }): JSX.Element
 }
 
 const Provider: ConfirmProvider = ({ ConfirmComponent, children }) => {

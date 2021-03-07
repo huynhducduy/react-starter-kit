@@ -546,34 +546,34 @@
         "signature": "6e7936b20cd2022c2a71f9d780e7f87216c19fde5c18448aaff60059a46ae2e7",
         "affectsGlobalScope": false
       },
-      "./src/router/helpers/getpath.js": {
-        "version": "e9d7c93fef8dbfa4fd5d81ac7e561490747f13492f537940676090aeef74ffae",
-        "signature": "19a0e57e6760f4d4a5511efd8beef2d4e65538a169fe9faced3b74c9f5ef1ee2",
+      "./src/router/helpers/getpath.ts": {
+        "version": "17b5c3d7b6ede3f79161b8a7b4f6cfe1cee8bf76e0be16a47de65c1acdc30beb",
+        "signature": "0a89ed12a43e9b89d7b7e2fdc43f3a4cec8b05133937ff70bc529aa7ecd50364",
         "affectsGlobalScope": false
       },
-      "./src/router/helpers/geturl.js": {
-        "version": "f6e9da85f01387e8060452d2c71f38b4249da83b6460c934c5a10a613a674bc0",
-        "signature": "726e758a280ad54392eb1f863b7e9f62187eaedb976727cd119bae37b723c11b",
+      "./src/router/helpers/geturl.ts": {
+        "version": "e0661ddcb927c34132465f7df7caa1d3c2ca4680138ef74c598e04d9c4c45dcb",
+        "signature": "2667c16a678abbe1c26effde8e00471dd6897c24d6b4e759ef282abc2772a427",
         "affectsGlobalScope": false
       },
       "./src/router/routes/conditionalroute.js": {
-        "version": "385d56453f9c05e8e0cf671ca630fdeec36c266c1516aee6cfe98a8e9187d1d3",
+        "version": "9a538d9b02f49e1ea1ae18b6365123daa3cab208b9db80781b1a6bbaf8c831b6",
         "signature": "efc8eb0d2b75bd81d66d6373be1f6ccf7d70a2ac1b472540ce331bc41d0b3baa",
         "affectsGlobalScope": false
       },
       "./src/config.ts": {
-        "version": "496eaf6987685851307ce30d94366d8da45dbc1b6513acb1d4a1d47881f652c6",
-        "signature": "81e6a860c913339b40f69a82d296b303fa4017ff53f7eece1eacce7c4071262c",
+        "version": "d67a9bf512f74ac2599aac2e830108534d888d6a27bd642a5519b43445557772",
+        "signature": "a2a91cbd1fa8f3b8b83d5353a6cf04c596824cc37591a49e8243cf5b825ccab3",
         "affectsGlobalScope": false
       },
-      "./src/utils/localstorage.js": {
-        "version": "2aea23775bd4c63af93558f1a318b5994f7d5f461df9b1007cbd56e764c7d7df",
-        "signature": "c8b8526beacf423b83d9b7bbb9aa4b58d458425a1be8e1352b3afe1d8ef2431d",
+      "./src/utils/localstorage.ts": {
+        "version": "86c427f19495c72da6f19da79f62498e4d75ee3e3a69f307d97a0af516cdb31c",
+        "signature": "fc53763873bc17fb07a0db42b2fdce6577c7aeec15bea33305e3fc15d456fc14",
         "affectsGlobalScope": false
       },
-      "./src/auth/constants.js": {
+      "./src/auth/constants.ts": {
         "version": "5f957d4840d9a690ee4ed653f6ff621a432b369d17f2654b89632b2579c2a286",
-        "signature": "1e72c34cf540feaca595bc60845e81e45ebf8bd5952bfea98aee1a006324402c",
+        "signature": "f308b2faa137949b6246cd2b9212e97fd05ec2306b8d6062da06608b033c4198",
         "affectsGlobalScope": false
       },
       "./node_modules/date-fns/typings.d.ts": {
@@ -581,18 +581,18 @@
         "signature": "7631f38c6f89c86a848d2bfbfcc22ec66aa06f781d090a58d118b9b4de4975c0",
         "affectsGlobalScope": true
       },
-      "./src/auth/helpers/getaccesstokenexpiresat.js": {
-        "version": "363a19d3a8212c9b4277b97d78cd5053df16ecdfca0728883731ac9f46a872a2",
+      "./src/auth/helpers/getaccesstokenexpiresat.ts": {
+        "version": "fac7e5b29732f6ae0334c5d63fe00c705a062b095d9bf03cd34daa336a800c2a",
         "signature": "c2b4d10eb9ac84bf850677c4983f44f1f24da05fe4a45fb2aacf5e5dde1fcdca",
         "affectsGlobalScope": false
       },
-      "./src/auth/helpers/tokenisexpired.js": {
-        "version": "22622263f96c1d133e69aebe3f727e41b28306a943b47674907ba932b2cc025e",
+      "./src/auth/helpers/tokenisexpired.ts": {
+        "version": "5455e64880e3d8a13280c8af462722fd8045dbe610db0809afa60f2a06b8fb4a",
         "signature": "b5ac4da9f50e5de90643ea1d05cbd63c24b6da39d57d51ee5e0b9a26ecc85e03",
         "affectsGlobalScope": false
       },
-      "./src/auth/helpers/isauthenticated.js": {
-        "version": "a8952baee7b010028abeacb9b3719122e64f69eebc2ea9f25d3c736d09233c4a",
+      "./src/auth/helpers/isauthenticated.ts": {
+        "version": "2c9baeceb1c3b1e3121e84b8db819aca3c632837337340c2a8354830cdb04afb",
         "signature": "29087745ffd0d472755f8670b768a82d55cfe44a883f30275d190bf5e37a4a03",
         "affectsGlobalScope": false
       },
@@ -616,28 +616,173 @@
         "signature": "f365c9a00760b1f075c11689b5948ea4dd7e89c14507362dff2358ebb4a88c05",
         "affectsGlobalScope": false
       },
-      "./src/router/routes/index.js": {
-        "version": "7d867b3accbe25180717ed6d493f77dd77d4dde0fdde680177fed576b0f9b056",
-        "signature": "33a70486d8ffd9c1f78aef2d84977254245cf118508b400dfbc4d05adef7965c",
+      "./src/router/routes/index.jsx": {
+        "version": "26be95e5cb3ce11f42b80c755bc75632240cc5438024dcdd9dad4af01ae94ab4",
+        "signature": "0f71a3c2a82c5fc71baaefda5ab5c33dd93135b45e674fd3517ca14ebeae5360",
         "affectsGlobalScope": false
       },
-      "./src/router/helpers/getpaths.js": {
-        "version": "24f9fe96f6f385e9c87d659edadf46f0c6cbd97f1f249e7fcfb7381c0c0411ef",
-        "signature": "5d1beaaa4982b120e114af3a541a22b6903e301dcd692027433faa4caedfa60a",
+      "./src/router/loader/index.tsx": {
+        "version": "f3697ff65b3c897a3eef7d3eec1d9c73b67c63ae65d134c7ee51054a7dce070a",
+        "signature": "218fc31f7447ec281cde48a4d2837b0e4a092cd1c83eb87059329f3e348875e4",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/waitatleast.ts": {
+        "version": "19af07355ec9b120005927cfbdecafafcb11344e5adc7da6b3bbfe2766aa2a20",
+        "signature": "c30aae14979c112000fcff3c3c09358b92d9d4051ae6df0f5124670918d9cf20",
+        "affectsGlobalScope": false
+      },
+      "./src/router/helpers/load.ts": {
+        "version": "9ca1a5e6d95971236cbe0e3edabb7f4153d0778d733c32649db4b510d708b281",
+        "signature": "f5f275323517689be21791764d304a9b6c72bccd7351fafbcdbd50eb81d92436",
+        "affectsGlobalScope": false
+      },
+      "./src/router/helpers/getpaths.ts": {
+        "version": "2c47fa3bf47dbf821c19cf9382a26ec9f4f95d5b6ce4bd65bc68bb10be192ec0",
+        "signature": "6735b19754cafda993189a22570da1ff16a12efd30f394e771f216d4949f95a8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/types/index.d.ts": {
+        "version": "646de1f2abbca0bf4b52144692bab4fdf402839449f1008b83e1e9c1593dfbfa",
+        "signature": "646de1f2abbca0bf4b52144692bab4fdf402839449f1008b83e1e9c1593dfbfa",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/hooks/usetoastcontainer.d.ts": {
+        "version": "b6f242bc58160a1a908a6c0070a751e2eceb7bf3e9863b6edd9c79a5b06d6f1a",
+        "signature": "b6f242bc58160a1a908a6c0070a751e2eceb7bf3e9863b6edd9c79a5b06d6f1a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/hooks/usetoast.d.ts": {
+        "version": "387a72f1c47a6a1a09ea8cab9dc0db88d9a5993ca1cc1b88972d0eba881958cf",
+        "signature": "387a72f1c47a6a1a09ea8cab9dc0db88d9a5993ca1cc1b88972d0eba881958cf",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/hooks/usekeeper.d.ts": {
+        "version": "24815af05345e997c460f232bda0edbeec34a3fb3226e72e3990d723e568285a",
+        "signature": "24815af05345e997c460f232bda0edbeec34a3fb3226e72e3990d723e568285a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/hooks/index.d.ts": {
+        "version": "ae601f83630732158b0b7d79b05e294797f6264f5063a60ac9595ef3461be9db",
+        "signature": "ae601f83630732158b0b7d79b05e294797f6264f5063a60ac9595ef3461be9db",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/utils/propvalidator.d.ts": {
+        "version": "5f92a4a321df7ce83fa277e49f4f2bbb266315716cab227e688e60a44844635f",
+        "signature": "5f92a4a321df7ce83fa277e49f4f2bbb266315716cab227e688e60a44844635f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/utils/constant.d.ts": {
+        "version": "ef528c37af31a9423176998848525840935f0793a395ea9239a287ab926080a0",
+        "signature": "ef528c37af31a9423176998848525840935f0793a395ea9239a287ab926080a0",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/utils/csstransition.d.ts": {
+        "version": "55c8788cf216558c51a6b306db99555c91f59e88f189601a68e8c57f519f7f87",
+        "signature": "55c8788cf216558c51a6b306db99555c91f59e88f189601a68e8c57f519f7f87",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/utils/collapsetoast.d.ts": {
+        "version": "17d7c3f9a6fe86c82d7fe39d717c4723ec462865993d45c655d2ad2b46b8095f",
+        "signature": "17d7c3f9a6fe86c82d7fe39d717c4723ec462865993d45c655d2ad2b46b8095f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/utils/index.d.ts": {
+        "version": "beac7eac0e584ff296e87af932b8bdd4eebabf40ea2d1fa5450e653e92121fbc",
+        "signature": "beac7eac0e584ff296e87af932b8bdd4eebabf40ea2d1fa5450e653e92121fbc",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/components/closebutton.d.ts": {
+        "version": "7808651c8568035c079e22f1b4c259f38029993e41512db94c6967c6f2ca1e53",
+        "signature": "7808651c8568035c079e22f1b4c259f38029993e41512db94c6967c6f2ca1e53",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/components/progressbar.d.ts": {
+        "version": "dbe22f964910bba33a118e2c309a079c646e1a7e9ca94f0b9002bfb10611cf5e",
+        "signature": "dbe22f964910bba33a118e2c309a079c646e1a7e9ca94f0b9002bfb10611cf5e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/components/toastcontainer.d.ts": {
+        "version": "4fe0ccae400104b9e3e716b0fc55d054d870105ed103428137179599df193914",
+        "signature": "4fe0ccae400104b9e3e716b0fc55d054d870105ed103428137179599df193914",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/components/transitions.d.ts": {
+        "version": "5a70e07208491a29127cd29978f367bfb08237f6c8f87bf92036122f1a642567",
+        "signature": "5a70e07208491a29127cd29978f367bfb08237f6c8f87bf92036122f1a642567",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/components/toast.d.ts": {
+        "version": "f6b4d8d987df4754127fe71fb690a50dc1482d62e37e08b35d8dabb041ac0f8d",
+        "signature": "f6b4d8d987df4754127fe71fb690a50dc1482d62e37e08b35d8dabb041ac0f8d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/components/index.d.ts": {
+        "version": "a5a33d59c19a89004f9f3232ecd390acab3761f6a8d080bde5637d9c95c36bc1",
+        "signature": "a5a33d59c19a89004f9f3232ecd390acab3761f6a8d080bde5637d9c95c36bc1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/core/eventmanager.d.ts": {
+        "version": "5efc6f1fc1629fafa58a0ddc9ce3873c2056e1831a7f816c6c977632acac4aa5",
+        "signature": "5efc6f1fc1629fafa58a0ddc9ce3873c2056e1831a7f816c6c977632acac4aa5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/core/toast.d.ts": {
+        "version": "2d0871513d8a8304476c196202b3e5febc3b0ee689c05a8d280192a2f8696e92",
+        "signature": "2d0871513d8a8304476c196202b3e5febc3b0ee689c05a8d280192a2f8696e92",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/core/index.d.ts": {
+        "version": "06c92651abcefcb252908ea16693166ce4cb7df90fd1102c253194c686eb84ae",
+        "signature": "06c92651abcefcb252908ea16693166ce4cb7df90fd1102c253194c686eb84ae",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/index.d.ts": {
+        "version": "c609cfc70fc14c832377c74a359c34bbf9b79df8c60559877cbd3e42be9aaf80",
+        "signature": "c609cfc70fc14c832377c74a359c34bbf9b79df8c60559877cbd3e42be9aaf80",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/toast/message.tsx": {
+        "version": "782e6dccf6754a935ffbd32da8d80361846a98794da66d75166dc1f7b72e6790",
+        "signature": "d7b20e3e0a3c75e4f3a432f0e09cd14417bfbfceb6b3751be7d1e616bbfe6fb3",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/toast/provider.tsx": {
+        "version": "e1a96744eafba8737f40c67d7d4ba40e22cdd39ee8af8543dc2c220a1621ef47",
+        "signature": "608521911a5b469987c45f4a86b974948df1caa3125cc2a29ac710ad5bd4500c",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/toast/index.ts": {
+        "version": "25e70e20fe02a6ecd01012e8e41f46c796ca8466d5270ee1c3729e44d2fedeed",
+        "signature": "a2fa78b5dbe02f4dba2f93b4eee23a72360f044b7285ebd291d093ec90b4dc80",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/recoil/index.d.ts": {
+        "version": "01b4b543495b871f18e2e1ec70f2adf2e7b2e7792da9f62df7c07c4087e2a12f",
+        "signature": "01b4b543495b871f18e2e1ec70f2adf2e7b2e7792da9f62df7c07c4087e2a12f",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/hooks/useconfirm/provider.tsx": {
+        "version": "4fbfec015d54b460e7be0364ed924ecb94c8547033443a36c88ac9db55af1cb8",
+        "signature": "b7e0a69f979e8168cc951a9a3aeb10ecad05dccfff7de23d99c16144584db0dc",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/hooks/useconfirm/index.ts": {
+        "version": "50bea2479b40bbb804d6d603955995147fe058997726e287c01ff6c735394b4c",
+        "signature": "863af5fdd8797fbc898c42b1d06f0c534e4cda593a077029d57648885055980d",
         "affectsGlobalScope": false
       },
       "./src/views/home/index.tsx": {
-        "version": "e072f805b06ec301c955ab9baf0132904eaad5cd1e39526ef6d9e3a57b3f8e83",
+        "version": "b33b9c7c37ec683620fadfa82d898fd4a0f6327a28796eb5d20a9c6e47c54b4f",
         "signature": "7e848b5d310adb40f89d047f3330935721152c7065fe1bd4c5792c2f3cc21ac3",
         "affectsGlobalScope": false
       },
       "./src/views/login.tsx": {
-        "version": "800af83f17842c0d48936cc8db8dd94ba3f8a13b56bf02def773e9ea3a17208d",
+        "version": "762aac86582a73ff0cf61246bc6a4488868e184b8038c60b18650cbabc0cb9a4",
         "signature": "d48563eff411135c44e1b353a0dbcd6d6135b55cbd01843f5ab40db9d928d829",
         "affectsGlobalScope": false
       },
-      "./src/router/index.js": {
-        "version": "e684391f57d2ca1cda1ad097bc0fefee54e1743f1db4c8f8fd8d107960130017",
+      "./src/router/index.jsx": {
+        "version": "fbc5b9c745b08fc9b13a221e8a6715efaa3d0fec5a38fde36212b6bdcc622cb1",
         "signature": "d62840a374ee7c0f8e41e7e690ae218d1bee47420165efd18eb07e413b7beb69",
         "affectsGlobalScope": false
       },
@@ -649,6 +794,16 @@
       "./src/app.test.tsx": {
         "version": "cbac258edf96a544742363fe8676098ecc23c85072e84062f8b5fec14de163e2",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/axios/index.d.ts": {
+        "version": "0d892f035dbee4534f0ba096407136877595ca592f67ec9bb8a5c912b9c967e8",
+        "signature": "0d892f035dbee4534f0ba096407136877595ca592f67ec9bb8a5c912b9c967e8",
+        "affectsGlobalScope": false
+      },
+      "./src/endpoints.ts": {
+        "version": "ab0148244d3d4a9cb41f7358af26181b719268fff644560e1033b8e6fd7be363",
+        "signature": "a153fbbf761875d251832ed429f313845bd58aab19e5393a6e8c46e8c386f702",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/react-dom/index.d.ts": {
@@ -706,28 +861,28 @@
         "signature": "fee8df28169b0d98a87169e7bd358be9783b1dab2a4eb0f7985b48a68f08eb68",
         "affectsGlobalScope": false
       },
-      "./node_modules/recoil/index.d.ts": {
-        "version": "01b4b543495b871f18e2e1ec70f2adf2e7b2e7792da9f62df7c07c4087e2a12f",
-        "signature": "01b4b543495b871f18e2e1ec70f2adf2e7b2e7792da9f62df7c07c4087e2a12f",
-        "affectsGlobalScope": false
-      },
-      "./src/store/index.js": {
+      "./src/store/index.ts": {
         "version": "3f194d983bad043f3a1fdc2195dd86e337aa89a8a0c31fb01fe47b44ad6356ca",
-        "signature": "73d0757f309bbbe5c9e370d212fcf81873da4023e993e8df1e7eb54d5100fb9e",
+        "signature": "e07519d70eb209e0ffc0f0ecbb8bfad95bc9a5fd52d42b39d43bb9189e576e3d",
         "affectsGlobalScope": false
       },
-      "./src/utils/errorboundary.js": {
-        "version": "9a868f37eb64303a60e40128cbb3986bc7f78fd3c0ecdf632b302a5e2e56f153",
-        "signature": "5e7f349d09f3829c6ef2efd2d12956c231172aabd2b760f2ccc3d2d0bb895f36",
+      "./src/components/confirmcomponent/index.tsx": {
+        "version": "64cb46bd761833e1afca115c5dda291d7881caa2c3bf356f45c6d0605329bed4",
+        "signature": "221b8dc9c68a5d3eb307fb5cd87c2efbc5eb6f232f96bbdaea4db6ce88752e8a",
         "affectsGlobalScope": false
       },
-      "./src/utils/buildcomponenttree.js": {
-        "version": "e6110e7b90b0c85d9405b9fd00d601acfca0a1685471995f0427c957bbb94eb9",
-        "signature": "991250f7934c31954c39e9fb5d1d8294bec90b7943e4c789e558312ac2b47273",
+      "./src/utils/errorboundary.tsx": {
+        "version": "f4c2ee3c82c88cf6df04a70b84f2175dac7bef76766e1b79b101b0e44d0fa8e0",
+        "signature": "38a17595d825372fe715b7c939cf103563bac981895afa1cc9968d5fc33522fc",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/buildcomponenttree.tsx": {
+        "version": "9c7d01b2883448128695316f7f0e3c77ea0a8e439831c3ff32607c5fcc3ea4ad",
+        "signature": "cc6ed9ac5e2e96634b99a02b955cde00e327e486ff309e5f8bcc7087e11c569d",
         "affectsGlobalScope": false
       },
       "./src/index.tsx": {
-        "version": "bbafce0fe719a866ebbb5d17c7a4c6130fad6c7bbdabf7fe49a92f495b3b51bb",
+        "version": "b17896415cd19b68f94ce4dc5046480f8b849ef5c52eca7511d48e2ff9c3bf3d",
         "signature": "3fbb69c07110d25de05cfcd16039b5eb6ff3943721631f998914f6ad56593f74",
         "affectsGlobalScope": false
       },
@@ -1076,89 +1231,124 @@
         "signature": "31a9fbeaacd6299774392316fe7ae9d7e493cc691620702299845636c539d447",
         "affectsGlobalScope": false
       },
-      "./src/auth/login.js": {
-        "version": "16bca8840c75f46359f2ed789bb707454eb0bffde6cbf8e296693cde51781055",
-        "signature": "3098030f873c81e4c11f0e3f56bee32fce847bf22eb7dd1db18f8803772cbf15",
+      "./node_modules/@welldone-software/why-did-you-render/types.d.ts": {
+        "version": "d534ec1be5bcebcea27b12623ce818053a789469d250c930ac8860717e57aaf9",
+        "signature": "d534ec1be5bcebcea27b12623ce818053a789469d250c930ac8860717e57aaf9",
         "affectsGlobalScope": false
       },
-      "./src/auth/logout.js": {
-        "version": "b16ff1d7ef677c7cb12fb323b287b7bc4e1b52f0da4959b835c0fec2264ad6dd",
-        "signature": "c13366e1c53f01a7788651d3b79ed8577ca5c5c0190a143966ce9941cb88c786",
-        "affectsGlobalScope": false
-      },
-      "./src/auth/register.js": {
-        "version": "be195a3b242a672513c3c6dcaa2f86c9be70a5e856ee90bd019759af905acdb4",
-        "signature": "7a1991af70951b2014303f12880d2dc86e6e8ee5d05a9e4e2dfe6ba5f96caae0",
-        "affectsGlobalScope": false
-      },
-      "./src/auth/refresh.js": {
-        "version": "d8765d42aaf9676b4b714e26e31679833231bdecde944b0af355c9e4e31ff344",
-        "signature": "b06ad15f3b380578e45d9d45b0ac565355ccc9bd9507e49fdfce7f03d8f49fcf",
-        "affectsGlobalScope": false
-      },
-      "./src/auth/index.js": {
-        "version": "1829bb931f63b0f71bc1f551840be438f8d999322098ab2cd1a2e01297fc2205",
-        "signature": "f3d72a83f72577d2563669c766aa9d33e4594de7137fbf1e79fe328ecea97cbe",
-        "affectsGlobalScope": false
-      },
-      "./src/auth/helpers/setaccesstoken.js": {
-        "version": "028758a49b455af0f625ce69a8eb82f820929c5096593d0dbde2f4d4f73463c5",
-        "signature": "7fe2acbbe9edc3cff6ecc368bb988ff25e92ec0e86ef60f29f3e2b787fd0823d",
-        "affectsGlobalScope": false
-      },
-      "./src/auth/helpers/setrefreshtoken.js": {
-        "version": "1ad8a37c2ef9177bc35e9a09674a2a1cce8ecced34bdb41ec90709528c8ef5bf",
-        "signature": "8c28ba04f0fca44b20b9848a6a043db38c9a5730f5944ff04b4c0edc080c90aa",
-        "affectsGlobalScope": false
-      },
-      "./src/auth/helpers/setaccesstokenexpiresat.js": {
-        "version": "469c12042754a26ef61d13077caa4987bf163ccb9ea7687b1a04dee70b558528",
-        "signature": "1b0356e869d022b0358386efc1fa2cf250cc891a9d61aa957c909c465c501a04",
-        "affectsGlobalScope": false
-      },
-      "./src/auth/helpers/clearauth.js": {
-        "version": "5effc3dddab8d350edb5506d2b2ec5f6a91cced7e5177bfa94fcfb4c75267532",
-        "signature": "ef6e7894f9956cbe31874ed0f78069565450c6ea59d6f416b4e43ee185236a4a",
-        "affectsGlobalScope": false
-      },
-      "./src/auth/helpers/getaccesstoken.js": {
-        "version": "59ea3abf6f751a3a56e9f96a2a358ba900eabb19cbefe5c2cc3255d69fe44175",
-        "signature": "b18acde803fa59921bad68e876a54cc1ac932a6c3ca5c19648fd5b9cb4bd4760",
-        "affectsGlobalScope": false
-      },
-      "./src/auth/helpers/getrefreshtoken.js": {
-        "version": "93938717f9622c097b211144fa638fbae4c4764bec2f704eebf5153c72f911d9",
-        "signature": "a00476dac39a441d11c3ba49cf6913253eaf1e429835e6428b99e057028cbc3d",
-        "affectsGlobalScope": false
-      },
-      "./src/auth/helpers/tokenexpiresin.js": {
-        "version": "02102cde1d9ec909921c433d540ac8969ef11b13ca83ba475a6eb660b22f1736",
-        "signature": "bf8a94cbec5ef8ffb71ba28581b8c7ead554e946174c283eab68b1a36093f1ec",
-        "affectsGlobalScope": false
-      },
-      "./src/auth/helpers/tokenisalmostexpired.js": {
-        "version": "69bd1e33dd60a3bf760eb1766af0797786bfd45b15f5856fcd48dac851494a31",
-        "signature": "f3fcc665bcba6fe9b984888fe03cbb331920582f299e2cd24b17582c8c556c6a",
-        "affectsGlobalScope": false
-      },
-      "./src/auth/helpers/index.js": {
-        "version": "7a2bdb27be082b603593d45ece95c5ff7e7e7cf62245e9e6dc417cf4d65d702e",
-        "signature": "74b726cee6d1a4fc326e0784ede70cb886ada387f62ac2b8b211f70bb304eae3",
-        "affectsGlobalScope": false
-      },
-      "./src/auth/helpers/index.test.js": {
-        "version": "d7aaead337dc851fa43fb2509ca3aea2fa2b82f34ad4b59add478e705ce051cf",
+      "./src/wdyr.ts": {
+        "version": "b6b68ec649a574236674f6ec46127cd7e200537f5ef9f7746b09030be5b48a00",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
-      "./src/request/constant.js": {
-        "version": "00960e0f34831ee95475a0a844eb50713d490b149852153c158f9d8fd800bf71",
-        "signature": "b63dcd339c6aeaa31a1e7f76f4b426018ad6915e2ef3821d6bc76d238ba37037",
+      "./node_modules/ts-toolbelt/out/index.d.ts": {
+        "version": "9df147746b0cbd11d022b564e6fdd43ac79b643dc579d2123317ee01cc4f0d70",
+        "signature": "9df147746b0cbd11d022b564e6fdd43ac79b643dc579d2123317ee01cc4f0d70",
         "affectsGlobalScope": false
       },
-      "./node_modules/axios/index.d.ts": {
-        "version": "0d892f035dbee4534f0ba096407136877595ca592f67ec9bb8a5c912b9c967e8",
-        "signature": "0d892f035dbee4534f0ba096407136877595ca592f67ec9bb8a5c912b9c967e8",
+      "./node_modules/@types/ramda/tools.d.ts": {
+        "version": "2add849f0826717a2d8ead405176e5dc0b505d29c10c7c40cc83aa4b4941faa2",
+        "signature": "2add849f0826717a2d8ead405176e5dc0b505d29c10c7c40cc83aa4b4941faa2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/ramda/index.d.ts": {
+        "version": "68b712cdb805b106458a8410904b08324d5ab881fadffaa996ffca2d50918c80",
+        "signature": "68b712cdb805b106458a8410904b08324d5ab881fadffaa996ffca2d50918c80",
+        "affectsGlobalScope": false
+      },
+      "./src/auth/helpers/setaccesstoken.ts": {
+        "version": "14af0bcece65c5461ae68a6a26e2d590316886ba3a85d51387897ce41194171a",
+        "signature": "7fe2acbbe9edc3cff6ecc368bb988ff25e92ec0e86ef60f29f3e2b787fd0823d",
+        "affectsGlobalScope": false
+      },
+      "./src/auth/helpers/setrefreshtoken.ts": {
+        "version": "776946f568110b882af82def08ea7dbef04155d659a799978dc1ff7218a5e4c7",
+        "signature": "8c28ba04f0fca44b20b9848a6a043db38c9a5730f5944ff04b4c0edc080c90aa",
+        "affectsGlobalScope": false
+      },
+      "./src/auth/helpers/setaccesstokenexpiresat.ts": {
+        "version": "a6306424262973c291a236ec690d9e28f10a9838ee8c8b52a069809faf0725dd",
+        "signature": "7574b60ab6bc23ab150e3b98c27bad28865f2573b83e5346dc8a365731ccf536",
+        "affectsGlobalScope": false
+      },
+      "./src/auth/helpers/clearauth.ts": {
+        "version": "feef8f448221be5f04239665ad51ee4763a0b763127d17802ba91ab599caa180",
+        "signature": "ef6e7894f9956cbe31874ed0f78069565450c6ea59d6f416b4e43ee185236a4a",
+        "affectsGlobalScope": false
+      },
+      "./src/auth/helpers/getaccesstoken.ts": {
+        "version": "fb3bfc5dfc8eb883a0674dfcc006092275cad4628707b04dd8f2ba5d08dfe43d",
+        "signature": "e85fdaf05ddb8c64cf40dabb45fffc55b2fa853dc94a71befab93565f10e92ae",
+        "affectsGlobalScope": false
+      },
+      "./src/auth/helpers/getrefreshtoken.ts": {
+        "version": "fa0c46fef22443c7e01b548a555d33f950877a5690635db68768cc5a42ab54bf",
+        "signature": "d5c62505a5dc839b7ed103265329354b4e011dee9ee18306d0c9fbb0a6f314e4",
+        "affectsGlobalScope": false
+      },
+      "./src/auth/helpers/tokenexpiresin.ts": {
+        "version": "001804269eaaf343c105dd538d56495df7f6d3c3b27289aa106bf8bcf7ea93dd",
+        "signature": "bf8a94cbec5ef8ffb71ba28581b8c7ead554e946174c283eab68b1a36093f1ec",
+        "affectsGlobalScope": false
+      },
+      "./src/auth/helpers/tokenisalmostexpired.ts": {
+        "version": "e3ffd6250712bb708dd7cdf4eda4553556561c36c3e54f03031781fee23efa6e",
+        "signature": "f3fcc665bcba6fe9b984888fe03cbb331920582f299e2cd24b17582c8c556c6a",
+        "affectsGlobalScope": false
+      },
+      "./src/auth/helpers/index.ts": {
+        "version": "ec3a614fd596e52ea7c2cccd0d5acc39096a75ec53691e81d364ebcc293292aa",
+        "signature": "562ebf40e4ece688e901eddad2125ad3b3c69e7bcc56c516259175006477074e",
+        "affectsGlobalScope": false
+      },
+      "./src/auth/helpers/index.test.ts": {
+        "version": "4f3d2e3e8ed3a314721af2c0c4ca15a9771d7e116ff64536248ebbe4228a2a94",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-content-loader/dist/web/contentloader.d.ts": {
+        "version": "73dc238646d1a2df63e70ee0b62c4f39cdb9accf926abd5d130a4b114e919c2a",
+        "signature": "73dc238646d1a2df63e70ee0b62c4f39cdb9accf926abd5d130a4b114e919c2a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-content-loader/dist/web/presets/facebookstyle.d.ts": {
+        "version": "1fb617a0f0a3ad53ce96f631b457f61df3b1b0477ba7c5cc9d0062c34eb1b212",
+        "signature": "1fb617a0f0a3ad53ce96f631b457f61df3b1b0477ba7c5cc9d0062c34eb1b212",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-content-loader/dist/web/presets/instagramstyle.d.ts": {
+        "version": "a455e34182fe1cb599e1a501e319f1abdbdc95f0091432f9df8782a33a3d2214",
+        "signature": "a455e34182fe1cb599e1a501e319f1abdbdc95f0091432f9df8782a33a3d2214",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-content-loader/dist/web/presets/codestyle.d.ts": {
+        "version": "09c55804e7c73a68cd3e9e558c54aaf1d6f41bbed413d2e30be64eb522701ac4",
+        "signature": "09c55804e7c73a68cd3e9e558c54aaf1d6f41bbed413d2e30be64eb522701ac4",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-content-loader/dist/web/presets/liststyle.d.ts": {
+        "version": "ced93c6c199adbb1beb76a43d29ebedca4f4baabef86a804d592ce9df74e2628",
+        "signature": "ced93c6c199adbb1beb76a43d29ebedca4f4baabef86a804d592ce9df74e2628",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-content-loader/dist/web/presets/bulletliststyle.d.ts": {
+        "version": "409de3da92e145ebc1c913123ab6c87721e680f8b442dd33ed88405ae8cdda9e",
+        "signature": "409de3da92e145ebc1c913123ab6c87721e680f8b442dd33ed88405ae8cdda9e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-content-loader/dist/web/index.d.ts": {
+        "version": "86036f1ea72996433c9cbb618945dad3b0e0d2a78f3be8403775d727026d1c2f",
+        "signature": "86036f1ea72996433c9cbb618945dad3b0e0d2a78f3be8403775d727026d1c2f",
+        "affectsGlobalScope": false
+      },
+      "./src/components/skeleton/line/index.tsx": {
+        "version": "a224017bb12b09318f12874a04dc40c8f6016323d8196562fa3b3e4961324fa4",
+        "signature": "df02efcf7d4791171252a009dca83c6b7dc3019249c00914537a621437c305bc",
+        "affectsGlobalScope": false
+      },
+      "./src/request/constant.ts": {
+        "version": "b4ea7d031cfab696b4312f6bcf4e9dbae941ff580dd9983d0a015f636e09ebd6",
+        "signature": "c66286a92176506e57e5de26fb8bb25e0cfc07e9b84090f95605fd98416deefc",
         "affectsGlobalScope": false
       },
       "./src/request/index.js": {
@@ -1166,34 +1356,34 @@
         "signature": "cb219b879631ed62991740f64dee71ff0eb9f0bce2183795d5ada9cf8d300514",
         "affectsGlobalScope": false
       },
-      "./src/router/helpers/getroute.js": {
-        "version": "f00bafa0d935ad8ebdc984a20e378c221c4345fa6b159c813c69af742a06ba52",
-        "signature": "01ac4c80aac9f610088f9a5a7bbb4fa30b3a97ad510e8f2f5b7ea2da924c27f7",
+      "./src/router/helpers/getroute.ts": {
+        "version": "c4e6fe30e77e9fe2a37604d51f403d24edf8677a747d18cd7afd2700a4564c09",
+        "signature": "5bc865b78506457b7f79b7f156c8fb10f3388758bb8a546fe59b53c0036c17b3",
         "affectsGlobalScope": false
       },
-      "./src/router/helpers/getroutefromurl.js": {
-        "version": "b204b185614ce3140e45a266dc4f2cd281b3ac92b9e129570db57d3b853446cf",
-        "signature": "6722165c1ab72d4c69cb6a52be1dd05b236e9bbca2dea0678360a5dd31404f16",
+      "./src/router/helpers/getroutefromurl.ts": {
+        "version": "1a528a8eac2aa02fa02465e779a92014812e898db680eed2079475f36e6421a4",
+        "signature": "a7621db1dff52b37ca451f4477feb21c083fa5aa67df070c96507f3483f1eeda",
         "affectsGlobalScope": false
       },
-      "./src/router/helpers/index.js": {
-        "version": "951f5aa2e473cd370f831965ddf9c92716cc5537cb156ffe98d3ac636e5d98f8",
-        "signature": "b80b77cebb87170f4ab615a22a982c12575d825a9d77a2a704e58290bedc2bd6",
+      "./src/router/helpers/index.ts": {
+        "version": "1482a5e68c7eb639d9193f87305769e81570c3b1e7ca1e33fe4a5d6e3779535f",
+        "signature": "716a3f59a5ca16a918b5468ff36931f0acb04d9c528dc2b9e4247959e0e618fa",
         "affectsGlobalScope": false
       },
-      "./src/store/atoms/auth.js": {
+      "./src/store/atoms/auth.ts": {
         "version": "3af4b61f45c73db2d79d8fde8725f67a8b95075a9d2e70be7cffb414a44b9833",
-        "signature": "a80a6ac505ec0f80b37de08709b252d9a97550e04d6115b3e8104ff0bc6c65a9",
+        "signature": "8ce9485dea1b9fa61ac9523fc19674a8580018af6b30ebd89b2db0283ca243a9",
         "affectsGlobalScope": false
       },
-      "./src/store/atoms/global.js": {
-        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "./node_modules/@types/hoist-non-react-statics/index.d.ts": {
+        "version": "bfe1b52cf71aea9bf8815810cc5d9490fa9617313e3d3c2ee3809a28b80d0bb4",
+        "signature": "bfe1b52cf71aea9bf8815810cc5d9490fa9617313e3d3c2ee3809a28b80d0bb4",
         "affectsGlobalScope": false
       },
-      "./src/utils/defercomponentrender.js": {
-        "version": "a99e5ab7220883f6d91d3cbd642f067a70437e2001b6e367bec06f6e4758cd6b",
-        "signature": "d24b0dc1d309377d0c8172060361acaeb4037331e5b23354fe1954d128f73d46",
+      "./src/utils/defercomponentrender.tsx": {
+        "version": "83961831af6455f2e377a3d4d503469fe06d837a1af478d388eba2d046c9618c",
+        "signature": "fae5d01070f1a751fb9fe95daf4b6c4c24b0c64388fad193ae30fbaf6297964b",
         "affectsGlobalScope": false
       },
       "./src/utils/md5.js": {
@@ -1204,6 +1394,11 @@
       "./src/utils/randomstring.js": {
         "version": "6a47a6bb9a91c995e60c4d5eaead324855408640bf426aaaa9b078b06695f61c",
         "signature": "abc1f47fc69a6f6ac0df03c338bd4897a1178febd082388d495b060260dd48c7",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/hooks/useprevious.ts": {
+        "version": "7bad4c23a0cf070bdbabf758957d7662d9364a2fb2870e762964367b53461697",
+        "signature": "104956143545b22c90247bca966317ac66bc0e3c124a61829b6c79ae3f4d2a45",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/anymatch/index.d.ts": {
@@ -1631,6 +1826,10 @@
         "./node_modules/@types/history/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
+      "./node_modules/@types/hoist-non-react-statics/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
       "./node_modules/@types/html-minifier-terser/index.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
@@ -1956,6 +2155,15 @@
       "./node_modules/@types/q/index.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
+      "./node_modules/@types/ramda/index.d.ts": [
+        "./node_modules/@types/ramda/tools.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/ts-toolbelt/out/index.d.ts"
+      ],
+      "./node_modules/@types/ramda/tools.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/ts-toolbelt/out/index.d.ts"
+      ],
       "./node_modules/@types/react-dom/index.d.ts": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
@@ -2113,6 +2321,10 @@
         "./node_modules/@types/yargs-parser/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
+      "./node_modules/@welldone-software/why-did-you-render/types.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
       "./node_modules/axios/index.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
@@ -2159,9 +2371,152 @@
       "./node_modules/pretty-format/build/types.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
+      "./node_modules/react-content-loader/dist/web/contentloader.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-content-loader/dist/web/index.d.ts"
+      ],
+      "./node_modules/react-content-loader/dist/web/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-content-loader/dist/web/contentloader.d.ts",
+        "./node_modules/react-content-loader/dist/web/presets/bulletliststyle.d.ts",
+        "./node_modules/react-content-loader/dist/web/presets/codestyle.d.ts",
+        "./node_modules/react-content-loader/dist/web/presets/facebookstyle.d.ts",
+        "./node_modules/react-content-loader/dist/web/presets/instagramstyle.d.ts",
+        "./node_modules/react-content-loader/dist/web/presets/liststyle.d.ts"
+      ],
+      "./node_modules/react-content-loader/dist/web/presets/bulletliststyle.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-content-loader/dist/web/index.d.ts"
+      ],
+      "./node_modules/react-content-loader/dist/web/presets/codestyle.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-content-loader/dist/web/index.d.ts"
+      ],
+      "./node_modules/react-content-loader/dist/web/presets/facebookstyle.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-content-loader/dist/web/index.d.ts"
+      ],
+      "./node_modules/react-content-loader/dist/web/presets/instagramstyle.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-content-loader/dist/web/index.d.ts"
+      ],
+      "./node_modules/react-content-loader/dist/web/presets/liststyle.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-content-loader/dist/web/index.d.ts"
+      ],
       "./node_modules/react-helmet-async/index.d.ts": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/components/closebutton.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/components/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/components/closebutton.d.ts",
+        "./node_modules/react-toastify/dist/components/progressbar.d.ts",
+        "./node_modules/react-toastify/dist/components/toast.d.ts",
+        "./node_modules/react-toastify/dist/components/toastcontainer.d.ts",
+        "./node_modules/react-toastify/dist/components/transitions.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/components/progressbar.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/components/toast.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/components/toastcontainer.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/components/transitions.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/core/eventmanager.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/hooks/index.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/core/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/core/eventmanager.d.ts",
+        "./node_modules/react-toastify/dist/core/toast.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/core/toast.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/core/eventmanager.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/hooks/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/hooks/usekeeper.d.ts",
+        "./node_modules/react-toastify/dist/hooks/usetoast.d.ts",
+        "./node_modules/react-toastify/dist/hooks/usetoastcontainer.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/hooks/usekeeper.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/hooks/usetoast.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/hooks/usetoastcontainer.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/components/index.d.ts",
+        "./node_modules/react-toastify/dist/core/index.d.ts",
+        "./node_modules/react-toastify/dist/hooks/index.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts",
+        "./node_modules/react-toastify/dist/utils/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/types/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/utils/collapsetoast.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/utils/constant.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/utils/constant.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/utils/csstransition.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/utils/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/utils/collapsetoast.d.ts",
+        "./node_modules/react-toastify/dist/utils/constant.d.ts",
+        "./node_modules/react-toastify/dist/utils/csstransition.d.ts",
+        "./node_modules/react-toastify/dist/utils/propvalidator.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/utils/propvalidator.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts"
       ],
       "./node_modules/recoil/index.d.ts": [
         "./node_modules/@types/react/index.d.ts",
@@ -2169,6 +2524,10 @@
       ],
       "./node_modules/source-map/source-map.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/ts-toolbelt/out/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/ts-toolbelt/out/index.d.ts"
       ],
       "./node_modules/typescript/lib/lib.dom.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
@@ -2636,124 +2995,120 @@
       "./src/app.tsx": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/router/index.js"
+        "./src/router/index.jsx"
       ],
-      "./src/auth/constants.js": [
+      "./src/auth/constants.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
-      "./src/auth/helpers/clearauth.js": [
+      "./src/auth/helpers/clearauth.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/auth/helpers/setaccesstoken.js",
-        "./src/auth/helpers/setaccesstokenexpiresat.js",
-        "./src/auth/helpers/setrefreshtoken.js"
+        "./src/auth/helpers/setaccesstoken.ts",
+        "./src/auth/helpers/setaccesstokenexpiresat.ts",
+        "./src/auth/helpers/setrefreshtoken.ts"
       ],
-      "./src/auth/helpers/getaccesstoken.js": [
+      "./src/auth/helpers/getaccesstoken.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/auth/constants.js",
-        "./src/utils/localstorage.js"
+        "./src/auth/constants.ts",
+        "./src/utils/localstorage.ts"
       ],
-      "./src/auth/helpers/getaccesstokenexpiresat.js": [
+      "./src/auth/helpers/getaccesstokenexpiresat.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/auth/constants.js",
-        "./src/utils/localstorage.js"
+        "./src/auth/constants.ts",
+        "./src/utils/localstorage.ts"
       ],
-      "./src/auth/helpers/getrefreshtoken.js": [
+      "./src/auth/helpers/getrefreshtoken.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/auth/constants.js",
-        "./src/utils/localstorage.js"
+        "./src/auth/constants.ts",
+        "./src/utils/localstorage.ts"
       ],
-      "./src/auth/helpers/index.js": [
+      "./src/auth/helpers/index.test.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/auth/helpers/clearauth.js",
-        "./src/auth/helpers/getaccesstoken.js",
-        "./src/auth/helpers/getaccesstokenexpiresat.js",
-        "./src/auth/helpers/getrefreshtoken.js",
-        "./src/auth/helpers/isauthenticated.js",
-        "./src/auth/helpers/setaccesstoken.js",
-        "./src/auth/helpers/setaccesstokenexpiresat.js",
-        "./src/auth/helpers/setrefreshtoken.js",
-        "./src/auth/helpers/tokenexpiresin.js",
-        "./src/auth/helpers/tokenisalmostexpired.js",
-        "./src/auth/helpers/tokenisexpired.js"
+        "./src/auth/helpers/index.ts"
       ],
-      "./src/auth/helpers/index.test.js": [
+      "./src/auth/helpers/index.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/auth/helpers/index.js"
+        "./src/auth/helpers/clearauth.ts",
+        "./src/auth/helpers/getaccesstoken.ts",
+        "./src/auth/helpers/getaccesstokenexpiresat.ts",
+        "./src/auth/helpers/getrefreshtoken.ts",
+        "./src/auth/helpers/isauthenticated.ts",
+        "./src/auth/helpers/setaccesstoken.ts",
+        "./src/auth/helpers/setaccesstokenexpiresat.ts",
+        "./src/auth/helpers/setrefreshtoken.ts",
+        "./src/auth/helpers/tokenexpiresin.ts",
+        "./src/auth/helpers/tokenisalmostexpired.ts",
+        "./src/auth/helpers/tokenisexpired.ts"
       ],
-      "./src/auth/helpers/isauthenticated.js": [
+      "./src/auth/helpers/isauthenticated.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/auth/constants.js",
-        "./src/auth/helpers/tokenisexpired.js",
-        "./src/utils/localstorage.js"
+        "./src/auth/constants.ts",
+        "./src/auth/helpers/tokenisexpired.ts",
+        "./src/utils/localstorage.ts"
       ],
-      "./src/auth/helpers/setaccesstoken.js": [
+      "./src/auth/helpers/setaccesstoken.ts": [
+        "./node_modules/@types/ramda/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/auth/constants.js",
-        "./src/utils/localstorage.js"
+        "./src/auth/constants.ts",
+        "./src/utils/localstorage.ts"
       ],
-      "./src/auth/helpers/setaccesstokenexpiresat.js": [
+      "./src/auth/helpers/setaccesstokenexpiresat.ts": [
+        "./node_modules/@types/ramda/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/auth/constants.js",
-        "./src/utils/localstorage.js"
+        "./src/auth/constants.ts",
+        "./src/utils/localstorage.ts"
       ],
-      "./src/auth/helpers/setrefreshtoken.js": [
+      "./src/auth/helpers/setrefreshtoken.ts": [
+        "./node_modules/@types/ramda/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/auth/constants.js",
-        "./src/utils/localstorage.js"
+        "./src/auth/constants.ts",
+        "./src/utils/localstorage.ts"
       ],
-      "./src/auth/helpers/tokenexpiresin.js": [
+      "./src/auth/helpers/tokenexpiresin.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/auth/helpers/getaccesstokenexpiresat.js"
+        "./src/auth/helpers/getaccesstokenexpiresat.ts"
       ],
-      "./src/auth/helpers/tokenisalmostexpired.js": [
+      "./src/auth/helpers/tokenisalmostexpired.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/auth/helpers/tokenexpiresin.js"
+        "./src/auth/helpers/tokenexpiresin.ts"
       ],
-      "./src/auth/helpers/tokenisexpired.js": [
+      "./src/auth/helpers/tokenisexpired.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/auth/helpers/getaccesstokenexpiresat.js"
+        "./src/auth/helpers/getaccesstokenexpiresat.ts"
       ],
-      "./src/auth/index.js": [
+      "./src/components/confirmcomponent/index.tsx": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/auth/login.js",
-        "./src/auth/logout.js",
-        "./src/auth/refresh.js",
-        "./src/auth/register.js"
+        "./src/utils/hooks/useconfirm/index.ts"
       ],
-      "./src/auth/login.js": [
+      "./src/components/skeleton/line/index.tsx": [
+        "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./node_modules/date-fns/typings.d.ts"
-      ],
-      "./src/auth/logout.js": [
-        "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./node_modules/date-fns/typings.d.ts"
-      ],
-      "./src/auth/refresh.js": [
-        "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./node_modules/date-fns/typings.d.ts"
-      ],
-      "./src/auth/register.js": [
-        "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./node_modules/date-fns/typings.d.ts"
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-content-loader/dist/web/index.d.ts"
       ],
       "./src/config.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./src/endpoints.ts": [
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/axios/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./src/config.ts"
       ],
       "./src/index.tsx": [
         "./node_modules/@types/react-dom/index.d.ts",
@@ -2762,12 +3117,15 @@
         "./node_modules/date-fns/typings.d.ts",
         "./node_modules/react-helmet-async/index.d.ts",
         "./src/app.tsx",
+        "./src/components/confirmcomponent/index.tsx",
         "./src/reportwebvitals.js",
-        "./src/router/index.js",
+        "./src/router/index.jsx",
         "./src/serviceworkerregistration.js",
-        "./src/store/index.js",
-        "./src/utils/buildcomponenttree.js",
-        "./src/utils/errorboundary.js"
+        "./src/store/index.ts",
+        "./src/utils/buildcomponenttree.tsx",
+        "./src/utils/errorboundary.tsx",
+        "./src/utils/hooks/useconfirm/index.ts",
+        "./src/utils/toast/index.ts"
       ],
       "./src/react-app-env.d.ts": [
         "./node_modules/@types/node/index.d.ts",
@@ -2780,7 +3138,7 @@
         "./node_modules/date-fns/typings.d.ts",
         "./node_modules/web-vitals/dist/modules/index.d.ts"
       ],
-      "./src/request/constant.js": [
+      "./src/request/constant.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
@@ -2788,69 +3146,83 @@
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/axios/index.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/auth/helpers/index.js",
-        "./src/auth/index.js"
+        "./src/auth/helpers/index.ts"
       ],
-      "./src/router/helpers/getpath.js": [
+      "./src/router/helpers/getpath.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/router/index.js"
+        "./src/router/index.jsx"
       ],
-      "./src/router/helpers/getpaths.js": [
+      "./src/router/helpers/getpaths.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/router/index.js"
+        "./src/router/index.jsx"
       ],
-      "./src/router/helpers/getroute.js": [
+      "./src/router/helpers/getroute.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/router/index.js"
+        "./src/router/index.jsx"
       ],
-      "./src/router/helpers/getroutefromurl.js": [
-        "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/path-to-regexp/dist/index.d.ts",
-        "./src/router/index.js"
-      ],
-      "./src/router/helpers/geturl.js": [
+      "./src/router/helpers/getroutefromurl.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
         "./node_modules/path-to-regexp/dist/index.d.ts",
-        "./src/router/helpers/getpath.js"
+        "./src/router/index.jsx"
       ],
-      "./src/router/helpers/index.js": [
+      "./src/router/helpers/geturl.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/router/helpers/getpath.js",
-        "./src/router/helpers/getroute.js",
-        "./src/router/helpers/getroutefromurl.js",
-        "./src/router/helpers/geturl.js"
+        "./node_modules/path-to-regexp/dist/index.d.ts",
+        "./src/router/helpers/getpath.ts"
       ],
-      "./src/router/index.js": [
+      "./src/router/helpers/index.ts": [
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./src/router/helpers/getpath.ts",
+        "./src/router/helpers/getroute.ts",
+        "./src/router/helpers/getroutefromurl.ts",
+        "./src/router/helpers/geturl.ts",
+        "./src/router/helpers/load.ts"
+      ],
+      "./src/router/helpers/load.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./src/utils/waitatleast.ts"
+      ],
+      "./src/router/index.jsx": [
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/router/helpers/getpath.js",
-        "./src/router/helpers/getpaths.js",
-        "./src/router/routes/index.js",
+        "./src/router/helpers/getpath.ts",
+        "./src/router/helpers/getpaths.ts",
+        "./src/router/helpers/load.ts",
+        "./src/router/loader/index.tsx",
+        "./src/router/routes/index.jsx",
         "./src/views/home/index.tsx",
         "./src/views/login.tsx"
+      ],
+      "./src/router/loader/index.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./src/react-app-env.d.ts"
       ],
       "./src/router/routes/conditionalroute.js": [
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/router/helpers/geturl.js",
+        "./src/router/helpers/geturl.ts",
         "./src/utils/is.js"
       ],
       "./src/router/routes/guestroute.js": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/auth/helpers/isauthenticated.js",
+        "./src/auth/helpers/isauthenticated.ts",
         "./src/router/routes/conditionalroute.js"
       ],
-      "./src/router/routes/index.js": [
+      "./src/router/routes/index.jsx": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
         "./src/router/routes/conditionalroute.js",
@@ -2867,7 +3239,7 @@
       "./src/router/routes/privateroute.js": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/auth/helpers/isauthenticated.js",
+        "./src/auth/helpers/isauthenticated.ts",
         "./src/router/routes/conditionalroute.js"
       ],
       "./src/router/routes/redirectroute.js": [
@@ -2894,30 +3266,46 @@
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
-      "./src/store/atoms/auth.js": [
+      "./src/store/atoms/auth.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
         "./node_modules/recoil/index.d.ts"
       ],
-      "./src/store/atoms/global.js": [
-        "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./node_modules/date-fns/typings.d.ts"
-      ],
-      "./src/store/index.js": [
+      "./src/store/index.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
         "./node_modules/recoil/index.d.ts"
       ],
-      "./src/utils/buildcomponenttree.js": [
+      "./src/utils/buildcomponenttree.tsx": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
-      "./src/utils/defercomponentrender.js": [
+      "./src/utils/defercomponentrender.tsx": [
+        "./node_modules/@types/hoist-non-react-statics/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
-      "./src/utils/errorboundary.js": [
+      "./src/utils/errorboundary.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./src/utils/hooks/useconfirm/index.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/recoil/index.d.ts",
+        "./src/utils/hooks/useconfirm/provider.tsx"
+      ],
+      "./src/utils/hooks/useconfirm/provider.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/recoil/index.d.ts",
+        "./src/utils/hooks/useconfirm/index.ts"
+      ],
+      "./src/utils/hooks/useprevious.ts": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts"
@@ -2927,7 +3315,7 @@
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
-      "./src/utils/localstorage.js": [
+      "./src/utils/localstorage.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
         "./src/config.ts"
@@ -2940,14 +3328,45 @@
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
-      "./src/views/home/index.tsx": [
+      "./src/utils/toast/index.ts": [
+        "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/react-app-env.d.ts"
+        "./node_modules/react-toastify/dist/index.d.ts",
+        "./src/utils/toast/message.tsx",
+        "./src/utils/toast/provider.tsx"
+      ],
+      "./src/utils/toast/message.tsx": [
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./src/utils/toast/provider.tsx": [
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/index.d.ts"
+      ],
+      "./src/utils/waitatleast.ts": [
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./src/views/home/index.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./src/react-app-env.d.ts",
+        "./src/utils/hooks/useconfirm/index.ts",
+        "./src/utils/toast/index.ts"
       ],
       "./src/views/login.tsx": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./src/wdyr.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/@welldone-software/why-did-you-render/types.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/recoil/index.d.ts"
       ]
     },
     "exportedModulesMap": {
@@ -3053,6 +3472,10 @@
       ],
       "./node_modules/@types/history/pathutils.d.ts": [
         "./node_modules/@types/history/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/hoist-non-react-statics/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@types/html-minifier-terser/index.d.ts": [
@@ -3380,6 +3803,15 @@
       "./node_modules/@types/q/index.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
+      "./node_modules/@types/ramda/index.d.ts": [
+        "./node_modules/@types/ramda/tools.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/ts-toolbelt/out/index.d.ts"
+      ],
+      "./node_modules/@types/ramda/tools.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/ts-toolbelt/out/index.d.ts"
+      ],
       "./node_modules/@types/react-dom/index.d.ts": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
@@ -3537,6 +3969,10 @@
         "./node_modules/@types/yargs-parser/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
+      "./node_modules/@welldone-software/why-did-you-render/types.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
       "./node_modules/axios/index.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
@@ -3583,9 +4019,152 @@
       "./node_modules/pretty-format/build/types.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
+      "./node_modules/react-content-loader/dist/web/contentloader.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-content-loader/dist/web/index.d.ts"
+      ],
+      "./node_modules/react-content-loader/dist/web/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-content-loader/dist/web/contentloader.d.ts",
+        "./node_modules/react-content-loader/dist/web/presets/bulletliststyle.d.ts",
+        "./node_modules/react-content-loader/dist/web/presets/codestyle.d.ts",
+        "./node_modules/react-content-loader/dist/web/presets/facebookstyle.d.ts",
+        "./node_modules/react-content-loader/dist/web/presets/instagramstyle.d.ts",
+        "./node_modules/react-content-loader/dist/web/presets/liststyle.d.ts"
+      ],
+      "./node_modules/react-content-loader/dist/web/presets/bulletliststyle.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-content-loader/dist/web/index.d.ts"
+      ],
+      "./node_modules/react-content-loader/dist/web/presets/codestyle.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-content-loader/dist/web/index.d.ts"
+      ],
+      "./node_modules/react-content-loader/dist/web/presets/facebookstyle.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-content-loader/dist/web/index.d.ts"
+      ],
+      "./node_modules/react-content-loader/dist/web/presets/instagramstyle.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-content-loader/dist/web/index.d.ts"
+      ],
+      "./node_modules/react-content-loader/dist/web/presets/liststyle.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-content-loader/dist/web/index.d.ts"
+      ],
       "./node_modules/react-helmet-async/index.d.ts": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/components/closebutton.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/components/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/components/closebutton.d.ts",
+        "./node_modules/react-toastify/dist/components/progressbar.d.ts",
+        "./node_modules/react-toastify/dist/components/toast.d.ts",
+        "./node_modules/react-toastify/dist/components/toastcontainer.d.ts",
+        "./node_modules/react-toastify/dist/components/transitions.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/components/progressbar.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/components/toast.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/components/toastcontainer.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/components/transitions.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/core/eventmanager.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/hooks/index.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/core/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/core/eventmanager.d.ts",
+        "./node_modules/react-toastify/dist/core/toast.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/core/toast.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/core/eventmanager.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/hooks/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/hooks/usekeeper.d.ts",
+        "./node_modules/react-toastify/dist/hooks/usetoast.d.ts",
+        "./node_modules/react-toastify/dist/hooks/usetoastcontainer.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/hooks/usekeeper.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/hooks/usetoast.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/hooks/usetoastcontainer.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/components/index.d.ts",
+        "./node_modules/react-toastify/dist/core/index.d.ts",
+        "./node_modules/react-toastify/dist/hooks/index.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts",
+        "./node_modules/react-toastify/dist/utils/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/types/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/utils/collapsetoast.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/utils/constant.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/utils/constant.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/utils/csstransition.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/utils/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/utils/collapsetoast.d.ts",
+        "./node_modules/react-toastify/dist/utils/constant.d.ts",
+        "./node_modules/react-toastify/dist/utils/csstransition.d.ts",
+        "./node_modules/react-toastify/dist/utils/propvalidator.d.ts"
+      ],
+      "./node_modules/react-toastify/dist/utils/propvalidator.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-toastify/dist/types/index.d.ts"
       ],
       "./node_modules/recoil/index.d.ts": [
         "./node_modules/@types/react/index.d.ts",
@@ -3593,6 +4172,10 @@
       ],
       "./node_modules/source-map/source-map.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/ts-toolbelt/out/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/ts-toolbelt/out/index.d.ts"
       ],
       "./node_modules/typescript/lib/lib.dom.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
@@ -4051,6 +4634,28 @@
         "./node_modules/workbox-core/types.d.ts",
         "./node_modules/workbox-strategies/strategy.d.ts"
       ],
+      "./src/auth/helpers/index.ts": [
+        "./src/auth/helpers/clearauth.ts",
+        "./src/auth/helpers/getaccesstoken.ts",
+        "./src/auth/helpers/getaccesstokenexpiresat.ts",
+        "./src/auth/helpers/getrefreshtoken.ts",
+        "./src/auth/helpers/isauthenticated.ts",
+        "./src/auth/helpers/setaccesstoken.ts",
+        "./src/auth/helpers/setaccesstokenexpiresat.ts",
+        "./src/auth/helpers/setrefreshtoken.ts",
+        "./src/auth/helpers/tokenexpiresin.ts",
+        "./src/auth/helpers/tokenisalmostexpired.ts",
+        "./src/auth/helpers/tokenisexpired.ts"
+      ],
+      "./src/components/confirmcomponent/index.tsx": [
+        "./src/utils/hooks/useconfirm/index.ts"
+      ],
+      "./src/components/skeleton/line/index.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/endpoints.ts": [
+        "./node_modules/axios/index.d.ts"
+      ],
       "./src/react-app-env.d.ts": [
         "./node_modules/@types/node/index.d.ts",
         "./node_modules/@types/react-dom/index.d.ts",
@@ -4060,8 +4665,44 @@
       "./src/request/index.js": [
         "./node_modules/axios/index.d.ts"
       ],
-      "./src/store/atoms/auth.js": [
+      "./src/router/helpers/index.ts": [
+        "./src/router/helpers/getpath.ts",
+        "./src/router/helpers/getroute.ts",
+        "./src/router/helpers/getroutefromurl.ts",
+        "./src/router/helpers/geturl.ts",
+        "./src/router/helpers/load.ts"
+      ],
+      "./src/router/helpers/load.ts": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/router/loader/index.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/store/atoms/auth.ts": [
         "./node_modules/recoil/index.d.ts"
+      ],
+      "./src/store/index.ts": [
+        "./node_modules/recoil/index.d.ts"
+      ],
+      "./src/utils/buildcomponenttree.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/utils/defercomponentrender.tsx": [
+        "./node_modules/@types/hoist-non-react-statics/index.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/utils/errorboundary.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/utils/hooks/useconfirm/index.ts": [
+        "./node_modules/recoil/index.d.ts",
+        "./src/utils/hooks/useconfirm/provider.tsx"
+      ],
+      "./src/utils/hooks/useprevious.ts": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/utils/toast/index.ts": [
+        "./src/utils/toast/provider.tsx"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -4088,6 +4729,7 @@
       "./node_modules/@types/history/index.d.ts",
       "./node_modules/@types/history/locationutils.d.ts",
       "./node_modules/@types/history/pathutils.d.ts",
+      "./node_modules/@types/hoist-non-react-statics/index.d.ts",
       "./node_modules/@types/html-minifier-terser/index.d.ts",
       "./node_modules/@types/istanbul-lib-coverage/index.d.ts",
       "./node_modules/@types/istanbul-lib-report/index.d.ts",
@@ -4148,6 +4790,8 @@
       "./node_modules/@types/prettier/index.d.ts",
       "./node_modules/@types/prop-types/index.d.ts",
       "./node_modules/@types/q/index.d.ts",
+      "./node_modules/@types/ramda/index.d.ts",
+      "./node_modules/@types/ramda/tools.d.ts",
       "./node_modules/@types/react-dom/index.d.ts",
       "./node_modules/@types/react-router-dom/index.d.ts",
       "./node_modules/@types/react-router/index.d.ts",
@@ -4177,6 +4821,7 @@
       "./node_modules/@types/webpack/index.d.ts",
       "./node_modules/@types/yargs-parser/index.d.ts",
       "./node_modules/@types/yargs/index.d.ts",
+      "./node_modules/@welldone-software/why-did-you-render/types.d.ts",
       "./node_modules/axios/index.d.ts",
       "./node_modules/csstype/index.d.ts",
       "./node_modules/date-fns/typings.d.ts",
@@ -4189,9 +4834,37 @@
       "./node_modules/path-to-regexp/dist/index.d.ts",
       "./node_modules/pretty-format/build/index.d.ts",
       "./node_modules/pretty-format/build/types.d.ts",
+      "./node_modules/react-content-loader/dist/web/contentloader.d.ts",
+      "./node_modules/react-content-loader/dist/web/index.d.ts",
+      "./node_modules/react-content-loader/dist/web/presets/bulletliststyle.d.ts",
+      "./node_modules/react-content-loader/dist/web/presets/codestyle.d.ts",
+      "./node_modules/react-content-loader/dist/web/presets/facebookstyle.d.ts",
+      "./node_modules/react-content-loader/dist/web/presets/instagramstyle.d.ts",
+      "./node_modules/react-content-loader/dist/web/presets/liststyle.d.ts",
       "./node_modules/react-helmet-async/index.d.ts",
+      "./node_modules/react-toastify/dist/components/closebutton.d.ts",
+      "./node_modules/react-toastify/dist/components/index.d.ts",
+      "./node_modules/react-toastify/dist/components/progressbar.d.ts",
+      "./node_modules/react-toastify/dist/components/toast.d.ts",
+      "./node_modules/react-toastify/dist/components/toastcontainer.d.ts",
+      "./node_modules/react-toastify/dist/components/transitions.d.ts",
+      "./node_modules/react-toastify/dist/core/eventmanager.d.ts",
+      "./node_modules/react-toastify/dist/core/index.d.ts",
+      "./node_modules/react-toastify/dist/core/toast.d.ts",
+      "./node_modules/react-toastify/dist/hooks/index.d.ts",
+      "./node_modules/react-toastify/dist/hooks/usekeeper.d.ts",
+      "./node_modules/react-toastify/dist/hooks/usetoast.d.ts",
+      "./node_modules/react-toastify/dist/hooks/usetoastcontainer.d.ts",
+      "./node_modules/react-toastify/dist/index.d.ts",
+      "./node_modules/react-toastify/dist/types/index.d.ts",
+      "./node_modules/react-toastify/dist/utils/collapsetoast.d.ts",
+      "./node_modules/react-toastify/dist/utils/constant.d.ts",
+      "./node_modules/react-toastify/dist/utils/csstransition.d.ts",
+      "./node_modules/react-toastify/dist/utils/index.d.ts",
+      "./node_modules/react-toastify/dist/utils/propvalidator.d.ts",
       "./node_modules/recoil/index.d.ts",
       "./node_modules/source-map/source-map.d.ts",
+      "./node_modules/ts-toolbelt/out/index.d.ts",
       "./node_modules/typescript/lib/lib.dom.d.ts",
       "./node_modules/typescript/lib/lib.dom.iterable.d.ts",
       "./node_modules/typescript/lib/lib.es2015.collection.d.ts",
@@ -4309,59 +4982,66 @@
       "./node_modules/workbox-strategies/strategyhandler.d.ts",
       "./src/app.test.tsx",
       "./src/app.tsx",
-      "./src/auth/constants.js",
-      "./src/auth/helpers/clearauth.js",
-      "./src/auth/helpers/getaccesstoken.js",
-      "./src/auth/helpers/getaccesstokenexpiresat.js",
-      "./src/auth/helpers/getrefreshtoken.js",
-      "./src/auth/helpers/index.js",
-      "./src/auth/helpers/index.test.js",
-      "./src/auth/helpers/isauthenticated.js",
-      "./src/auth/helpers/setaccesstoken.js",
-      "./src/auth/helpers/setaccesstokenexpiresat.js",
-      "./src/auth/helpers/setrefreshtoken.js",
-      "./src/auth/helpers/tokenexpiresin.js",
-      "./src/auth/helpers/tokenisalmostexpired.js",
-      "./src/auth/helpers/tokenisexpired.js",
-      "./src/auth/index.js",
-      "./src/auth/login.js",
-      "./src/auth/logout.js",
-      "./src/auth/refresh.js",
-      "./src/auth/register.js",
+      "./src/auth/constants.ts",
+      "./src/auth/helpers/clearauth.ts",
+      "./src/auth/helpers/getaccesstoken.ts",
+      "./src/auth/helpers/getaccesstokenexpiresat.ts",
+      "./src/auth/helpers/getrefreshtoken.ts",
+      "./src/auth/helpers/index.test.ts",
+      "./src/auth/helpers/index.ts",
+      "./src/auth/helpers/isauthenticated.ts",
+      "./src/auth/helpers/setaccesstoken.ts",
+      "./src/auth/helpers/setaccesstokenexpiresat.ts",
+      "./src/auth/helpers/setrefreshtoken.ts",
+      "./src/auth/helpers/tokenexpiresin.ts",
+      "./src/auth/helpers/tokenisalmostexpired.ts",
+      "./src/auth/helpers/tokenisexpired.ts",
+      "./src/components/confirmcomponent/index.tsx",
+      "./src/components/skeleton/line/index.tsx",
       "./src/config.ts",
+      "./src/endpoints.ts",
       "./src/index.tsx",
       "./src/react-app-env.d.ts",
       "./src/reportwebvitals.js",
-      "./src/request/constant.js",
+      "./src/request/constant.ts",
       "./src/request/index.js",
-      "./src/router/helpers/getpath.js",
-      "./src/router/helpers/getpaths.js",
-      "./src/router/helpers/getroute.js",
-      "./src/router/helpers/getroutefromurl.js",
-      "./src/router/helpers/geturl.js",
-      "./src/router/helpers/index.js",
-      "./src/router/index.js",
+      "./src/router/helpers/getpath.ts",
+      "./src/router/helpers/getpaths.ts",
+      "./src/router/helpers/getroute.ts",
+      "./src/router/helpers/getroutefromurl.ts",
+      "./src/router/helpers/geturl.ts",
+      "./src/router/helpers/index.ts",
+      "./src/router/helpers/load.ts",
+      "./src/router/index.jsx",
+      "./src/router/loader/index.tsx",
       "./src/router/routes/conditionalroute.js",
       "./src/router/routes/guestroute.js",
-      "./src/router/routes/index.js",
+      "./src/router/routes/index.jsx",
       "./src/router/routes/normalroute.js",
       "./src/router/routes/privateroute.js",
       "./src/router/routes/redirectroute.js",
       "./src/service-worker.js",
       "./src/serviceworkerregistration.js",
       "./src/setuptests.ts",
-      "./src/store/atoms/auth.js",
-      "./src/store/atoms/global.js",
-      "./src/store/index.js",
-      "./src/utils/buildcomponenttree.js",
-      "./src/utils/defercomponentrender.js",
-      "./src/utils/errorboundary.js",
+      "./src/store/atoms/auth.ts",
+      "./src/store/index.ts",
+      "./src/utils/buildcomponenttree.tsx",
+      "./src/utils/defercomponentrender.tsx",
+      "./src/utils/errorboundary.tsx",
+      "./src/utils/hooks/useconfirm/index.ts",
+      "./src/utils/hooks/useconfirm/provider.tsx",
+      "./src/utils/hooks/useprevious.ts",
       "./src/utils/is.js",
-      "./src/utils/localstorage.js",
+      "./src/utils/localstorage.ts",
       "./src/utils/md5.js",
       "./src/utils/randomstring.js",
+      "./src/utils/toast/index.ts",
+      "./src/utils/toast/message.tsx",
+      "./src/utils/toast/provider.tsx",
+      "./src/utils/waitatleast.ts",
       "./src/views/home/index.tsx",
-      "./src/views/login.tsx"
+      "./src/views/login.tsx",
+      "./src/wdyr.ts"
     ],
     "affectedFilesPendingEmit": [
       [
@@ -4454,6 +5134,10 @@
       ],
       [
         "./node_modules/@types/history/pathutils.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/hoist-non-react-statics/index.d.ts",
         1
       ],
       [
@@ -4697,6 +5381,14 @@
         1
       ],
       [
+        "./node_modules/@types/ramda/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/ramda/tools.d.ts",
+        1
+      ],
+      [
         "./node_modules/@types/react-dom/index.d.ts",
         1
       ],
@@ -4813,6 +5505,10 @@
         1
       ],
       [
+        "./node_modules/@welldone-software/why-did-you-render/types.d.ts",
+        1
+      ],
+      [
         "./node_modules/axios/index.d.ts",
         1
       ],
@@ -4861,7 +5557,115 @@
         1
       ],
       [
+        "./node_modules/react-content-loader/dist/web/contentloader.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-content-loader/dist/web/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-content-loader/dist/web/presets/bulletliststyle.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-content-loader/dist/web/presets/codestyle.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-content-loader/dist/web/presets/facebookstyle.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-content-loader/dist/web/presets/instagramstyle.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-content-loader/dist/web/presets/liststyle.d.ts",
+        1
+      ],
+      [
         "./node_modules/react-helmet-async/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-toastify/dist/components/closebutton.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-toastify/dist/components/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-toastify/dist/components/progressbar.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-toastify/dist/components/toast.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-toastify/dist/components/toastcontainer.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-toastify/dist/components/transitions.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-toastify/dist/core/eventmanager.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-toastify/dist/core/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-toastify/dist/core/toast.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-toastify/dist/hooks/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-toastify/dist/hooks/usekeeper.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-toastify/dist/hooks/usetoast.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-toastify/dist/hooks/usetoastcontainer.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-toastify/dist/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-toastify/dist/types/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-toastify/dist/utils/collapsetoast.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-toastify/dist/utils/constant.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-toastify/dist/utils/csstransition.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-toastify/dist/utils/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-toastify/dist/utils/propvalidator.d.ts",
         1
       ],
       [
@@ -4870,6 +5674,10 @@
       ],
       [
         "./node_modules/source-map/source-map.d.ts",
+        1
+      ],
+      [
+        "./node_modules/ts-toolbelt/out/index.d.ts",
         1
       ],
       [
@@ -5197,7 +6005,15 @@
         1
       ],
       [
+        "./src/auth/constants.ts",
+        1
+      ],
+      [
         "./src/auth/helpers/clearauth.js",
+        1
+      ],
+      [
+        "./src/auth/helpers/clearauth.ts",
         1
       ],
       [
@@ -5205,11 +6021,23 @@
         1
       ],
       [
+        "./src/auth/helpers/getaccesstoken.ts",
+        1
+      ],
+      [
         "./src/auth/helpers/getaccesstokenexpiresat.js",
         1
       ],
       [
+        "./src/auth/helpers/getaccesstokenexpiresat.ts",
+        1
+      ],
+      [
         "./src/auth/helpers/getrefreshtoken.js",
+        1
+      ],
+      [
+        "./src/auth/helpers/getrefreshtoken.ts",
         1
       ],
       [
@@ -5221,7 +6049,19 @@
         1
       ],
       [
+        "./src/auth/helpers/index.test.ts",
+        1
+      ],
+      [
+        "./src/auth/helpers/index.ts",
+        1
+      ],
+      [
         "./src/auth/helpers/isauthenticated.js",
+        1
+      ],
+      [
+        "./src/auth/helpers/isauthenticated.ts",
         1
       ],
       [
@@ -5229,7 +6069,15 @@
         1
       ],
       [
+        "./src/auth/helpers/setaccesstoken.ts",
+        1
+      ],
+      [
         "./src/auth/helpers/setaccesstokenexpiresat.js",
+        1
+      ],
+      [
+        "./src/auth/helpers/setaccesstokenexpiresat.ts",
         1
       ],
       [
@@ -5237,7 +6085,15 @@
         1
       ],
       [
+        "./src/auth/helpers/setrefreshtoken.ts",
+        1
+      ],
+      [
         "./src/auth/helpers/tokenexpiresin.js",
+        1
+      ],
+      [
+        "./src/auth/helpers/tokenexpiresin.ts",
         1
       ],
       [
@@ -5245,7 +6101,15 @@
         1
       ],
       [
+        "./src/auth/helpers/tokenisalmostexpired.ts",
+        1
+      ],
+      [
         "./src/auth/helpers/tokenisexpired.js",
+        1
+      ],
+      [
+        "./src/auth/helpers/tokenisexpired.ts",
         1
       ],
       [
@@ -5269,7 +6133,19 @@
         1
       ],
       [
+        "./src/components/confirmcomponent/index.tsx",
+        1
+      ],
+      [
+        "./src/components/skeleton/line/index.tsx",
+        1
+      ],
+      [
         "./src/config.ts",
+        1
+      ],
+      [
+        "./src/endpoints.ts",
         1
       ],
       [
@@ -5289,6 +6165,10 @@
         1
       ],
       [
+        "./src/request/constant.ts",
+        1
+      ],
+      [
         "./src/request/index.js",
         1
       ],
@@ -5297,7 +6177,15 @@
         1
       ],
       [
+        "./src/router/helpers/getpath.ts",
+        1
+      ],
+      [
         "./src/router/helpers/getpaths.js",
+        1
+      ],
+      [
+        "./src/router/helpers/getpaths.ts",
         1
       ],
       [
@@ -5305,7 +6193,15 @@
         1
       ],
       [
+        "./src/router/helpers/getroute.ts",
+        1
+      ],
+      [
         "./src/router/helpers/getroutefromurl.js",
+        1
+      ],
+      [
+        "./src/router/helpers/getroutefromurl.ts",
         1
       ],
       [
@@ -5313,11 +6209,31 @@
         1
       ],
       [
+        "./src/router/helpers/geturl.ts",
+        1
+      ],
+      [
         "./src/router/helpers/index.js",
         1
       ],
       [
+        "./src/router/helpers/index.ts",
+        1
+      ],
+      [
+        "./src/router/helpers/load.ts",
+        1
+      ],
+      [
         "./src/router/index.js",
+        1
+      ],
+      [
+        "./src/router/index.jsx",
+        1
+      ],
+      [
+        "./src/router/loader/index.tsx",
         1
       ],
       [
@@ -5330,6 +6246,10 @@
       ],
       [
         "./src/router/routes/index.js",
+        1
+      ],
+      [
+        "./src/router/routes/index.jsx",
         1
       ],
       [
@@ -5361,6 +6281,10 @@
         1
       ],
       [
+        "./src/store/atoms/auth.ts",
+        1
+      ],
+      [
         "./src/store/atoms/global.js",
         1
       ],
@@ -5369,7 +6293,15 @@
         1
       ],
       [
+        "./src/store/index.ts",
+        1
+      ],
+      [
         "./src/utils/buildcomponenttree.js",
+        1
+      ],
+      [
+        "./src/utils/buildcomponenttree.tsx",
         1
       ],
       [
@@ -5377,7 +6309,27 @@
         1
       ],
       [
+        "./src/utils/defercomponentrender.tsx",
+        1
+      ],
+      [
         "./src/utils/errorboundary.js",
+        1
+      ],
+      [
+        "./src/utils/errorboundary.tsx",
+        1
+      ],
+      [
+        "./src/utils/hooks/useconfirm/index.ts",
+        1
+      ],
+      [
+        "./src/utils/hooks/useconfirm/provider.tsx",
+        1
+      ],
+      [
+        "./src/utils/hooks/useprevious.ts",
         1
       ],
       [
@@ -5389,6 +6341,10 @@
         1
       ],
       [
+        "./src/utils/localstorage.ts",
+        1
+      ],
+      [
         "./src/utils/md5.js",
         1
       ],
@@ -5397,11 +6353,31 @@
         1
       ],
       [
+        "./src/utils/toast/index.ts",
+        1
+      ],
+      [
+        "./src/utils/toast/message.tsx",
+        1
+      ],
+      [
+        "./src/utils/toast/provider.tsx",
+        1
+      ],
+      [
+        "./src/utils/waitatleast.ts",
+        1
+      ],
+      [
         "./src/views/home/index.tsx",
         1
       ],
       [
         "./src/views/login.tsx",
+        1
+      ],
+      [
+        "./src/wdyr.ts",
         1
       ]
     ]
