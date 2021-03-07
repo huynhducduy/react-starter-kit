@@ -1,10 +1,11 @@
-import { useCallback, useState, memo } from 'react'
+import { useCallback, useState, memo, useEffect } from 'react'
 import styles from './style.module.scss'
 
 import logo from 'assets/logo.svg'
 
 import toast from 'utils/toast'
 import useConfirm from 'utils/hooks/useConfirm'
+import { useSetMetaData } from 'utils/hooks/useMetaData'
 
 const BigListPureComponent = memo(
   (props: { someProp: React.CSSProperties }) => {
@@ -13,6 +14,8 @@ const BigListPureComponent = memo(
 )
 
 function App() {
+  const setTitle = useSetMetaData('title')
+
   const confirm = useConfirm()
   const [value, setValue] = useState<string>('')
 
@@ -36,26 +39,24 @@ function App() {
     })
   }, [confirm])
 
+  const changeTitle = useCallback(() => {
+    setTitle(value)
+  }, [value, setTitle])
+
+  useEffect(() => {
+    setTitle('Home')
+  }, [setTitle])
+
   return (
     <div className={styles['App']}>
       <header className={styles['App-header']}>
         <img src={logo} className={styles['App-logo']} alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
         <input
           className={styles['App-input']}
           value={value}
           onChange={handleInput}
         ></input>
-        <a
-          className={styles['App-link']}
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <button onClick={changeTitle}>Update title</button>
         <button onClick={handleToast}>Toast</button>
         <button onClick={handleConfirm}>Confirm</button>
         <BigListPureComponent someProp={{}} />
