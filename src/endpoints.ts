@@ -1,6 +1,6 @@
 import config from 'config'
 import { Method } from 'axios'
-const api = String(config.api)
+const { api } = config
 
 type Endpoint = {
   url: string

@@ -47,7 +47,7 @@ export default function ConditionalRoute({
     reason = String(reason)
   }
 
-  if (!is.isReactComponent(Component)) {
+  if (!is.reactElement(<Component />)) {
     throw new Error('Route must have a valid component.')
   }
 
