@@ -1,9 +1,10 @@
 import hoistStatics from 'hoist-non-react-statics'
-import { useState, useEffect } from 'react'
+import { useState, useLayoutEffect } from 'react'
 
 /**
  * Allows two animation frames to complete to allow other components to update
  * and re-render before mounting and rendering an expensive `WrappedComponent`.
+ * https://medium.com/@paularmstrong/twitter-lite-and-high-performance-react-progressive-web-apps-at-scale-d28a00e780a3
  */
 export default function deferComponentRender(
   WrappedComponent: React.ComponentType
@@ -11,7 +12,7 @@ export default function deferComponentRender(
   const DeferredRenderWrapper: React.ComponentType = (props) => {
     const [shouldRender, setShouldRender] = useState<boolean>(false)
 
-    useEffect(() => {
+    useLayoutEffect(() => {
       const id = window.requestAnimationFrame(() => {
         window.requestAnimationFrame(() => setShouldRender(true))
       })
