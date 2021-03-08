@@ -1,7 +1,8 @@
 import flat from 'flat'
 
 const defaultValues = flat<Record<string, unknown>, Record<string, string>>({
-  'theme-color': '#000000',
+  'theme-color': '#000000', // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name
+  'color-scheme': 'normal',
   title: 'Untitled',
   description: '',
   keywords: '',
@@ -9,6 +10,8 @@ const defaultValues = flat<Record<string, unknown>, Record<string, string>>({
   shortlink: '',
   image: '',
   site_name: '',
+  publisher: '', // name
+  creator: '', // organization or institution
   twitter: {
     'image:alt': '',
     card: '', // `summary`, `summary_large_image`, `app`, or `player`.
