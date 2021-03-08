@@ -21,6 +21,7 @@ import ErrorBoundary from 'utils/ErrorBoundary'
 import buildComponentTree from 'utils/buildComponentTree'
 
 import ConfirmComponent from 'components/ConfirmComponent'
+import AuthUpdater from 'auth/AuthUpdater'
 
 // Enable polyfills
 // import 'react-app-polyfill/ie11'
@@ -41,6 +42,7 @@ function render(Component: React.ElementType) {
   return ReactDOM.render(
     <React.StrictMode>
       <Providers>
+        <AuthUpdater />
         <Component />
       </Providers>
     </React.StrictMode>,
