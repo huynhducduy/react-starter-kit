@@ -22,3 +22,7 @@ yarn-error.log*
 
 package.lock
 .eslintcache
+
+# cypress
+/cypress/videos
+/cypress/screenshots
