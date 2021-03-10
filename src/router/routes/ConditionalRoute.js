@@ -1,5 +1,5 @@
 import { Route, Redirect } from 'react-router-dom'
-import is from 'utils/is'
+import { isElement } from 'react-dom/test-utils'
 
 import getUrl from '../helpers/getUrl'
 
@@ -47,7 +47,7 @@ export default function ConditionalRoute({
     reason = String(reason)
   }
 
-  if (!is.reactElement(<Component />)) {
+  if (!isElement(<Component />)) {
     throw new Error('Route must have a valid component.')
   }
 
