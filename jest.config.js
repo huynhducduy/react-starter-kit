@@ -10,8 +10,7 @@ module.exports = async () => {
       '<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}',
     ],
     testEnvironment: 'jsdom',
-    testRunner:
-      '/Users/huynhducduy/workspace/react-starter-kit/node_modules/jest-circus/runner.js',
+    testRunner: '<rootDir>/node_modules/jest-circus/runner.js',
     transform: {
       '^.+\\.(js|jsx|mjs|cjs|ts|tsx)$': '<rootDir>/node_modules/babel-jest',
       '^.+\\.css$': '<rootDir>/config/jest/cssTransform.js',
@@ -22,7 +21,7 @@ module.exports = async () => {
       '[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs|cjs|ts|tsx)$',
       '^.+\\.module\\.(css|sass|scss|pcss)$',
     ],
-    modulePaths: ['/Users/huynhducduy/workspace/react-starter-kit/src'],
+    modulePaths: ['<rootDir>/src'],
     moduleNameMapper: {
       '^react-native$': 'react-native-web',
       '^.+\\.module\\.(css|sass|scss|pcss)$': 'identity-obj-proxy',
