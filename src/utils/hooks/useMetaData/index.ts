@@ -7,6 +7,7 @@ import {
 } from 'recoil'
 import type { SetterOrUpdater } from 'recoil'
 import defaultValues from './defaultValues'
+import guardDefaultValue from 'utils/recoil/guardDefaultValue'
 import config from 'config'
 
 const metaAtom = atom<Record<string, string>>({
@@ -20,11 +21,14 @@ const metaData = selectorFamily<string, string>({
     if (key === 'title') return `${get(metaAtom).title} | ${config.title}`
     return get(metaAtom)[key]
   },
-  set: (key: string) => ({ set }, newValue) =>
-    set(metaAtom, (state) => ({
-      ...state,
-      [key]: String(newValue),
-    })),
+  set: (key: string) => ({ get, set }, newValue) => {
+    if (guardDefaultValue(newValue)) return
+    if (newValue !== get(metaAtom)[key])
+      set(metaAtom, (state) => ({
+        ...state,
+        [key]: newValue,
+      }))
+  },
 })
 
 const useMetaData = function (key: string): [string, SetterOrUpdater<string>] {
