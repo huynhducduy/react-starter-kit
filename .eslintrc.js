@@ -1,6 +1,8 @@
 var restrictedGlobals = require('confusing-browser-globals')
 
 var extendsConfig = [
+  'plugin:testing-library/recommended',
+  'plugin:jest-dom/recommended',
   'plugin:cypress/recommended',
   'plugin:json/recommended',
   'plugin:prettier/recommended', // Always the last: https://github.com/prettier/eslint-plugin-prettier#recommended-configuration
@@ -19,6 +21,7 @@ module.exports = {
     'react',
     'react-hooks',
     'testing-library',
+    'jest-dom',
     '@typescript-eslint',
   ],
   extends: extendsConfig,
