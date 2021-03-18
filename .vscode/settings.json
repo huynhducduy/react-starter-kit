@@ -61,6 +61,7 @@
 		".*rc": "json",
 	},
 	"cSpell.words": [
+		"fastify",
 		"languagedetector"
 	],
 }
