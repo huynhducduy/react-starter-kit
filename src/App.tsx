@@ -16,6 +16,8 @@ import buildComponentTree from 'utils/buildComponentTree'
 import ConfirmComponent from 'components/ConfirmComponent'
 import AuthUpdater from 'auth/AuthUpdater'
 
+import 'i18n'
+
 // Enable polyfills
 // import 'react-app-polyfill/ie11'
 // import 'react-app-polyfill/stable'
