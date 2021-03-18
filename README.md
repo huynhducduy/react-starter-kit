@@ -52,7 +52,7 @@ cd react-app
 yarn
 ```
 
-or [Create a new repository from react-starter-kit](https://github.com/huynhducduy/react-starter-kit/generate')
+or [Create a new repository from react-starter-kit](https://github.com/huynhducduy/react-starter-kit/generate)
 
 ## Configure
 
