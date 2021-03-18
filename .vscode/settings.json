@@ -60,4 +60,7 @@
 	"files.associations": {
 		".*rc": "json",
 	},
+	"cSpell.words": [
+		"languagedetector"
+	],
 }

@@ -8,6 +8,8 @@ import useConfirm from 'utils/hooks/useConfirm'
 import { useSetMetaData } from 'utils/hooks/useMetaData'
 import { useTranslation } from 'react-i18next'
 
+import LanguageChanger from 'components/LanguageChanger'
+
 const BigListPureComponent = memo(
   (props: { someProp: React.CSSProperties }) => {
     return <div style={props.someProp}></div>
@@ -62,6 +64,7 @@ function App() {
         <button onClick={changeTitle}>Update title</button>
         <button onClick={handleToast}>Toast</button>
         <button onClick={handleConfirm}>Confirm</button>
+        <LanguageChanger />
         <BigListPureComponent someProp={{}} />
       </header>
     </div>
