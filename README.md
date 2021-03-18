@@ -100,3 +100,4 @@ Analyze output: `yarn analyze`
 ## Issues
 
 - `@typescript-eslint/typescript-estree` is not yet compatible with Typescript `^4.2.0`, can cause some bugs
+- `React.lazy` is not yet available for server-side rendering
