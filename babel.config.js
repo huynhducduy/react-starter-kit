@@ -127,6 +127,10 @@ module.exports = (api, isOutside = false) => {
       !isOutside &&
         require.resolve('@babel/plugin-proposal-logical-assignment-operators'),
       !isOutside && require.resolve('@babel/plugin-proposal-json-strings'),
+      // Stable but webpack 4 (with acorn 6) don't support https://github.com/webpack/webpack/issues/10227
+      !isOutside &&
+        require.resolve('@babel/plugin-proposal-nullish-coalescing-operator'),
+      !isOutside && require.resolve('@babel/plugin-proposal-optional-chaining'),
       // Libraries
       !isOutside && require.resolve('babel-plugin-ramda'),
       !isOutside && require.resolve('babel-plugin-date-fns-next'),
