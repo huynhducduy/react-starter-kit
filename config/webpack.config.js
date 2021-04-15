@@ -22,7 +22,7 @@ const { WebpackManifestPlugin } = require('webpack-manifest-plugin')
 const WorkboxWebpackPlugin = require('workbox-webpack-plugin')
 const ESLintPlugin = require('eslint-webpack-plugin')
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin')
-const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin')
+const AliasHq = require('alias-hq')
 
 const safePostCssParser = require('postcss-safe-parser')
 
@@ -371,12 +371,9 @@ module.exports = function (webpackEnv) {
           'scheduler/tracing': 'scheduler/tracing-profiling',
         }),
         ...(modules.webpackAliases || {}),
+        ...AliasHq.get('webpack'),
       },
       plugins: [
-        // Automatically resolve tsconfig path (alias)
-        new TsconfigPathsPlugin({
-          extensions: ['.ts', '.tsx', '.js', '.jsx'],
-        }),
         // Adds support for installing with Plug'n'Play, leading to faster installs and adding
         // guards against forgotten dependencies and such.
         PnpWebpackPlugin,

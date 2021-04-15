@@ -101,3 +101,7 @@ Analyze output: `yarn analyze`
 
 - `@typescript-eslint/typescript-estree` is not yet compatible with Typescript `^4.2.0`, can cause some bugs
 - `React.lazy` is not yet available for server-side rendering
+- @testing-library/user-event@12.8.3" has unmet peer dependency "@testing-library/dom@>=7.21.4".
+- react-helmet-async@1.0.7" has incorrect peer dependency "react@^16.6.0".
+- react-helmet-async@1.0.7" has incorrect peer dependency "react-dom@^16.6.0".
+- recoil@0.1.2" has incorrect peer dependency "react@^16.13.1".

@@ -1,3 +1,5 @@
+const hq = require('alias-hq')
+
 module.exports = async () => {
   return {
     rootDir: './',
@@ -25,6 +27,7 @@ module.exports = async () => {
     moduleNameMapper: {
       '^react-native$': 'react-native-web',
       '^.+\\.module\\.(css|sass|scss|pcss)$': 'identity-obj-proxy',
+      ...hq.get('jest'),
     },
     moduleFileExtensions: [
       'web.js',
