@@ -58,6 +58,8 @@ or [Create a new repository from react-starter-kit](https://github.com/huynhducd
 
 `cp .env.example .env && vi .env`
 
+Alias: in `tsconfig.json` - `compilerOptions.paths`. Automatically resolve in `webpack`, `jest` environment.
+
 ## Development
 
 With docker: `docker-compose up --build -d`

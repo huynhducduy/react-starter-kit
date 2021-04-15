@@ -246,6 +246,591 @@
         "signature": "af7fd2870746deed40e130fc0a3966de74e8f52a97ec114d0fbb35876ab05ca9",
         "affectsGlobalScope": false
       },
+      "./node_modules/@types/aria-query/index.d.ts": {
+        "version": "e51e34b4d8bd97569a7101c1b77234f6a1272cbb5bd50ed649b1da3f71070300",
+        "signature": "e51e34b4d8bd97569a7101c1b77234f6a1272cbb5bd50ed649b1da3f71070300",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@testing-library/dom/types/matches.d.ts": {
+        "version": "b562eed438decfd54e66977c32672e36ea5332118de4255fa8b078ea2aa60d94",
+        "signature": "b562eed438decfd54e66977c32672e36ea5332118de4255fa8b078ea2aa60d94",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@testing-library/dom/types/wait-for.d.ts": {
+        "version": "d64e123a450152bd381a8371224f45c873a218accbc5032b96fa7efffac051bf",
+        "signature": "d64e123a450152bd381a8371224f45c873a218accbc5032b96fa7efffac051bf",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@testing-library/dom/types/query-helpers.d.ts": {
+        "version": "f30257b48a7f7b38a7e4ce4f09395b6bab1bc1cf37dbc9290d30d13b27f67ebe",
+        "signature": "f30257b48a7f7b38a7e4ce4f09395b6bab1bc1cf37dbc9290d30d13b27f67ebe",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@testing-library/dom/types/queries.d.ts": {
+        "version": "5a2194569d32a5cadd019b3ce2ade4d0e2c867b0fc2a48691940b7dca6ea8887",
+        "signature": "5a2194569d32a5cadd019b3ce2ade4d0e2c867b0fc2a48691940b7dca6ea8887",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@testing-library/dom/types/get-queries-for-element.d.ts": {
+        "version": "60c5577050b9e230486a60cf05ae4ae8ce9c7bd661061bacbb797a58cb561a66",
+        "signature": "60c5577050b9e230486a60cf05ae4ae8ce9c7bd661061bacbb797a58cb561a66",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/pretty-format/build/types.d.ts": {
+        "version": "5d72971a459517c44c1379dab9ed248e87a61ba0a1e0f25c9d67e1e640cd9a09",
+        "signature": "5d72971a459517c44c1379dab9ed248e87a61ba0a1e0f25c9d67e1e640cd9a09",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/pretty-format/build/index.d.ts": {
+        "version": "02d734976af36f4273d930bea88b3e62adf6b078cf120c1c63d49aa8d8427c5c",
+        "signature": "02d734976af36f4273d930bea88b3e62adf6b078cf120c1c63d49aa8d8427c5c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@testing-library/dom/types/screen.d.ts": {
+        "version": "b1601667a5daa2b846d642276c318c8cec7b7235b3494e786c2a6a92809a058c",
+        "signature": "b1601667a5daa2b846d642276c318c8cec7b7235b3494e786c2a6a92809a058c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@testing-library/dom/types/wait.d.ts": {
+        "version": "c116c5ff714c9c491b13616c1a8b2e69394dd9e6f28cead2d41b675860c0d99a",
+        "signature": "c116c5ff714c9c491b13616c1a8b2e69394dd9e6f28cead2d41b675860c0d99a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@testing-library/dom/types/wait-for-dom-change.d.ts": {
+        "version": "702a118d48a3dcef2324d30ac84185ab22717e118b0543dbe151972807b80ac2",
+        "signature": "702a118d48a3dcef2324d30ac84185ab22717e118b0543dbe151972807b80ac2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@testing-library/dom/types/wait-for-element.d.ts": {
+        "version": "ad2023038c6b42e4cbc195fdf874659e27f5c99191caf2572d2003fcd1dbf695",
+        "signature": "ad2023038c6b42e4cbc195fdf874659e27f5c99191caf2572d2003fcd1dbf695",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@testing-library/dom/types/wait-for-element-to-be-removed.d.ts": {
+        "version": "7f23902e7e648f8fff1daa2d28dc29c219d80920199fd0318257fb61308f88ba",
+        "signature": "7f23902e7e648f8fff1daa2d28dc29c219d80920199fd0318257fb61308f88ba",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@testing-library/dom/types/get-node-text.d.ts": {
+        "version": "e756ac94c7de6b07a7bd4a8cd365ac40ee289586c974e33f3676b3ef48d61698",
+        "signature": "e756ac94c7de6b07a7bd4a8cd365ac40ee289586c974e33f3676b3ef48d61698",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@testing-library/dom/types/events.d.ts": {
+        "version": "cc7f5deaf4e1e2b8dde0645ae824d213cc71834a0d58d557f805f443451664a8",
+        "signature": "cc7f5deaf4e1e2b8dde0645ae824d213cc71834a0d58d557f805f443451664a8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@testing-library/dom/types/pretty-dom.d.ts": {
+        "version": "2ac36e828c9e778acbd5a34cd57c144a875443b45d6cee38cfebb9e5756e5dca",
+        "signature": "2ac36e828c9e778acbd5a34cd57c144a875443b45d6cee38cfebb9e5756e5dca",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@testing-library/dom/types/role-helpers.d.ts": {
+        "version": "168994907c6427e885018396248c567b6214e0daa6b62d4fc1be334affa44c56",
+        "signature": "168994907c6427e885018396248c567b6214e0daa6b62d4fc1be334affa44c56",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@testing-library/dom/types/config.d.ts": {
+        "version": "a47fcf458fa122a20e74794fb227c31edc1e2ab4595a21eccfef83f27376275f",
+        "signature": "a47fcf458fa122a20e74794fb227c31edc1e2ab4595a21eccfef83f27376275f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@testing-library/dom/types/suggestions.d.ts": {
+        "version": "60b3b7499b678b4ed4d33b566451ea66c25a0ec34f9b1b15abbba4291819c3b9",
+        "signature": "60b3b7499b678b4ed4d33b566451ea66c25a0ec34f9b1b15abbba4291819c3b9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@testing-library/dom/types/index.d.ts": {
+        "version": "ee5c308961f2cd7a22d5e365736520dd92658dc424776aded00a7c589af4c71c",
+        "signature": "ee5c308961f2cd7a22d5e365736520dd92658dc424776aded00a7c589af4c71c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/react-dom/index.d.ts": {
+        "version": "5e7837730e7ef63981cbd8d878388c4b37acc70dc3190881e230a23e3b4f9514",
+        "signature": "5e7837730e7ef63981cbd8d878388c4b37acc70dc3190881e230a23e3b4f9514",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/react-dom/test-utils/index.d.ts": {
+        "version": "12758f44a694ee2fee1759aed3271f3d7ce45a37a0daec62b99f162a8f65b12f",
+        "signature": "12758f44a694ee2fee1759aed3271f3d7ce45a37a0daec62b99f162a8f65b12f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@testing-library/react/types/index.d.ts": {
+        "version": "93d72cd6f97ba8fa778d340091a0b25a08ea336a2ac79cd7d33086906b5c498e",
+        "signature": "93d72cd6f97ba8fa778d340091a0b25a08ea336a2ac79cd7d33086906b5c498e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/domutils.d.ts": {
+        "version": "271cde49dfd9b398ccc91bb3aaa43854cf76f4d14e10fed91cbac649aa6cbc63",
+        "signature": "271cde49dfd9b398ccc91bb3aaa43854cf76f4d14e10fed91cbac649aa6cbc63",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/history/createbrowserhistory.d.ts": {
+        "version": "c6f2572e21f626260d2e4a65e4e1e42b9b273b6f43b5c3bc115c2926417d3eca",
+        "signature": "c6f2572e21f626260d2e4a65e4e1e42b9b273b6f43b5c3bc115c2926417d3eca",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/createhashhistory.d.ts": {
+        "version": "374ab77e05e0bf5a52acad6d65121d4bd31068108f23d70186dba5fcd7d6a1a3",
+        "signature": "374ab77e05e0bf5a52acad6d65121d4bd31068108f23d70186dba5fcd7d6a1a3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/creatememoryhistory.d.ts": {
+        "version": "a4ecd4bb653aa71093375845fba6250ca0f3c633d0e933fc9bf4b301834eab27",
+        "signature": "a4ecd4bb653aa71093375845fba6250ca0f3c633d0e933fc9bf4b301834eab27",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/locationutils.d.ts": {
+        "version": "25d91fb9ed77a828cc6c7a863236fb712dafcd52f816eec481bd0c1f589f4404",
+        "signature": "25d91fb9ed77a828cc6c7a863236fb712dafcd52f816eec481bd0c1f589f4404",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/pathutils.d.ts": {
+        "version": "4cd14cea22eed1bfb0dc76183e56989f897ac5b14c0e2a819e5162eafdcfe243",
+        "signature": "4cd14cea22eed1bfb0dc76183e56989f897ac5b14c0e2a819e5162eafdcfe243",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/index.d.ts": {
+        "version": "cc53cba64efb30576f2a36f1d7107e4453e84cbd0f371d49cd1dfd208e11233b",
+        "signature": "cc53cba64efb30576f2a36f1d7107e4453e84cbd0f371d49cd1dfd208e11233b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/react-router/index.d.ts": {
+        "version": "c4fdfe0f9327fc110adebcd633e647f65ae9cb2625a4df288aa64f7dfe576b79",
+        "signature": "c4fdfe0f9327fc110adebcd633e647f65ae9cb2625a4df288aa64f7dfe576b79",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/react-router-dom/index.d.ts": {
+        "version": "b89701b714364b5bcb0b58e83725aa02a4f41df8357000b4e8fe60566bf805ac",
+        "signature": "b89701b714364b5bcb0b58e83725aa02a4f41df8357000b4e8fe60566bf805ac",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/path-to-regexp/dist/index.d.ts": {
+        "version": "6e7936b20cd2022c2a71f9d780e7f87216c19fde5c18448aaff60059a46ae2e7",
+        "signature": "6e7936b20cd2022c2a71f9d780e7f87216c19fde5c18448aaff60059a46ae2e7",
+        "affectsGlobalScope": false
+      },
+      "./src/router/helpers/getpath.ts": {
+        "version": "17b5c3d7b6ede3f79161b8a7b4f6cfe1cee8bf76e0be16a47de65c1acdc30beb",
+        "signature": "0a89ed12a43e9b89d7b7e2fdc43f3a4cec8b05133937ff70bc529aa7ecd50364",
+        "affectsGlobalScope": false
+      },
+      "./src/router/helpers/geturl.ts": {
+        "version": "e0661ddcb927c34132465f7df7caa1d3c2ca4680138ef74c598e04d9c4c45dcb",
+        "signature": "2667c16a678abbe1c26effde8e00471dd6897c24d6b4e759ef282abc2772a427",
+        "affectsGlobalScope": false
+      },
+      "./src/router/routes/conditionalroute.js": {
+        "version": "3631b66573dc2b1142d74c4dfec080be37c9e5af56c7c06d2fe46481f42de7c3",
+        "signature": "efc8eb0d2b75bd81d66d6373be1f6ccf7d70a2ac1b472540ce331bc41d0b3baa",
+        "affectsGlobalScope": false
+      },
+      "./src/config.ts": {
+        "version": "1c81434088f31a76fe1b14b55d40cf3a758a517ef0e224e6b3d6175c9e5df8fc",
+        "signature": "64f6fd6369a207a79b0b0f2fa94405ad5dcfc6bc9d010453eb6d69a932620112",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/localstorage.ts": {
+        "version": "edbe7c5022a6ba8ef10c6c80cbec28ff07c6707a7c837d919903953d13c424cf",
+        "signature": "fc53763873bc17fb07a0db42b2fdce6577c7aeec15bea33305e3fc15d456fc14",
+        "affectsGlobalScope": false
+      },
+      "./src/auth/constants.ts": {
+        "version": "5f957d4840d9a690ee4ed653f6ff621a432b369d17f2654b89632b2579c2a286",
+        "signature": "f308b2faa137949b6246cd2b9212e97fd05ec2306b8d6062da06608b033c4198",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/date-fns/typings.d.ts": {
+        "version": "7631f38c6f89c86a848d2bfbfcc22ec66aa06f781d090a58d118b9b4de4975c0",
+        "signature": "7631f38c6f89c86a848d2bfbfcc22ec66aa06f781d090a58d118b9b4de4975c0",
+        "affectsGlobalScope": true
+      },
+      "./src/auth/helpers/getaccesstokenexpiresat.ts": {
+        "version": "fac7e5b29732f6ae0334c5d63fe00c705a062b095d9bf03cd34daa336a800c2a",
+        "signature": "c2b4d10eb9ac84bf850677c4983f44f1f24da05fe4a45fb2aacf5e5dde1fcdca",
+        "affectsGlobalScope": false
+      },
+      "./src/auth/helpers/tokenisexpired.ts": {
+        "version": "5455e64880e3d8a13280c8af462722fd8045dbe610db0809afa60f2a06b8fb4a",
+        "signature": "b5ac4da9f50e5de90643ea1d05cbd63c24b6da39d57d51ee5e0b9a26ecc85e03",
+        "affectsGlobalScope": false
+      },
+      "./src/auth/helpers/isauthenticated.ts": {
+        "version": "2c9baeceb1c3b1e3121e84b8db819aca3c632837337340c2a8354830cdb04afb",
+        "signature": "29087745ffd0d472755f8670b768a82d55cfe44a883f30275d190bf5e37a4a03",
+        "affectsGlobalScope": false
+      },
+      "./src/router/routes/privateroute.js": {
+        "version": "f16909f12f23c91a4073cf3dcd5afb405d1e4bd64e40770b38326717d6065789",
+        "signature": "eebfc709caaf22bcb89a4803ec6f028e95ae4e54c96486bdbe0f5558ef7c3a1c",
+        "affectsGlobalScope": false
+      },
+      "./src/router/routes/guestroute.js": {
+        "version": "2e01efedfd6f1da85519a713d8745cc5fbcffc8f55545f9ea94a2e07f632187a",
+        "signature": "37b0f447e3be908e2828c77079df0cad59a9ea2d81d12b997684904cfc259b9e",
+        "affectsGlobalScope": false
+      },
+      "./src/router/routes/redirectroute.js": {
+        "version": "5ed815eb4e8063bef3d894966724fc1e765f213033b8caf7b0cfa99be5804fee",
+        "signature": "ca4dc5da3b91bd6ca953738dad2f24117980603223f4432c86b4b6787358e8b4",
+        "affectsGlobalScope": false
+      },
+      "./src/router/routes/normalroute.js": {
+        "version": "8409c2a1d0d0c14eea61640e59271257557cf294327b5e70b566349ebccf66bf",
+        "signature": "f365c9a00760b1f075c11689b5948ea4dd7e89c14507362dff2358ebb4a88c05",
+        "affectsGlobalScope": false
+      },
+      "./src/router/routes/index.jsx": {
+        "version": "26be95e5cb3ce11f42b80c755bc75632240cc5438024dcdd9dad4af01ae94ab4",
+        "signature": "0f71a3c2a82c5fc71baaefda5ab5c33dd93135b45e674fd3517ca14ebeae5360",
+        "affectsGlobalScope": false
+      },
+      "./src/router/loader/index.tsx": {
+        "version": "f3697ff65b3c897a3eef7d3eec1d9c73b67c63ae65d134c7ee51054a7dce070a",
+        "signature": "218fc31f7447ec281cde48a4d2837b0e4a092cd1c83eb87059329f3e348875e4",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/waitatleast.ts": {
+        "version": "19af07355ec9b120005927cfbdecafafcb11344e5adc7da6b3bbfe2766aa2a20",
+        "signature": "c30aae14979c112000fcff3c3c09358b92d9d4051ae6df0f5124670918d9cf20",
+        "affectsGlobalScope": false
+      },
+      "./src/router/helpers/load.ts": {
+        "version": "9ca1a5e6d95971236cbe0e3edabb7f4153d0778d733c32649db4b510d708b281",
+        "signature": "f5f275323517689be21791764d304a9b6c72bccd7351fafbcdbd50eb81d92436",
+        "affectsGlobalScope": false
+      },
+      "./src/router/helpers/getpaths.ts": {
+        "version": "2c47fa3bf47dbf821c19cf9382a26ec9f4f95d5b6ce4bd65bc68bb10be192ec0",
+        "signature": "6735b19754cafda993189a22570da1ff16a12efd30f394e771f216d4949f95a8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/recoil/index.d.ts": {
+        "version": "01b4b543495b871f18e2e1ec70f2adf2e7b2e7792da9f62df7c07c4087e2a12f",
+        "signature": "01b4b543495b871f18e2e1ec70f2adf2e7b2e7792da9f62df7c07c4087e2a12f",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/hooks/useconfirm/provider.tsx": {
+        "version": "4fbfec015d54b460e7be0364ed924ecb94c8547033443a36c88ac9db55af1cb8",
+        "signature": "b7e0a69f979e8168cc951a9a3aeb10ecad05dccfff7de23d99c16144584db0dc",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/hooks/useconfirm/index.ts": {
+        "version": "50bea2479b40bbb804d6d603955995147fe058997726e287c01ff6c735394b4c",
+        "signature": "863af5fdd8797fbc898c42b1d06f0c534e4cda593a077029d57648885055980d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/flat/index.d.ts": {
+        "version": "81374dde22dfcc6b1cceb80484658bffe937e298973d3ec0509c10a1db766dea",
+        "signature": "81374dde22dfcc6b1cceb80484658bffe937e298973d3ec0509c10a1db766dea",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/hooks/usemetadata/defaultvalues.ts": {
+        "version": "19955b88e3751a84b7bf459a1eb383fc1bc9b7ea79f332afe0f9cf6033e7bcd5",
+        "signature": "c584602e35d8882bef229184e788006c3a840ab0a446c3f5d617f23f94cb133e",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/recoil/guarddefaultvalue.ts": {
+        "version": "ee5d3098a8a10ec5cd3b7b038a87381c410cd125e85053b7b714d0b3ad3adfa2",
+        "signature": "c1e9b720ead3661026ab4ed6f67764973958edb348a4b8058e92edff7512cadf",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-helmet-async/index.d.ts": {
+        "version": "fee8df28169b0d98a87169e7bd358be9783b1dab2a4eb0f7985b48a68f08eb68",
+        "signature": "fee8df28169b0d98a87169e7bd358be9783b1dab2a4eb0f7985b48a68f08eb68",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/hooks/usemetadata/provider.tsx": {
+        "version": "201c0d9eec590fdfa7e4d63c8c9d0ba294fb9b7c9712a27d5bb2c290c7c2ccec",
+        "signature": "608521911a5b469987c45f4a86b974948df1caa3125cc2a29ac710ad5bd4500c",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/hooks/usemetadata/index.ts": {
+        "version": "44ded91ab5c73983b1a814b8a226d33808ef665398bf30969e4003f6443bab7e",
+        "signature": "e5f29d2c54e39363a51f451746c5b032e1c66aaaa8bcb21d4258d753f517c8ec",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/i18next/index.d.ts": {
+        "version": "5d8c33cdbee6dc99f5e655fa2b49f778e6c1e62297184d6a4df4f8a39e413014",
+        "signature": "5d8c33cdbee6dc99f5e655fa2b49f778e6c1e62297184d6a4df4f8a39e413014",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-i18next/ts4.1/index.d.ts": {
+        "version": "00f32feb000e374b9dd91f4861b92f3e220826b6fb681e528cffe57d2b99d6be",
+        "signature": "00f32feb000e374b9dd91f4861b92f3e220826b6fb681e528cffe57d2b99d6be",
+        "affectsGlobalScope": false
+      },
+      "./src/i18n/locales/en.json": {
+        "version": "8c7177fc5a62d24098089c6088d1652df4f1d8c9ba2d12d801e73a67d7681f71",
+        "signature": "5b1b418a058816074afce4c3f49ce630df41b0fc0107348c7fbce777fd8aa5b9",
+        "affectsGlobalScope": true
+      },
+      "./src/i18n/locales/vi.json": {
+        "version": "423cc83f9fd884260f110fadcd8738f1ac255997a237d47d2d03a949cab584ac",
+        "signature": "5b1b418a058816074afce4c3f49ce630df41b0fc0107348c7fbce777fd8aa5b9",
+        "affectsGlobalScope": true
+      },
+      "./src/i18n/locales/index.ts": {
+        "version": "61174a008b4ba476cd2970d7513b62f1edc3f6afd143fb5ef67cf0a554313ace",
+        "signature": "f26c6c409b4d07b71af89454a8f66d7ea0ae346453bf15a0c955bcba6f3bddf9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/i18next-browser-languagedetector/index.d.ts": {
+        "version": "e610804bdb60dbabb94b7f50d1b26e03e21b8d588c84abe6a12ebae56002458d",
+        "signature": "e610804bdb60dbabb94b7f50d1b26e03e21b8d588c84abe6a12ebae56002458d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/i18next-http-backend/index.d.ts": {
+        "version": "88cbb6457669e475905bd6c1ee07a56d46f68965820d589b1b3fba50587122a2",
+        "signature": "88cbb6457669e475905bd6c1ee07a56d46f68965820d589b1b3fba50587122a2",
+        "affectsGlobalScope": false
+      },
+      "./src/i18n/index.js": {
+        "version": "a2fb60356bb88fb5132ad46cdbc530960add587aa794305557f8f883d7ab9fa2",
+        "signature": "5376d3a3a0436160390a3ea00ff5b3e26699b3e1d13ada59367e7faa2d682190",
+        "affectsGlobalScope": false
+      },
+      "./src/components/languagechanger/index.tsx": {
+        "version": "7349fb0ca87c030ecaaccf6a8ca2da49e8e8cfdb11c5dc12ebef390dadec6fb2",
+        "signature": "16170f02267aa8ac749b3e43c0171173729aae92f650f28ab8d6907defcab3a3",
+        "affectsGlobalScope": false
+      },
+      "./src/views/home/index.tsx": {
+        "version": "3cd3bc5a9f343bb34b328edee6cec824510efff62558bd1f6bdaddd0ec73db0f",
+        "signature": "7e848b5d310adb40f89d047f3330935721152c7065fe1bd4c5792c2f3cc21ac3",
+        "affectsGlobalScope": false
+      },
+      "./src/views/login.tsx": {
+        "version": "762aac86582a73ff0cf61246bc6a4488868e184b8038c60b18650cbabc0cb9a4",
+        "signature": "d48563eff411135c44e1b353a0dbcd6d6135b55cbd01843f5ab40db9d928d829",
+        "affectsGlobalScope": false
+      },
+      "./src/router/index.jsx": {
+        "version": "fbc5b9c745b08fc9b13a221e8a6715efaa3d0fec5a38fde36212b6bdcc622cb1",
+        "signature": "d62840a374ee7c0f8e41e7e690ae218d1bee47420165efd18eb07e413b7beb69",
+        "affectsGlobalScope": false
+      },
+      "./src/store/debugobserver.tsx": {
+        "version": "bfc3f7a72b974ccde3a385634b0e5ccf02a956ae23cfc9a2e07d657fe0517307",
+        "signature": "cd7318b476a940e5f774ee289931d5292781ee90c902d02816dc9f2dd33dc542",
+        "affectsGlobalScope": false
+      },
+      "./src/store/index.tsx": {
+        "version": "bdcf71827b81263f1451bcd4c874f45eb2f89b0f9e4de92f278649bcb342845c",
+        "signature": "4d4d1663f136655f02f66e2fd0f43b016632ea1bcf55a8383eb8f3f8d97a9e94",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/types/index.d.ts": {
+        "version": "646de1f2abbca0bf4b52144692bab4fdf402839449f1008b83e1e9c1593dfbfa",
+        "signature": "646de1f2abbca0bf4b52144692bab4fdf402839449f1008b83e1e9c1593dfbfa",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/hooks/usetoastcontainer.d.ts": {
+        "version": "b6f242bc58160a1a908a6c0070a751e2eceb7bf3e9863b6edd9c79a5b06d6f1a",
+        "signature": "b6f242bc58160a1a908a6c0070a751e2eceb7bf3e9863b6edd9c79a5b06d6f1a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/hooks/usetoast.d.ts": {
+        "version": "387a72f1c47a6a1a09ea8cab9dc0db88d9a5993ca1cc1b88972d0eba881958cf",
+        "signature": "387a72f1c47a6a1a09ea8cab9dc0db88d9a5993ca1cc1b88972d0eba881958cf",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/hooks/usekeeper.d.ts": {
+        "version": "24815af05345e997c460f232bda0edbeec34a3fb3226e72e3990d723e568285a",
+        "signature": "24815af05345e997c460f232bda0edbeec34a3fb3226e72e3990d723e568285a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/hooks/index.d.ts": {
+        "version": "ae601f83630732158b0b7d79b05e294797f6264f5063a60ac9595ef3461be9db",
+        "signature": "ae601f83630732158b0b7d79b05e294797f6264f5063a60ac9595ef3461be9db",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/utils/propvalidator.d.ts": {
+        "version": "5f92a4a321df7ce83fa277e49f4f2bbb266315716cab227e688e60a44844635f",
+        "signature": "5f92a4a321df7ce83fa277e49f4f2bbb266315716cab227e688e60a44844635f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/utils/constant.d.ts": {
+        "version": "ef528c37af31a9423176998848525840935f0793a395ea9239a287ab926080a0",
+        "signature": "ef528c37af31a9423176998848525840935f0793a395ea9239a287ab926080a0",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/utils/csstransition.d.ts": {
+        "version": "55c8788cf216558c51a6b306db99555c91f59e88f189601a68e8c57f519f7f87",
+        "signature": "55c8788cf216558c51a6b306db99555c91f59e88f189601a68e8c57f519f7f87",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/utils/collapsetoast.d.ts": {
+        "version": "17d7c3f9a6fe86c82d7fe39d717c4723ec462865993d45c655d2ad2b46b8095f",
+        "signature": "17d7c3f9a6fe86c82d7fe39d717c4723ec462865993d45c655d2ad2b46b8095f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/utils/index.d.ts": {
+        "version": "beac7eac0e584ff296e87af932b8bdd4eebabf40ea2d1fa5450e653e92121fbc",
+        "signature": "beac7eac0e584ff296e87af932b8bdd4eebabf40ea2d1fa5450e653e92121fbc",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/components/closebutton.d.ts": {
+        "version": "7808651c8568035c079e22f1b4c259f38029993e41512db94c6967c6f2ca1e53",
+        "signature": "7808651c8568035c079e22f1b4c259f38029993e41512db94c6967c6f2ca1e53",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/components/progressbar.d.ts": {
+        "version": "dbe22f964910bba33a118e2c309a079c646e1a7e9ca94f0b9002bfb10611cf5e",
+        "signature": "dbe22f964910bba33a118e2c309a079c646e1a7e9ca94f0b9002bfb10611cf5e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/components/toastcontainer.d.ts": {
+        "version": "4fe0ccae400104b9e3e716b0fc55d054d870105ed103428137179599df193914",
+        "signature": "4fe0ccae400104b9e3e716b0fc55d054d870105ed103428137179599df193914",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/components/transitions.d.ts": {
+        "version": "5a70e07208491a29127cd29978f367bfb08237f6c8f87bf92036122f1a642567",
+        "signature": "5a70e07208491a29127cd29978f367bfb08237f6c8f87bf92036122f1a642567",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/components/toast.d.ts": {
+        "version": "f6b4d8d987df4754127fe71fb690a50dc1482d62e37e08b35d8dabb041ac0f8d",
+        "signature": "f6b4d8d987df4754127fe71fb690a50dc1482d62e37e08b35d8dabb041ac0f8d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/components/index.d.ts": {
+        "version": "a5a33d59c19a89004f9f3232ecd390acab3761f6a8d080bde5637d9c95c36bc1",
+        "signature": "a5a33d59c19a89004f9f3232ecd390acab3761f6a8d080bde5637d9c95c36bc1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/core/eventmanager.d.ts": {
+        "version": "5efc6f1fc1629fafa58a0ddc9ce3873c2056e1831a7f816c6c977632acac4aa5",
+        "signature": "5efc6f1fc1629fafa58a0ddc9ce3873c2056e1831a7f816c6c977632acac4aa5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/core/toast.d.ts": {
+        "version": "2d0871513d8a8304476c196202b3e5febc3b0ee689c05a8d280192a2f8696e92",
+        "signature": "2d0871513d8a8304476c196202b3e5febc3b0ee689c05a8d280192a2f8696e92",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/core/index.d.ts": {
+        "version": "06c92651abcefcb252908ea16693166ce4cb7df90fd1102c253194c686eb84ae",
+        "signature": "06c92651abcefcb252908ea16693166ce4cb7df90fd1102c253194c686eb84ae",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-toastify/dist/index.d.ts": {
+        "version": "c609cfc70fc14c832377c74a359c34bbf9b79df8c60559877cbd3e42be9aaf80",
+        "signature": "c609cfc70fc14c832377c74a359c34bbf9b79df8c60559877cbd3e42be9aaf80",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/toast/message.tsx": {
+        "version": "782e6dccf6754a935ffbd32da8d80361846a98794da66d75166dc1f7b72e6790",
+        "signature": "d7b20e3e0a3c75e4f3a432f0e09cd14417bfbfceb6b3751be7d1e616bbfe6fb3",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/toast/provider.tsx": {
+        "version": "e1a96744eafba8737f40c67d7d4ba40e22cdd39ee8af8543dc2c220a1621ef47",
+        "signature": "608521911a5b469987c45f4a86b974948df1caa3125cc2a29ac710ad5bd4500c",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/toast/index.ts": {
+        "version": "25e70e20fe02a6ecd01012e8e41f46c796ca8466d5270ee1c3729e44d2fedeed",
+        "signature": "a2fa78b5dbe02f4dba2f93b4eee23a72360f044b7285ebd291d093ec90b4dc80",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/errorboundary.tsx": {
+        "version": "83d6861dd5c3653718d607f359df95302bc63292407e2f3fc6855a7ad7c11a7c",
+        "signature": "ab76d9f83c80378496fe2909da7516c6735aa10668e0427fc56c9494d3cee290",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/buildcomponenttree.tsx": {
+        "version": "9c7d01b2883448128695316f7f0e3c77ea0a8e439831c3ff32607c5fcc3ea4ad",
+        "signature": "cc6ed9ac5e2e96634b99a02b955cde00e327e486ff309e5f8bcc7087e11c569d",
+        "affectsGlobalScope": false
+      },
+      "./src/components/confirmcomponent/index.tsx": {
+        "version": "64cb46bd761833e1afca115c5dda291d7881caa2c3bf356f45c6d0605329bed4",
+        "signature": "221b8dc9c68a5d3eb307fb5cd87c2efbc5eb6f232f96bbdaea4db6ce88752e8a",
+        "affectsGlobalScope": false
+      },
+      "./src/auth/atom.ts": {
+        "version": "a3ceaad6cc007e7bec30cf5c92a336ce1d27676c9ba45f5f0e75925a3b6723eb",
+        "signature": "165635f96639c1381077594ac0676848c2bad079403f526fa2a38415abe60092",
+        "affectsGlobalScope": false
+      },
+      "./src/auth/authupdater.tsx": {
+        "version": "ecd4ce6cb14393e138a5c05e14d99d3b02201347c5c2d8717e9383e60fe7daad",
+        "signature": "dd17aebc0ee2516dacaf5502f0da1f166d39fb6520345118589b483fd344334c",
+        "affectsGlobalScope": false
+      },
+      "./src/app.tsx": {
+        "version": "d98049b5cd32f2b779a2e72a1dd2209e0ec678997b3b54a7a2ae3ee9789dd4f4",
+        "signature": "c5a1685fe23f1526da88de81107d46af1202215b434383c9a610985336801930",
+        "affectsGlobalScope": false
+      },
+      "./src/app.test.tsx": {
+        "version": "b7befe632aff5c0a793060e76af82811843ace537019b1568c404f94aae18e8c",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/axios/index.d.ts": {
+        "version": "0d892f035dbee4534f0ba096407136877595ca592f67ec9bb8a5c912b9c967e8",
+        "signature": "0d892f035dbee4534f0ba096407136877595ca592f67ec9bb8a5c912b9c967e8",
+        "affectsGlobalScope": false
+      },
+      "./src/endpoints.ts": {
+        "version": "64400dd4943cc4bd030a70472b479ba6fb813872b1a1880f92280f5a44bce840",
+        "signature": "a153fbbf761875d251832ed429f313845bd58aab19e5393a6e8c46e8c386f702",
+        "affectsGlobalScope": false
+      },
+      "./src/serviceworkerregistration.js": {
+        "version": "c5d9b79b7dc755adce1f5d7e9edf7fe704ba5c955fda11718240b4dc75befa73",
+        "signature": "a9050aaa454d57e2a6834db427f1b56fc89a6a38731708530bae7e32a559495d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/web-vitals/dist/modules/types.d.ts": {
+        "version": "6231095d0b356894ceec8856ce4e354a38a773a62067978f3af9c478acbcf2e9",
+        "signature": "6231095d0b356894ceec8856ce4e354a38a773a62067978f3af9c478acbcf2e9",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/web-vitals/dist/modules/getcls.d.ts": {
+        "version": "66754e21a2ac3ffc0eb3fc55cf5c33deb2c115b726fb2c4368b870c5e85106ce",
+        "signature": "66754e21a2ac3ffc0eb3fc55cf5c33deb2c115b726fb2c4368b870c5e85106ce",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/web-vitals/dist/modules/getfcp.d.ts": {
+        "version": "ccd9f8f7c8760d8eb0c0c112c772a9756d59365a61fd5cc102a889fed79d0076",
+        "signature": "ccd9f8f7c8760d8eb0c0c112c772a9756d59365a61fd5cc102a889fed79d0076",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/web-vitals/dist/modules/getfid.d.ts": {
+        "version": "d7ccbcf0e92d0209f499729768c791fbc278ecad02c3f596db5b519eb4f5d496",
+        "signature": "d7ccbcf0e92d0209f499729768c791fbc278ecad02c3f596db5b519eb4f5d496",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/web-vitals/dist/modules/getlcp.d.ts": {
+        "version": "85542ea0f889f8993e6b4631c541640c17c230bf5cf18d483184de9105536b4d",
+        "signature": "85542ea0f889f8993e6b4631c541640c17c230bf5cf18d483184de9105536b4d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/web-vitals/dist/modules/getttfb.d.ts": {
+        "version": "8cc2eed7caa0e187fae67a1e7fdb4da79079489744c6e5be9e0839d258fd5995",
+        "signature": "8cc2eed7caa0e187fae67a1e7fdb4da79079489744c6e5be9e0839d258fd5995",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/web-vitals/dist/modules/index.d.ts": {
+        "version": "aaf2cc4016c33c836fcca0dbe20d7a97bf17cafeb581a57a62267b1c38930bd4",
+        "signature": "aaf2cc4016c33c836fcca0dbe20d7a97bf17cafeb581a57a62267b1c38930bd4",
+        "affectsGlobalScope": false
+      },
+      "./src/reportwebvitals.ts": {
+        "version": "4b5be10257b1b404462eff975ce860dac573a71198ae01fd54bfb9e207957c58",
+        "signature": "c9069806da9bec1de66fe787bb635e3d0f11c6c635cf79a8ed630fac432eea4d",
+        "affectsGlobalScope": false
+      },
+      "./src/index.tsx": {
+        "version": "d6aaef7bf58b5e78fd3de1f4a8d8daab0949814dbd2edfba0e608cf7766be169",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
       "./node_modules/@types/node/globals.d.ts": {
         "version": "e9a43c3ee6fb8376bb9a4d318a660412c6abcfe5161c106e801e5431b41b7476",
         "signature": "e9a43c3ee6fb8376bb9a4d318a660412c6abcfe5161c106e801e5431b41b7476",
@@ -479,411 +1064,6 @@
       "./node_modules/@types/node/index.d.ts": {
         "version": "9c4c395e927045b324877acdc4bfb95f128f36bc9f073266a2f0342495075a4f",
         "signature": "9c4c395e927045b324877acdc4bfb95f128f36bc9f073266a2f0342495075a4f",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/cheerio/index.d.ts": {
-        "version": "0a75c8a3f087ede0118157a8e9aa2007bb27c61d03c59299cf9eb1cfd49c9f3a",
-        "signature": "0a75c8a3f087ede0118157a8e9aa2007bb27c61d03c59299cf9eb1cfd49c9f3a",
-        "affectsGlobalScope": true
-      },
-      "./node_modules/@types/enzyme/index.d.ts": {
-        "version": "c9f092fa413eb709080f1494dcbb4a18757e84eb5d2b8bb0cc84f73d84a70dd7",
-        "signature": "c9f092fa413eb709080f1494dcbb4a18757e84eb5d2b8bb0cc84f73d84a70dd7",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/history/domutils.d.ts": {
-        "version": "271cde49dfd9b398ccc91bb3aaa43854cf76f4d14e10fed91cbac649aa6cbc63",
-        "signature": "271cde49dfd9b398ccc91bb3aaa43854cf76f4d14e10fed91cbac649aa6cbc63",
-        "affectsGlobalScope": true
-      },
-      "./node_modules/@types/history/createbrowserhistory.d.ts": {
-        "version": "c6f2572e21f626260d2e4a65e4e1e42b9b273b6f43b5c3bc115c2926417d3eca",
-        "signature": "c6f2572e21f626260d2e4a65e4e1e42b9b273b6f43b5c3bc115c2926417d3eca",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/history/createhashhistory.d.ts": {
-        "version": "374ab77e05e0bf5a52acad6d65121d4bd31068108f23d70186dba5fcd7d6a1a3",
-        "signature": "374ab77e05e0bf5a52acad6d65121d4bd31068108f23d70186dba5fcd7d6a1a3",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/history/creatememoryhistory.d.ts": {
-        "version": "a4ecd4bb653aa71093375845fba6250ca0f3c633d0e933fc9bf4b301834eab27",
-        "signature": "a4ecd4bb653aa71093375845fba6250ca0f3c633d0e933fc9bf4b301834eab27",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/history/locationutils.d.ts": {
-        "version": "25d91fb9ed77a828cc6c7a863236fb712dafcd52f816eec481bd0c1f589f4404",
-        "signature": "25d91fb9ed77a828cc6c7a863236fb712dafcd52f816eec481bd0c1f589f4404",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/history/pathutils.d.ts": {
-        "version": "4cd14cea22eed1bfb0dc76183e56989f897ac5b14c0e2a819e5162eafdcfe243",
-        "signature": "4cd14cea22eed1bfb0dc76183e56989f897ac5b14c0e2a819e5162eafdcfe243",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/history/index.d.ts": {
-        "version": "cc53cba64efb30576f2a36f1d7107e4453e84cbd0f371d49cd1dfd208e11233b",
-        "signature": "cc53cba64efb30576f2a36f1d7107e4453e84cbd0f371d49cd1dfd208e11233b",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/react-router/index.d.ts": {
-        "version": "c4fdfe0f9327fc110adebcd633e647f65ae9cb2625a4df288aa64f7dfe576b79",
-        "signature": "c4fdfe0f9327fc110adebcd633e647f65ae9cb2625a4df288aa64f7dfe576b79",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/react-router-dom/index.d.ts": {
-        "version": "b89701b714364b5bcb0b58e83725aa02a4f41df8357000b4e8fe60566bf805ac",
-        "signature": "b89701b714364b5bcb0b58e83725aa02a4f41df8357000b4e8fe60566bf805ac",
-        "affectsGlobalScope": false
-      },
-      "./src/utils/is.js": {
-        "version": "89819d55a588b1d410125d5d6cc01c3852da97b202dc06ab3fbd72001ee0fc9d",
-        "signature": "7bcc8528fd43a78157d47427935c535abef0fe7b8253fa43069ce5a2da2d3bed",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/path-to-regexp/dist/index.d.ts": {
-        "version": "6e7936b20cd2022c2a71f9d780e7f87216c19fde5c18448aaff60059a46ae2e7",
-        "signature": "6e7936b20cd2022c2a71f9d780e7f87216c19fde5c18448aaff60059a46ae2e7",
-        "affectsGlobalScope": false
-      },
-      "./src/router/helpers/getpath.ts": {
-        "version": "17b5c3d7b6ede3f79161b8a7b4f6cfe1cee8bf76e0be16a47de65c1acdc30beb",
-        "signature": "0a89ed12a43e9b89d7b7e2fdc43f3a4cec8b05133937ff70bc529aa7ecd50364",
-        "affectsGlobalScope": false
-      },
-      "./src/router/helpers/geturl.ts": {
-        "version": "e0661ddcb927c34132465f7df7caa1d3c2ca4680138ef74c598e04d9c4c45dcb",
-        "signature": "2667c16a678abbe1c26effde8e00471dd6897c24d6b4e759ef282abc2772a427",
-        "affectsGlobalScope": false
-      },
-      "./src/router/routes/conditionalroute.js": {
-        "version": "9a538d9b02f49e1ea1ae18b6365123daa3cab208b9db80781b1a6bbaf8c831b6",
-        "signature": "efc8eb0d2b75bd81d66d6373be1f6ccf7d70a2ac1b472540ce331bc41d0b3baa",
-        "affectsGlobalScope": false
-      },
-      "./src/config.ts": {
-        "version": "d67a9bf512f74ac2599aac2e830108534d888d6a27bd642a5519b43445557772",
-        "signature": "a2a91cbd1fa8f3b8b83d5353a6cf04c596824cc37591a49e8243cf5b825ccab3",
-        "affectsGlobalScope": false
-      },
-      "./src/utils/localstorage.ts": {
-        "version": "86c427f19495c72da6f19da79f62498e4d75ee3e3a69f307d97a0af516cdb31c",
-        "signature": "fc53763873bc17fb07a0db42b2fdce6577c7aeec15bea33305e3fc15d456fc14",
-        "affectsGlobalScope": false
-      },
-      "./src/auth/constants.ts": {
-        "version": "5f957d4840d9a690ee4ed653f6ff621a432b369d17f2654b89632b2579c2a286",
-        "signature": "f308b2faa137949b6246cd2b9212e97fd05ec2306b8d6062da06608b033c4198",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/date-fns/typings.d.ts": {
-        "version": "7631f38c6f89c86a848d2bfbfcc22ec66aa06f781d090a58d118b9b4de4975c0",
-        "signature": "7631f38c6f89c86a848d2bfbfcc22ec66aa06f781d090a58d118b9b4de4975c0",
-        "affectsGlobalScope": true
-      },
-      "./src/auth/helpers/getaccesstokenexpiresat.ts": {
-        "version": "fac7e5b29732f6ae0334c5d63fe00c705a062b095d9bf03cd34daa336a800c2a",
-        "signature": "c2b4d10eb9ac84bf850677c4983f44f1f24da05fe4a45fb2aacf5e5dde1fcdca",
-        "affectsGlobalScope": false
-      },
-      "./src/auth/helpers/tokenisexpired.ts": {
-        "version": "5455e64880e3d8a13280c8af462722fd8045dbe610db0809afa60f2a06b8fb4a",
-        "signature": "b5ac4da9f50e5de90643ea1d05cbd63c24b6da39d57d51ee5e0b9a26ecc85e03",
-        "affectsGlobalScope": false
-      },
-      "./src/auth/helpers/isauthenticated.ts": {
-        "version": "2c9baeceb1c3b1e3121e84b8db819aca3c632837337340c2a8354830cdb04afb",
-        "signature": "29087745ffd0d472755f8670b768a82d55cfe44a883f30275d190bf5e37a4a03",
-        "affectsGlobalScope": false
-      },
-      "./src/router/routes/privateroute.js": {
-        "version": "f16909f12f23c91a4073cf3dcd5afb405d1e4bd64e40770b38326717d6065789",
-        "signature": "eebfc709caaf22bcb89a4803ec6f028e95ae4e54c96486bdbe0f5558ef7c3a1c",
-        "affectsGlobalScope": false
-      },
-      "./src/router/routes/guestroute.js": {
-        "version": "2e01efedfd6f1da85519a713d8745cc5fbcffc8f55545f9ea94a2e07f632187a",
-        "signature": "37b0f447e3be908e2828c77079df0cad59a9ea2d81d12b997684904cfc259b9e",
-        "affectsGlobalScope": false
-      },
-      "./src/router/routes/redirectroute.js": {
-        "version": "5ed815eb4e8063bef3d894966724fc1e765f213033b8caf7b0cfa99be5804fee",
-        "signature": "ca4dc5da3b91bd6ca953738dad2f24117980603223f4432c86b4b6787358e8b4",
-        "affectsGlobalScope": false
-      },
-      "./src/router/routes/normalroute.js": {
-        "version": "8409c2a1d0d0c14eea61640e59271257557cf294327b5e70b566349ebccf66bf",
-        "signature": "f365c9a00760b1f075c11689b5948ea4dd7e89c14507362dff2358ebb4a88c05",
-        "affectsGlobalScope": false
-      },
-      "./src/router/routes/index.jsx": {
-        "version": "26be95e5cb3ce11f42b80c755bc75632240cc5438024dcdd9dad4af01ae94ab4",
-        "signature": "0f71a3c2a82c5fc71baaefda5ab5c33dd93135b45e674fd3517ca14ebeae5360",
-        "affectsGlobalScope": false
-      },
-      "./src/router/loader/index.tsx": {
-        "version": "f3697ff65b3c897a3eef7d3eec1d9c73b67c63ae65d134c7ee51054a7dce070a",
-        "signature": "218fc31f7447ec281cde48a4d2837b0e4a092cd1c83eb87059329f3e348875e4",
-        "affectsGlobalScope": false
-      },
-      "./src/utils/waitatleast.ts": {
-        "version": "19af07355ec9b120005927cfbdecafafcb11344e5adc7da6b3bbfe2766aa2a20",
-        "signature": "c30aae14979c112000fcff3c3c09358b92d9d4051ae6df0f5124670918d9cf20",
-        "affectsGlobalScope": false
-      },
-      "./src/router/helpers/load.ts": {
-        "version": "9ca1a5e6d95971236cbe0e3edabb7f4153d0778d733c32649db4b510d708b281",
-        "signature": "f5f275323517689be21791764d304a9b6c72bccd7351fafbcdbd50eb81d92436",
-        "affectsGlobalScope": false
-      },
-      "./src/router/helpers/getpaths.ts": {
-        "version": "2c47fa3bf47dbf821c19cf9382a26ec9f4f95d5b6ce4bd65bc68bb10be192ec0",
-        "signature": "6735b19754cafda993189a22570da1ff16a12efd30f394e771f216d4949f95a8",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-toastify/dist/types/index.d.ts": {
-        "version": "646de1f2abbca0bf4b52144692bab4fdf402839449f1008b83e1e9c1593dfbfa",
-        "signature": "646de1f2abbca0bf4b52144692bab4fdf402839449f1008b83e1e9c1593dfbfa",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-toastify/dist/hooks/usetoastcontainer.d.ts": {
-        "version": "b6f242bc58160a1a908a6c0070a751e2eceb7bf3e9863b6edd9c79a5b06d6f1a",
-        "signature": "b6f242bc58160a1a908a6c0070a751e2eceb7bf3e9863b6edd9c79a5b06d6f1a",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-toastify/dist/hooks/usetoast.d.ts": {
-        "version": "387a72f1c47a6a1a09ea8cab9dc0db88d9a5993ca1cc1b88972d0eba881958cf",
-        "signature": "387a72f1c47a6a1a09ea8cab9dc0db88d9a5993ca1cc1b88972d0eba881958cf",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-toastify/dist/hooks/usekeeper.d.ts": {
-        "version": "24815af05345e997c460f232bda0edbeec34a3fb3226e72e3990d723e568285a",
-        "signature": "24815af05345e997c460f232bda0edbeec34a3fb3226e72e3990d723e568285a",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-toastify/dist/hooks/index.d.ts": {
-        "version": "ae601f83630732158b0b7d79b05e294797f6264f5063a60ac9595ef3461be9db",
-        "signature": "ae601f83630732158b0b7d79b05e294797f6264f5063a60ac9595ef3461be9db",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-toastify/dist/utils/propvalidator.d.ts": {
-        "version": "5f92a4a321df7ce83fa277e49f4f2bbb266315716cab227e688e60a44844635f",
-        "signature": "5f92a4a321df7ce83fa277e49f4f2bbb266315716cab227e688e60a44844635f",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-toastify/dist/utils/constant.d.ts": {
-        "version": "ef528c37af31a9423176998848525840935f0793a395ea9239a287ab926080a0",
-        "signature": "ef528c37af31a9423176998848525840935f0793a395ea9239a287ab926080a0",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-toastify/dist/utils/csstransition.d.ts": {
-        "version": "55c8788cf216558c51a6b306db99555c91f59e88f189601a68e8c57f519f7f87",
-        "signature": "55c8788cf216558c51a6b306db99555c91f59e88f189601a68e8c57f519f7f87",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-toastify/dist/utils/collapsetoast.d.ts": {
-        "version": "17d7c3f9a6fe86c82d7fe39d717c4723ec462865993d45c655d2ad2b46b8095f",
-        "signature": "17d7c3f9a6fe86c82d7fe39d717c4723ec462865993d45c655d2ad2b46b8095f",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-toastify/dist/utils/index.d.ts": {
-        "version": "beac7eac0e584ff296e87af932b8bdd4eebabf40ea2d1fa5450e653e92121fbc",
-        "signature": "beac7eac0e584ff296e87af932b8bdd4eebabf40ea2d1fa5450e653e92121fbc",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-toastify/dist/components/closebutton.d.ts": {
-        "version": "7808651c8568035c079e22f1b4c259f38029993e41512db94c6967c6f2ca1e53",
-        "signature": "7808651c8568035c079e22f1b4c259f38029993e41512db94c6967c6f2ca1e53",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-toastify/dist/components/progressbar.d.ts": {
-        "version": "dbe22f964910bba33a118e2c309a079c646e1a7e9ca94f0b9002bfb10611cf5e",
-        "signature": "dbe22f964910bba33a118e2c309a079c646e1a7e9ca94f0b9002bfb10611cf5e",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-toastify/dist/components/toastcontainer.d.ts": {
-        "version": "4fe0ccae400104b9e3e716b0fc55d054d870105ed103428137179599df193914",
-        "signature": "4fe0ccae400104b9e3e716b0fc55d054d870105ed103428137179599df193914",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-toastify/dist/components/transitions.d.ts": {
-        "version": "5a70e07208491a29127cd29978f367bfb08237f6c8f87bf92036122f1a642567",
-        "signature": "5a70e07208491a29127cd29978f367bfb08237f6c8f87bf92036122f1a642567",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-toastify/dist/components/toast.d.ts": {
-        "version": "f6b4d8d987df4754127fe71fb690a50dc1482d62e37e08b35d8dabb041ac0f8d",
-        "signature": "f6b4d8d987df4754127fe71fb690a50dc1482d62e37e08b35d8dabb041ac0f8d",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-toastify/dist/components/index.d.ts": {
-        "version": "a5a33d59c19a89004f9f3232ecd390acab3761f6a8d080bde5637d9c95c36bc1",
-        "signature": "a5a33d59c19a89004f9f3232ecd390acab3761f6a8d080bde5637d9c95c36bc1",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-toastify/dist/core/eventmanager.d.ts": {
-        "version": "5efc6f1fc1629fafa58a0ddc9ce3873c2056e1831a7f816c6c977632acac4aa5",
-        "signature": "5efc6f1fc1629fafa58a0ddc9ce3873c2056e1831a7f816c6c977632acac4aa5",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-toastify/dist/core/toast.d.ts": {
-        "version": "2d0871513d8a8304476c196202b3e5febc3b0ee689c05a8d280192a2f8696e92",
-        "signature": "2d0871513d8a8304476c196202b3e5febc3b0ee689c05a8d280192a2f8696e92",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-toastify/dist/core/index.d.ts": {
-        "version": "06c92651abcefcb252908ea16693166ce4cb7df90fd1102c253194c686eb84ae",
-        "signature": "06c92651abcefcb252908ea16693166ce4cb7df90fd1102c253194c686eb84ae",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-toastify/dist/index.d.ts": {
-        "version": "c609cfc70fc14c832377c74a359c34bbf9b79df8c60559877cbd3e42be9aaf80",
-        "signature": "c609cfc70fc14c832377c74a359c34bbf9b79df8c60559877cbd3e42be9aaf80",
-        "affectsGlobalScope": false
-      },
-      "./src/utils/toast/message.tsx": {
-        "version": "782e6dccf6754a935ffbd32da8d80361846a98794da66d75166dc1f7b72e6790",
-        "signature": "d7b20e3e0a3c75e4f3a432f0e09cd14417bfbfceb6b3751be7d1e616bbfe6fb3",
-        "affectsGlobalScope": false
-      },
-      "./src/utils/toast/provider.tsx": {
-        "version": "e1a96744eafba8737f40c67d7d4ba40e22cdd39ee8af8543dc2c220a1621ef47",
-        "signature": "608521911a5b469987c45f4a86b974948df1caa3125cc2a29ac710ad5bd4500c",
-        "affectsGlobalScope": false
-      },
-      "./src/utils/toast/index.ts": {
-        "version": "25e70e20fe02a6ecd01012e8e41f46c796ca8466d5270ee1c3729e44d2fedeed",
-        "signature": "a2fa78b5dbe02f4dba2f93b4eee23a72360f044b7285ebd291d093ec90b4dc80",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/recoil/index.d.ts": {
-        "version": "01b4b543495b871f18e2e1ec70f2adf2e7b2e7792da9f62df7c07c4087e2a12f",
-        "signature": "01b4b543495b871f18e2e1ec70f2adf2e7b2e7792da9f62df7c07c4087e2a12f",
-        "affectsGlobalScope": false
-      },
-      "./src/utils/hooks/useconfirm/provider.tsx": {
-        "version": "4fbfec015d54b460e7be0364ed924ecb94c8547033443a36c88ac9db55af1cb8",
-        "signature": "b7e0a69f979e8168cc951a9a3aeb10ecad05dccfff7de23d99c16144584db0dc",
-        "affectsGlobalScope": false
-      },
-      "./src/utils/hooks/useconfirm/index.ts": {
-        "version": "50bea2479b40bbb804d6d603955995147fe058997726e287c01ff6c735394b4c",
-        "signature": "863af5fdd8797fbc898c42b1d06f0c534e4cda593a077029d57648885055980d",
-        "affectsGlobalScope": false
-      },
-      "./src/views/home/index.tsx": {
-        "version": "b33b9c7c37ec683620fadfa82d898fd4a0f6327a28796eb5d20a9c6e47c54b4f",
-        "signature": "7e848b5d310adb40f89d047f3330935721152c7065fe1bd4c5792c2f3cc21ac3",
-        "affectsGlobalScope": false
-      },
-      "./src/views/login.tsx": {
-        "version": "762aac86582a73ff0cf61246bc6a4488868e184b8038c60b18650cbabc0cb9a4",
-        "signature": "d48563eff411135c44e1b353a0dbcd6d6135b55cbd01843f5ab40db9d928d829",
-        "affectsGlobalScope": false
-      },
-      "./src/router/index.jsx": {
-        "version": "fbc5b9c745b08fc9b13a221e8a6715efaa3d0fec5a38fde36212b6bdcc622cb1",
-        "signature": "d62840a374ee7c0f8e41e7e690ae218d1bee47420165efd18eb07e413b7beb69",
-        "affectsGlobalScope": false
-      },
-      "./src/app.tsx": {
-        "version": "1a53d2b24199deaab50fcfa31f61600c1aac770b2ef09ba0b16a41e9a427e572",
-        "signature": "7e848b5d310adb40f89d047f3330935721152c7065fe1bd4c5792c2f3cc21ac3",
-        "affectsGlobalScope": false
-      },
-      "./src/app.test.tsx": {
-        "version": "cbac258edf96a544742363fe8676098ecc23c85072e84062f8b5fec14de163e2",
-        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/axios/index.d.ts": {
-        "version": "0d892f035dbee4534f0ba096407136877595ca592f67ec9bb8a5c912b9c967e8",
-        "signature": "0d892f035dbee4534f0ba096407136877595ca592f67ec9bb8a5c912b9c967e8",
-        "affectsGlobalScope": false
-      },
-      "./src/endpoints.ts": {
-        "version": "ab0148244d3d4a9cb41f7358af26181b719268fff644560e1033b8e6fd7be363",
-        "signature": "a153fbbf761875d251832ed429f313845bd58aab19e5393a6e8c46e8c386f702",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/react-dom/index.d.ts": {
-        "version": "5e7837730e7ef63981cbd8d878388c4b37acc70dc3190881e230a23e3b4f9514",
-        "signature": "5e7837730e7ef63981cbd8d878388c4b37acc70dc3190881e230a23e3b4f9514",
-        "affectsGlobalScope": false
-      },
-      "./src/serviceworkerregistration.js": {
-        "version": "c5d9b79b7dc755adce1f5d7e9edf7fe704ba5c955fda11718240b4dc75befa73",
-        "signature": "a9050aaa454d57e2a6834db427f1b56fc89a6a38731708530bae7e32a559495d",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/web-vitals/dist/modules/types.d.ts": {
-        "version": "6231095d0b356894ceec8856ce4e354a38a773a62067978f3af9c478acbcf2e9",
-        "signature": "6231095d0b356894ceec8856ce4e354a38a773a62067978f3af9c478acbcf2e9",
-        "affectsGlobalScope": true
-      },
-      "./node_modules/web-vitals/dist/modules/getcls.d.ts": {
-        "version": "66754e21a2ac3ffc0eb3fc55cf5c33deb2c115b726fb2c4368b870c5e85106ce",
-        "signature": "66754e21a2ac3ffc0eb3fc55cf5c33deb2c115b726fb2c4368b870c5e85106ce",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/web-vitals/dist/modules/getfcp.d.ts": {
-        "version": "ccd9f8f7c8760d8eb0c0c112c772a9756d59365a61fd5cc102a889fed79d0076",
-        "signature": "ccd9f8f7c8760d8eb0c0c112c772a9756d59365a61fd5cc102a889fed79d0076",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/web-vitals/dist/modules/getfid.d.ts": {
-        "version": "d7ccbcf0e92d0209f499729768c791fbc278ecad02c3f596db5b519eb4f5d496",
-        "signature": "d7ccbcf0e92d0209f499729768c791fbc278ecad02c3f596db5b519eb4f5d496",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/web-vitals/dist/modules/getlcp.d.ts": {
-        "version": "85542ea0f889f8993e6b4631c541640c17c230bf5cf18d483184de9105536b4d",
-        "signature": "85542ea0f889f8993e6b4631c541640c17c230bf5cf18d483184de9105536b4d",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/web-vitals/dist/modules/getttfb.d.ts": {
-        "version": "8cc2eed7caa0e187fae67a1e7fdb4da79079489744c6e5be9e0839d258fd5995",
-        "signature": "8cc2eed7caa0e187fae67a1e7fdb4da79079489744c6e5be9e0839d258fd5995",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/web-vitals/dist/modules/index.d.ts": {
-        "version": "aaf2cc4016c33c836fcca0dbe20d7a97bf17cafeb581a57a62267b1c38930bd4",
-        "signature": "aaf2cc4016c33c836fcca0dbe20d7a97bf17cafeb581a57a62267b1c38930bd4",
-        "affectsGlobalScope": false
-      },
-      "./src/reportwebvitals.js": {
-        "version": "b7fca9ddc432ace1d59736e135403f0a8702e2bbf91929bd45a2f476e1a46281",
-        "signature": "098d24565e725ed00ca5533d812dd5aa004607a749d24512220433a0f13da6f4",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-helmet-async/index.d.ts": {
-        "version": "fee8df28169b0d98a87169e7bd358be9783b1dab2a4eb0f7985b48a68f08eb68",
-        "signature": "fee8df28169b0d98a87169e7bd358be9783b1dab2a4eb0f7985b48a68f08eb68",
-        "affectsGlobalScope": false
-      },
-      "./src/store/index.ts": {
-        "version": "3f194d983bad043f3a1fdc2195dd86e337aa89a8a0c31fb01fe47b44ad6356ca",
-        "signature": "e07519d70eb209e0ffc0f0ecbb8bfad95bc9a5fd52d42b39d43bb9189e576e3d",
-        "affectsGlobalScope": false
-      },
-      "./src/components/confirmcomponent/index.tsx": {
-        "version": "64cb46bd761833e1afca115c5dda291d7881caa2c3bf356f45c6d0605329bed4",
-        "signature": "221b8dc9c68a5d3eb307fb5cd87c2efbc5eb6f232f96bbdaea4db6ce88752e8a",
-        "affectsGlobalScope": false
-      },
-      "./src/utils/errorboundary.tsx": {
-        "version": "f4c2ee3c82c88cf6df04a70b84f2175dac7bef76766e1b79b101b0e44d0fa8e0",
-        "signature": "38a17595d825372fe715b7c939cf103563bac981895afa1cc9968d5fc33522fc",
-        "affectsGlobalScope": false
-      },
-      "./src/utils/buildcomponenttree.tsx": {
-        "version": "9c7d01b2883448128695316f7f0e3c77ea0a8e439831c3ff32607c5fcc3ea4ad",
-        "signature": "cc6ed9ac5e2e96634b99a02b955cde00e327e486ff309e5f8bcc7087e11c569d",
-        "affectsGlobalScope": false
-      },
-      "./src/index.tsx": {
-        "version": "b17896415cd19b68f94ce4dc5046480f8b849ef5c52eca7511d48e2ff9c3bf3d",
-        "signature": "3fbb69c07110d25de05cfcd16039b5eb6ff3943721631f998914f6ad56593f74",
         "affectsGlobalScope": false
       },
       "./src/react-app-env.d.ts": {
@@ -1216,19 +1396,44 @@
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
-      "./node_modules/@types/enzyme-adapter-react-16/index.d.ts": {
-        "version": "b6167e00019a8db27428651c58358d8cfac239107f25744e608816ed04361df7",
-        "signature": "b6167e00019a8db27428651c58358d8cfac239107f25744e608816ed04361df7",
+      "./node_modules/jest-diff/build/cleanupsemantic.d.ts": {
+        "version": "d8aab31ba8e618cc3eea10b0945de81cb93b7e8150a013a482332263b9305322",
+        "signature": "d8aab31ba8e618cc3eea10b0945de81cb93b7e8150a013a482332263b9305322",
         "affectsGlobalScope": false
       },
-      "./node_modules/jest-enzyme/lib/index.d.ts": {
-        "version": "7e6a4e4a1c7962c77935197a429633b677af77a8512197ae2c28315435c964a2",
-        "signature": "7e6a4e4a1c7962c77935197a429633b677af77a8512197ae2c28315435c964a2",
+      "./node_modules/jest-diff/build/types.d.ts": {
+        "version": "69da61a7b5093dac77fa3bec8be95dcf9a74c95a0e9161edb98bb24e30e439d2",
+        "signature": "69da61a7b5093dac77fa3bec8be95dcf9a74c95a0e9161edb98bb24e30e439d2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/jest-diff/build/difflines.d.ts": {
+        "version": "561eca7a381b96d6ccac6e4061e6d2ae53f5bc44203f3fd9f5b26864c32ae6e9",
+        "signature": "561eca7a381b96d6ccac6e4061e6d2ae53f5bc44203f3fd9f5b26864c32ae6e9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/jest-diff/build/printdiffs.d.ts": {
+        "version": "62ea38627e3ebab429f7616812a9394d327c2bc271003dfba985de9b4137369f",
+        "signature": "62ea38627e3ebab429f7616812a9394d327c2bc271003dfba985de9b4137369f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/jest-diff/build/index.d.ts": {
+        "version": "b4439890c168d646357928431100daac5cbdee1d345a34e6bf6eca9f3abe22bc",
+        "signature": "b4439890c168d646357928431100daac5cbdee1d345a34e6bf6eca9f3abe22bc",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/jest/index.d.ts": {
+        "version": "71f30fba971582dc744373cbc8b06c1eb64dc24a6ccbc9b457f94fb68c67cb4e",
+        "signature": "71f30fba971582dc744373cbc8b06c1eb64dc24a6ccbc9b457f94fb68c67cb4e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/testing-library__jest-dom/index.d.ts": {
+        "version": "d196da9c61a0bec85db6f6ee9b1f46781d25e0627b1d2bedcaeea8ebb1749559",
+        "signature": "d196da9c61a0bec85db6f6ee9b1f46781d25e0627b1d2bedcaeea8ebb1749559",
         "affectsGlobalScope": true
       },
       "./src/setuptests.ts": {
-        "version": "a2ece458c21b728a2d154953a8c45f802dbfe548ecc00002b0fbcc7af670064e",
-        "signature": "31a9fbeaacd6299774392316fe7ae9d7e493cc691620702299845636c539d447",
+        "version": "bff1d06baeebe2e97b0035679925ed0a559faf16af45261b9617996ce1161436",
+        "signature": "a46d66851af2c056e805fdd574bf5ec3adb1181c43c5e41f0a1c592e338afe64",
         "affectsGlobalScope": false
       },
       "./node_modules/@welldone-software/why-did-you-render/types.d.ts": {
@@ -1382,18 +1587,18 @@
         "affectsGlobalScope": false
       },
       "./src/utils/defercomponentrender.tsx": {
-        "version": "83961831af6455f2e377a3d4d503469fe06d837a1af478d388eba2d046c9618c",
+        "version": "3d8c4b024bdf1836eaccca51c29c566b21f93e06cc0ced0f48fd923c0e6b772d",
         "signature": "fae5d01070f1a751fb9fe95daf4b6c4c24b0c64388fad193ae30fbaf6297964b",
         "affectsGlobalScope": false
       },
-      "./src/utils/md5.js": {
-        "version": "ddfb6413a80f2e293eaef8adda13ded08665404fbde5386260134524634b53b9",
-        "signature": "342d5eb637ff15e441bc814105d11a41ad644f47f762ff85b85e6565385a7ae6",
+      "./src/utils/md5.ts": {
+        "version": "dce86a30192b84586988562c9c677bedba4b4bd5651aaa82437a9bdf86e59c08",
+        "signature": "556e6c1caca91742211563f9ff6a7fc858cdf48912af6ce07b0ad1f7529dd2a7",
         "affectsGlobalScope": false
       },
-      "./src/utils/randomstring.js": {
-        "version": "6a47a6bb9a91c995e60c4d5eaead324855408640bf426aaaa9b078b06695f61c",
-        "signature": "abc1f47fc69a6f6ac0df03c338bd4897a1178febd082388d495b060260dd48c7",
+      "./src/utils/randomstring.ts": {
+        "version": "889de54992e90dec2ac1fcd39e48d81067555f5b3bb55ce7aadbb1dc9595b513",
+        "signature": "b2cd1fc008f16b0a834837929dbb538b7d18fa84add46bcc3a3a8ad057c53cd6",
         "affectsGlobalScope": false
       },
       "./src/utils/hooks/useprevious.ts": {
@@ -1404,11 +1609,6 @@
       "./node_modules/@types/anymatch/index.d.ts": {
         "version": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
         "signature": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/aria-query/index.d.ts": {
-        "version": "e51e34b4d8bd97569a7101c1b77234f6a1272cbb5bd50ed649b1da3f71070300",
-        "signature": "e51e34b4d8bd97569a7101c1b77234f6a1272cbb5bd50ed649b1da3f71070300",
         "affectsGlobalScope": false
       },
       "./node_modules/@babel/types/lib/index.d.ts": {
@@ -1496,46 +1696,6 @@
         "signature": "905c3e8f7ddaa6c391b60c05b2f4c3931d7127ad717a080359db3df510b7bdab",
         "affectsGlobalScope": false
       },
-      "./node_modules/jest-diff/build/cleanupsemantic.d.ts": {
-        "version": "d8aab31ba8e618cc3eea10b0945de81cb93b7e8150a013a482332263b9305322",
-        "signature": "d8aab31ba8e618cc3eea10b0945de81cb93b7e8150a013a482332263b9305322",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/jest-diff/build/types.d.ts": {
-        "version": "69da61a7b5093dac77fa3bec8be95dcf9a74c95a0e9161edb98bb24e30e439d2",
-        "signature": "69da61a7b5093dac77fa3bec8be95dcf9a74c95a0e9161edb98bb24e30e439d2",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/jest-diff/build/difflines.d.ts": {
-        "version": "561eca7a381b96d6ccac6e4061e6d2ae53f5bc44203f3fd9f5b26864c32ae6e9",
-        "signature": "561eca7a381b96d6ccac6e4061e6d2ae53f5bc44203f3fd9f5b26864c32ae6e9",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/jest-diff/build/printdiffs.d.ts": {
-        "version": "62ea38627e3ebab429f7616812a9394d327c2bc271003dfba985de9b4137369f",
-        "signature": "62ea38627e3ebab429f7616812a9394d327c2bc271003dfba985de9b4137369f",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/jest-diff/build/index.d.ts": {
-        "version": "b4439890c168d646357928431100daac5cbdee1d345a34e6bf6eca9f3abe22bc",
-        "signature": "b4439890c168d646357928431100daac5cbdee1d345a34e6bf6eca9f3abe22bc",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/pretty-format/build/types.d.ts": {
-        "version": "5d72971a459517c44c1379dab9ed248e87a61ba0a1e0f25c9d67e1e640cd9a09",
-        "signature": "5d72971a459517c44c1379dab9ed248e87a61ba0a1e0f25c9d67e1e640cd9a09",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/pretty-format/build/index.d.ts": {
-        "version": "02d734976af36f4273d930bea88b3e62adf6b078cf120c1c63d49aa8d8427c5c",
-        "signature": "02d734976af36f4273d930bea88b3e62adf6b078cf120c1c63d49aa8d8427c5c",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/jest/index.d.ts": {
-        "version": "71f30fba971582dc744373cbc8b06c1eb64dc24a6ccbc9b457f94fb68c67cb4e",
-        "signature": "71f30fba971582dc744373cbc8b06c1eb64dc24a6ccbc9b457f94fb68c67cb4e",
-        "affectsGlobalScope": true
-      },
       "./node_modules/@types/json5/index.d.ts": {
         "version": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538",
         "signature": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538",
@@ -1561,9 +1721,29 @@
         "signature": "f9a2dd6a6084665f093ed0e9664b8e673be2a45e342a59dd4e0e4e552e68a9ad",
         "affectsGlobalScope": false
       },
+      "./node_modules/@types/react-test-renderer/index.d.ts": {
+        "version": "60aaac5fb1858fbd4c4eb40e01706eb227eed9eca5c665564bd146971280dbd3",
+        "signature": "60aaac5fb1858fbd4c4eb40e01706eb227eed9eca5c665564bd146971280dbd3",
+        "affectsGlobalScope": false
+      },
       "./node_modules/@types/resolve/index.d.ts": {
         "version": "8a19491eba2108d5c333c249699f40aff05ad312c04a17504573b27d91f0aede",
         "signature": "8a19491eba2108d5c333c249699f40aff05ad312c04a17504573b27d91f0aede",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/scheduler/index.d.ts": {
+        "version": "3169db033165677f1d414baf0c82ba27801089ca1b66d97af464512a47df31b5",
+        "signature": "3169db033165677f1d414baf0c82ba27801089ca1b66d97af464512a47df31b5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/sinonjs__fake-timers/index.d.ts": {
+        "version": "558a9770503071d5a6fc6c596f7230bb79f2d034ced4a205bd1ebcad3b5879ec",
+        "signature": "558a9770503071d5a6fc6c596f7230bb79f2d034ced4a205bd1ebcad3b5879ec",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/sizzle/index.d.ts": {
+        "version": "7ddac8a4ba398441cfd6d8a69380401378f122ee8cc2d848e6e32f4db2b6c876",
+        "signature": "7ddac8a4ba398441cfd6d8a69380401378f122ee8cc2d848e6e32f4db2b6c876",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/source-list-map/index.d.ts": {
@@ -1580,11 +1760,6 @@
         "version": "d558a0fe921ebcc88d3212c2c42108abf9f0d694d67ebdeba37d7728c044f579",
         "signature": "d558a0fe921ebcc88d3212c2c42108abf9f0d694d67ebdeba37d7728c044f579",
         "affectsGlobalScope": false
-      },
-      "./node_modules/@types/testing-library__jest-dom/index.d.ts": {
-        "version": "d196da9c61a0bec85db6f6ee9b1f46781d25e0627b1d2bedcaeea8ebb1749559",
-        "signature": "d196da9c61a0bec85db6f6ee9b1f46781d25e0627b1d2bedcaeea8ebb1749559",
-        "affectsGlobalScope": true
       },
       "./node_modules/source-map/source-map.d.ts": {
         "version": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579",
@@ -1719,6 +1894,15 @@
         "lib.esnext.d.ts"
       ],
       "esModuleInterop": true,
+      "paths": {
+        "@components/*": [
+          "components/*"
+        ],
+        "@utils/*": [
+          "utils/*"
+        ]
+      },
+      "pathsBasePath": "/Users/huynhducduy/workspace/react-starter-kit",
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
@@ -1727,6 +1911,93 @@
         "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@babel/types/lib/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/config.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/events.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/get-node-text.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/get-queries-for-element.d.ts": [
+        "./node_modules/@testing-library/dom/types/queries.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/index.d.ts": [
+        "./node_modules/@testing-library/dom/types/config.d.ts",
+        "./node_modules/@testing-library/dom/types/events.d.ts",
+        "./node_modules/@testing-library/dom/types/get-node-text.d.ts",
+        "./node_modules/@testing-library/dom/types/get-queries-for-element.d.ts",
+        "./node_modules/@testing-library/dom/types/matches.d.ts",
+        "./node_modules/@testing-library/dom/types/pretty-dom.d.ts",
+        "./node_modules/@testing-library/dom/types/queries.d.ts",
+        "./node_modules/@testing-library/dom/types/query-helpers.d.ts",
+        "./node_modules/@testing-library/dom/types/role-helpers.d.ts",
+        "./node_modules/@testing-library/dom/types/screen.d.ts",
+        "./node_modules/@testing-library/dom/types/suggestions.d.ts",
+        "./node_modules/@testing-library/dom/types/wait-for-dom-change.d.ts",
+        "./node_modules/@testing-library/dom/types/wait-for-element-to-be-removed.d.ts",
+        "./node_modules/@testing-library/dom/types/wait-for-element.d.ts",
+        "./node_modules/@testing-library/dom/types/wait-for.d.ts",
+        "./node_modules/@testing-library/dom/types/wait.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/matches.d.ts": [
+        "./node_modules/@types/aria-query/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/pretty-dom.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/pretty-format/build/index.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/queries.d.ts": [
+        "./node_modules/@testing-library/dom/types/matches.d.ts",
+        "./node_modules/@testing-library/dom/types/query-helpers.d.ts",
+        "./node_modules/@testing-library/dom/types/wait-for.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/query-helpers.d.ts": [
+        "./node_modules/@testing-library/dom/types/matches.d.ts",
+        "./node_modules/@testing-library/dom/types/wait-for.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/role-helpers.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/screen.d.ts": [
+        "./node_modules/@testing-library/dom/types/get-queries-for-element.d.ts",
+        "./node_modules/@testing-library/dom/types/queries.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/pretty-format/build/index.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/suggestions.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/wait-for-dom-change.d.ts": [
+        "./node_modules/@testing-library/dom/types/wait-for.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/wait-for-element-to-be-removed.d.ts": [
+        "./node_modules/@testing-library/dom/types/wait-for.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/wait-for-element.d.ts": [
+        "./node_modules/@testing-library/dom/types/wait-for.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/wait-for.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/wait.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/react/types/index.d.ts": [
+        "./node_modules/@testing-library/dom/types/index.d.ts",
+        "./node_modules/@types/react-dom/index.d.ts",
+        "./node_modules/@types/react-dom/test-utils/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@types/anymatch/index.d.ts": [
@@ -1756,19 +2027,6 @@
         "./node_modules/@babel/types/lib/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
-      "./node_modules/@types/cheerio/index.d.ts": [
-        "./node_modules/@types/node/index.d.ts",
-        "./node_modules/date-fns/typings.d.ts"
-      ],
-      "./node_modules/@types/enzyme-adapter-react-16/index.d.ts": [
-        "./node_modules/@types/enzyme/index.d.ts",
-        "./node_modules/date-fns/typings.d.ts"
-      ],
-      "./node_modules/@types/enzyme/index.d.ts": [
-        "./node_modules/@types/cheerio/index.d.ts",
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/date-fns/typings.d.ts"
-      ],
       "./node_modules/@types/eslint/helpers.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
@@ -1779,6 +2037,9 @@
         "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@types/estree/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/flat/index.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@types/glob/index.d.ts": [
@@ -2168,6 +2429,11 @@
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
+      "./node_modules/@types/react-dom/test-utils/index.d.ts": [
+        "./node_modules/@types/react-dom/test-utils/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
       "./node_modules/@types/react-router-dom/index.d.ts": [
         "./node_modules/@types/history/index.d.ts",
         "./node_modules/@types/react-router/index.d.ts",
@@ -2176,6 +2442,10 @@
       ],
       "./node_modules/@types/react-router/index.d.ts": [
         "./node_modules/@types/history/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/react-test-renderer/index.d.ts": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
@@ -2194,6 +2464,15 @@
       ],
       "./node_modules/@types/resolve/index.d.ts": [
         "./node_modules/@types/node/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/scheduler/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/sinonjs__fake-timers/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/sizzle/index.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@types/source-list-map/index.d.ts": [
@@ -2334,6 +2613,17 @@
       "./node_modules/date-fns/typings.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
+      "./node_modules/i18next-browser-languagedetector/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/i18next/index.d.ts"
+      ],
+      "./node_modules/i18next-http-backend/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/i18next/index.d.ts"
+      ],
+      "./node_modules/i18next/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
       "./node_modules/jest-diff/build/cleanupsemantic.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
@@ -2355,10 +2645,6 @@
         "./node_modules/jest-diff/build/types.d.ts"
       ],
       "./node_modules/jest-diff/build/types.d.ts": [
-        "./node_modules/date-fns/typings.d.ts"
-      ],
-      "./node_modules/jest-enzyme/lib/index.d.ts": [
-        "./node_modules/@types/react/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/path-to-regexp/dist/index.d.ts": [
@@ -2414,6 +2700,11 @@
       "./node_modules/react-helmet-async/index.d.ts": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/react-i18next/ts4.1/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/i18next/index.d.ts"
       ],
       "./node_modules/react-toastify/dist/components/closebutton.d.ts": [
         "./node_modules/@types/react/index.d.ts",
@@ -2987,7 +3278,7 @@
         "./node_modules/workbox-strategies/strategy.d.ts"
       ],
       "./src/app.test.tsx": [
-        "./node_modules/@types/enzyme/index.d.ts",
+        "./node_modules/@testing-library/react/types/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
         "./src/app.tsx"
@@ -2995,7 +3286,31 @@
       "./src/app.tsx": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/router/index.jsx"
+        "./node_modules/react-helmet-async/index.d.ts",
+        "./src/auth/authupdater.tsx",
+        "./src/components/confirmcomponent/index.tsx",
+        "./src/i18n/index.js",
+        "./src/router/index.jsx",
+        "./src/store/index.tsx",
+        "./src/utils/buildcomponenttree.tsx",
+        "./src/utils/errorboundary.tsx",
+        "./src/utils/hooks/useconfirm/index.ts",
+        "./src/utils/hooks/usemetadata/index.ts",
+        "./src/utils/toast/index.ts"
+      ],
+      "./src/auth/atom.ts": [
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/recoil/index.d.ts",
+        "./src/auth/helpers/isauthenticated.ts"
+      ],
+      "./src/auth/authupdater.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/recoil/index.d.ts",
+        "./src/auth/atom.ts",
+        "./src/auth/helpers/isauthenticated.ts"
       ],
       "./src/auth/constants.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
@@ -3094,6 +3409,12 @@
         "./node_modules/date-fns/typings.d.ts",
         "./src/utils/hooks/useconfirm/index.ts"
       ],
+      "./src/components/languagechanger/index.tsx": [
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./src/i18n/index.js",
+        "./src/i18n/locales/index.ts"
+      ],
       "./src/components/skeleton/line/index.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
@@ -3110,22 +3431,37 @@
         "./node_modules/date-fns/typings.d.ts",
         "./src/config.ts"
       ],
+      "./src/i18n/index.js": [
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/i18next-browser-languagedetector/index.d.ts",
+        "./node_modules/i18next-http-backend/index.d.ts",
+        "./node_modules/i18next/index.d.ts",
+        "./node_modules/react-i18next/ts4.1/index.d.ts",
+        "./src/i18n/locales/index.ts"
+      ],
+      "./src/i18n/locales/en.json": [
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./src/i18n/locales/index.ts": [
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./src/i18n/locales/en.json",
+        "./src/i18n/locales/vi.json"
+      ],
+      "./src/i18n/locales/vi.json": [
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
       "./src/index.tsx": [
         "./node_modules/@types/react-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/react-helmet-async/index.d.ts",
         "./src/app.tsx",
-        "./src/components/confirmcomponent/index.tsx",
-        "./src/reportwebvitals.js",
-        "./src/router/index.jsx",
-        "./src/serviceworkerregistration.js",
-        "./src/store/index.ts",
-        "./src/utils/buildcomponenttree.tsx",
-        "./src/utils/errorboundary.tsx",
-        "./src/utils/hooks/useconfirm/index.ts",
-        "./src/utils/toast/index.ts"
+        "./src/reportwebvitals.ts",
+        "./src/serviceworkerregistration.js"
       ],
       "./src/react-app-env.d.ts": [
         "./node_modules/@types/node/index.d.ts",
@@ -3133,7 +3469,7 @@
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
-      "./src/reportwebvitals.js": [
+      "./src/reportwebvitals.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
         "./node_modules/web-vitals/dist/modules/index.d.ts"
@@ -3210,11 +3546,11 @@
         "./src/react-app-env.d.ts"
       ],
       "./src/router/routes/conditionalroute.js": [
+        "./node_modules/@types/react-dom/test-utils/index.d.ts",
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./src/router/helpers/geturl.ts",
-        "./src/utils/is.js"
+        "./src/router/helpers/geturl.ts"
       ],
       "./src/router/routes/guestroute.js": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
@@ -3261,8 +3597,6 @@
         "./node_modules/date-fns/typings.d.ts"
       ],
       "./src/setuptests.ts": [
-        "./node_modules/@types/enzyme-adapter-react-16/index.d.ts",
-        "./node_modules/@types/enzyme/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
@@ -3271,10 +3605,17 @@
         "./node_modules/date-fns/typings.d.ts",
         "./node_modules/recoil/index.d.ts"
       ],
-      "./src/store/index.ts": [
+      "./src/store/debugobserver.tsx": [
+        "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
         "./node_modules/recoil/index.d.ts"
+      ],
+      "./src/store/index.tsx": [
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/recoil/index.d.ts",
+        "./src/store/debugobserver.tsx"
       ],
       "./src/utils/buildcomponenttree.tsx": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
@@ -3305,12 +3646,27 @@
         "./node_modules/recoil/index.d.ts",
         "./src/utils/hooks/useconfirm/index.ts"
       ],
-      "./src/utils/hooks/useprevious.ts": [
-        "./node_modules/@types/react/index.d.ts",
+      "./src/utils/hooks/usemetadata/defaultvalues.ts": [
+        "./node_modules/@types/flat/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
-      "./src/utils/is.js": [
+      "./src/utils/hooks/usemetadata/index.ts": [
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/recoil/index.d.ts",
+        "./src/config.ts",
+        "./src/utils/hooks/usemetadata/defaultvalues.ts",
+        "./src/utils/hooks/usemetadata/provider.tsx",
+        "./src/utils/recoil/guarddefaultvalue.ts"
+      ],
+      "./src/utils/hooks/usemetadata/provider.tsx": [
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-helmet-async/index.d.ts",
+        "./src/utils/hooks/usemetadata/index.ts"
+      ],
+      "./src/utils/hooks/useprevious.ts": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts"
@@ -3320,13 +3676,18 @@
         "./node_modules/date-fns/typings.d.ts",
         "./src/config.ts"
       ],
-      "./src/utils/md5.js": [
+      "./src/utils/md5.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
-      "./src/utils/randomstring.js": [
+      "./src/utils/randomstring.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./src/utils/recoil/guarddefaultvalue.ts": [
+        "./node_modules/@types/react/jsx-runtime.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/recoil/index.d.ts"
       ],
       "./src/utils/toast/index.ts": [
         "./node_modules/@types/react/index.d.ts",
@@ -3353,9 +3714,11 @@
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-i18next/ts4.1/index.d.ts",
+        "./src/components/languagechanger/index.tsx",
         "./src/react-app-env.d.ts",
         "./src/utils/hooks/useconfirm/index.ts",
-        "./src/utils/toast/index.ts"
+        "./src/utils/hooks/usemetadata/index.ts"
       ],
       "./src/views/login.tsx": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
@@ -3375,6 +3738,93 @@
         "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@babel/types/lib/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/config.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/events.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/get-node-text.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/get-queries-for-element.d.ts": [
+        "./node_modules/@testing-library/dom/types/queries.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/index.d.ts": [
+        "./node_modules/@testing-library/dom/types/config.d.ts",
+        "./node_modules/@testing-library/dom/types/events.d.ts",
+        "./node_modules/@testing-library/dom/types/get-node-text.d.ts",
+        "./node_modules/@testing-library/dom/types/get-queries-for-element.d.ts",
+        "./node_modules/@testing-library/dom/types/matches.d.ts",
+        "./node_modules/@testing-library/dom/types/pretty-dom.d.ts",
+        "./node_modules/@testing-library/dom/types/queries.d.ts",
+        "./node_modules/@testing-library/dom/types/query-helpers.d.ts",
+        "./node_modules/@testing-library/dom/types/role-helpers.d.ts",
+        "./node_modules/@testing-library/dom/types/screen.d.ts",
+        "./node_modules/@testing-library/dom/types/suggestions.d.ts",
+        "./node_modules/@testing-library/dom/types/wait-for-dom-change.d.ts",
+        "./node_modules/@testing-library/dom/types/wait-for-element-to-be-removed.d.ts",
+        "./node_modules/@testing-library/dom/types/wait-for-element.d.ts",
+        "./node_modules/@testing-library/dom/types/wait-for.d.ts",
+        "./node_modules/@testing-library/dom/types/wait.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/matches.d.ts": [
+        "./node_modules/@types/aria-query/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/pretty-dom.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/pretty-format/build/index.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/queries.d.ts": [
+        "./node_modules/@testing-library/dom/types/matches.d.ts",
+        "./node_modules/@testing-library/dom/types/query-helpers.d.ts",
+        "./node_modules/@testing-library/dom/types/wait-for.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/query-helpers.d.ts": [
+        "./node_modules/@testing-library/dom/types/matches.d.ts",
+        "./node_modules/@testing-library/dom/types/wait-for.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/role-helpers.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/screen.d.ts": [
+        "./node_modules/@testing-library/dom/types/get-queries-for-element.d.ts",
+        "./node_modules/@testing-library/dom/types/queries.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/pretty-format/build/index.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/suggestions.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/wait-for-dom-change.d.ts": [
+        "./node_modules/@testing-library/dom/types/wait-for.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/wait-for-element-to-be-removed.d.ts": [
+        "./node_modules/@testing-library/dom/types/wait-for.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/wait-for-element.d.ts": [
+        "./node_modules/@testing-library/dom/types/wait-for.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/wait-for.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/dom/types/wait.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@testing-library/react/types/index.d.ts": [
+        "./node_modules/@testing-library/dom/types/index.d.ts",
+        "./node_modules/@types/react-dom/index.d.ts",
+        "./node_modules/@types/react-dom/test-utils/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@types/anymatch/index.d.ts": [
@@ -3404,19 +3854,6 @@
         "./node_modules/@babel/types/lib/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
-      "./node_modules/@types/cheerio/index.d.ts": [
-        "./node_modules/@types/node/index.d.ts",
-        "./node_modules/date-fns/typings.d.ts"
-      ],
-      "./node_modules/@types/enzyme-adapter-react-16/index.d.ts": [
-        "./node_modules/@types/enzyme/index.d.ts",
-        "./node_modules/date-fns/typings.d.ts"
-      ],
-      "./node_modules/@types/enzyme/index.d.ts": [
-        "./node_modules/@types/cheerio/index.d.ts",
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/date-fns/typings.d.ts"
-      ],
       "./node_modules/@types/eslint/helpers.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
@@ -3427,6 +3864,9 @@
         "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@types/estree/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/flat/index.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@types/glob/index.d.ts": [
@@ -3816,6 +4256,11 @@
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
+      "./node_modules/@types/react-dom/test-utils/index.d.ts": [
+        "./node_modules/@types/react-dom/test-utils/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
       "./node_modules/@types/react-router-dom/index.d.ts": [
         "./node_modules/@types/history/index.d.ts",
         "./node_modules/@types/react-router/index.d.ts",
@@ -3824,6 +4269,10 @@
       ],
       "./node_modules/@types/react-router/index.d.ts": [
         "./node_modules/@types/history/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/react-test-renderer/index.d.ts": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
@@ -3842,6 +4291,15 @@
       ],
       "./node_modules/@types/resolve/index.d.ts": [
         "./node_modules/@types/node/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/scheduler/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/sinonjs__fake-timers/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/sizzle/index.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@types/source-list-map/index.d.ts": [
@@ -3982,6 +4440,17 @@
       "./node_modules/date-fns/typings.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
+      "./node_modules/i18next-browser-languagedetector/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/i18next/index.d.ts"
+      ],
+      "./node_modules/i18next-http-backend/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/i18next/index.d.ts"
+      ],
+      "./node_modules/i18next/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
       "./node_modules/jest-diff/build/cleanupsemantic.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
@@ -4003,10 +4472,6 @@
         "./node_modules/jest-diff/build/types.d.ts"
       ],
       "./node_modules/jest-diff/build/types.d.ts": [
-        "./node_modules/date-fns/typings.d.ts"
-      ],
-      "./node_modules/jest-enzyme/lib/index.d.ts": [
-        "./node_modules/@types/react/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/path-to-regexp/dist/index.d.ts": [
@@ -4062,6 +4527,11 @@
       "./node_modules/react-helmet-async/index.d.ts": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/react-i18next/ts4.1/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/i18next/index.d.ts"
       ],
       "./node_modules/react-toastify/dist/components/closebutton.d.ts": [
         "./node_modules/@types/react/index.d.ts",
@@ -4634,6 +5104,15 @@
         "./node_modules/workbox-core/types.d.ts",
         "./node_modules/workbox-strategies/strategy.d.ts"
       ],
+      "./src/app.tsx": [
+        "./src/i18n/index.js"
+      ],
+      "./src/auth/atom.ts": [
+        "./node_modules/recoil/index.d.ts"
+      ],
+      "./src/auth/authupdater.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/auth/helpers/index.ts": [
         "./src/auth/helpers/clearauth.ts",
         "./src/auth/helpers/getaccesstoken.ts",
@@ -4662,6 +5141,9 @@
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/date-fns/typings.d.ts"
       ],
+      "./src/reportwebvitals.ts": [
+        "./node_modules/web-vitals/dist/modules/index.d.ts"
+      ],
       "./src/request/index.js": [
         "./node_modules/axios/index.d.ts"
       ],
@@ -4681,9 +5163,6 @@
       "./src/store/atoms/auth.ts": [
         "./node_modules/recoil/index.d.ts"
       ],
-      "./src/store/index.ts": [
-        "./node_modules/recoil/index.d.ts"
-      ],
       "./src/utils/buildcomponenttree.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
@@ -4698,8 +5177,15 @@
         "./node_modules/recoil/index.d.ts",
         "./src/utils/hooks/useconfirm/provider.tsx"
       ],
+      "./src/utils/hooks/usemetadata/index.ts": [
+        "./node_modules/recoil/index.d.ts",
+        "./src/utils/hooks/usemetadata/provider.tsx"
+      ],
       "./src/utils/hooks/useprevious.ts": [
         "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/utils/recoil/guarddefaultvalue.ts": [
+        "./node_modules/recoil/index.d.ts"
       ],
       "./src/utils/toast/index.ts": [
         "./src/utils/toast/provider.tsx"
@@ -4708,18 +5194,34 @@
     "semanticDiagnosticsPerFile": [
       "./node_modules/@babel/parser/typings/babel-parser.d.ts",
       "./node_modules/@babel/types/lib/index.d.ts",
+      "./node_modules/@testing-library/dom/types/config.d.ts",
+      "./node_modules/@testing-library/dom/types/events.d.ts",
+      "./node_modules/@testing-library/dom/types/get-node-text.d.ts",
+      "./node_modules/@testing-library/dom/types/get-queries-for-element.d.ts",
+      "./node_modules/@testing-library/dom/types/index.d.ts",
+      "./node_modules/@testing-library/dom/types/matches.d.ts",
+      "./node_modules/@testing-library/dom/types/pretty-dom.d.ts",
+      "./node_modules/@testing-library/dom/types/queries.d.ts",
+      "./node_modules/@testing-library/dom/types/query-helpers.d.ts",
+      "./node_modules/@testing-library/dom/types/role-helpers.d.ts",
+      "./node_modules/@testing-library/dom/types/screen.d.ts",
+      "./node_modules/@testing-library/dom/types/suggestions.d.ts",
+      "./node_modules/@testing-library/dom/types/wait-for-dom-change.d.ts",
+      "./node_modules/@testing-library/dom/types/wait-for-element-to-be-removed.d.ts",
+      "./node_modules/@testing-library/dom/types/wait-for-element.d.ts",
+      "./node_modules/@testing-library/dom/types/wait-for.d.ts",
+      "./node_modules/@testing-library/dom/types/wait.d.ts",
+      "./node_modules/@testing-library/react/types/index.d.ts",
       "./node_modules/@types/anymatch/index.d.ts",
       "./node_modules/@types/aria-query/index.d.ts",
       "./node_modules/@types/babel__core/index.d.ts",
       "./node_modules/@types/babel__generator/index.d.ts",
       "./node_modules/@types/babel__template/index.d.ts",
       "./node_modules/@types/babel__traverse/index.d.ts",
-      "./node_modules/@types/cheerio/index.d.ts",
-      "./node_modules/@types/enzyme-adapter-react-16/index.d.ts",
-      "./node_modules/@types/enzyme/index.d.ts",
       "./node_modules/@types/eslint/helpers.d.ts",
       "./node_modules/@types/eslint/index.d.ts",
       "./node_modules/@types/estree/index.d.ts",
+      "./node_modules/@types/flat/index.d.ts",
       "./node_modules/@types/glob/index.d.ts",
       "./node_modules/@types/graceful-fs/index.d.ts",
       "./node_modules/@types/history/createbrowserhistory.d.ts",
@@ -4793,12 +5295,17 @@
       "./node_modules/@types/ramda/index.d.ts",
       "./node_modules/@types/ramda/tools.d.ts",
       "./node_modules/@types/react-dom/index.d.ts",
+      "./node_modules/@types/react-dom/test-utils/index.d.ts",
       "./node_modules/@types/react-router-dom/index.d.ts",
       "./node_modules/@types/react-router/index.d.ts",
+      "./node_modules/@types/react-test-renderer/index.d.ts",
       "./node_modules/@types/react/global.d.ts",
       "./node_modules/@types/react/index.d.ts",
       "./node_modules/@types/react/jsx-runtime.d.ts",
       "./node_modules/@types/resolve/index.d.ts",
+      "./node_modules/@types/scheduler/index.d.ts",
+      "./node_modules/@types/sinonjs__fake-timers/index.d.ts",
+      "./node_modules/@types/sizzle/index.d.ts",
       "./node_modules/@types/source-list-map/index.d.ts",
       "./node_modules/@types/stack-utils/index.d.ts",
       "./node_modules/@types/tapable/index.d.ts",
@@ -4825,12 +5332,14 @@
       "./node_modules/axios/index.d.ts",
       "./node_modules/csstype/index.d.ts",
       "./node_modules/date-fns/typings.d.ts",
+      "./node_modules/i18next-browser-languagedetector/index.d.ts",
+      "./node_modules/i18next-http-backend/index.d.ts",
+      "./node_modules/i18next/index.d.ts",
       "./node_modules/jest-diff/build/cleanupsemantic.d.ts",
       "./node_modules/jest-diff/build/difflines.d.ts",
       "./node_modules/jest-diff/build/index.d.ts",
       "./node_modules/jest-diff/build/printdiffs.d.ts",
       "./node_modules/jest-diff/build/types.d.ts",
-      "./node_modules/jest-enzyme/lib/index.d.ts",
       "./node_modules/path-to-regexp/dist/index.d.ts",
       "./node_modules/pretty-format/build/index.d.ts",
       "./node_modules/pretty-format/build/types.d.ts",
@@ -4842,6 +5351,7 @@
       "./node_modules/react-content-loader/dist/web/presets/instagramstyle.d.ts",
       "./node_modules/react-content-loader/dist/web/presets/liststyle.d.ts",
       "./node_modules/react-helmet-async/index.d.ts",
+      "./node_modules/react-i18next/ts4.1/index.d.ts",
       "./node_modules/react-toastify/dist/components/closebutton.d.ts",
       "./node_modules/react-toastify/dist/components/index.d.ts",
       "./node_modules/react-toastify/dist/components/progressbar.d.ts",
@@ -4982,6 +5492,8 @@
       "./node_modules/workbox-strategies/strategyhandler.d.ts",
       "./src/app.test.tsx",
       "./src/app.tsx",
+      "./src/auth/atom.ts",
+      "./src/auth/authupdater.tsx",
       "./src/auth/constants.ts",
       "./src/auth/helpers/clearauth.ts",
       "./src/auth/helpers/getaccesstoken.ts",
@@ -4997,12 +5509,17 @@
       "./src/auth/helpers/tokenisalmostexpired.ts",
       "./src/auth/helpers/tokenisexpired.ts",
       "./src/components/confirmcomponent/index.tsx",
+      "./src/components/languagechanger/index.tsx",
       "./src/components/skeleton/line/index.tsx",
       "./src/config.ts",
       "./src/endpoints.ts",
+      "./src/i18n/index.js",
+      "./src/i18n/locales/en.json",
+      "./src/i18n/locales/index.ts",
+      "./src/i18n/locales/vi.json",
       "./src/index.tsx",
       "./src/react-app-env.d.ts",
-      "./src/reportwebvitals.js",
+      "./src/reportwebvitals.ts",
       "./src/request/constant.ts",
       "./src/request/index.js",
       "./src/router/helpers/getpath.ts",
@@ -5024,22 +5541,38 @@
       "./src/serviceworkerregistration.js",
       "./src/setuptests.ts",
       "./src/store/atoms/auth.ts",
-      "./src/store/index.ts",
+      "./src/store/debugobserver.tsx",
+      "./src/store/index.tsx",
       "./src/utils/buildcomponenttree.tsx",
       "./src/utils/defercomponentrender.tsx",
       "./src/utils/errorboundary.tsx",
       "./src/utils/hooks/useconfirm/index.ts",
       "./src/utils/hooks/useconfirm/provider.tsx",
+      "./src/utils/hooks/usemetadata/defaultvalues.ts",
+      "./src/utils/hooks/usemetadata/index.ts",
+      "./src/utils/hooks/usemetadata/provider.tsx",
       "./src/utils/hooks/useprevious.ts",
-      "./src/utils/is.js",
       "./src/utils/localstorage.ts",
-      "./src/utils/md5.js",
-      "./src/utils/randomstring.js",
+      "./src/utils/md5.ts",
+      "./src/utils/randomstring.ts",
+      "./src/utils/recoil/guarddefaultvalue.ts",
       "./src/utils/toast/index.ts",
       "./src/utils/toast/message.tsx",
       "./src/utils/toast/provider.tsx",
       "./src/utils/waitatleast.ts",
-      "./src/views/home/index.tsx",
+      [
+        "./src/views/home/index.tsx",
+        [
+          {
+            "file": "./src/views/home/index.tsx",
+            "start": 159,
+            "length": 15,
+            "messageText": "Cannot find module '@utils/toastz' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
+          }
+        ]
+      ],
       "./src/views/login.tsx",
       "./src/wdyr.ts"
     ],
@@ -5050,6 +5583,78 @@
       ],
       [
         "./node_modules/@babel/types/lib/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@testing-library/dom/types/config.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@testing-library/dom/types/events.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@testing-library/dom/types/get-node-text.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@testing-library/dom/types/get-queries-for-element.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@testing-library/dom/types/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@testing-library/dom/types/matches.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@testing-library/dom/types/pretty-dom.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@testing-library/dom/types/queries.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@testing-library/dom/types/query-helpers.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@testing-library/dom/types/role-helpers.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@testing-library/dom/types/screen.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@testing-library/dom/types/suggestions.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@testing-library/dom/types/wait-for-dom-change.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@testing-library/dom/types/wait-for-element-to-be-removed.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@testing-library/dom/types/wait-for-element.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@testing-library/dom/types/wait-for.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@testing-library/dom/types/wait.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@testing-library/react/types/index.d.ts",
         1
       ],
       [
@@ -5098,6 +5703,10 @@
       ],
       [
         "./node_modules/@types/estree/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/flat/index.d.ts",
         1
       ],
       [
@@ -5393,11 +6002,19 @@
         1
       ],
       [
+        "./node_modules/@types/react-dom/test-utils/index.d.ts",
+        1
+      ],
+      [
         "./node_modules/@types/react-router-dom/index.d.ts",
         1
       ],
       [
         "./node_modules/@types/react-router/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/react-test-renderer/index.d.ts",
         1
       ],
       [
@@ -5414,6 +6031,18 @@
       ],
       [
         "./node_modules/@types/resolve/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/scheduler/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/sinonjs__fake-timers/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/sizzle/index.d.ts",
         1
       ],
       [
@@ -5521,6 +6150,18 @@
         1
       ],
       [
+        "./node_modules/i18next-browser-languagedetector/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/i18next-http-backend/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/i18next/index.d.ts",
+        1
+      ],
+      [
         "./node_modules/jest-diff/build/cleanupsemantic.d.ts",
         1
       ],
@@ -5586,6 +6227,10 @@
       ],
       [
         "./node_modules/react-helmet-async/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-i18next/ts4.1/index.d.ts",
         1
       ],
       [
@@ -6001,6 +6646,14 @@
         1
       ],
       [
+        "./src/auth/atom.ts",
+        1
+      ],
+      [
+        "./src/auth/authupdater.tsx",
+        1
+      ],
+      [
         "./src/auth/constants.js",
         1
       ],
@@ -6137,6 +6790,10 @@
         1
       ],
       [
+        "./src/components/languagechanger/index.tsx",
+        1
+      ],
+      [
         "./src/components/skeleton/line/index.tsx",
         1
       ],
@@ -6149,6 +6806,22 @@
         1
       ],
       [
+        "./src/i18n/index.js",
+        1
+      ],
+      [
+        "./src/i18n/locales/en.json",
+        1
+      ],
+      [
+        "./src/i18n/locales/index.ts",
+        1
+      ],
+      [
+        "./src/i18n/locales/vi.json",
+        1
+      ],
+      [
         "./src/index.tsx",
         1
       ],
@@ -6158,6 +6831,10 @@
       ],
       [
         "./src/reportwebvitals.js",
+        1
+      ],
+      [
+        "./src/reportwebvitals.ts",
         1
       ],
       [
@@ -6289,11 +6966,19 @@
         1
       ],
       [
+        "./src/store/debugobserver.tsx",
+        1
+      ],
+      [
         "./src/store/index.js",
         1
       ],
       [
         "./src/store/index.ts",
+        1
+      ],
+      [
+        "./src/store/index.tsx",
         1
       ],
       [
@@ -6329,6 +7014,18 @@
         1
       ],
       [
+        "./src/utils/hooks/usemetadata/defaultvalues.ts",
+        1
+      ],
+      [
+        "./src/utils/hooks/usemetadata/index.ts",
+        1
+      ],
+      [
+        "./src/utils/hooks/usemetadata/provider.tsx",
+        1
+      ],
+      [
         "./src/utils/hooks/useprevious.ts",
         1
       ],
@@ -6349,7 +7046,19 @@
         1
       ],
       [
+        "./src/utils/md5.ts",
+        1
+      ],
+      [
         "./src/utils/randomstring.js",
+        1
+      ],
+      [
+        "./src/utils/randomstring.ts",
+        1
+      ],
+      [
+        "./src/utils/recoil/guarddefaultvalue.ts",
         1
       ],
       [
