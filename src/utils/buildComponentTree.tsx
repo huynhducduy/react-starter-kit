@@ -1,17 +1,18 @@
+import { Fragment } from 'react'
+
 type componentWithProps = [React.ElementType, Record<string, unknown>?]
 
 const buildComponentTree = (components: componentWithProps[]) => {
-  if (components.length === 1) {
-    return components[0][0]
-  }
+  const [First, params] = components.shift() as componentWithProps
 
-  const [A, paramsA] = components.shift() as componentWithProps
-  const B = buildComponentTree(components)
+  let Rest: React.ElementType
+  if (components.length === 0) Rest = Fragment
+  else Rest = buildComponentTree(components)
 
   return ({ children }: { children: React.ReactNode }) => (
-    <A {...(paramsA || {})}>
-      <B>{children}</B>
-    </A>
+    <First {...(params || {})}>
+      <Rest>{children}</Rest>
+    </First>
   )
 }
 
