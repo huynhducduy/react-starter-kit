@@ -11,7 +11,7 @@ import { Provider as ConfirmProvider } from 'utils/hooks/useConfirm'
 import { Provider as MetaDataProvider } from 'utils/hooks/useMetaData'
 
 import ErrorBoundary from 'utils/ErrorBoundary'
-import buildComponentTree from 'utils/buildComponentTree'
+import composeComponents from 'utils/composeComponents'
 
 import ConfirmComponent from 'components/ConfirmComponent'
 import AuthUpdater from 'auth/AuthUpdater'
@@ -22,16 +22,16 @@ import 'i18n'
 // import 'react-app-polyfill/ie11'
 // import 'react-app-polyfill/stable'
 
-const Providers = buildComponentTree([
+const Providers = composeComponents(
   // [SomeProvider, { initialState: '' }],
-  [StoreProvider],
-  [HelmetProvider],
-  [RouterProvider],
-  [ToastProvider],
-  [MetaDataProvider],
+  StoreProvider,
+  HelmetProvider,
+  RouterProvider,
+  ToastProvider,
+  MetaDataProvider,
   [ConfirmProvider, { ConfirmComponent }],
-  [ErrorBoundary],
-])
+  ErrorBoundary
+)
 
 function App() {
   return (
