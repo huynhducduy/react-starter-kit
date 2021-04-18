@@ -1,6 +1,7 @@
 import { Router } from 'router'
 
 import { HelmetProvider } from 'react-helmet-async'
+import composeComponents from 'react-component-composer'
 
 import './styles/index.scss'
 
@@ -11,7 +12,6 @@ import { Provider as ConfirmProvider } from 'utils/hooks/useConfirm'
 import { Provider as MetaDataProvider } from 'utils/hooks/useMetaData'
 
 import ErrorBoundary from 'utils/ErrorBoundary'
-import composeComponents from 'utils/composeComponents'
 
 import ConfirmComponent from 'components/ConfirmComponent'
 import AuthUpdater from 'auth/AuthUpdater'
