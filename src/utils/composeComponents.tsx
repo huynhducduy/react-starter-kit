@@ -17,12 +17,8 @@ const composeComponents = (...components: componentWithProps[]) => ({
     let Component: React.ElementType,
       params: Record<string, unknown> | undefined
 
-    if (isElementType(component)) {
-      Component = component
-    } else {
-      Component = component[0]
-      params = component[1]
-    }
+    if (isElementType(component)) Component = component
+    else [Component, params] = component
 
     return <Component {...(params || {})}>{child}</Component>
   }, children as JSX.Element)
