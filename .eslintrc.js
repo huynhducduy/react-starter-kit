@@ -1,14 +1,5 @@
 var restrictedGlobals = require('confusing-browser-globals')
 
-var extendsConfig = [
-  'plugin:testing-library/recommended',
-  'plugin:jest-dom/recommended',
-  'plugin:cypress/recommended',
-  'plugin:json/recommended',
-  'plugin:prettier/recommended', // Always the last: https://github.com/prettier/eslint-plugin-prettier#recommended-configuration
-  'prettier/prettier', // Fix some errors: https://github.com/prettier/eslint-plugin-prettier#arrow-body-style-and-prefer-arrow-callback-issue
-]
-
 module.exports = {
   root: true,
   parser: '@babel/eslint-parser',
@@ -17,14 +8,21 @@ module.exports = {
     'jest',
     'json',
     'jsx-a11y',
-    // 'prettier', // We don't need this since we extends 'plugin:prettier/recommended'
     'react',
     'react-hooks',
     'testing-library',
     'jest-dom',
     '@typescript-eslint',
   ],
-  extends: extendsConfig,
+  extends: [
+    'plugin:testing-library/recommended',
+    'plugin:jest-dom/recommended',
+    'plugin:jest/recommended',
+    'plugin:cypress/recommended',
+    'plugin:json/recommended',
+    'plugin:prettier/recommended', // Always the last: https://github.com/prettier/eslint-plugin-prettier#recommended-configuration, with this we don't need to add `prettier` in plugins array
+    'prettier/prettier', // Fix some errors: https://github.com/prettier/eslint-plugin-prettier#arrow-body-style-and-prefer-arrow-callback-issue
+  ],
   rules: {
     'json/*': ['error', { allowComments: true }],
     'react/jsx-uses-vars': 'warn',
@@ -228,7 +226,6 @@ module.exports = {
       extends: [
         'plugin:@typescript-eslint/recommended',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
-        ...extendsConfig,
       ],
       rules: {
         // TypeScript's `noFallthroughCasesInSwitch` option is more robust (#6906)
