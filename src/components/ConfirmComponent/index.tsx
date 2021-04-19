@@ -1,4 +1,4 @@
-import { ConfirmComponentProps } from 'utils/hooks/useConfirm'
+import type { ConfirmComponentProps } from 'utils/hooks/useConfirm'
 
 const ConfirmComponent = ({
   title = 'Confirm on removal',

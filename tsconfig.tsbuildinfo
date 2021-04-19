@@ -506,121 +506,6 @@
         "signature": "6735b19754cafda993189a22570da1ff16a12efd30f394e771f216d4949f95a8",
         "affectsGlobalScope": false
       },
-      "./node_modules/recoil/index.d.ts": {
-        "version": "01b4b543495b871f18e2e1ec70f2adf2e7b2e7792da9f62df7c07c4087e2a12f",
-        "signature": "01b4b543495b871f18e2e1ec70f2adf2e7b2e7792da9f62df7c07c4087e2a12f",
-        "affectsGlobalScope": false
-      },
-      "./src/utils/hooks/useconfirm/provider.tsx": {
-        "version": "4fbfec015d54b460e7be0364ed924ecb94c8547033443a36c88ac9db55af1cb8",
-        "signature": "b7e0a69f979e8168cc951a9a3aeb10ecad05dccfff7de23d99c16144584db0dc",
-        "affectsGlobalScope": false
-      },
-      "./src/utils/hooks/useconfirm/index.ts": {
-        "version": "50bea2479b40bbb804d6d603955995147fe058997726e287c01ff6c735394b4c",
-        "signature": "863af5fdd8797fbc898c42b1d06f0c534e4cda593a077029d57648885055980d",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/flat/index.d.ts": {
-        "version": "81374dde22dfcc6b1cceb80484658bffe937e298973d3ec0509c10a1db766dea",
-        "signature": "81374dde22dfcc6b1cceb80484658bffe937e298973d3ec0509c10a1db766dea",
-        "affectsGlobalScope": false
-      },
-      "./src/utils/hooks/usemetadata/defaultvalues.ts": {
-        "version": "19955b88e3751a84b7bf459a1eb383fc1bc9b7ea79f332afe0f9cf6033e7bcd5",
-        "signature": "c584602e35d8882bef229184e788006c3a840ab0a446c3f5d617f23f94cb133e",
-        "affectsGlobalScope": false
-      },
-      "./src/utils/recoil/guarddefaultvalue.ts": {
-        "version": "ee5d3098a8a10ec5cd3b7b038a87381c410cd125e85053b7b714d0b3ad3adfa2",
-        "signature": "c1e9b720ead3661026ab4ed6f67764973958edb348a4b8058e92edff7512cadf",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-helmet-async/index.d.ts": {
-        "version": "fee8df28169b0d98a87169e7bd358be9783b1dab2a4eb0f7985b48a68f08eb68",
-        "signature": "fee8df28169b0d98a87169e7bd358be9783b1dab2a4eb0f7985b48a68f08eb68",
-        "affectsGlobalScope": false
-      },
-      "./src/utils/hooks/usemetadata/provider.tsx": {
-        "version": "201c0d9eec590fdfa7e4d63c8c9d0ba294fb9b7c9712a27d5bb2c290c7c2ccec",
-        "signature": "608521911a5b469987c45f4a86b974948df1caa3125cc2a29ac710ad5bd4500c",
-        "affectsGlobalScope": false
-      },
-      "./src/utils/hooks/usemetadata/index.ts": {
-        "version": "44ded91ab5c73983b1a814b8a226d33808ef665398bf30969e4003f6443bab7e",
-        "signature": "e5f29d2c54e39363a51f451746c5b032e1c66aaaa8bcb21d4258d753f517c8ec",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/i18next/index.d.ts": {
-        "version": "5d8c33cdbee6dc99f5e655fa2b49f778e6c1e62297184d6a4df4f8a39e413014",
-        "signature": "5d8c33cdbee6dc99f5e655fa2b49f778e6c1e62297184d6a4df4f8a39e413014",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/react-i18next/ts4.1/index.d.ts": {
-        "version": "00f32feb000e374b9dd91f4861b92f3e220826b6fb681e528cffe57d2b99d6be",
-        "signature": "00f32feb000e374b9dd91f4861b92f3e220826b6fb681e528cffe57d2b99d6be",
-        "affectsGlobalScope": false
-      },
-      "./src/i18n/locales/en.json": {
-        "version": "8c7177fc5a62d24098089c6088d1652df4f1d8c9ba2d12d801e73a67d7681f71",
-        "signature": "5b1b418a058816074afce4c3f49ce630df41b0fc0107348c7fbce777fd8aa5b9",
-        "affectsGlobalScope": true
-      },
-      "./src/i18n/locales/vi.json": {
-        "version": "423cc83f9fd884260f110fadcd8738f1ac255997a237d47d2d03a949cab584ac",
-        "signature": "5b1b418a058816074afce4c3f49ce630df41b0fc0107348c7fbce777fd8aa5b9",
-        "affectsGlobalScope": true
-      },
-      "./src/i18n/locales/index.ts": {
-        "version": "61174a008b4ba476cd2970d7513b62f1edc3f6afd143fb5ef67cf0a554313ace",
-        "signature": "f26c6c409b4d07b71af89454a8f66d7ea0ae346453bf15a0c955bcba6f3bddf9",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/i18next-browser-languagedetector/index.d.ts": {
-        "version": "e610804bdb60dbabb94b7f50d1b26e03e21b8d588c84abe6a12ebae56002458d",
-        "signature": "e610804bdb60dbabb94b7f50d1b26e03e21b8d588c84abe6a12ebae56002458d",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/i18next-http-backend/index.d.ts": {
-        "version": "88cbb6457669e475905bd6c1ee07a56d46f68965820d589b1b3fba50587122a2",
-        "signature": "88cbb6457669e475905bd6c1ee07a56d46f68965820d589b1b3fba50587122a2",
-        "affectsGlobalScope": false
-      },
-      "./src/i18n/index.js": {
-        "version": "a2fb60356bb88fb5132ad46cdbc530960add587aa794305557f8f883d7ab9fa2",
-        "signature": "5376d3a3a0436160390a3ea00ff5b3e26699b3e1d13ada59367e7faa2d682190",
-        "affectsGlobalScope": false
-      },
-      "./src/components/languagechanger/index.tsx": {
-        "version": "7349fb0ca87c030ecaaccf6a8ca2da49e8e8cfdb11c5dc12ebef390dadec6fb2",
-        "signature": "16170f02267aa8ac749b3e43c0171173729aae92f650f28ab8d6907defcab3a3",
-        "affectsGlobalScope": false
-      },
-      "./src/views/home/index.tsx": {
-        "version": "3cd3bc5a9f343bb34b328edee6cec824510efff62558bd1f6bdaddd0ec73db0f",
-        "signature": "7e848b5d310adb40f89d047f3330935721152c7065fe1bd4c5792c2f3cc21ac3",
-        "affectsGlobalScope": false
-      },
-      "./src/views/login.tsx": {
-        "version": "762aac86582a73ff0cf61246bc6a4488868e184b8038c60b18650cbabc0cb9a4",
-        "signature": "d48563eff411135c44e1b353a0dbcd6d6135b55cbd01843f5ab40db9d928d829",
-        "affectsGlobalScope": false
-      },
-      "./src/router/index.jsx": {
-        "version": "fbc5b9c745b08fc9b13a221e8a6715efaa3d0fec5a38fde36212b6bdcc622cb1",
-        "signature": "d62840a374ee7c0f8e41e7e690ae218d1bee47420165efd18eb07e413b7beb69",
-        "affectsGlobalScope": false
-      },
-      "./src/store/debugobserver.tsx": {
-        "version": "bfc3f7a72b974ccde3a385634b0e5ccf02a956ae23cfc9a2e07d657fe0517307",
-        "signature": "cd7318b476a940e5f774ee289931d5292781ee90c902d02816dc9f2dd33dc542",
-        "affectsGlobalScope": false
-      },
-      "./src/store/index.tsx": {
-        "version": "bdcf71827b81263f1451bcd4c874f45eb2f89b0f9e4de92f278649bcb342845c",
-        "signature": "4d4d1663f136655f02f66e2fd0f43b016632ea1bcf55a8383eb8f3f8d97a9e94",
-        "affectsGlobalScope": false
-      },
       "./node_modules/react-toastify/dist/types/index.d.ts": {
         "version": "646de1f2abbca0bf4b52144692bab4fdf402839449f1008b83e1e9c1593dfbfa",
         "signature": "646de1f2abbca0bf4b52144692bab4fdf402839449f1008b83e1e9c1593dfbfa",
@@ -736,14 +621,129 @@
         "signature": "a2fa78b5dbe02f4dba2f93b4eee23a72360f044b7285ebd291d093ec90b4dc80",
         "affectsGlobalScope": false
       },
+      "./node_modules/recoil/index.d.ts": {
+        "version": "01b4b543495b871f18e2e1ec70f2adf2e7b2e7792da9f62df7c07c4087e2a12f",
+        "signature": "01b4b543495b871f18e2e1ec70f2adf2e7b2e7792da9f62df7c07c4087e2a12f",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/hooks/useconfirm/provider.tsx": {
+        "version": "4fbfec015d54b460e7be0364ed924ecb94c8547033443a36c88ac9db55af1cb8",
+        "signature": "b7e0a69f979e8168cc951a9a3aeb10ecad05dccfff7de23d99c16144584db0dc",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/hooks/useconfirm/index.ts": {
+        "version": "50bea2479b40bbb804d6d603955995147fe058997726e287c01ff6c735394b4c",
+        "signature": "863af5fdd8797fbc898c42b1d06f0c534e4cda593a077029d57648885055980d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/flat/index.d.ts": {
+        "version": "81374dde22dfcc6b1cceb80484658bffe937e298973d3ec0509c10a1db766dea",
+        "signature": "81374dde22dfcc6b1cceb80484658bffe937e298973d3ec0509c10a1db766dea",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/hooks/usemetadata/defaultvalues.ts": {
+        "version": "19955b88e3751a84b7bf459a1eb383fc1bc9b7ea79f332afe0f9cf6033e7bcd5",
+        "signature": "c584602e35d8882bef229184e788006c3a840ab0a446c3f5d617f23f94cb133e",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/recoil/guarddefaultvalue.ts": {
+        "version": "ee5d3098a8a10ec5cd3b7b038a87381c410cd125e85053b7b714d0b3ad3adfa2",
+        "signature": "c1e9b720ead3661026ab4ed6f67764973958edb348a4b8058e92edff7512cadf",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-helmet-async/index.d.ts": {
+        "version": "fee8df28169b0d98a87169e7bd358be9783b1dab2a4eb0f7985b48a68f08eb68",
+        "signature": "fee8df28169b0d98a87169e7bd358be9783b1dab2a4eb0f7985b48a68f08eb68",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/hooks/usemetadata/provider.tsx": {
+        "version": "201c0d9eec590fdfa7e4d63c8c9d0ba294fb9b7c9712a27d5bb2c290c7c2ccec",
+        "signature": "608521911a5b469987c45f4a86b974948df1caa3125cc2a29ac710ad5bd4500c",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/hooks/usemetadata/index.ts": {
+        "version": "44ded91ab5c73983b1a814b8a226d33808ef665398bf30969e4003f6443bab7e",
+        "signature": "e5f29d2c54e39363a51f451746c5b032e1c66aaaa8bcb21d4258d753f517c8ec",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/i18next/index.d.ts": {
+        "version": "5d8c33cdbee6dc99f5e655fa2b49f778e6c1e62297184d6a4df4f8a39e413014",
+        "signature": "5d8c33cdbee6dc99f5e655fa2b49f778e6c1e62297184d6a4df4f8a39e413014",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-i18next/ts4.1/index.d.ts": {
+        "version": "00f32feb000e374b9dd91f4861b92f3e220826b6fb681e528cffe57d2b99d6be",
+        "signature": "00f32feb000e374b9dd91f4861b92f3e220826b6fb681e528cffe57d2b99d6be",
+        "affectsGlobalScope": false
+      },
+      "./src/i18n/locales/en.json": {
+        "version": "8c7177fc5a62d24098089c6088d1652df4f1d8c9ba2d12d801e73a67d7681f71",
+        "signature": "5b1b418a058816074afce4c3f49ce630df41b0fc0107348c7fbce777fd8aa5b9",
+        "affectsGlobalScope": true
+      },
+      "./src/i18n/locales/vi.json": {
+        "version": "423cc83f9fd884260f110fadcd8738f1ac255997a237d47d2d03a949cab584ac",
+        "signature": "5b1b418a058816074afce4c3f49ce630df41b0fc0107348c7fbce777fd8aa5b9",
+        "affectsGlobalScope": true
+      },
+      "./src/i18n/locales/index.ts": {
+        "version": "61174a008b4ba476cd2970d7513b62f1edc3f6afd143fb5ef67cf0a554313ace",
+        "signature": "f26c6c409b4d07b71af89454a8f66d7ea0ae346453bf15a0c955bcba6f3bddf9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/i18next-browser-languagedetector/index.d.ts": {
+        "version": "e610804bdb60dbabb94b7f50d1b26e03e21b8d588c84abe6a12ebae56002458d",
+        "signature": "e610804bdb60dbabb94b7f50d1b26e03e21b8d588c84abe6a12ebae56002458d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/i18next-http-backend/index.d.ts": {
+        "version": "88cbb6457669e475905bd6c1ee07a56d46f68965820d589b1b3fba50587122a2",
+        "signature": "88cbb6457669e475905bd6c1ee07a56d46f68965820d589b1b3fba50587122a2",
+        "affectsGlobalScope": false
+      },
+      "./src/i18n/index.js": {
+        "version": "a2fb60356bb88fb5132ad46cdbc530960add587aa794305557f8f883d7ab9fa2",
+        "signature": "5376d3a3a0436160390a3ea00ff5b3e26699b3e1d13ada59367e7faa2d682190",
+        "affectsGlobalScope": false
+      },
+      "./src/components/languagechanger/index.tsx": {
+        "version": "f8dc0057a9bcebdb910d03a565e172089fe45b69f06cfe47fd60bd06e812fe73",
+        "signature": "16170f02267aa8ac749b3e43c0171173729aae92f650f28ab8d6907defcab3a3",
+        "affectsGlobalScope": false
+      },
+      "./src/views/home/index.tsx": {
+        "version": "2a5e408cf0b7a41534e02b4f715a25fd91972fce88ab2e96fc3bc7fb40a6fac5",
+        "signature": "7e848b5d310adb40f89d047f3330935721152c7065fe1bd4c5792c2f3cc21ac3",
+        "affectsGlobalScope": false
+      },
+      "./src/views/login.tsx": {
+        "version": "762aac86582a73ff0cf61246bc6a4488868e184b8038c60b18650cbabc0cb9a4",
+        "signature": "d48563eff411135c44e1b353a0dbcd6d6135b55cbd01843f5ab40db9d928d829",
+        "affectsGlobalScope": false
+      },
+      "./src/router/index.jsx": {
+        "version": "fbc5b9c745b08fc9b13a221e8a6715efaa3d0fec5a38fde36212b6bdcc622cb1",
+        "signature": "d62840a374ee7c0f8e41e7e690ae218d1bee47420165efd18eb07e413b7beb69",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/react-component-composer/dist/index.d.ts": {
+        "version": "77e8f77e1ce1e76e80f471ef51f6cf1d709b45bf49848b13f66c06c6fa0cd1de",
+        "signature": "77e8f77e1ce1e76e80f471ef51f6cf1d709b45bf49848b13f66c06c6fa0cd1de",
+        "affectsGlobalScope": false
+      },
+      "./src/store/debugobserver.tsx": {
+        "version": "bfc3f7a72b974ccde3a385634b0e5ccf02a956ae23cfc9a2e07d657fe0517307",
+        "signature": "cd7318b476a940e5f774ee289931d5292781ee90c902d02816dc9f2dd33dc542",
+        "affectsGlobalScope": false
+      },
+      "./src/store/index.tsx": {
+        "version": "bdcf71827b81263f1451bcd4c874f45eb2f89b0f9e4de92f278649bcb342845c",
+        "signature": "4d4d1663f136655f02f66e2fd0f43b016632ea1bcf55a8383eb8f3f8d97a9e94",
+        "affectsGlobalScope": false
+      },
       "./src/utils/errorboundary.tsx": {
         "version": "83d6861dd5c3653718d607f359df95302bc63292407e2f3fc6855a7ad7c11a7c",
         "signature": "ab76d9f83c80378496fe2909da7516c6735aa10668e0427fc56c9494d3cee290",
-        "affectsGlobalScope": false
-      },
-      "./src/utils/buildcomponenttree.tsx": {
-        "version": "9c7d01b2883448128695316f7f0e3c77ea0a8e439831c3ff32607c5fcc3ea4ad",
-        "signature": "cc6ed9ac5e2e96634b99a02b955cde00e327e486ff309e5f8bcc7087e11c569d",
         "affectsGlobalScope": false
       },
       "./src/components/confirmcomponent/index.tsx": {
@@ -762,7 +762,7 @@
         "affectsGlobalScope": false
       },
       "./src/app.tsx": {
-        "version": "d98049b5cd32f2b779a2e72a1dd2209e0ec678997b3b54a7a2ae3ee9789dd4f4",
+        "version": "023b4246ef892e27d38f1934b1b29286a06626f29067e9bb0f64401400d92d32",
         "signature": "c5a1685fe23f1526da88de81107d46af1202215b434383c9a610985336801930",
         "affectsGlobalScope": false
       },
@@ -1591,11 +1591,6 @@
         "signature": "fae5d01070f1a751fb9fe95daf4b6c4c24b0c64388fad193ae30fbaf6297964b",
         "affectsGlobalScope": false
       },
-      "./src/utils/md5.ts": {
-        "version": "dce86a30192b84586988562c9c677bedba4b4bd5651aaa82437a9bdf86e59c08",
-        "signature": "556e6c1caca91742211563f9ff6a7fc858cdf48912af6ce07b0ad1f7529dd2a7",
-        "affectsGlobalScope": false
-      },
       "./src/utils/randomstring.ts": {
         "version": "889de54992e90dec2ac1fcd39e48d81067555f5b3bb55ce7aadbb1dc9595b513",
         "signature": "b2cd1fc008f16b0a834837929dbb538b7d18fa84add46bcc3a3a8ad057c53cd6",
@@ -1894,14 +1889,7 @@
         "lib.esnext.d.ts"
       ],
       "esModuleInterop": true,
-      "paths": {
-        "@components/*": [
-          "components/*"
-        ],
-        "@utils/*": [
-          "utils/*"
-        ]
-      },
+      "paths": {},
       "pathsBasePath": "/Users/huynhducduy/workspace/react-starter-kit",
       "configFilePath": "./tsconfig.json"
     },
@@ -2657,6 +2645,10 @@
       "./node_modules/pretty-format/build/types.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
+      "./node_modules/react-component-composer/dist/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
       "./node_modules/react-content-loader/dist/web/contentloader.d.ts": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/date-fns/typings.d.ts",
@@ -3286,13 +3278,13 @@
       "./src/app.tsx": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/react-component-composer/dist/index.d.ts",
         "./node_modules/react-helmet-async/index.d.ts",
         "./src/auth/authupdater.tsx",
         "./src/components/confirmcomponent/index.tsx",
         "./src/i18n/index.js",
         "./src/router/index.jsx",
         "./src/store/index.tsx",
-        "./src/utils/buildcomponenttree.tsx",
         "./src/utils/errorboundary.tsx",
         "./src/utils/hooks/useconfirm/index.ts",
         "./src/utils/hooks/usemetadata/index.ts",
@@ -3617,10 +3609,6 @@
         "./node_modules/recoil/index.d.ts",
         "./src/store/debugobserver.tsx"
       ],
-      "./src/utils/buildcomponenttree.tsx": [
-        "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./node_modules/date-fns/typings.d.ts"
-      ],
       "./src/utils/defercomponentrender.tsx": [
         "./node_modules/@types/hoist-non-react-statics/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
@@ -3676,10 +3664,6 @@
         "./node_modules/date-fns/typings.d.ts",
         "./src/config.ts"
       ],
-      "./src/utils/md5.ts": [
-        "./node_modules/@types/react/jsx-runtime.d.ts",
-        "./node_modules/date-fns/typings.d.ts"
-      ],
       "./src/utils/randomstring.ts": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
         "./node_modules/date-fns/typings.d.ts"
@@ -3718,7 +3702,8 @@
         "./src/components/languagechanger/index.tsx",
         "./src/react-app-env.d.ts",
         "./src/utils/hooks/useconfirm/index.ts",
-        "./src/utils/hooks/usemetadata/index.ts"
+        "./src/utils/hooks/usemetadata/index.ts",
+        "./src/utils/toast/index.ts"
       ],
       "./src/views/login.tsx": [
         "./node_modules/@types/react/jsx-runtime.d.ts",
@@ -4484,6 +4469,10 @@
       "./node_modules/pretty-format/build/types.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
+      "./node_modules/react-component-composer/dist/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
       "./node_modules/react-content-loader/dist/web/contentloader.d.ts": [
         "./node_modules/@types/react/index.d.ts",
         "./node_modules/date-fns/typings.d.ts",
@@ -5163,9 +5152,6 @@
       "./src/store/atoms/auth.ts": [
         "./node_modules/recoil/index.d.ts"
       ],
-      "./src/utils/buildcomponenttree.tsx": [
-        "./node_modules/@types/react/index.d.ts"
-      ],
       "./src/utils/defercomponentrender.tsx": [
         "./node_modules/@types/hoist-non-react-statics/index.d.ts",
         "./node_modules/@types/react/index.d.ts"
@@ -5343,6 +5329,7 @@
       "./node_modules/path-to-regexp/dist/index.d.ts",
       "./node_modules/pretty-format/build/index.d.ts",
       "./node_modules/pretty-format/build/types.d.ts",
+      "./node_modules/react-component-composer/dist/index.d.ts",
       "./node_modules/react-content-loader/dist/web/contentloader.d.ts",
       "./node_modules/react-content-loader/dist/web/index.d.ts",
       "./node_modules/react-content-loader/dist/web/presets/bulletliststyle.d.ts",
@@ -5543,7 +5530,6 @@
       "./src/store/atoms/auth.ts",
       "./src/store/debugobserver.tsx",
       "./src/store/index.tsx",
-      "./src/utils/buildcomponenttree.tsx",
       "./src/utils/defercomponentrender.tsx",
       "./src/utils/errorboundary.tsx",
       "./src/utils/hooks/useconfirm/index.ts",
@@ -5553,26 +5539,13 @@
       "./src/utils/hooks/usemetadata/provider.tsx",
       "./src/utils/hooks/useprevious.ts",
       "./src/utils/localstorage.ts",
-      "./src/utils/md5.ts",
       "./src/utils/randomstring.ts",
       "./src/utils/recoil/guarddefaultvalue.ts",
       "./src/utils/toast/index.ts",
       "./src/utils/toast/message.tsx",
       "./src/utils/toast/provider.tsx",
       "./src/utils/waitatleast.ts",
-      [
-        "./src/views/home/index.tsx",
-        [
-          {
-            "file": "./src/views/home/index.tsx",
-            "start": 159,
-            "length": 15,
-            "messageText": "Cannot find module '@utils/toastz' or its corresponding type declarations.",
-            "category": 1,
-            "code": 2307
-          }
-        ]
-      ],
+      "./src/views/home/index.tsx",
       "./src/views/login.tsx",
       "./src/wdyr.ts"
     ],
@@ -6195,6 +6168,10 @@
       ],
       [
         "./node_modules/pretty-format/build/types.d.ts",
+        1
+      ],
+      [
+        "./node_modules/react-component-composer/dist/index.d.ts",
         1
       ],
       [
