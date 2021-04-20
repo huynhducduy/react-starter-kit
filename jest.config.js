@@ -15,10 +15,11 @@ module.exports = async () => {
     testRunner: '<rootDir>/node_modules/jest-circus/runner.js',
     transform: {
       '^.+\\.(js|jsx|mjs|cjs|ts|tsx)$':
-        '<rootDir>/config/jest/babelTransform.js',
-      '^.+\\.css$': '<rootDir>/config/jest/cssTransform.js',
+        '<rootDir>/node_modules/duy-react-scripts/config/jest/babelTransform.js',
+      '^.+\\.css$':
+        '<rootDir>/node_modules/duy-react-scripts/config/jest/cssTransform.js',
       '^(?!.*\\.(js|jsx|mjs|cjs|ts|tsx|css|json)$)':
-        '<rootDir>/config/jest/fileTransform.js',
+        '<rootDir>/node_modules/duy-react-scripts/config/jest/fileTransform.js',
     },
     transformIgnorePatterns: [
       '[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs|cjs|ts|tsx)$',
