@@ -101,11 +101,11 @@ module.exports = function (webpackEnv) {
           }
         },
       },
-      outside
+      { isOutside: outside }
     )
 
     babelConfig.plugins = [
-      ...babelConfig.plugins,
+      ...(babelConfig.plugins || []),
       ...[
         [
           require.resolve('babel-plugin-named-asset-import'),
@@ -143,7 +143,6 @@ module.exports = function (webpackEnv) {
       babelConfig.sourceMaps = shouldUseSourceMap
       babelConfig.inputSourceMap = shouldUseSourceMap
     }
-
     return babelConfig
   }
 
