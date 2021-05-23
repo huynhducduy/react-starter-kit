@@ -48,10 +48,12 @@ Includes all features of CRA, with some opinionated tweaks but provide flexible 
 ## Installation
 
 ```sh
-git clone https://github.com/huynhducduy/react-starter-kit react-app
+git clone git@github.com:huynhducduy/react-starter-kit.git react-app
 cd react-app
 yarn
 ```
+
+Clone with SSH is recommennded.
 
 or [Create a new repository from react-starter-kit](https://github.com/huynhducduy/react-starter-kit/generate)
 
