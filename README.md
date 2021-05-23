@@ -8,7 +8,7 @@
 ![Dependencies](https://david-dm.org/huynhducduy/react-starter-kit.svg)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhuynhducduy%2Freact-starter-kit.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhuynhducduy%2Freact-starter-kit?ref=badge_shield)
 
-This project was based on [Create React App](https://github.com/facebook/create-react-app). [(4.0.1 (2020-11-23))](https://github.com/facebook/create-react-app/blob/master/CHANGELOG.md)
+This project was based on [Create React App](https://github.com/facebook/create-react-app). [(4.0.3 (2021-02-22))](https://github.com/facebook/create-react-app/blob/master/CHANGELOG.md)
 
 Vite-version / Unbundled Development available at [vite branch](https://github.com/huynhducduy/react-starter-kit/tree/vite)
 
