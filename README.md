@@ -6,6 +6,7 @@
 ![Package.json version](https://img.shields.io/github/package-json/v/huynhducduy/react-starter-kit)
 ![GitHub](https://img.shields.io/github/license/huynhducduy/react-starter-kit)
 ![Dependencies](https://david-dm.org/huynhducduy/react-starter-kit.svg)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhuynhducduy%2Freact-starter-kit.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhuynhducduy%2Freact-starter-kit?ref=badge_shield)
 
 This project was based on [Create React App](https://github.com/facebook/create-react-app). [(4.0.1 (2020-11-23))](https://github.com/facebook/create-react-app/blob/master/CHANGELOG.md)
 
@@ -107,3 +108,7 @@ Analyze output: `yarn analyze`
 - react-helmet-async@1.0.7" has incorrect peer dependency "react@^16.6.0".
 - react-helmet-async@1.0.7" has incorrect peer dependency "react-dom@^16.6.0".
 - recoil@0.1.2" has incorrect peer dependency "react@^16.13.1".
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhuynhducduy%2Freact-starter-kit.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhuynhducduy%2Freact-starter-kit?ref=badge_large)
