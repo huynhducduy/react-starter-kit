@@ -6,7 +6,10 @@
 import React from 'react'
 import Recoil from 'recoil'
 
-if (process.env.NODE_ENV === 'development') {
+if (
+  process.env.NODE_ENV === 'development' &&
+  process.env.ENABLE_WDYR === 'true'
+) {
   const whyDidYouRender = require('@welldone-software/why-did-you-render')
   whyDidYouRender(React, {
     trackAllPureComponents: true, // track all pure components, memo,... instead of manually pass whyDidYouRender prop

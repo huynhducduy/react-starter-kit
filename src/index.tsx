@@ -1,4 +1,4 @@
-// import './wdyr' // un-comment this line and restart application to enable wdyr
+import './wdyr'
 
 import React from 'react' //  thank to the magic of --allowSyntheticDefaultImports
 import ReactDOM from 'react-dom'

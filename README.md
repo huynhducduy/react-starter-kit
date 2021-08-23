@@ -39,6 +39,8 @@ Includes all features of CRA, with some opinionated tweaks but provide flexible 
 - Advanced configuration:
   - `FAST_REFRESH` option removed (Fast Refrest is always enable)
   - `DISABLE_ESLINT_PLUGIN` option removed (Eslint is always enable)
+  - `ENABLE_TAILWINDCSS` added
+  - `ENABLE_WDYR` added
 
 # Libraries & Fine-crafted Utilites
 
