@@ -8,7 +8,7 @@
 ![Dependencies](https://david-dm.org/huynhducduy/react-starter-kit.svg)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhuynhducduy%2Freact-starter-kit.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhuynhducduy%2Freact-starter-kit?ref=badge_shield)
 
-This project was based on [Create React App](https://github.com/facebook/create-react-app). [(4.0.3 (2021-02-22))](https://github.com/facebook/create-react-app/blob/master/CHANGELOG.md)
+This project was based on [Create React App](https://github.com/facebook/create-react-app). [(#11201)](https://github.com/facebook/create-react-app/pull/11201)
 
 Vite-version / Unbundled Development available at [vite branch](https://github.com/huynhducduy/react-starter-kit/tree/vite)
 
@@ -16,7 +16,7 @@ Vite-version / Unbundled Development available at [vite branch](https://github.c
 
 Includes all features of CRA, with some opinionated tweaks but provide flexible configurations.
 
-- Webpack 4 with `dynamic import()`, `react-refresh`, modern JSX and build optimizations.
+- Webpack 5 with `dynamic import()`, `react-refresh`, modern JSX and build optimizations.
 - Tailwind 2
 - TypeScript 4
 - React 17 with `react-router-dom`, `recoil` as state management
@@ -96,7 +96,6 @@ Analyze output: `yarn analyze`
 ## Todo
 
 - Stylelint
-- Upgrade to Webpack 5 (with `terser-webpack-plugin` 5, `html-webpack-plugin` 5, `postcss-loader` 5, `sass-loader` 11)
 - GraphQL - Relay/Apollo
 - Server-Side rendering
 - PWA - workbox/firebase
@@ -111,6 +110,6 @@ Analyze output: `yarn analyze`
 - react-helmet-async@1.0.7" has incorrect peer dependency "react-dom@^16.6.0".
 - recoil@0.1.2" has incorrect peer dependency "react@^16.13.1".
 
-
 ## License
+
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhuynhducduy%2Freact-starter-kit.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhuynhducduy%2Freact-starter-kit?ref=badge_large)
