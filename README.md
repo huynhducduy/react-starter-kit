@@ -50,7 +50,7 @@ Includes all features of CRA, with some opinionated tweaks but provide flexible 
 - ramda
 - date-fns
 - react-helmet-async
-- classnames
+- clsx (classnames alternative)
 - immer
 - i18next + react-i18next
 - why-did-you-render (for development)
