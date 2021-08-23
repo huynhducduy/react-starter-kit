@@ -5,6 +5,7 @@ module.exports = {
     'duy',
     'duy/typescript',
     'duy/react',
+    'duy/jest',
     'duy/prettier', // Always the last
   ],
   rules: {},
