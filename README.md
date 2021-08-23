@@ -17,19 +17,30 @@ Vite-version / Unbundled Development available at [vite branch](https://github.c
 Includes all features of CRA, with some opinionated tweaks but provide flexible configurations.
 
 - Webpack 5 with `dynamic import()`, `react-refresh`, modern JSX and build optimizations.
-- Tailwind 2
+- Tailwind 2+ (with opt-in, opt-out option)
 - TypeScript 4
 - React 17 with `react-router-dom`, `recoil` as state management
 - i18next with locale splitting
 - SASS (with `dart-sass`), PostCSS with `autoprefixer`, `CSS Module` supported and optimizations.
 - Babel in `Stage 1` with tree-shaking support for `ramda`, `date-fns`
-- ESlint configured to work well with Prettier, Typescript, EditorConfig in multiple environment: IDE (VSCode), compile (start & build)
-- Jest + Enzyme for testing
+- ESlint configured to work well with Prettier, Typescript, EditorConfig in multiple environment: IDE, compile
+- Jest + Testing-library for testing
 - Lintstaged & Husky for automatically lint & formatting
 - VSCode specific settings, extensions & debug launch config
 - Docker, docker-compose with `nginx` config for development and deployment
+- Not like CRA, _everything is customizable_ (and initially come with presets): Eslint, babel, jest, postcss, prettier, tailwind, cypress,....
 
-# Libraries
+# Differs from CRA
+
+- Scripts: no `eject` (because everything is customizable by default), the rest of the scripts can be view in `package.json`
+- Supported language features: [here](https://github.com/huynhducduy/babel-preset-duy)
+- Configuring supported browsers: in `.browserlistrc`
+- Editor setup, debugger setup: in `.vscode` folder
+- Advanced configuration:
+  - `FAST_REFRESH` option removed (Fast Refrest is always enable)
+  - `DISABLE_ESLINT_PLUGIN` option removed (Eslint is always enable)
+
+# Libraries & Fine-crafted Utilites
 
 - recoil
 - react-router-dom
