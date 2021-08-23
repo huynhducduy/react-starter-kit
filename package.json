@@ -76,7 +76,7 @@
     "@welldone-software/why-did-you-render": "^6.1.4",
     "autoprefixer": "^10.2.5",
     "babel-preset-duy": "^1.0.4",
-    "browserslist": "^4.16.4",
+    "browserslist": "^4.16.5",
     "cypress": "^6.9.1",
     "duy-react-scripts": "^1.0.13",
     "eslint": "^7.24.0",
