@@ -1,13 +1,8 @@
 import { useCallback } from 'react'
+import { useSetRecoilState } from 'recoil'
 
-import { atom, useSetRecoilState } from 'recoil'
-
-interface ConfirmDataType {
-  title: string
-  body: React.ReactNode
-  onConfirm: () => void
-  onCancel: () => void
-}
+import type { ConfirmDataType } from './atom'
+import confirmAtom from './atom'
 
 interface ConfirmType {
   (props: ConfirmDataType): void
@@ -16,19 +11,6 @@ interface ConfirmType {
 interface UseConfirmType {
   (): ConfirmType
 }
-
-export const confirmAtom = atom<ConfirmDataType & { show: boolean }>({
-  key: 'confirm',
-  default: {
-    title: 'Confirmation',
-    body: null,
-    show: false,
-    // eslint-disable-next-line @typescript-eslint/no-empty-function
-    onConfirm: () => {},
-    // eslint-disable-next-line @typescript-eslint/no-empty-function
-    onCancel: () => {},
-  },
-})
 
 const useConfirm: UseConfirmType = () => {
   const setConfirmData = useSetRecoilState(confirmAtom)

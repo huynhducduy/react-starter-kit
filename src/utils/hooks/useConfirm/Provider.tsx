@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react'
 import { useRecoilValue, useSetRecoilState } from 'recoil'
-import { confirmAtom } from './'
+import confirmAtom from './atom'
 
 export interface ConfirmComponentProps {
   show: boolean
