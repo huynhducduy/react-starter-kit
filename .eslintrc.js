@@ -29,6 +29,10 @@ module.exports = {
   env: {
     jest: true,
     'jest/globals': true,
+    browser: true,
+    es2021: true,
+    node: true,
+    serviceworker: true
   },
   parserOptions: {
     project: 'tsconfig.json',
