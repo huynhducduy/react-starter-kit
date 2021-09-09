@@ -1,5 +1,5 @@
 import { useCallback, useState, memo, useEffect } from 'react'
-import styles from './style.module.scss'
+import styles from './styles.module.scss'
 
 import logo from 'assets/logo.svg'
 
