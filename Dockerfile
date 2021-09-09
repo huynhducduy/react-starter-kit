@@ -19,7 +19,7 @@ RUN yarn
 FROM develop AS build
 # Run build script
 COPY . .
-RUN yarn build
+RUN yarn build:production
 
 FROM nginx:stable-alpine AS production
 # Copy nginx config, project to machine

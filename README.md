@@ -8,9 +8,9 @@
 ![Dependencies](https://david-dm.org/huynhducduy/react-starter-kit.svg)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhuynhducduy%2Freact-starter-kit.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhuynhducduy%2Freact-starter-kit?ref=badge_shield)
 
-This project was based on [Create React App](https://github.com/facebook/create-react-app). [(#11201)](https://github.com/facebook/create-react-app/pull/11201)
+This project was based on [Create React App](https://github.com/facebook/create-react-app). [(#11304)](https://github.com/facebook/create-react-app/pull/11304)
 
-Vite-version / Unbundled Development available at [vite branch](https://github.com/huynhducduy/react-starter-kit/tree/vite)
+Vite-version / Unbundled Development available at [vite branch](https://github.com/huynhducduy/react-starter-kit/tree/vite) (WIP)
 
 # Features
 
@@ -72,9 +72,11 @@ or [Create a new repository from react-starter-kit](https://github.com/huynhducd
 
 ## Configure
 
-`cp .env.example .env && vi .env`
+`cp .env.example .env && vi .env` for local environment, also support for `staging` and `production` environment. Local environment will be use as fallback when staging and production environment is not available.
 
 Alias: in `tsconfig.json` - `compilerOptions.paths`. Automatically resolve in `webpack`, `jest` environment.
+
+Further configuration can be found in root level files.
 
 ## Development
 
@@ -96,13 +98,13 @@ Reinstall entire project: `yarn refresh`
 
 ## Production
 
-Build image: `sudo docker build -t react-starter-kit .`
+Build image - by default will use `yarn build:production`: `sudo docker build -t react-starter-kit .`
 
 Run container: `sudo docker run --init -dit -p 3000:80 --name react-starter-kit react-starter-kit:latest`
 
 Kill and remove: `(sudo docker kill react-starter-kit || true) && (sudo docker rm react-starter-kit || true)`
 
-Without docker: `yarn build`, output is located at `/build`
+Without docker: `yarn build` or `yarn build:staging` or `yarn build:production`, output is located at `/build`
 
 Analyze output: `yarn analyze`
 
@@ -110,18 +112,13 @@ Analyze output: `yarn analyze`
 
 - Stylelint
 - GraphQL - Relay/Apollo
-- Server-Side rendering
-- PWA - workbox/firebase
-- Storybook?
+- Server-Side Rendering (waiting for support in React v18)
+- Storybook for component testing, interaction testing
+- Write 2E2 tests
 
 ## Issues
 
-- `@typescript-eslint/typescript-estree` is not yet compatible with Typescript `^4.2.0`, can cause some bugs
 - `React.lazy` is not yet available for server-side rendering
-- @testing-library/user-event@12.8.3" has unmet peer dependency "@testing-library/dom@>=7.21.4".
-- react-helmet-async@1.0.7" has incorrect peer dependency "react@^16.6.0".
-- react-helmet-async@1.0.7" has incorrect peer dependency "react-dom@^16.6.0".
-- recoil@0.1.2" has incorrect peer dependency "react@^16.13.1".
 
 ## License
 

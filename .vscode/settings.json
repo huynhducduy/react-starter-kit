@@ -16,7 +16,6 @@
 	"javascript.validate.enable": true,
 	"typescript.validate.enable": true,
 	"prettier.resolveGlobalModules": true,
-	"prettier.packageManager": "yarn",
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true,
 		"source.fixAll.stylelint": true
@@ -67,5 +66,5 @@
   "i18n-ally.localesPaths": [
     "src/i18n",
     "src/i18n/locales"
-  ],
+],
 }

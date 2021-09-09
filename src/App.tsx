@@ -1,11 +1,11 @@
-import { Router } from 'router'
-
-import { HelmetProvider } from 'react-helmet-async'
-import composeComponents from 'react-component-composer'
-
 import './styles/index.scss'
 
-import { Provider as RouterProvider } from 'router'
+import composeComponents from 'react-component-composer'
+
+import { HelmetProvider } from 'react-helmet-async'
+import { Router, Provider as RouterProvider } from 'router'
+import { ReactQueryDevtools } from 'react-query/devtools'
+import { QueryClient, QueryClientProvider } from 'react-query'
 import { Provider as StoreProvider } from 'store'
 import { Provider as ToastProvider } from 'utils/toast'
 import { Provider as ConfirmProvider } from 'utils/hooks/useConfirm'
@@ -22,8 +22,11 @@ import 'i18n'
 // import 'react-app-polyfill/ie11'
 // import 'react-app-polyfill/stable'
 
+const queryClient = new QueryClient()
+
 const Providers = composeComponents(
   // [SomeProvider, { initialState: '' }],
+  [QueryClientProvider, { client: queryClient }],
   StoreProvider,
   HelmetProvider,
   RouterProvider,
@@ -38,6 +41,7 @@ function App() {
     <Providers>
       <AuthUpdater />
       <Router />
+      <ReactQueryDevtools initialIsOpen={false} />
     </Providers>
   )
 }
