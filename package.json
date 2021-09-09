@@ -36,7 +36,6 @@
     "axios": "^0.21.4",
     "clsx": "^1.1.1",
     "date-fns": "^2.23.0",
-    "env-cmd": "^10.1.0",
     "flat": "^5.0.2",
     "framer-motion": "^4.1.17",
     "hoist-non-react-statics": "^3.3.2",
@@ -83,6 +82,7 @@
     "browserslist": "^4.16.8",
     "cypress": "^8.3.1",
     "duy-react-scripts": "^1.0.25",
+    "env-cmd": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-config-duy": "^1.1.11",
     "eslint-plugin-cypress": "^2.11.3",
@@ -90,11 +90,15 @@
     "eslint-plugin-jest-dom": "^3.9.0",
     "eslint-plugin-testing-library": "^4.12.2",
     "lint-staged": "^11.1.2",
+    "msw": "^0.35.0",
     "postcss": "^8.3.6",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-normalize": "^10.0.0",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.4.0",
     "source-map-explorer": "^2.5.2"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }

@@ -47,6 +47,8 @@ Includes all features of CRA, with some opinionated tweaks but provide flexible 
 - recoil
 - react-router-dom
 - axios
+- msw
+- react-query
 - ramda
 - date-fns
 - react-helmet-async

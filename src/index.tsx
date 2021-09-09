@@ -17,6 +17,11 @@ function render(Component: React.ElementType) {
   )
 }
 
+if (process.env.NODE_ENV === 'development') {
+  const { worker } = require('./mocks/browser') // eslint-disable-line
+  worker.start() // eslint-disable-line
+}
+
 render(App)
 
 // Enable hot-module-replacement https://medium.com/@brianhan/hot-reloading-cra-without-eject-b54af352c642
