@@ -1,5 +1,3 @@
-@tailwind utilities; // This is not ok
-
 .App {
   text-align: center;
 
@@ -10,14 +8,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    @apply text-xl;
     color: white;
 
     .App-logo {
       height: 40vmin;
       pointer-events: none;
-
-      @apply motion-safe:animate-spin;
     }
 
     .App-link {
