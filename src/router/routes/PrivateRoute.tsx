@@ -1,11 +1,14 @@
 import isAuthenticated from 'auth/helpers/isAuthenticated'
 import ConditionalRoute from './ConditionalRoute'
+import type { ConditionalRouteProps } from './ConditionalRoute'
 
-export default function PrivateRoute({ ...rest }) {
+export default function PrivateRoute(
+  props: Omit<ConditionalRouteProps, 'condition' | 'redirectTo' | 'reason'>
+): JSX.Element {
   const config = {
-    ...rest,
+    ...props,
     condition: isAuthenticated,
-    redirectTo: 'login',
+    redirect: 'login',
     reason: 'You must login before continuing.',
   }
 

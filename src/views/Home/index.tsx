@@ -1,14 +1,14 @@
-import { useCallback, useState, memo, useEffect } from 'react'
 import styles from './styles.module.scss'
-
 import logo from 'assets/logo.svg'
 
+import { useCallback, useState, memo, useEffect } from 'react'
 import toast from 'utils/toast'
 import useConfirm from 'utils/hooks/useConfirm'
 import { useSetMetaData } from 'utils/hooks/useMetaData'
 import { useTranslation } from 'react-i18next'
-
 import LanguageChanger from 'components/LanguageChanger'
+import { useQuery } from 'react-query'
+import request from 'request'
 
 const BigListPureComponent = memo(
   (props: { someProp: React.CSSProperties }) => {
@@ -51,6 +51,18 @@ function App() {
     setTitle('Home')
   }, [setTitle])
 
+  const { isLoading, error, data } = useQuery<Record<string, string>, boolean>(
+    'repoData',
+    () =>
+      request<Record<string, string>>({ to: '/test' })
+        .then((res) => {
+          return res.data
+        })
+        .catch((err) => {
+          throw err
+        })
+  )
+
   return (
     <div className={styles['App']}>
       <header className={styles['App-header']}>
@@ -66,6 +78,13 @@ function App() {
         <button onClick={handleConfirm}>Confirm</button>
         <LanguageChanger />
         <BigListPureComponent someProp={{}} />
+        <pre>
+          {isLoading
+            ? 'Loading...'
+            : error
+            ? 'Error!'
+            : JSON.stringify(data, null, 2)}
+        </pre>
       </header>
     </div>
   )

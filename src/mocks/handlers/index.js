@@ -28,4 +28,7 @@ export const handlers = [
       })
     )
   }),
+  rest.get('/test', (_req, res, ctx) => {
+    return res(ctx.delay(2000), ctx.status(200), ctx.json({ success: true }))
+  }),
 ]
