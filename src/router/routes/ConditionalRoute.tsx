@@ -22,8 +22,8 @@ export interface ConditionalRouteProps extends RouteProps {
         to: string | ((props: _RouteComponentProps) => string)
         reason?: string | ((props: _RouteComponentProps) => string)
         data?:
-          | Record<string, never>
-          | ((props: _RouteComponentProps) => Record<string, never>)
+          | Record<string, unknown>
+          | ((props: _RouteComponentProps) => Record<string, unknown>)
       }
 }
 

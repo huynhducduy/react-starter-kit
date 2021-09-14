@@ -19,12 +19,17 @@ Includes all features of CRA, with some opinionated tweaks but provide flexible 
 - Webpack 5 with `dynamic import()`, `react-refresh`, modern JSX and build optimizations.
 - Tailwind 2+ (with opt-in, opt-out option)
 - TypeScript 4
-- React 17 with `react-router-dom`, `recoil` as state management
-- i18next with locale splitting
+- React 17
+- Router support `react-router-dom`
+- `recoil` + `react-query` configurated as state management
+- i18n with i18next, support locale splitting
+- Animation with `framer-motion`
 - SASS (with `dart-sass`), PostCSS with `autoprefixer`, `CSS Module` supported and optimizations.
 - Babel in `Stage 1` with tree-shaking support for `ramda`, `date-fns`
 - ESlint configured to work well with Prettier, Typescript, EditorConfig in multiple environment: IDE, compile
-- Jest + Testing-library for testing
+- Authentication and Authorization boilerplate
+- Router boilerplate
+- Jest + Testing-library for unit/component testing, Cypress for E2E testing, MSW for API mocking
 - Lintstaged & Husky for automatically lint & formatting
 - VSCode specific settings, extensions & debug launch config
 - Docker, docker-compose with `nginx` config for development and deployment
@@ -41,22 +46,6 @@ Includes all features of CRA, with some opinionated tweaks but provide flexible 
   - `DISABLE_ESLINT_PLUGIN` option removed (Eslint is always enable)
   - `ENABLE_TAILWINDCSS` added
   - `ENABLE_WDYR` added
-
-# Libraries & Fine-crafted Utilites
-
-- recoil
-- react-router-dom
-- axios
-- msw
-- react-query
-- ramda
-- date-fns
-- react-helmet-async
-- clsx (classnames alternative)
-- immer
-- i18next + react-i18next
-- why-did-you-render (for development)
-- react-toastify (with toast util)
 
 # Usage
 

@@ -1,14 +1,12 @@
 import refreshAuth from 'auth/refreshAuth'
-import axios, { AxiosResponse } from 'axios'
+import axios from 'axios'
 import * as authHelpers from '../auth/helpers'
 
-import type { Method, AxiosRequestConfig } from 'axios'
+import type { Method, AxiosRequestConfig, AxiosResponse, Canceler } from 'axios'
 
-const axiosApiInstance = axios.create()
-
-const config = {
+const axiosApiInstance = axios.create({
   timeout: 0,
-}
+})
 
 function getDefaultHeaders() {
   const headers: Record<string, string> = {}
@@ -74,9 +72,11 @@ interface RequestParams extends AxiosRequestConfig {
   to: string
   method?: Method
   data?: Record<string, never>
-  params?: Record<string, never>
+  params?: Record<string, unknown>
   headers?: Record<string, string>
   withCredentials?: boolean
+  cancelable?: boolean
+  setCanceler?: (c: Canceler) => void
 }
 
 export default async function request<Res>({
@@ -86,16 +86,24 @@ export default async function request<Res>({
   params,
   headers,
   withCredentials = true,
+  cancelable = false,
+  setCanceler,
   ...custom
 }: RequestParams): Promise<AxiosResponse<Res>> {
+  const s = axios.CancelToken.source()
+
+  if (cancelable && typeof setCanceler === 'function') {
+    setCanceler(s.cancel)
+  }
+
   return axiosApiInstance.request({
-    ...config,
     headers,
     url: to,
     method,
     data,
     params,
     withCredentials,
+    ...(cancelable ? { cancelToken: s.token } : {}),
     ...custom,
   })
 }

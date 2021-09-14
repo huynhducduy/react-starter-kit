@@ -30,8 +30,8 @@ interface RedirectRouteConfigItem extends Omit<RouteConfigItem, 'component'> {
         to: string | ((props: RouteProps) => string)
         reason?: string | ((props: RouteProps) => string)
         data?:
-          | Record<string, never>
-          | ((props: RouteProps) => Record<string, never>)
+          | Record<string, unknown>
+          | ((props: RouteProps) => Record<string, unknown>)
       }
     | string
     | ((props: RouteProps) => string)
