@@ -30,6 +30,7 @@ Includes all features of CRA, with some opinionated tweaks but provide flexible 
 - Authentication and Authorization boilerplate
 - Router boilerplate
 - Global error boundary, error handler
+- Cancelable request caller with `axios`
 - Jest + Testing-library for unit/component testing, Cypress for E2E testing, MSW for API mocking
 - Lintstaged & Husky for automatically lint & formatting
 - VSCode specific settings, extensions & debug launch config
