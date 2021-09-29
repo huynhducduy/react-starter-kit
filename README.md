@@ -29,6 +29,7 @@ Includes all features of CRA, with some opinionated tweaks but provide flexible 
 - ESlint configured to work well with Prettier, Typescript, EditorConfig in multiple environment: IDE, compile
 - Authentication and Authorization boilerplate
 - Router boilerplate
+- Global error boundary, error handler
 - Jest + Testing-library for unit/component testing, Cypress for E2E testing, MSW for API mocking
 - Lintstaged & Husky for automatically lint & formatting
 - VSCode specific settings, extensions & debug launch config
