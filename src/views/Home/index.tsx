@@ -9,6 +9,7 @@ import { useTranslation } from 'react-i18next'
 import LanguageChanger from 'components/LanguageChanger'
 import { useQuery } from 'react-query'
 import request from 'request'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const BigListPureComponent = memo(
   (props: { someProp: React.CSSProperties }) => {
@@ -66,7 +67,12 @@ function App() {
   return (
     <div className={styles['App']}>
       <header className={styles['App-header']}>
-        <img src={logo} className={styles['App-logo']} alt="logo" />
+        <LazyLoadImage
+          src={logo}
+          className={styles['App-logo']}
+          alt="logo"
+          effect="opacity"
+        />
         <h2>{t('Welcome to React')}</h2>
         <input
           className={styles['App-input']}

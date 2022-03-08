@@ -26,7 +26,9 @@
     "postinstall": "husky install",
     "cypress": "cypress open",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "e2e": "start-server-and-test start http://localhost:3000 cypress",
+    "e2e:run": "start-server-and-test start http://localhost:3000 cypress:run"
   },
   "optionalDependencies": {
     "fastify": "^3.14.0"
@@ -53,6 +55,7 @@
     "react-dom": "^17.0.2",
     "react-helmet-async": "^1.1.2",
     "react-i18next": "^11.12.0",
+    "react-lazy-load-image-component": "^1.5.1",
     "react-query": "^3.23.1",
     "react-router-dom": "^5.3.0",
     "react-toastify": "^8.0.2",
@@ -75,6 +78,7 @@
     "@types/ramda": "^0.27.44",
     "@types/react": "^17.0.20",
     "@types/react-dom": "^17.0.9",
+    "@types/react-lazy-load-image-component": "^1.5.2",
     "@types/react-router-dom": "^5.1.8",
     "@types/webpack-env": "^1.16.2",
     "@welldone-software/why-did-you-render": "^6.2.1",
@@ -85,7 +89,7 @@
     "duy-react-scripts": "^1.0.25",
     "env-cmd": "^10.1.0",
     "eslint": "^7.32.0",
-    "eslint-config-duy": "^1.1.11",
+    "eslint-config-duy": "^1.1.14",
     "eslint-plugin-cypress": "^2.11.3",
     "eslint-plugin-jest": "^24.4.0",
     "eslint-plugin-jest-dom": "^3.9.0",
@@ -97,7 +101,8 @@
     "postcss-normalize": "^10.0.0",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.4.0",
-    "source-map-explorer": "^2.5.2"
+    "source-map-explorer": "^2.5.2",
+    "start-server-and-test": "^1.14.0"
   },
   "msw": {
     "workerDirectory": "public"

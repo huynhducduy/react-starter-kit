@@ -14,7 +14,7 @@ WORKDIR /app
 # Copy dependencies
 COPY ./package.json ./yarn.lock ./
 # Fetch dependencies
-RUN yarn
+RUN yarn install --frozen-lockfile
 
 FROM develop AS build
 # Run build script

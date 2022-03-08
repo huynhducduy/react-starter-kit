@@ -53,6 +53,8 @@ Includes all features of CRA, with some opinionated tweaks but provide flexible 
 
 ## Installation
 
+Unfortunatelly, the project is not supported by **Node v16+**, due to a breaking change off v8.
+
 ```sh
 git clone git@github.com:huynhducduy/react-starter-kit.git react-app
 cd react-app
