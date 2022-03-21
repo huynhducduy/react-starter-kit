@@ -85,7 +85,7 @@
     "autoprefixer": "^10.3.4",
     "babel-preset-duy": "^1.0.12",
     "browserslist": "^4.16.8",
-    "cypress": "^8.3.1",
+    "cypress": "^9.5.2",
     "duy-react-scripts": "^1.0.25",
     "env-cmd": "^10.1.0",
     "eslint": "^7.32.0",
