@@ -27,7 +27,9 @@
     "sort": "npx sort-package-json",
     "start": "duy-react-scripts start",
     "start:server": "node server/index.js",
+    "jest-preview": "jest-preview",
     "test": "duy-react-scripts test --detectOpenHandles",
+    "test:dev": "run-p jest-preview 'test -- --watch --no-cache'",
     "test:coverage": "run-p 'test --coverage --coverageReporters=cobertura --watchAll=false'",
     "test:debug": "duy-react-scripts --inspect-brk test --runInBand --no-cache --detectOpenHandles"
   },
@@ -44,6 +46,7 @@
     "i18next-browser-languagedetector": "^6.1.4",
     "i18next-http-backend": "^1.4.0",
     "immer": "^9.0.12",
+    "jest-preview": "0.2.2",
     "npm-run-all": "^4.1.5",
     "path-to-regexp": "^6.2.0",
     "ramda": "^0.28.0",
@@ -55,7 +58,7 @@
     "react-i18next": "^11.16.5",
     "react-lazy-load-image-component": "^1.5.4",
     "react-query": "^3.34.19",
-    "react-router-dom": "^6.3.0",
+    "react-router-dom": "5",
     "react-toastify": "^8.2.0",
     "recoil": "^0.7.0",
     "tailwindcss": "^3.0.23",
@@ -103,7 +106,7 @@
     "start-server-and-test": "^1.14.0"
   },
   "optionalDependencies": {
-    "fastify": "^3.14.0"
+    "fastify": "^4.0.2"
   },
   "msw": {
     "workerDirectory": "public"
