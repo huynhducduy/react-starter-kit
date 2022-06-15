@@ -22,10 +22,10 @@ function App() {
 
   const confirm = useConfirm()
   const { t } = useTranslation()
-  const [value, setValue] = useState<string>('')
+  const [pageTitle, setPageTitle] = useState<string>('')
 
   const handleInput = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
-    setValue(e.target.value)
+    setPageTitle(e.target.value)
   }, [])
 
   const handleToast = useCallback(() => {
@@ -45,8 +45,8 @@ function App() {
   }, [confirm])
 
   const changeTitle = useCallback(() => {
-    setTitle(value)
-  }, [value, setTitle])
+    setTitle(pageTitle)
+  }, [pageTitle, setTitle])
 
   useEffect(() => {
     setTitle('Home')
@@ -76,7 +76,7 @@ function App() {
         <h2>{t('Welcome to React')}</h2>
         <input
           className={styles['App-input']}
-          value={value}
+          value={pageTitle}
           onChange={handleInput}
         ></input>
         <button onClick={changeTitle}>Update title</button>

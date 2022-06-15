@@ -3,6 +3,7 @@ module.exports = {
   plugins: ['testing-library'],
   extends: [
     'duy',
+    'duy/babel',
     'duy/typescript',
     'duy/react',
     'duy/jest',
@@ -17,7 +18,7 @@ module.exports = {
   },
   env: {
     browser: true,
-    es2021: true,
+    es2022: true,
     node: true,
     serviceworker: true,
   },
