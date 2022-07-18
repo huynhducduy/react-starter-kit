@@ -89,7 +89,7 @@
     "cypress": "^9.5.4",
     "duy-react-scripts": "^1.0.27",
     "env-cmd": "^10.1.0",
-    "eslint": "^8.13.0",
+    "eslint": "^8.20.0",
     "eslint-config-duy": "^1.1.14",
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-jest": "^26.1.4",
