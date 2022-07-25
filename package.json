@@ -34,7 +34,7 @@
     "test:debug": "duy-react-scripts --inspect-brk test --runInBand --no-cache --detectOpenHandles"
   },
   "dependencies": {
-    "@tailwindcss/typography": "^0.5.2",
+    "@tailwindcss/typography": "^0.5.4",
     "axios": "^0.27.2",
     "clsx": "^1.1.1",
     "date-fns": "^2.28.0",
