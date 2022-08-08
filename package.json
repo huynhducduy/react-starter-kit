@@ -67,7 +67,7 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "@testing-library/dom": "^8.13.0",
+    "@testing-library/dom": "^8.16.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.0.1",
     "@testing-library/react-hooks": "^8.0.0",
