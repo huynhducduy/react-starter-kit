@@ -74,7 +74,7 @@
     "@testing-library/user-event": "^14.2.5",
     "@types/flat": "^5.0.2",
     "@types/hoist-non-react-statics": "^3.3.1",
-    "@types/jest": "^27.4.1",
+    "@types/jest": "^29.1.1",
     "@types/node": "^18.0.3",
     "@types/ramda": "^0.28.15",
     "@types/react": "^18.0.1",
