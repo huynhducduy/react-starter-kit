@@ -92,7 +92,7 @@
     "eslint": "^8.20.0",
     "eslint-config-duy": "^1.1.14",
     "eslint-plugin-cypress": "^2.12.1",
-    "eslint-plugin-jest": "^26.1.4",
+    "eslint-plugin-jest": "^27.1.2",
     "eslint-plugin-jest-dom": "^4.0.1",
     "eslint-plugin-testing-library": "^5.3.0",
     "lint-staged": "^13.0.3",
