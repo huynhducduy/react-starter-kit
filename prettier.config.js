@@ -1,3 +1,4 @@
+// Please make sure this config will not override .editorconfig
 module.exports = {
   "semi": true,
   "singleQuote": true,
